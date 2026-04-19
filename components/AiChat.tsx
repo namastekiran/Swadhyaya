@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import ReactMarkdown from "react-markdown";
 import { Sparkles, Send, X, Loader2, User, Bot } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -17,6 +18,64 @@ interface AiChatProps {
   onClose: () => void;
 }
 
+function AssistantMessage({ content }: { content: string }) {
+  return (
+    <div className="prose-chat">
+      <ReactMarkdown
+        components={{
+          p: ({ children }) => (
+            <p className="text-sm text-foreground/80 leading-relaxed mb-2 last:mb-0">
+              {children}
+            </p>
+          ),
+          ul: ({ children }) => (
+            <ul className="space-y-1 mb-2 last:mb-0">{children}</ul>
+          ),
+          ol: ({ children }) => (
+            <ol className="space-y-1 mb-2 last:mb-0 list-decimal list-inside">
+              {children}
+            </ol>
+          ),
+          li: ({ children }) => (
+            <li className="text-sm text-foreground/80 leading-relaxed flex gap-1.5">
+              <span className="text-purple-400 flex-shrink-0 mt-0.5">•</span>
+              <span>{children}</span>
+            </li>
+          ),
+          strong: ({ children }) => (
+            <span className="font-semibold text-foreground">{children}</span>
+          ),
+          em: ({ children }) => (
+            <span className="italic text-foreground/70">{children}</span>
+          ),
+          h1: ({ children }) => (
+            <p className="text-sm font-semibold text-foreground mb-1">
+              {children}
+            </p>
+          ),
+          h2: ({ children }) => (
+            <p className="text-sm font-semibold text-foreground mb-1">
+              {children}
+            </p>
+          ),
+          h3: ({ children }) => (
+            <p className="text-sm font-semibold text-foreground mb-1">
+              {children}
+            </p>
+          ),
+          blockquote: ({ children }) => (
+            <div className="border-l-2 border-purple-200 pl-3 my-1.5 text-foreground/70 italic">
+              {children}
+            </div>
+          ),
+        }}
+      >
+        {content}
+      </ReactMarkdown>
+    </div>
+  );
+}
+
 export function AiChat({
   sutraNumber,
   sutraMeaning,
@@ -30,7 +89,10 @@ export function AiChat({
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
+    scrollRef.current?.scrollTo({
+      top: scrollRef.current.scrollHeight,
+      behavior: "smooth",
+    });
   }, [messages]);
 
   async function handleSend() {
@@ -95,7 +157,8 @@ export function AiChat({
                 });
               }
               if (parsed.error) {
-                accumulated = "Sorry, I couldn't respond right now. Please try again.";
+                accumulated =
+                  "Sorry, I couldn't respond right now. Please try again.";
                 setMessages((prev) => {
                   const updated = [...prev];
                   updated[updated.length - 1] = {
@@ -114,10 +177,14 @@ export function AiChat({
     } catch {
       setMessages((prev) => {
         const updated = [...prev];
-        if (updated.length > 0 && updated[updated.length - 1].role === "assistant") {
+        if (
+          updated.length > 0 &&
+          updated[updated.length - 1].role === "assistant"
+        ) {
           updated[updated.length - 1] = {
             role: "assistant",
-            content: "Sorry, something went wrong. Please check your API key and try again.",
+            content:
+              "Sorry, something went wrong. Please check your API key and try again.",
           };
         }
         return updated;
@@ -146,14 +213,15 @@ export function AiChat({
       </div>
 
       {/* Messages */}
-      <div ref={scrollRef} className="max-h-80 overflow-y-auto p-4 space-y-3">
+      <div ref={scrollRef} className="max-h-96 overflow-y-auto p-4 space-y-3">
         {messages.length === 0 && (
           <div className="text-center py-6 space-y-2">
             <div className="w-10 h-10 rounded-full bg-purple-50 flex items-center justify-center mx-auto">
               <Sparkles className="w-5 h-5 text-purple-400" />
             </div>
             <p className="text-sm text-muted-foreground">
-              Ask anything about this sutra, its meaning, or how to apply it in your life.
+              Ask anything about this sutra, its meaning, or how to apply it in
+              your life.
             </p>
             <div className="flex flex-wrap gap-1.5 justify-center pt-1">
               {[
@@ -184,14 +252,20 @@ export function AiChat({
               </div>
             )}
             <div
-              className={`max-w-[80%] rounded-2xl px-4 py-2.5 text-sm leading-relaxed ${
+              className={`max-w-[85%] rounded-2xl px-4 py-3 ${
                 msg.role === "user"
-                  ? "bg-purple-100 text-foreground rounded-tr-md"
-                  : "bg-gray-50 text-foreground/80 rounded-tl-md"
+                  ? "bg-purple-100 text-sm text-foreground leading-relaxed rounded-tr-md"
+                  : "bg-gray-50 rounded-tl-md"
               }`}
             >
-              {msg.content || (
-                <Loader2 className="w-4 h-4 animate-spin text-purple-400" />
+              {msg.role === "assistant" ? (
+                msg.content ? (
+                  <AssistantMessage content={msg.content} />
+                ) : (
+                  <Loader2 className="w-4 h-4 animate-spin text-purple-400" />
+                )
+              ) : (
+                msg.content
               )}
             </div>
             {msg.role === "user" && (
@@ -210,7 +284,9 @@ export function AiChat({
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && !e.shiftKey && handleSend()}
+            onKeyDown={(e) =>
+              e.key === "Enter" && !e.shiftKey && handleSend()
+            }
             placeholder="Ask about this sutra..."
             disabled={isStreaming}
             className="flex-1 rounded-xl px-3.5 py-2.5 text-sm bg-gray-50 border border-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-200 placeholder:text-muted-foreground/40 disabled:opacity-50"
