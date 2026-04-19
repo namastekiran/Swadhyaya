@@ -151,7 +151,7 @@ export function ReflectionView({
                     onClick={() =>
                       deleteReflection(topicId, section.section, i)
                     }
-                    className="opacity-0 group-hover:opacity-100 focus:opacity-100 transition-opacity w-7 h-7 rounded-lg flex items-center justify-center hover:bg-red-50 text-muted-foreground/40 hover:text-red-500"
+                    className="w-7 h-7 rounded-lg flex items-center justify-center bg-red-50 text-red-400 hover:bg-red-100 hover:text-red-500 transition-colors"
                     title="Delete reflection"
                   >
                     <Trash2 className="w-3.5 h-3.5" />
