@@ -7,7 +7,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "Mind becomes calm by detachment",
+      "theme": "Calm Through Letting Go",
       "sutra": {
         "number": "1.37",
         "sanskrit": "वीतरागविषयं वा चित्तम्",
@@ -23,7 +23,7 @@
     },
     {
       "section": 2,
-      "theme": "Suffering comes from 1",
+      "theme": "The Five Afflictions",
       "sutra": {
         "number": "2.3",
         "sanskrit": "अविद्यास्मितारागद्वेषाभिनिवेशाः क्लेशाः",
@@ -39,7 +39,7 @@
     },
     {
       "section": 3,
-      "theme": "Ignorance is the root of all suffering",
+      "theme": "Root of All Suffering",
       "sutra": {
         "number": "2.4",
         "sanskrit": "अविद्या क्षेत्रमुत्तरेषां प्रसुप्ततनुविच्छिन्नोदाराणाम्",
@@ -55,7 +55,7 @@
     },
     {
       "section": 4,
-      "theme": "Confusing temporary as permanent is ignorance",
+      "theme": "Mistaking the Temporary",
       "sutra": {
         "number": "2.5",
         "sanskrit": "अनित्याशुचिदुःखानात्मसु नित्यशुचिसुखात्मख्यातिरविद्या",
@@ -71,7 +71,7 @@
     },
     {
       "section": 5,
-      "theme": "Ego is identification of seer with seeing",
+      "theme": "Beyond the Ego",
       "sutra": {
         "number": "2.6",
         "sanskrit": "दृग्दर्शनशक्त्योरेकात्मतेवास्मिता",
@@ -87,7 +87,7 @@
     },
     {
       "section": 6,
-      "theme": "Attachment comes from pleasure",
+      "theme": "The Pull of Pleasure",
       "sutra": {
         "number": "2.7",
         "sanskrit": "सुखानुशयी रागः",
@@ -103,7 +103,7 @@
     },
     {
       "section": 7,
-      "theme": "Aversion comes from pain",
+      "theme": "The Push of Pain",
       "sutra": {
         "number": "2.8",
         "sanskrit": "दुःखानुशयी द्वेषः",
@@ -119,7 +119,7 @@
     },
     {
       "section": 8,
-      "theme": "Fear of loss persists even in the wise",
+      "theme": "Clinging to Life",
       "sutra": {
         "number": "2.9",
         "sanskrit": "स्वरसवाही विदुषोऽपि तथारूढोऽभिनिवेशः",
@@ -135,7 +135,7 @@
     },
     {
       "section": 9,
-      "theme": "Karma is rooted in suffering",
+      "theme": "The Web of Karma",
       "sutra": {
         "number": "2.12",
         "sanskrit": "क्लेशमूलः कर्माशयो दृष्टादृष्टजन्मवेदनीयः",
@@ -151,7 +151,7 @@
     },
     {
       "section": 10,
-      "theme": "Karma determines life experience",
+      "theme": "Karma & Life Experience",
       "sutra": {
         "number": "2.13",
         "sanskrit": "सति मूले तद्विपाको जात्यायुर्भोगाः",
@@ -167,7 +167,7 @@
     },
     {
       "section": 11,
-      "theme": "Actions bring joy or suffering",
+      "theme": "Joy & Suffering in Action",
       "sutra": {
         "number": "2.14",
         "sanskrit": "ते ह्लादपरितापफलाः पुण्यापुण्यहेतुत्वात्",
@@ -183,7 +183,7 @@
     },
     {
       "section": 12,
-      "theme": "Wise see suffering in all change",
+      "theme": "Seeing Change Clearly",
       "sutra": {
         "number": "2.15",
         "sanskrit": "परिणामतापसंस्कारदुःखैर्गुणवृत्तिविरोधाच्च दुःखमेव सर्वं विवेकिनः",
@@ -199,7 +199,7 @@
     },
     {
       "section": 13,
-      "theme": "Future suffering can be avoided",
+      "theme": "Preventing Future Pain",
       "sutra": {
         "number": "2.16",
         "sanskrit": "हेयं दुःखमनागतम",
@@ -215,7 +215,7 @@
     },
     {
       "section": 14,
-      "theme": "Union of seer and seen causes suffering",
+      "theme": "Seer & Seen United",
       "sutra": {
         "number": "2.17",
         "sanskrit": "द्रष्टृदृश्ययोः संयोगो हेयहेतुः",
@@ -231,7 +231,7 @@
     },
     {
       "section": 15,
-      "theme": "Desires are beginningless and have existed eternally as t...",
+      "theme": "Beginningless Desires",
       "sutra": {
         "number": "4.1",
         "sanskrit": "तासामनादित्वं चाशिषो नित्यत्वात्",
@@ -247,7 +247,7 @@
     },
     {
       "section": 16,
-      "theme": "Impressions and desires are bound by cause and effect",
+      "theme": "Cause & Effect of Impressions",
       "sutra": {
         "number": "4.11",
         "sanskrit": "हेतुफलाश्रयालम्बनैः संगृहीतत्वादेषामभावे तदभावः",

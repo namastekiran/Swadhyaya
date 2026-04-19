@@ -7,7 +7,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "Yama (moral injunctions), Niyama (observances), Āsana (po...",
+      "theme": "The Eight Limbs",
       "sutra": {
         "number": "2.29",
         "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
@@ -23,7 +23,7 @@
     },
     {
       "section": 2,
-      "theme": "Ahimsa (non-violence/non-injury), Satya (truthfulness), A...",
+      "theme": "The Five Yamas",
       "sutra": {
         "number": "2.3",
         "sanskrit": "अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहा यमाः",
@@ -39,7 +39,7 @@
     },
     {
       "section": 3,
-      "theme": "\"These (Yamas) are the Great Vows, universal, and not lim...",
+      "theme": "Universal Vows",
       "sutra": {
         "number": "2.31",
         "sanskrit": "जातिदेशकालसमयानवच्छिन्नाः सार्वभौमा महाव्रतम्",
@@ -55,7 +55,7 @@
     },
     {
       "section": 4,
-      "theme": "Cleanliness, contentment, discipline, self-study, surrend...",
+      "theme": "The Five Niyamas",
       "sutra": {
         "number": "2.32",
         "sanskrit": "शौचसंतोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः",
@@ -71,7 +71,7 @@
     },
     {
       "section": 5,
-      "theme": "Non-violence creates peace around",
+      "theme": "Non-Violence",
       "sutra": {
         "number": "2.35",
         "sanskrit": "अहिंसाप्रतिष्ठायां तत्सन्निधौ वैरत्यागः",
@@ -87,7 +87,7 @@
     },
     {
       "section": 6,
-      "theme": "Truthfulness brings alignment",
+      "theme": "Truthfulness",
       "sutra": {
         "number": "2.36",
         "sanskrit": "सत्यप्रतिष्ठायां क्रियाफलाश्रयत्वम्",
@@ -103,7 +103,7 @@
     },
     {
       "section": 7,
-      "theme": "Non-stealing brings abundance",
+      "theme": "Non-Stealing",
       "sutra": {
         "number": "2.37",
         "sanskrit": "अस्तेयप्रतिष्ठायां सर्वरत्नोपस्थानम्",
@@ -119,7 +119,7 @@
     },
     {
       "section": 8,
-      "theme": "Moderation brings strength",
+      "theme": "Moderation",
       "sutra": {
         "number": "2.38",
         "sanskrit": "ब्रह्मचर्यप्रतिष्ठायां वीर्यलाभः",
@@ -135,7 +135,7 @@
     },
     {
       "section": 9,
-      "theme": "Non-possessiveness brings clarity",
+      "theme": "Non-Possessiveness",
       "sutra": {
         "number": "2.39",
         "sanskrit": "अपरिग्रहस्थैर्ये जन्मकथंतासंबोधः",
@@ -151,7 +151,7 @@
     },
     {
       "section": 10,
-      "theme": "Purity leads to respect for body and mind",
+      "theme": "Purity of Body & Mind",
       "sutra": {
         "number": "2.4",
         "sanskrit": "शौचात्स्वाङ्गजुगुप्सा परैरसंसर्गः",
@@ -167,7 +167,7 @@
     },
     {
       "section": 11,
-      "theme": "From contentment, the very best in happiness is obtained",
+      "theme": "Contentment",
       "sutra": {
         "number": "2.42",
         "sanskrit": "स॒न्तो॒षादनुत्तमसु॑खला॒भः",
@@ -183,7 +183,7 @@
     },
     {
       "section": 12,
-      "theme": "Austerity, resulting in the elimination of impurity produ...",
+      "theme": "Self-Discipline",
       "sutra": {
         "number": "2.43",
         "sanskrit": "का॒येन्द्रियसिद्धिर॒शु॒द्धिक्ष॒यात् तपसः",
@@ -199,7 +199,7 @@
     },
     {
       "section": 13,
-      "theme": "From study of our own psyche, comes intimate contact with...",
+      "theme": "Self-Study",
       "sutra": {
         "number": "2.44",
         "sanskrit": "स्वा॒ध्या॒याद् इ॒ष्टदे॒व॒तासम्प्रयोगः",
@@ -215,7 +215,7 @@
     },
     {
       "section": 14,
-      "theme": "From  profound  meditation upon the Divine comes the perf...",
+      "theme": "Surrender to the Divine",
       "sutra": {
         "number": "2.45",
         "sanskrit": "स॒मा॒धिसि॒द्धिरीश्वरप्र॑णिधा॒नात्",
@@ -231,7 +231,7 @@
     },
     {
       "section": 15,
-      "theme": "The posture should be steady and comfortable",
+      "theme": "Steady & Comfortable Posture",
       "sutra": {
         "number": "2.46",
         "sanskrit": "स्थिरसुख॑म् आस॒नम्",
@@ -247,7 +247,7 @@
     },
     {
       "section": 16,
-      "theme": "It results in relaxation of effort and the meeting with t...",
+      "theme": "Effortless Balance",
       "sutra": {
         "number": "2.47",
         "sanskrit": "प्र॒य॒त्नशैथिल्यानन्तस॑माप॒त्ति॒भ्याम्",
@@ -263,7 +263,7 @@
     },
     {
       "section": 17,
-      "theme": "From then on, there are no botherations from the dualitie...",
+      "theme": "Beyond Duality",
       "sutra": {
         "number": "2.48",
         "sanskrit": "ततो द्व॒न्द्वान॑भिघा॒तः",
@@ -279,7 +279,7 @@
     },
     {
       "section": 18,
-      "theme": "Once this is accomplished, regulation of the incoming and...",
+      "theme": "Breath Regulation",
       "sutra": {
         "number": "2.49",
         "sanskrit": "त॒स्मिन्सति श्वा॒सप्र॒श्वा॒स॒योर्ग॒ति॒वि॒च्छेदः प्रा॑णाया॒मः",
@@ -295,7 +295,7 @@
     },
     {
       "section": 19,
-      "theme": "Pranayam has three movements : regulated inhalation, exha...",
+      "theme": "Three Movements of Breath",
       "sutra": {
         "number": "2.50000000000001",
         "sanskrit": "बाह्याभ्यन्तरस्तम्भवृत्तिर्देशकालसंख्याभिः परिदृष्टो दीर्घसूक्ष्मः",
@@ -311,7 +311,7 @@
     },
     {
       "section": 20,
-      "theme": "That which transcends the objective external and internal...",
+      "theme": "The Fourth Pranayama",
       "sutra": {
         "number": "2.51000000000001",
         "sanskrit": "बा॒ह्या॒भ्यन्तरवि॒ष॒या॒क्षे॒पी",
@@ -327,7 +327,7 @@
     },
     {
       "section": 21,
-      "theme": "From that is dissipated, the mental darkness which veils ...",
+      "theme": "Lifting the Veil",
       "sutra": {
         "number": "2.52, 2.53",
         "sanskrit": "त॒तः॒ क्षी॒य॒ते प्रकाशा॑वर॒णम् \nधा॒र॒णासु च योग्यता॑ मन॒सः",
@@ -343,7 +343,7 @@
     },
     {
       "section": 22,
-      "theme": "The withdrawal of the senses, mind and consciousness from...",
+      "theme": "Withdrawal of Senses",
       "sutra": {
         "number": "2.54000000000001",
         "sanskrit": "स्ववि॒ष॒या॒स॒म्प्रयो॒गे चि॒त्त॒स्व॒रूपानुकार॑ इ॒वे॒न्द्रि॒या॒णां प्र॑त्याहा॒रः",
@@ -359,7 +359,7 @@
     },
     {
       "section": 23,
-      "theme": "Pratyahara results in the absolute control of the sense o...",
+      "theme": "Mastery of the Senses",
       "sutra": {
         "number": "2.55000000000001",
         "sanskrit": "त॒तः॒ प॒र॒मा वश्यते॑न्द्रिया॒णाम्",

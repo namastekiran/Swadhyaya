@@ -7,7 +7,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "Now begins the discipline of Yoga",
+      "theme": "The Sacred Beginning",
       "sutra": {
         "number": "1.1",
         "sanskrit": "अ॒थ योगानु॑शास॒नम् ॥",
@@ -23,7 +23,7 @@
     },
     {
       "section": 2,
-      "theme": "Yoga is the stilling of the fluctuations of the Conscious...",
+      "theme": "Stilling the Mind",
       "sutra": {
         "number": "1.2, 1.3",
         "sanskrit": "योगश्चित्तवृत्तिनिरोधः\nतदा द्रष्टुः स्वरूपेऽवस्थानम्",
@@ -39,7 +39,7 @@
     },
     {
       "section": 3,
-      "theme": "The chitta is disturbed by five-fold movements of our min...",
+      "theme": "Five Movements of Mind",
       "sutra": {
         "number": "1.5, 1.6",
         "sanskrit": "वृत्तयः पञ्चतय्यः क्लिष्टाक्लिष्टाः\nप्रमाणविपर्ययविकल्पनिद्रास्मृतयः",
@@ -55,7 +55,7 @@
     },
     {
       "section": 4,
-      "theme": "Repeated practice without atachment is the way to still t...",
+      "theme": "Practice & Letting Go",
       "sutra": {
         "number": "1.12, 1.13",
         "sanskrit": "अभ्यासवैराग्याभ्यां तन्निरोधः\nतत्र स्थितौ यत्नोऽभ्यासः",
@@ -71,7 +71,7 @@
     },
     {
       "section": 5,
-      "theme": "Practice becomes firm when done for a long time with sinc...",
+      "theme": "Steady Dedication",
       "sutra": {
         "number": "1.14",
         "sanskrit": "स तु दीर्घकालनैरन्तर्यसत्कारासेवितो दृढभूमिः",
@@ -87,7 +87,7 @@
     },
     {
       "section": 6,
-      "theme": "Practice must be persued with faith,confidence, energy, k...",
+      "theme": "Faith & Inner Strength",
       "sutra": {
         "number": "1.2",
         "sanskrit": "श्रद्धावीर्यस्मृतिसमाधिप्रज्ञापूर्वक इतरेषाम्",
@@ -103,7 +103,7 @@
     },
     {
       "section": 7,
-      "theme": "Intense effort brings quick progress",
+      "theme": "Intensity of Effort",
       "sutra": {
         "number": "1.21, 1.22",
         "sanskrit": "तीव्रसंवेगानामासन्नः\nमृदुमध्याधिमात्रत्वात्ततोऽपि विशेषः",
@@ -119,7 +119,7 @@
     },
     {
       "section": 8,
-      "theme": "There are 9 obstacles on the path",
+      "theme": "Obstacles on the Path",
       "sutra": {
         "number": "1.3",
         "sanskrit": "व्याधिस्त्यानसंशयप्रमादालस्याविरतिभ्रान्तिदर्शनालब्धभूमिकत्वानवस्थितत्वानि चित्तविक्षेपास्तेऽन्तरायाः",
@@ -135,7 +135,7 @@
     },
     {
       "section": 9,
-      "theme": "Symptoms of obstruction in practice include distress and ...",
+      "theme": "Signs of Imbalance",
       "sutra": {
         "number": "1.31, 1.32",
         "sanskrit": "दुःखदौर्मनस्याङ्गमेजयत्वश्वासप्रश्वासा विक्षेपसहभुवः\n\nतत्प्रतिषेधार्थमेकतत्त्वाभ्यासः",
@@ -151,7 +151,7 @@
     },
     {
       "section": 10,
-      "theme": "Discipline in practice, self-study, study of the scriptur...",
+      "theme": "The Three Pillars",
       "sutra": {
         "number": "2.1, 2.2",
         "sanskrit": "तपःस्वाध्यायेश्वरप्रणिधानानि क्रियायोगः\nसमाधिभावनार्थः क्लेशतनूकरणार्थश्च",

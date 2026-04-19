@@ -7,7 +7,6 @@
 import * as fs from "fs";
 import * as path from "path";
 
-// We'll use the openpyxl-style parsing via a JS xlsx library
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const XLSX = require("xlsx");
 
@@ -44,6 +43,119 @@ interface TopicData {
   totalSections: number;
   sections: SectionData[];
 }
+
+const SECTION_THEMES: Record<string, string[]> = {
+  "self-discipline": [
+    "The Sacred Beginning",
+    "Stilling the Mind",
+    "Five Movements of Mind",
+    "Practice & Letting Go",
+    "Steady Dedication",
+    "Faith & Inner Strength",
+    "Intensity of Effort",
+    "Obstacles on the Path",
+    "Signs of Imbalance",
+    "The Three Pillars",
+  ],
+  practice: [
+    "Practice & Detachment",
+    "Steady Dedication",
+    "Freedom from Craving",
+    "Stages of Samadhi",
+    "Intensity of Effort",
+    "Faith & Confidence",
+    "Total Focus",
+    "Turning Inward",
+    "One-Pointed Awareness",
+    "The Sound of Om",
+    "Cultivating Serenity",
+    "Mastery of Contemplation",
+  ],
+  meditation: [
+    "Stages of Samadhi",
+    "Beyond Thought",
+    "Dissolving into Nature",
+    "Faith & Perseverance",
+    "Intensity of Practice",
+    "Surrendering to the Divine",
+    "The Sound of Om",
+    "Chanting & Inner Clarity",
+    "Choosing Your Focus",
+    "From Atom to Infinity",
+    "The Crystal Mind",
+    "Deepening Perception",
+    "The Formless State",
+    "Seeded Meditation",
+    "Inner Joy Awakens",
+    "Truth-Bearing Wisdom",
+    "Beyond External Knowledge",
+    "Overwriting Old Patterns",
+    "The Seedless State",
+    "Returning to Source",
+    "Clearing Disturbances",
+  ],
+  detachment: [
+    "Calm Through Letting Go",
+    "The Five Afflictions",
+    "Root of All Suffering",
+    "Mistaking the Temporary",
+    "Beyond the Ego",
+    "The Pull of Pleasure",
+    "The Push of Pain",
+    "Clinging to Life",
+    "The Web of Karma",
+    "Karma & Life Experience",
+    "Joy & Suffering in Action",
+    "Seeing Change Clearly",
+    "Preventing Future Pain",
+    "Seer & Seen United",
+    "Beginningless Desires",
+    "Cause & Effect of Impressions",
+  ],
+  knowledge: [
+    "Three Sources of Knowledge",
+    "Wrong Understanding",
+    "The Nature of Imagination",
+    "The State of Sleep",
+    "Infinite Knowledge",
+  ],
+  yoga: [
+    "The Sacred Beginning",
+    "Stilling the Mind",
+    "Discipline & Self-Study",
+    "Purification Through Practice",
+    "The Eightfold Path",
+  ],
+  consciousness: [
+    "Stilling the Mind",
+    "Five Movements of Mind",
+  ],
+  "8-limbs": [
+    "The Eight Limbs",
+    "The Five Yamas",
+    "Universal Vows",
+    "The Five Niyamas",
+    "Non-Violence",
+    "Truthfulness",
+    "Non-Stealing",
+    "Moderation",
+    "Non-Possessiveness",
+    "Purity of Body & Mind",
+    "Contentment",
+    "Self-Discipline",
+    "Self-Study",
+    "Surrender to the Divine",
+    "Steady & Comfortable Posture",
+    "Effortless Balance",
+    "Beyond Duality",
+    "Breath Regulation",
+    "Three Movements of Breath",
+    "The Fourth Pranayama",
+    "Lifting the Veil",
+    "Withdrawal of Senses",
+    "Mastery of the Senses",
+  ],
+};
 
 const TOPIC_CONFIG: {
   sheetName: string;
@@ -138,8 +250,8 @@ function parseTopic(
   }
 
   const rows: unknown[][] = XLSX.utils.sheet_to_json(ws, { header: 1 });
-
   const offset = config.hasTopicColumn ? 1 : 0;
+  const themeList = SECTION_THEMES[config.id] || [];
 
   const sections: SectionData[] = [];
   let sectionNum = 0;
@@ -162,15 +274,13 @@ function parseTopic(
 
     sectionNum++;
 
-    const firstLine = meaning.split(/[.\n]/)[0].trim();
-    const theme =
-      firstLine.length > 60 ? firstLine.substring(0, 57) + "..." : firstLine;
-
     const cleanedSutraNo = sutraNo
       .split(/\n/)
       .map((s: string) => s.trim())
       .filter(Boolean)
       .join(", ");
+
+    const theme = themeList[sectionNum - 1] || `Section ${sectionNum}`;
 
     sections.push({
       section: sectionNum,

@@ -7,7 +7,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "Knowledge comes from i) direct perception, ii) inference ...",
+      "theme": "Three Sources of Knowledge",
       "sutra": {
         "number": "1.7",
         "sanskrit": "प्रत्यक्षानुमानागमाः प्रमाणानि",
@@ -23,7 +23,7 @@
     },
     {
       "section": 2,
-      "theme": "Wrong or perverse knowledge is false understanding based ...",
+      "theme": "Wrong Understanding",
       "sutra": {
         "number": "1.8",
         "sanskrit": "विपर्ययो मिथ्याज्ञानमतद्रूपप्रतिष्ठम्",
@@ -39,7 +39,7 @@
     },
     {
       "section": 3,
-      "theme": "Imagination is based on mere words not based on reality",
+      "theme": "The Nature of Imagination",
       "sutra": {
         "number": "1.9",
         "sanskrit": "शब्दज्ञानानुपाती वस्तुशून्यो विकल्पः",
@@ -55,7 +55,7 @@
     },
     {
       "section": 4,
-      "theme": "Sleep is a mental state based on absence of thought or kn...",
+      "theme": "The State of Sleep",
       "sutra": {
         "number": "1.1",
         "sanskrit": "अभावप्रत्ययालम्बना वृत्तिर्निद्रा",
@@ -71,7 +71,7 @@
     },
     {
       "section": 5,
-      "theme": "In Ishvara lies infinite knowledge",
+      "theme": "Infinite Knowledge",
       "sutra": {
         "number": "1.25, 1.26",
         "sanskrit": "तत्र निरतिशयं सर्वज्ञबीजम्\nस पूर्वेषामपि गुरुः कालेनानवच्छेदात",

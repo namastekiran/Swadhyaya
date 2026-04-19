@@ -1,4 +1,5 @@
 import { getAllTopicSummaries } from "@/lib/content";
+import { Flower2 } from "lucide-react";
 import { TopicList } from "./topic-list";
 
 export default function HomePage() {
@@ -7,14 +8,18 @@ export default function HomePage() {
   return (
     <div className="space-y-8">
       <header className="text-center pt-6 pb-2">
-        <div className="inline-flex items-center justify-center w-16 h-16 rounded-3xl bg-gradient-to-br from-purple-100 to-pink-100 text-3xl mb-4 shadow-sm">
-          🕉️
+        <div className="inline-flex items-center justify-center w-16 h-16 rounded-3xl bg-gradient-to-br from-purple-100 to-pink-100 mb-4 shadow-sm">
+          <Flower2 className="w-8 h-8 text-purple-400" />
         </div>
         <h1 className="text-3xl font-bold text-foreground tracking-tight">
           Swadhyaya
         </h1>
-        <p className="text-sm text-muted-foreground mt-2 max-w-xs mx-auto leading-relaxed">
-          Your gentle journey through the Patanjali Yoga Sutras
+        <p className="text-sm text-muted-foreground mt-3 max-w-xs mx-auto leading-relaxed">
+          Simple daily journey to bring the wisdom of the Patanjali Yoga Sutras
+          into your life.
+        </p>
+        <p className="text-sm text-muted-foreground mt-1 max-w-xs mx-auto leading-relaxed">
+          Reflect, practice, and grow — one small step at a time.
         </p>
       </header>
 
