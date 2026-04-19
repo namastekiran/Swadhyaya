@@ -85,7 +85,7 @@ export function TopicCard({ topic }: { topic: TopicSummary }) {
   return (
     <Link href={`/topic/${topic.id}`} className="block">
       <div
-        className={`relative overflow-hidden rounded-2xl p-5 ${style.bg} transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-sm hover:shadow-md`}
+        className={`relative overflow-hidden rounded-2xl p-6 ${style.bg} transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-sm hover:shadow-md`}
       >
         {/* Decorative blob */}
         <div
@@ -97,7 +97,7 @@ export function TopicCard({ topic }: { topic: TopicSummary }) {
 
         <div className="relative flex items-start gap-4">
           <div
-            className={`flex-shrink-0 w-12 h-12 rounded-2xl flex items-center justify-center ${style.iconBg}`}
+            className={`flex-shrink-0 w-13 h-13 rounded-2xl flex items-center justify-center ${style.iconBg}`}
           >
             <Icon className="w-6 h-6" />
           </div>
@@ -106,12 +106,12 @@ export function TopicCard({ topic }: { topic: TopicSummary }) {
             <h3 className="font-bold text-foreground text-lg leading-tight">
               {topic.title}
             </h3>
-            <p className="text-sm text-muted-foreground mt-1 leading-snug">
+            <p className="text-sm text-muted-foreground mt-1.5 leading-snug">
               {topic.tagline}
             </p>
 
-            <div className="flex items-center gap-3 mt-3">
-              <div className="flex-1 h-1.5 bg-white/60 rounded-full overflow-hidden">
+            <div className="flex items-center gap-3 mt-4">
+              <div className="flex-1 h-2 bg-white/60 rounded-full overflow-hidden">
                 <div
                   className={`h-full rounded-full transition-all duration-500 ${style.accent}`}
                   style={{ width: `${progressPercent}%` }}

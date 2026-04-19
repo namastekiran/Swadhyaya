@@ -33,7 +33,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-background text-foreground font-sans">
         <AuthProvider>
-          <main className="flex-1 mx-auto w-full max-w-lg px-5 py-6">
+          <main className="flex-1 mx-auto w-full max-w-md px-6 py-8 sm:max-w-lg">
             {children}
           </main>
         </AuthProvider>

@@ -34,12 +34,12 @@ function SectionRow({
       {/* Left timeline */}
       <div className="flex flex-col items-center flex-shrink-0">
         <div
-          className={`w-10 h-10 rounded-full flex items-center justify-center transition-all ${
+          className={`w-11 h-11 rounded-full flex items-center justify-center transition-all ${
             isDone
               ? "bg-green-100"
               : isCurrent
                 ? "bg-purple-100 ring-4 ring-purple-50"
-                : "bg-gray-50"
+                : "bg-gray-50 border border-gray-100"
           }`}
         >
           {isDone ? (
@@ -52,7 +52,7 @@ function SectionRow({
         </div>
         {!isLast && (
           <div
-            className={`w-0.5 flex-1 min-h-[24px] mt-1 rounded-full ${
+            className={`w-0.5 flex-1 min-h-[28px] mt-1.5 rounded-full ${
               isDone ? "bg-green-200" : "bg-gray-100"
             }`}
           />
@@ -61,17 +61,17 @@ function SectionRow({
 
       {/* Right content */}
       <div
-        className={`flex-1 pb-4 ${
-          isCurrent ? "" : isLocked ? "opacity-45" : ""
+        className={`flex-1 pb-5 ${
+          isCurrent ? "" : isLocked ? "opacity-40" : ""
         }`}
       >
         <div
-          className={`rounded-2xl p-4 transition-all ${
+          className={`rounded-2xl p-5 transition-all ${
             isCurrent
-              ? "bg-gradient-to-r from-purple-50 to-pink-50 shadow-sm"
+              ? "bg-gradient-to-r from-purple-50 to-pink-50 shadow-sm border border-purple-100/40"
               : isDone
-                ? "bg-white/80"
-                : "bg-white/40"
+                ? "bg-white/80 border border-gray-50"
+                : "bg-white/30"
           }`}
         >
           <div className="flex items-center justify-between">
@@ -88,7 +88,7 @@ function SectionRow({
                 Section {sectionNum}
               </span>
               <h3
-                className={`text-sm font-semibold mt-0.5 ${
+                className={`text-base font-semibold mt-1 ${
                   isLocked ? "text-muted-foreground/50" : "text-foreground"
                 }`}
               >
@@ -98,7 +98,7 @@ function SectionRow({
 
             {!isLocked && (
               <ChevronRight
-                className={`w-4 h-4 flex-shrink-0 ml-2 ${
+                className={`w-5 h-5 flex-shrink-0 ml-3 ${
                   isCurrent ? "text-purple-400" : "text-muted-foreground/30"
                 }`}
               />
@@ -106,7 +106,7 @@ function SectionRow({
           </div>
 
           {isCurrent && (
-            <p className="text-xs text-purple-500 mt-2 font-medium">
+            <p className="text-xs text-purple-500 mt-2.5 font-medium">
               Continue your journey →
             </p>
           )}
@@ -144,48 +144,48 @@ export function JourneyList({ topic }: { topic: TopicData }) {
       : 0;
 
   return (
-    <div className="space-y-5">
+    <div className="space-y-7">
       {/* Header */}
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-4">
         <Link
           href="/"
-          className="flex-shrink-0 w-10 h-10 rounded-xl bg-white shadow-sm flex items-center justify-center hover:shadow-md transition-shadow"
+          className="flex-shrink-0 w-11 h-11 rounded-xl bg-white shadow-sm flex items-center justify-center hover:shadow-md transition-shadow"
         >
-          <ArrowLeft className="w-4 h-4 text-foreground" />
+          <ArrowLeft className="w-5 h-5 text-foreground" />
         </Link>
         <div className="flex-1">
-          <h1 className="text-xl font-bold text-foreground">{topic.title}</h1>
-          <p className="text-xs text-muted-foreground mt-0.5">
+          <h1 className="text-2xl font-bold text-foreground">{topic.title}</h1>
+          <p className="text-sm text-muted-foreground mt-1">
             {topic.tagline}
           </p>
         </div>
       </div>
 
       {/* Progress card */}
-      <div className="rounded-2xl bg-gradient-to-br from-purple-50/80 to-pink-50/60 p-5">
+      <div className="rounded-2xl bg-gradient-to-br from-purple-50/80 to-pink-50/60 p-6">
         <div className="flex items-center justify-between mb-3">
           <span className="text-xs font-semibold text-purple-600 uppercase tracking-widest">
             {isComplete ? "Journey Complete" : "Your Progress"}
           </span>
-          <span className="text-sm font-bold text-foreground">
+          <span className="text-base font-bold text-foreground">
             {completedCount}/{topic.totalSections}
           </span>
         </div>
-        <div className="h-2.5 bg-white/60 rounded-full overflow-hidden">
+        <div className="h-3 bg-white/60 rounded-full overflow-hidden">
           <div
             className="h-full bg-gradient-to-r from-purple-300 to-pink-300 rounded-full transition-all duration-700"
             style={{ width: `${progressPercent}%` }}
           />
         </div>
         {!isComplete && (
-          <p className="text-xs text-muted-foreground mt-2">
+          <p className="text-sm text-muted-foreground mt-3">
             {topic.totalSections - completedCount} sections remaining
           </p>
         )}
       </div>
 
       {/* Timeline */}
-      <div>
+      <div className="pl-1">
         {topic.sections.map((section, i) => (
           <SectionRow
             key={section.section}

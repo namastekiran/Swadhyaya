@@ -7,29 +7,31 @@ export default function HomePage() {
   const topics = getAllTopicSummaries();
 
   return (
-    <div className="space-y-8">
-      <div className="flex justify-end pt-2">
-        {/* <UserMenu /> */}
+    <div className="space-y-10">
+      <div className="flex justify-end">
+        <UserMenu />
       </div>
 
-      <header className="text-center pb-2">
-        <div className="inline-flex items-center justify-center w-16 h-16 rounded-3xl bg-gradient-to-br from-purple-100 to-pink-100 mb-4 shadow-sm">
-          <Flower2 className="w-8 h-8 text-purple-400" />
+      <header className="text-center space-y-4">
+        <div className="inline-flex items-center justify-center w-18 h-18 rounded-3xl bg-gradient-to-br from-purple-100 to-pink-100 shadow-sm p-4">
+          <Flower2 className="w-9 h-9 text-purple-400" />
         </div>
-        <h1 className="text-3xl font-bold text-foreground tracking-tight">
-          Swadhyaya
-        </h1>
-        <p className="text-sm text-muted-foreground mt-3 max-w-xs mx-auto leading-relaxed">
-          Simple daily journey to bring the wisdom of the Patanjali Yoga Sutras
-          into your life.
-        </p>
-        <p className="text-sm text-muted-foreground mt-1 max-w-xs mx-auto leading-relaxed">
-          Reflect, practice, and grow — one small step at a time.
-        </p>
+        <div className="space-y-2">
+          <h1 className="text-3xl font-bold text-foreground tracking-tight">
+            Swadhyaya
+          </h1>
+          <p className="text-base text-muted-foreground max-w-sm mx-auto leading-relaxed">
+            Simple daily journey to bring the wisdom of the Patanjali Yoga
+            Sutras into your life.
+          </p>
+          <p className="text-sm text-muted-foreground/70 max-w-xs mx-auto">
+            Reflect, practice, and grow — one small step at a time.
+          </p>
+        </div>
       </header>
 
-      <div>
-        <h2 className="text-xs font-semibold text-muted-foreground uppercase tracking-widest mb-4 px-1">
+      <div className="space-y-5">
+        <h2 className="text-xs font-semibold text-muted-foreground uppercase tracking-widest px-1">
           Choose a topic
         </h2>
         <TopicList topics={topics} />

@@ -101,77 +101,78 @@ export function SectionDetail({
   const basePath = `/topic/${topicId}/section/${section.section}`;
 
   return (
-    <div className="space-y-5 pb-28">
+    <div className="space-y-6 pb-32">
       {/* Header */}
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-4">
         <Link
           href={`/topic/${topicId}`}
-          className="flex-shrink-0 w-10 h-10 rounded-xl bg-white shadow-sm flex items-center justify-center hover:shadow-md transition-shadow"
+          className="flex-shrink-0 w-11 h-11 rounded-xl bg-white shadow-sm flex items-center justify-center hover:shadow-md transition-shadow"
         >
-          <ArrowLeft className="w-4 h-4 text-foreground" />
+          <ArrowLeft className="w-5 h-5 text-foreground" />
         </Link>
         <div className="flex-1 min-w-0">
           <p className="text-xs text-muted-foreground">{topicTitle}</p>
-          <h1 className="text-lg font-bold text-foreground leading-tight">
+          <h1 className="text-xl font-bold text-foreground leading-tight mt-0.5">
             Section {section.section}
           </h1>
         </div>
         {isDone && (
-          <span className="flex-shrink-0 text-xs font-semibold px-3 py-1 rounded-full bg-green-50 text-green-600 flex items-center gap-1">
-            <CheckCircle2 className="w-3 h-3" />
+          <span className="flex-shrink-0 text-xs font-semibold px-3 py-1.5 rounded-full bg-green-50 text-green-600 flex items-center gap-1.5">
+            <CheckCircle2 className="w-3.5 h-3.5" />
             Done
           </span>
         )}
       </div>
 
       {/* Theme banner */}
-      <div className="rounded-2xl bg-gradient-to-br from-purple-50/80 to-pink-50/60 p-5">
-        <div className="flex items-center gap-2 mb-1">
+      <div className="rounded-2xl bg-gradient-to-br from-purple-50/80 to-pink-50/60 p-6">
+        <div className="flex items-center gap-2 mb-2">
           <Sparkles className="w-4 h-4 text-purple-400" />
           <span className="text-xs font-semibold text-purple-500 uppercase tracking-widest">
             Today&apos;s Focus
           </span>
         </div>
-        <h2 className="text-xl font-bold text-foreground">
+        <h2 className="text-2xl font-bold text-foreground leading-snug">
           {section.theme}
         </h2>
-        <p className="text-sm text-muted-foreground mt-1">
+        <p className="text-sm text-muted-foreground mt-2">
           Sutra {section.sutra.number}
         </p>
       </div>
 
       {/* Step progress */}
-      <div className="flex items-center gap-2 px-1">
-        {STEP_CARDS.map((step, i) => {
-          const done = answers.completedSteps.includes(step.key);
-          return (
-            <div key={step.key} className="flex items-center gap-2 flex-1">
-              <div
-                className={`h-1.5 flex-1 rounded-full transition-all ${
-                  done ? "bg-purple-300" : "bg-gray-100"
-                }`}
-              />
-              {i < STEP_CARDS.length - 1 && <div className="w-0" />}
-            </div>
-          );
-        })}
+      <div className="space-y-2 px-1">
+        <div className="flex items-center gap-2">
+          {STEP_CARDS.map((step) => {
+            const done = answers.completedSteps.includes(step.key);
+            return (
+              <div key={step.key} className="flex-1">
+                <div
+                  className={`h-2 rounded-full transition-all ${
+                    done ? "bg-purple-300" : "bg-gray-100"
+                  }`}
+                />
+              </div>
+            );
+          })}
+        </div>
+        <p className="text-xs text-muted-foreground">
+          {answers.completedSteps.length} of {STEP_CARDS.length} steps complete
+        </p>
       </div>
-      <p className="text-xs text-muted-foreground px-1">
-        {answers.completedSteps.length} of {STEP_CARDS.length} steps complete
-      </p>
 
       {/* 4 step cards */}
-      <div className="space-y-3">
+      <div className="space-y-3.5">
         {STEP_CARDS.map((step) => {
           const Icon = step.icon;
           const done = answers.completedSteps.includes(step.key);
           return (
             <Link key={step.key} href={`${basePath}/${step.href}`}>
               <div
-                className={`flex items-center gap-4 p-4 rounded-2xl transition-all active:scale-[0.98] bg-gradient-to-r ${step.gradient} hover:shadow-sm`}
+                className={`flex items-center gap-4 p-5 rounded-2xl transition-all active:scale-[0.98] bg-gradient-to-r ${step.gradient} hover:shadow-sm`}
               >
                 <div
-                  className={`flex-shrink-0 w-11 h-11 rounded-xl flex items-center justify-center ${step.iconColor}`}
+                  className={`flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center ${step.iconColor}`}
                 >
                   {done ? (
                     <CheckCircle2 className={`w-5 h-5 ${step.checkColor}`} />
@@ -181,7 +182,7 @@ export function SectionDetail({
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2">
-                    <span className="text-sm font-semibold text-foreground">
+                    <span className="text-base font-semibold text-foreground">
                       {step.label}
                     </span>
                     {done && (
@@ -190,11 +191,11 @@ export function SectionDetail({
                       </span>
                     )}
                   </div>
-                  <p className="text-xs text-muted-foreground mt-0.5">
+                  <p className="text-sm text-muted-foreground mt-1">
                     {step.description}
                   </p>
                 </div>
-                <ChevronRight className="w-4 h-4 text-muted-foreground/40 flex-shrink-0" />
+                <ChevronRight className="w-5 h-5 text-muted-foreground/30 flex-shrink-0" />
               </div>
             </Link>
           );
@@ -203,12 +204,12 @@ export function SectionDetail({
 
       {/* Complete section button */}
       {!isDone && (
-        <div className="fixed bottom-0 left-0 right-0 p-4 bg-background/90 backdrop-blur-md">
-          <div className="max-w-lg mx-auto">
+        <div className="fixed bottom-0 left-0 right-0 p-5 bg-background/90 backdrop-blur-md border-t border-gray-100/50">
+          <div className="max-w-md mx-auto sm:max-w-lg">
             <Button
               onClick={handleCompleteSection}
               disabled={!allStepsComplete}
-              className={`w-full h-12 text-base font-semibold rounded-2xl transition-all ${
+              className={`w-full h-14 text-base font-semibold rounded-2xl transition-all ${
                 allStepsComplete
                   ? "bg-gradient-to-r from-purple-300 to-pink-300 hover:from-purple-400 hover:to-pink-400 text-white shadow-lg shadow-purple-100"
                   : "bg-gray-100 text-gray-400 cursor-not-allowed"
@@ -227,7 +228,7 @@ export function SectionDetail({
               )}
             </Button>
             {!allStepsComplete && (
-              <p className="text-xs text-center text-muted-foreground mt-2">
+              <p className="text-xs text-center text-muted-foreground mt-3">
                 Complete all 4 steps to unlock
               </p>
             )}
