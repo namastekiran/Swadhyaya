@@ -56,6 +56,7 @@ interface AppState {
     step: "sutra" | "reflection" | "practice" | "journal"
   ) => void;
   saveReflection: (topicId: string, section: number, answer: string) => void;
+  deleteReflection: (topicId: string, section: number, index: number) => void;
   savePractice: (topicId: string, section: number, answer: string) => void;
   saveJournal: (topicId: string, section: number, entry: string) => void;
   saveAiChat: (topicId: string, section: number, messages: AiChatMessage[]) => void;
@@ -214,6 +215,22 @@ export const useAppStore = create<AppState>()(
             ...prev,
             reflections: [...(prev.reflections ?? []), { text: answer, savedAt: new Date().toISOString() }],
             completedSteps: Array.from(steps) as SectionAnswers["completedSteps"],
+            updatedAt: new Date().toISOString(),
+          };
+          syncAnswersToDb(state.deviceId, topicId, section, updated);
+          return { answers: { ...state.answers, [key]: updated } };
+        });
+      },
+
+      deleteReflection: (topicId, section, index) => {
+        set((state) => {
+          const key = answersKey(topicId, section);
+          const prev = state.answers[key] ?? { ...DEFAULT_ANSWERS };
+          const reflections = [...(prev.reflections ?? [])];
+          reflections.splice(index, 1);
+          const updated: SectionAnswers = {
+            ...prev,
+            reflections,
             updatedAt: new Date().toISOString(),
           };
           syncAnswersToDb(state.deviceId, topicId, section, updated);

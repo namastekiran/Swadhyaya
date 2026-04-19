@@ -10,6 +10,7 @@ import {
   Plus,
   Clock,
   Sparkles,
+  Trash2,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { AiChat } from "@/components/AiChat";
@@ -34,6 +35,7 @@ export function ReflectionView({
   section: SectionData;
 }) {
   const saveReflection = useAppStore((s) => s.saveReflection);
+  const deleteReflection = useAppStore((s) => s.deleteReflection);
   const saveAiChat = useAppStore((s) => s.saveAiChat);
   const getSectionAnswers = useAppStore((s) => s.getSectionAnswers);
   const answers = getSectionAnswers(topicId, section.section);
@@ -133,16 +135,27 @@ export function ReflectionView({
             {reflections.map((entry, i) => (
               <div
                 key={i}
-                className="rounded-xl p-4 bg-white border border-teal-100/60"
+                className="rounded-xl p-4 bg-white border border-teal-100/60 group"
               >
                 <p className="text-sm text-foreground/80 leading-relaxed whitespace-pre-line">
                   {entry.text}
                 </p>
-                <div className="flex items-center gap-1.5 mt-2">
-                  <Clock className="w-3 h-3 text-muted-foreground/50" />
-                  <span className="text-[11px] text-muted-foreground/60">
-                    {formatDate(entry.savedAt)}
-                  </span>
+                <div className="flex items-center justify-between mt-2">
+                  <div className="flex items-center gap-1.5">
+                    <Clock className="w-3 h-3 text-muted-foreground/50" />
+                    <span className="text-[11px] text-muted-foreground/60">
+                      {formatDate(entry.savedAt)}
+                    </span>
+                  </div>
+                  <button
+                    onClick={() =>
+                      deleteReflection(topicId, section.section, i)
+                    }
+                    className="opacity-0 group-hover:opacity-100 focus:opacity-100 transition-opacity w-7 h-7 rounded-lg flex items-center justify-center hover:bg-red-50 text-muted-foreground/40 hover:text-red-500"
+                    title="Delete reflection"
+                  >
+                    <Trash2 className="w-3.5 h-3.5" />
+                  </button>
                 </div>
               </div>
             ))}
