@@ -419,7 +419,7 @@ export function AiChat({
             size="icon"
             className={`rounded-xl h-10 w-10 transition-all ${
               input.trim() && !isStreaming
-                ? "bg-gradient-to-r from-purple-300 to-pink-300 hover:from-purple-400 hover:to-pink-400 text-white"
+                ? "bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white shadow-md"
                 : "bg-gray-100 text-gray-300"
             }`}
           >

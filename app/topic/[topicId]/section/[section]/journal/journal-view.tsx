@@ -95,8 +95,7 @@ export function JournalView({
           {submitted ? (
             <Link href={backPath}>
               <Button
-                variant="outline"
-                className="w-full h-12 text-base rounded-2xl border-rose-200 text-rose-600"
+                className="w-full h-12 text-base font-semibold rounded-2xl bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-600 hover:to-pink-600 text-white shadow-md shadow-rose-200/50"
               >
                 <CheckCircle2 className="w-5 h-5 mr-2" />
                 Done — Back to Section
@@ -108,7 +107,7 @@ export function JournalView({
               disabled={!text.trim()}
               className={`w-full h-12 text-base font-semibold rounded-2xl transition-all ${
                 text.trim()
-                  ? "bg-gradient-to-r from-rose-200 to-pink-200 hover:from-rose-300 hover:to-pink-300 text-rose-900 shadow-sm"
+                  ? "bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-600 hover:to-pink-600 text-white shadow-md shadow-rose-200/50"
                   : "bg-gray-100 text-gray-400 cursor-not-allowed"
               }`}
             >

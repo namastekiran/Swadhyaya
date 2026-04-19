@@ -85,8 +85,7 @@ export function SutraView({
           {done ? (
             <Link href={backPath}>
               <Button
-                variant="outline"
-                className="w-full h-12 text-base rounded-2xl border-green-200 text-green-600"
+                className="w-full h-12 text-base font-semibold rounded-2xl bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white shadow-md shadow-green-200/50"
               >
                 <CheckCircle2 className="w-5 h-5 mr-2" />
                 Completed — Back to Section
@@ -95,7 +94,7 @@ export function SutraView({
           ) : (
             <Button
               onClick={handleDone}
-              className="w-full h-12 text-base font-semibold rounded-2xl bg-gradient-to-r from-amber-200 to-orange-200 hover:from-amber-300 hover:to-orange-300 text-amber-900 shadow-sm"
+              className="w-full h-12 text-base font-semibold rounded-2xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white shadow-md shadow-amber-200/50"
             >
               I&apos;ve read this
               <CheckCircle2 className="w-5 h-5 ml-2" />

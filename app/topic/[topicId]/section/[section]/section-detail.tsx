@@ -211,7 +211,7 @@ export function SectionDetail({
               disabled={!allStepsComplete}
               className={`w-full h-14 text-base font-semibold rounded-2xl transition-all ${
                 allStepsComplete
-                  ? "bg-gradient-to-r from-purple-300 to-pink-300 hover:from-purple-400 hover:to-pink-400 text-white shadow-lg shadow-purple-100"
+                  ? "bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white shadow-lg shadow-purple-200/60"
                   : "bg-gray-100 text-gray-400 cursor-not-allowed"
               }`}
             >

@@ -182,7 +182,7 @@ export function ReflectionView({
               disabled={!text.trim()}
               className={`flex-1 h-10 text-sm font-semibold rounded-xl transition-all ${
                 text.trim()
-                  ? "bg-gradient-to-r from-teal-200 to-emerald-200 hover:from-teal-300 hover:to-emerald-300 text-teal-900"
+                  ? "bg-gradient-to-r from-teal-500 to-emerald-500 hover:from-teal-600 hover:to-emerald-600 text-white shadow-md shadow-teal-200/50"
                   : "bg-gray-100 text-gray-400 cursor-not-allowed"
               }`}
             >
@@ -206,15 +206,14 @@ export function ReflectionView({
         <div className="max-w-lg mx-auto">
           <Link href={backPath}>
             <Button
-              variant="outline"
-              className={`w-full h-12 text-base rounded-2xl ${
+              className={`w-full h-12 text-base font-semibold rounded-2xl ${
                 hasReflections
-                  ? "border-teal-200 text-teal-600"
-                  : "border-gray-200 text-muted-foreground"
+                  ? "bg-gradient-to-r from-teal-500 to-emerald-500 hover:from-teal-600 hover:to-emerald-600 text-white shadow-md shadow-teal-200/50"
+                  : "bg-white border border-gray-200 text-foreground hover:bg-gray-50"
               }`}
             >
               {hasReflections && <CheckCircle2 className="w-5 h-5 mr-2" />}
-              Back to Section
+              {hasReflections ? "Done — Back to Section" : "Back to Section"}
             </Button>
           </Link>
         </div>
