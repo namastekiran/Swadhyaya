@@ -18,12 +18,12 @@ interface SectionAnswersRow {
   saved_chats: { messages: { role: string; content: string }[]; savedAt: string }[];
 }
 
-export async function fetchAllProgress(userId: string) {
+export async function fetchAllProgress(deviceId: string) {
   const supabase = createClient();
   const { data, error } = await supabase
     .from("user_progress")
     .select("topic_id, current_section, completed_sections")
-    .eq("user_id", userId);
+    .eq("device_id", deviceId);
 
   if (error) throw error;
 
@@ -37,12 +37,12 @@ export async function fetchAllProgress(userId: string) {
   return topics;
 }
 
-export async function fetchAllAnswers(userId: string) {
+export async function fetchAllAnswers(deviceId: string) {
   const supabase = createClient();
   const { data, error } = await supabase
     .from("section_answers")
     .select("topic_id, section_num, reflections, practice_answer, journal_entry, completed_steps, saved_chats")
-    .eq("user_id", userId);
+    .eq("device_id", deviceId);
 
   if (error) throw error;
 
@@ -68,7 +68,7 @@ export async function fetchAllAnswers(userId: string) {
 }
 
 export async function upsertProgress(
-  userId: string,
+  deviceId: string,
   topicId: string,
   currentSection: number,
   completedSections: number[]
@@ -78,19 +78,19 @@ export async function upsertProgress(
     .from("user_progress")
     .upsert(
       {
-        user_id: userId,
+        device_id: deviceId,
         topic_id: topicId,
         current_section: currentSection,
         completed_sections: completedSections,
         updated_at: new Date().toISOString(),
       },
-      { onConflict: "user_id,topic_id" }
+      { onConflict: "device_id,topic_id" }
     );
   if (error) throw error;
 }
 
 export async function upsertSectionAnswers(
-  userId: string,
+  deviceId: string,
   topicId: string,
   sectionNum: number,
   data: {
@@ -106,13 +106,13 @@ export async function upsertSectionAnswers(
   const { data: existing } = await supabase
     .from("section_answers")
     .select("id, reflections, practice_answer, journal_entry, completed_steps, saved_chats")
-    .eq("user_id", userId)
+    .eq("device_id", deviceId)
     .eq("topic_id", topicId)
     .eq("section_num", sectionNum)
     .single();
 
   const row = {
-    user_id: userId,
+    device_id: deviceId,
     topic_id: topicId,
     section_num: sectionNum,
     reflections: data.reflections ?? existing?.reflections ?? [],
@@ -125,7 +125,7 @@ export async function upsertSectionAnswers(
 
   const { error } = await supabase
     .from("section_answers")
-    .upsert(row, { onConflict: "user_id,topic_id,section_num" });
+    .upsert(row, { onConflict: "device_id,topic_id,section_num" });
 
   if (error) throw error;
 }

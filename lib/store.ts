@@ -40,12 +40,13 @@ interface SectionAnswers {
 }
 
 interface AppState {
-  userId: string | null;
+  deviceId: string;
   topics: Record<string, TopicProgress>;
   answers: Record<string, SectionAnswers>;
+  hydrated: boolean;
 
-  setUserId: (id: string | null) => void;
-  loadFromSupabase: (userId: string) => Promise<void>;
+  initDevice: () => void;
+  loadFromSupabase: () => Promise<void>;
   getSectionStatus: (topicId: string, section: number) => SectionStatus;
   getTopicProgress: (topicId: string) => TopicProgress;
   getSectionAnswers: (topicId: string, section: number) => SectionAnswers;
@@ -80,36 +81,59 @@ function answersKey(topicId: string, section: number) {
   return `${topicId}::${section}`;
 }
 
-function syncAnswersToDb(userId: string | null, topicId: string, section: number, answers: SectionAnswers) {
-  if (!userId) return;
-  upsertSectionAnswers(userId, topicId, section, {
+function generateDeviceId(): string {
+  return "dev_" + crypto.randomUUID();
+}
+
+function syncAnswersToDb(deviceId: string, topicId: string, section: number, answers: SectionAnswers) {
+  if (!deviceId) return;
+  upsertSectionAnswers(deviceId, topicId, section, {
     reflections: answers.reflections,
     practiceAnswer: answers.practiceAnswer,
     journalEntry: answers.journalEntry,
     completedSteps: answers.completedSteps,
     savedChats: answers.savedChats,
-  }).catch(console.error);
+  }).then(() => {
+    console.log(`[Supabase] Synced answers: ${topicId}::${section}`);
+  }).catch((err) => {
+    console.error(`[Supabase] Failed to sync answers: ${topicId}::${section}`, err);
+  });
 }
 
-function syncProgressToDb(userId: string | null, topicId: string, progress: TopicProgress) {
-  if (!userId) return;
-  upsertProgress(userId, topicId, progress.currentSection, progress.completedSections).catch(console.error);
+function syncProgressToDb(deviceId: string, topicId: string, progress: TopicProgress) {
+  if (!deviceId) return;
+  upsertProgress(deviceId, topicId, progress.currentSection, progress.completedSections).then(() => {
+    console.log(`[Supabase] Synced progress: ${topicId}`);
+  }).catch((err) => {
+    console.error(`[Supabase] Failed to sync progress: ${topicId}`, err);
+  });
 }
 
 export const useAppStore = create<AppState>()(
   persist(
     (set, get) => ({
-      userId: null,
+      deviceId: "",
       topics: {},
       answers: {},
+      hydrated: false,
 
-      setUserId: (id) => set({ userId: id }),
+      initDevice: () => {
+        let id = get().deviceId;
+        if (!id) {
+          id = generateDeviceId();
+          set({ deviceId: id });
+        }
+        get().loadFromSupabase();
+      },
 
-      loadFromSupabase: async (userId: string) => {
+      loadFromSupabase: async () => {
+        const deviceId = get().deviceId;
+        if (!deviceId) return;
+
         try {
           const [topics, answers] = await Promise.all([
-            fetchAllProgress(userId),
-            fetchAllAnswers(userId),
+            fetchAllProgress(deviceId),
+            fetchAllAnswers(deviceId),
           ]);
 
           const typedAnswers: Record<string, SectionAnswers> = {};
@@ -129,9 +153,23 @@ export const useAppStore = create<AppState>()(
             };
           }
 
-          set({ userId, topics, answers: typedAnswers });
+          const localTopics = get().topics;
+          const localAnswers = get().answers;
+          const hasLocal = Object.keys(localTopics).length > 0 || Object.keys(localAnswers).length > 0;
+          const hasRemote = Object.keys(topics).length > 0 || Object.keys(typedAnswers).length > 0;
+
+          if (hasRemote) {
+            set({ topics, answers: typedAnswers, hydrated: true });
+            console.log("[Supabase] Loaded data from cloud");
+          } else if (hasLocal) {
+            set({ hydrated: true });
+            console.log("[Supabase] Using local data (nothing in cloud yet)");
+          } else {
+            set({ hydrated: true });
+          }
         } catch (err) {
-          console.error("Failed to load from Supabase:", err);
+          console.error("[Supabase] Failed to load:", err);
+          set({ hydrated: true });
         }
       },
 
@@ -161,7 +199,7 @@ export const useAppStore = create<AppState>()(
             completedSteps: Array.from(steps) as SectionAnswers["completedSteps"],
             updatedAt: new Date().toISOString(),
           };
-          syncAnswersToDb(state.userId, topicId, section, updated);
+          syncAnswersToDb(state.deviceId, topicId, section, updated);
           return { answers: { ...state.answers, [key]: updated } };
         });
       },
@@ -178,7 +216,7 @@ export const useAppStore = create<AppState>()(
             completedSteps: Array.from(steps) as SectionAnswers["completedSteps"],
             updatedAt: new Date().toISOString(),
           };
-          syncAnswersToDb(state.userId, topicId, section, updated);
+          syncAnswersToDb(state.deviceId, topicId, section, updated);
           return { answers: { ...state.answers, [key]: updated } };
         });
       },
@@ -195,7 +233,7 @@ export const useAppStore = create<AppState>()(
             completedSteps: Array.from(steps) as SectionAnswers["completedSteps"],
             updatedAt: new Date().toISOString(),
           };
-          syncAnswersToDb(state.userId, topicId, section, updated);
+          syncAnswersToDb(state.deviceId, topicId, section, updated);
           return { answers: { ...state.answers, [key]: updated } };
         });
       },
@@ -212,7 +250,7 @@ export const useAppStore = create<AppState>()(
             completedSteps: Array.from(steps) as SectionAnswers["completedSteps"],
             updatedAt: new Date().toISOString(),
           };
-          syncAnswersToDb(state.userId, topicId, section, updated);
+          syncAnswersToDb(state.deviceId, topicId, section, updated);
           return { answers: { ...state.answers, [key]: updated } };
         });
       },
@@ -227,7 +265,7 @@ export const useAppStore = create<AppState>()(
             savedChats: [...(prev.savedChats ?? []), newChat],
             updatedAt: new Date().toISOString(),
           };
-          syncAnswersToDb(state.userId, topicId, section, updated);
+          syncAnswersToDb(state.deviceId, topicId, section, updated);
           return { answers: { ...state.answers, [key]: updated } };
         });
       },
@@ -246,7 +284,7 @@ export const useAppStore = create<AppState>()(
             currentSection: completed.size >= totalSections ? totalSections : newCurrent,
             completedSections: Array.from(completed).sort((a, b) => a - b),
           };
-          syncProgressToDb(state.userId, topicId, updated);
+          syncProgressToDb(state.deviceId, topicId, updated);
           return { topics: { ...state.topics, [topicId]: updated } };
         });
       },
@@ -254,9 +292,9 @@ export const useAppStore = create<AppState>()(
     {
       name: "swadhyaya-progress",
       partialize: (state) => ({
+        deviceId: state.deviceId,
         topics: state.topics,
         answers: state.answers,
-        userId: state.userId,
       }),
     }
   )
