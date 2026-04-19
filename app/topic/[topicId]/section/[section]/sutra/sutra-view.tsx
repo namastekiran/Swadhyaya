@@ -79,19 +79,6 @@ export function SutraView({
         </div>
       )}
 
-      {/* What others said */}
-      {section.whatOthersSaid &&
-        section.whatOthersSaid !== "Provide LInk to Gurudevs audio" && (
-          <div className="rounded-2xl p-5 bg-gradient-to-br from-pink-50/50 to-rose-50/30">
-            <span className="text-xs font-semibold text-pink-600 uppercase tracking-widest">
-              What others have said
-            </span>
-            <p className="text-sm text-foreground/70 leading-relaxed mt-2 whitespace-pre-line">
-              {section.whatOthersSaid}
-            </p>
-          </div>
-        )}
-
       {/* Mark done */}
       <div className="fixed bottom-0 left-0 right-0 p-4 bg-background/90 backdrop-blur-md">
         <div className="max-w-lg mx-auto">
