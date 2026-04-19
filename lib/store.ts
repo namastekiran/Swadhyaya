@@ -3,6 +3,12 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import { SectionStatus } from "./types";
+import {
+  upsertProgress,
+  upsertSectionAnswers,
+  fetchAllProgress,
+  fetchAllAnswers,
+} from "./supabase/db";
 
 interface TopicProgress {
   currentSection: number;
@@ -34,9 +40,12 @@ interface SectionAnswers {
 }
 
 interface AppState {
+  userId: string | null;
   topics: Record<string, TopicProgress>;
   answers: Record<string, SectionAnswers>;
 
+  setUserId: (id: string | null) => void;
+  loadFromSupabase: (userId: string) => Promise<void>;
   getSectionStatus: (topicId: string, section: number) => SectionStatus;
   getTopicProgress: (topicId: string) => TopicProgress;
   getSectionAnswers: (topicId: string, section: number) => SectionAnswers;
@@ -71,11 +80,60 @@ function answersKey(topicId: string, section: number) {
   return `${topicId}::${section}`;
 }
 
+function syncAnswersToDb(userId: string | null, topicId: string, section: number, answers: SectionAnswers) {
+  if (!userId) return;
+  upsertSectionAnswers(userId, topicId, section, {
+    reflections: answers.reflections,
+    practiceAnswer: answers.practiceAnswer,
+    journalEntry: answers.journalEntry,
+    completedSteps: answers.completedSteps,
+    savedChats: answers.savedChats,
+  }).catch(console.error);
+}
+
+function syncProgressToDb(userId: string | null, topicId: string, progress: TopicProgress) {
+  if (!userId) return;
+  upsertProgress(userId, topicId, progress.currentSection, progress.completedSections).catch(console.error);
+}
+
 export const useAppStore = create<AppState>()(
   persist(
     (set, get) => ({
+      userId: null,
       topics: {},
       answers: {},
+
+      setUserId: (id) => set({ userId: id }),
+
+      loadFromSupabase: async (userId: string) => {
+        try {
+          const [topics, answers] = await Promise.all([
+            fetchAllProgress(userId),
+            fetchAllAnswers(userId),
+          ]);
+
+          const typedAnswers: Record<string, SectionAnswers> = {};
+          for (const [key, val] of Object.entries(answers)) {
+            typedAnswers[key] = {
+              reflections: val.reflections ?? [],
+              practiceAnswer: val.practiceAnswer,
+              journalEntry: val.journalEntry,
+              completedSteps: (val.completedSteps ?? []) as SectionAnswers["completedSteps"],
+              savedChats: (val.savedChats ?? []).map((c) => ({
+                ...c,
+                messages: c.messages.map((m) => ({
+                  role: m.role as "user" | "assistant",
+                  content: m.content,
+                })),
+              })),
+            };
+          }
+
+          set({ userId, topics, answers: typedAnswers });
+        } catch (err) {
+          console.error("Failed to load from Supabase:", err);
+        }
+      },
 
       getTopicProgress: (topicId: string) => {
         return get().topics[topicId] ?? DEFAULT_PROGRESS;
@@ -98,16 +156,13 @@ export const useAppStore = create<AppState>()(
           const prev = state.answers[key] ?? { ...DEFAULT_ANSWERS };
           const steps = new Set(prev.completedSteps);
           steps.add(step);
-          return {
-            answers: {
-              ...state.answers,
-              [key]: {
-                ...prev,
-                completedSteps: Array.from(steps),
-                updatedAt: new Date().toISOString(),
-              },
-            },
+          const updated = {
+            ...prev,
+            completedSteps: Array.from(steps) as SectionAnswers["completedSteps"],
+            updatedAt: new Date().toISOString(),
           };
+          syncAnswersToDb(state.userId, topicId, section, updated);
+          return { answers: { ...state.answers, [key]: updated } };
         });
       },
 
@@ -117,21 +172,14 @@ export const useAppStore = create<AppState>()(
           const prev = state.answers[key] ?? { ...DEFAULT_ANSWERS };
           const steps = new Set(prev.completedSteps);
           steps.add("reflection");
-          const newEntry: ReflectionEntry = {
-            text: answer,
-            savedAt: new Date().toISOString(),
+          const updated: SectionAnswers = {
+            ...prev,
+            reflections: [...(prev.reflections ?? []), { text: answer, savedAt: new Date().toISOString() }],
+            completedSteps: Array.from(steps) as SectionAnswers["completedSteps"],
+            updatedAt: new Date().toISOString(),
           };
-          return {
-            answers: {
-              ...state.answers,
-              [key]: {
-                ...prev,
-                reflections: [...(prev.reflections ?? []), newEntry],
-                completedSteps: Array.from(steps),
-                updatedAt: new Date().toISOString(),
-              },
-            },
-          };
+          syncAnswersToDb(state.userId, topicId, section, updated);
+          return { answers: { ...state.answers, [key]: updated } };
         });
       },
 
@@ -141,17 +189,14 @@ export const useAppStore = create<AppState>()(
           const prev = state.answers[key] ?? { ...DEFAULT_ANSWERS };
           const steps = new Set(prev.completedSteps);
           steps.add("practice");
-          return {
-            answers: {
-              ...state.answers,
-              [key]: {
-                ...prev,
-                practiceAnswer: answer,
-                completedSteps: Array.from(steps),
-                updatedAt: new Date().toISOString(),
-              },
-            },
+          const updated: SectionAnswers = {
+            ...prev,
+            practiceAnswer: answer,
+            completedSteps: Array.from(steps) as SectionAnswers["completedSteps"],
+            updatedAt: new Date().toISOString(),
           };
+          syncAnswersToDb(state.userId, topicId, section, updated);
+          return { answers: { ...state.answers, [key]: updated } };
         });
       },
 
@@ -161,17 +206,14 @@ export const useAppStore = create<AppState>()(
           const prev = state.answers[key] ?? { ...DEFAULT_ANSWERS };
           const steps = new Set(prev.completedSteps);
           steps.add("journal");
-          return {
-            answers: {
-              ...state.answers,
-              [key]: {
-                ...prev,
-                journalEntry: entry,
-                completedSteps: Array.from(steps),
-                updatedAt: new Date().toISOString(),
-              },
-            },
+          const updated: SectionAnswers = {
+            ...prev,
+            journalEntry: entry,
+            completedSteps: Array.from(steps) as SectionAnswers["completedSteps"],
+            updatedAt: new Date().toISOString(),
           };
+          syncAnswersToDb(state.userId, topicId, section, updated);
+          return { answers: { ...state.answers, [key]: updated } };
         });
       },
 
@@ -179,20 +221,14 @@ export const useAppStore = create<AppState>()(
         set((state) => {
           const key = answersKey(topicId, section);
           const prev = state.answers[key] ?? { ...DEFAULT_ANSWERS };
-          const newChat: SavedChat = {
-            messages,
-            savedAt: new Date().toISOString(),
+          const newChat: SavedChat = { messages, savedAt: new Date().toISOString() };
+          const updated: SectionAnswers = {
+            ...prev,
+            savedChats: [...(prev.savedChats ?? []), newChat],
+            updatedAt: new Date().toISOString(),
           };
-          return {
-            answers: {
-              ...state.answers,
-              [key]: {
-                ...prev,
-                savedChats: [...(prev.savedChats ?? []), newChat],
-                updatedAt: new Date().toISOString(),
-              },
-            },
-          };
+          syncAnswersToDb(state.userId, topicId, section, updated);
+          return { answers: { ...state.answers, [key]: updated } };
         });
       },
 
@@ -206,21 +242,22 @@ export const useAppStore = create<AppState>()(
           const newCurrent =
             nextSection > prev.currentSection ? nextSection : prev.currentSection;
 
-          return {
-            topics: {
-              ...state.topics,
-              [topicId]: {
-                currentSection:
-                  completed.size >= totalSections ? totalSections : newCurrent,
-                completedSections: Array.from(completed).sort((a, b) => a - b),
-              },
-            },
+          const updated: TopicProgress = {
+            currentSection: completed.size >= totalSections ? totalSections : newCurrent,
+            completedSections: Array.from(completed).sort((a, b) => a - b),
           };
+          syncProgressToDb(state.userId, topicId, updated);
+          return { topics: { ...state.topics, [topicId]: updated } };
         });
       },
     }),
     {
       name: "swadhyaya-progress",
+      partialize: (state) => ({
+        topics: state.topics,
+        answers: state.answers,
+        userId: state.userId,
+      }),
     }
   )
 );

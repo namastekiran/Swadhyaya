@@ -1,13 +1,18 @@
 import { getAllTopicSummaries } from "@/lib/content";
 import { Flower2 } from "lucide-react";
 import { TopicList } from "./topic-list";
+import { UserMenu } from "@/components/UserMenu";
 
 export default function HomePage() {
   const topics = getAllTopicSummaries();
 
   return (
     <div className="space-y-8">
-      <header className="text-center pt-6 pb-2">
+      <div className="flex justify-end pt-2">
+        <UserMenu />
+      </div>
+
+      <header className="text-center pb-2">
         <div className="inline-flex items-center justify-center w-16 h-16 rounded-3xl bg-gradient-to-br from-purple-100 to-pink-100 mb-4 shadow-sm">
           <Flower2 className="w-8 h-8 text-purple-400" />
         </div>

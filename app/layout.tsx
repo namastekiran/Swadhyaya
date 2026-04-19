@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Noto_Sans_Devanagari } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner";
+import { AuthProvider } from "@/components/AuthProvider";
 import "./globals.css";
 
 const inter = Inter({
@@ -31,9 +32,11 @@ export default function RootLayout({
       className={`${inter.variable} ${devanagari.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground font-sans">
-        <main className="flex-1 mx-auto w-full max-w-lg px-5 py-6">
-          {children}
-        </main>
+        <AuthProvider>
+          <main className="flex-1 mx-auto w-full max-w-lg px-5 py-6">
+            {children}
+          </main>
+        </AuthProvider>
         <Toaster position="bottom-center" />
       </body>
     </html>
