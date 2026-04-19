@@ -1,0 +1,41 @@
+{
+  "id": "consciousness",
+  "title": "Consciousness",
+  "tagline": "Chitta — exploring the depths of awareness",
+  "icon": "eye",
+  "totalSections": 2,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Yoga is the stilling of the fluctuations of the Conscious...",
+      "sutra": {
+        "number": "1.2, 1.3",
+        "sanskrit": "योगश्चित्तवृत्तिनिरोधः\nतदा द्रष्टुः स्वरूपेऽवस्थानम्",
+        "transliteration": "Sutra 1.2, 1.3",
+        "meaning": "Yoga is the stilling of the fluctuations of the Consciousness ie Chitta. The Chitta comprises of the Manas, Buddhi, Ahamkar. The mind, intellect and ego.\nThen the seer abides in their true nature."
+      },
+      "insight": "The mind keeps moving. Awareness—not suppression—brings stillness. Yoga shows us how. \nWhen the mind settles you experience your true self—peaceful and aware.",
+      "reflectionPrompt": "When is my mind most restless?",
+      "practice": "Observe thoughts without reacting",
+      "meditation": "3 min breathing. \nPause and observe moments of stillness . meditate for 10 min",
+      "journalPrompt": "Did I observe repetitive thoughts? I should watch like I hawk which thoughts are frequent visitors.",
+      "whatOthersSaid": "2.48 yogastha kuru karmani sangatyaktva dhananjaya,\n sidhyasidhyoh samo bhutva samatvam yog uchyate. Bhagwadgita"
+    },
+    {
+      "section": 2,
+      "theme": "There are 5 types of mental modifications",
+      "sutra": {
+        "number": "1.5, 1.6",
+        "sanskrit": "वृत्तयः पञ्चतय्यः क्लिष्टाक्लिष्टाः\nप्रमाणविपर्ययविकल्पनिद्रास्मृतयः",
+        "transliteration": "Sutra 1.5, 1.6",
+        "meaning": "There are 5 types of mental modifications\nThey are- 1.seeking validity of knowledge, 2.perverse or wrong knowledge, 3.imagination or delusion, 4.sleep and 5.memory."
+      },
+      "insight": "Some thoughts disturb some don’t. Awareness helps you choose.",
+      "reflectionPrompt": "Which thoughts disturb me most?",
+      "practice": "Observe thoughts without reacting",
+      "meditation": "3 min observation\nObserve thoughts as helpful/unhelpful. Meditate for 10 min",
+      "journalPrompt": "note down results",
+      "whatOthersSaid": "Kleshas (afflictions) in Buddhism are mental\n states—including ignorance, attachment, \nand aversion—that cloud the mind and lead \nto suffering .\nProvide LInk to Gurudevs video/audio"
+    }
+  ]
+}

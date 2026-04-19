@@ -1,0 +1,201 @@
+{
+  "id": "practice",
+  "title": "Practice",
+  "tagline": "Abhyasa — steady effort, day after day",
+  "icon": "repeat",
+  "totalSections": 12,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Repeated practice without atachment is the way to still t...",
+      "sutra": {
+        "number": "1.12, 1.13",
+        "sanskrit": "अभ्यासवैराग्याभ्यां तन्निरोधः\nतत्र स्थितौ यत्नोऽभ्यासः",
+        "transliteration": "Sutra 1.12, 1.13",
+        "meaning": "Repeated practice without atachment is the way to still the mind"
+      },
+      "insight": "Consistency and letting go brings mastery. I will not be focused on the end result while I practice regularly.",
+      "reflectionPrompt": "Can I practice consistently without constantly measuring my progress?",
+      "practice": "Do a single task during the day with full attention",
+      "meditation": "10 min breath awareness",
+      "journalPrompt": "Did I stay consistent?",
+      "whatOthersSaid": "2.47 कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥"
+    },
+    {
+      "section": 2,
+      "theme": "Practice becomes firm when done for a long time with sinc...",
+      "sutra": {
+        "number": "1.14",
+        "sanskrit": "स तु दीर्घकालनैरन्तर्यसत्कारासेवितो दृढभूमिः",
+        "transliteration": "Sutra 1.14",
+        "meaning": "Practice becomes firm when done for a long time with sincerity and dedication."
+      },
+      "insight": "Consistency builds strength naturally. I need to honour the practice.",
+      "reflectionPrompt": "What practice can I sustain daily?",
+      "practice": "Repeat one practice daily with total commitment.",
+      "meditation": "10 min breath awareness",
+      "journalPrompt": "Was I consistent?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 3,
+      "theme": "Detachment is freedom from craving",
+      "sutra": {
+        "number": "1.15, 1.16",
+        "sanskrit": "दृष्टानुश्रविकविषयवितृष्णस्य वशीकारसंज्ञा वैराग्यम्\nतत्परं पुरुषख्यातेर्गुणवैतृष्ण्यम्",
+        "transliteration": "Sutra 1.15, 1.16",
+        "meaning": "Detachment is freedom from craving\nComplete detachment comes from self-realization"
+      },
+      "insight": "Letting go reduces disturbance and restlessness of the mind.\nDeep freedom arises from knowing the self.",
+      "reflectionPrompt": "What am I attached to?\nWhat can I release today?",
+      "practice": "Observe persistent desires and cravings.\nPractice surrender",
+      "meditation": "10 min breath awareness",
+      "journalPrompt": "Where did I cling?\nWhat did I release?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 4,
+      "theme": "Practice and detachment can make one experience samadhi i...",
+      "sutra": {
+        "number": "1.17",
+        "sanskrit": "वितर्कविचारानन्दास्मितारूपानुगमात्संप्रज्ञातः समाधिः",
+        "transliteration": "Sutra 1.17",
+        "meaning": "Practice and detachment can make one experience samadhi in four ways- i) self-analysis, wherein one logically understands the 'Self' and experiences a shift within. ii) synthesis of senses and thought which brings about 'an awareness' without any disturbance iii) bliss iv) only the experience of 'I am'"
+      },
+      "insight": "It can be a gradual movement from one to the other or any one of the way",
+      "reflectionPrompt": "Do I need to rationally understand the process or am I willing to sit for meditation and let go?",
+      "practice": "Meditation evolves gradually, give yourself time",
+      "meditation": "sit in meditation for 10 mins and observe your experience",
+      "journalPrompt": "What do I feel in silence?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 5,
+      "theme": "Intense effort brings quick progress",
+      "sutra": {
+        "number": "1.21, 1.22",
+        "sanskrit": "तीव्रसंवेगानामासन्नः\nमृदुमध्याधिमात्रत्वात्ततोऽपि विशेषः",
+        "transliteration": "Sutra 1.21, 1.22",
+        "meaning": "Intense effort brings quick progress\nEffort varies in intensity -i) feeble ii) moderate iii)steady"
+      },
+      "insight": "Depth of desire determines growth.\nThe pace of growth depends on your effort.",
+      "reflectionPrompt": "How strong is my intention?\nWhere am I on this scale?",
+      "practice": "Act with intensity in all you do today.\nObserve effort level",
+      "meditation": "10 min meditation",
+      "journalPrompt": "Did I give my best?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 6,
+      "theme": "Practice must be persued with faith,confidence, energy, k...",
+      "sutra": {
+        "number": "1.2",
+        "sanskrit": "श्रद्धावीर्यस्मृतिसमाधिप्रज्ञापूर्वक इतरेषाम्",
+        "transliteration": "Sutra 1.2",
+        "meaning": "Practice must be persued with faith,confidence, energy, keenness of memory and the power to absorb to avoid spiritual complacency."
+      },
+      "insight": "I need to put in my 100% to make progress",
+      "reflectionPrompt": "Inner growth needs sincerity and effort. Am I willing to do it?",
+      "practice": "Be 100% present in whatever you do today",
+      "meditation": "5 mins total focus on breath",
+      "journalPrompt": "Do I have trust in the path?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 7,
+      "theme": "The Chitta ie consciousness may be totaly focused and sur...",
+      "sutra": {
+        "number": "1.23, 1.24",
+        "sanskrit": "ईश्वरप्रणिधानाद्वा\n\nक्लेशकर्मविपाकाशयैरपरामृष्टः पुरुषविशेष ईश्वरः",
+        "transliteration": "Sutra 1.23, 1.24",
+        "meaning": "The Chitta ie consciousness may be totaly focused and surrendered to God.\nIshvara is untouched by suffering and karma"
+      },
+      "insight": "The divine is pure and unaffected.",
+      "reflectionPrompt": "What is beyond the noise?",
+      "practice": "Reflect on purity",
+      "meditation": "5 min awareness and surrender",
+      "journalPrompt": "How intense was I?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 8,
+      "theme": "This leads inward and removes obstacles",
+      "sutra": {
+        "number": "1.29",
+        "sanskrit": "ततः प्रत्यक्चेतनाधिगमोऽप्यन्तरायाभावश्च",
+        "transliteration": "Sutra 1.29",
+        "meaning": "This leads inward and removes obstacles"
+      },
+      "insight": "Inner connection reduces disturbances.",
+      "reflectionPrompt": "Am I able to go inwards when I sit in silence with eyes closed?",
+      "practice": "Observe your thoughts. Does that quieten them",
+      "meditation": "10 min meditation",
+      "journalPrompt": "What reduced?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 9,
+      "theme": "Focused awareness on one object stabilizes mind",
+      "sutra": {
+        "number": "1.35",
+        "sanskrit": "विषयवती वा प्रवृत्तिरुत्पन्ना मनसः स्थितिनिबन्धिनी",
+        "transliteration": "Sutra 1.35",
+        "meaning": "Focused awareness on one object stabilizes mind"
+      },
+      "insight": "Attention brings stability.",
+      "reflectionPrompt": "Can I keep my complete attention on the job at hand?",
+      "practice": "Observe breathing",
+      "meditation": "10 min meditation",
+      "journalPrompt": "What grounded me?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 10,
+      "theme": "Om is the expression of the divine",
+      "sutra": {
+        "number": "1.27, 1.28",
+        "sanskrit": "तस्य वाचकः प्रणवः\nतज्जपस्तदर्थभावनम्",
+        "transliteration": "Sutra 1.27, 1.28",
+        "meaning": "Om is the expression of the divine\nRepeat Om with awareness"
+      },
+      "insight": "Sound connects to consciousness.\nRepetition deepens experience.",
+      "reflectionPrompt": "Can I feel the vibrations of the sounds around me?",
+      "practice": "Chant Om 11 times watching the vibrations it makes within",
+      "meditation": "10 min meditation",
+      "journalPrompt": "What did I feel?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 11,
+      "theme": "The mind becomes clarified and serene by cultivating:",
+      "sutra": {
+        "number": "1.33, 1.34",
+        "sanskrit": "मैत्रीकरुणामुदितोपेक्षाणां सुखदुःखपुण्यापुण्यविषयाणां भावनातश्चित्तप्रसादनम् \nप्रच्छर्दनविधारणाभ्यां वा प्राणस्य",
+        "transliteration": "Sutra 1.33, 1.34",
+        "meaning": "The mind becomes clarified and serene by cultivating: \nMaitri (Friendliness) toward those who are happy,\nKaruṇa (Compassion) toward those who are unhappy or suffering ,\nMudita (Joy) toward those who are virtuous or meritorious and\nUpekṣa (Equanimity/Indifference) toward those who are non-virtuous or sinful (apuṇya). \n\n\nOr regulating the breath calms the mind too."
+      },
+      "insight": "One should be friendly and compassionate to all but be in close proximity to only those who are in a happy state of mind for sad and grumpy people will make you sad and grumpy which will do no favours to you or the person concerned.\n\n\n\n\n\n\n\n\nBreath is the key to balance.",
+      "reflectionPrompt": "I need to watch my emotional entanglement while dealing with other people. Can I take a step back and observe myself?",
+      "practice": "Observe your breathing. Inhale full and watch your belly inflate; exhale slowly and see it deflate. Continue for a few mins.",
+      "meditation": "10 min meditation",
+      "journalPrompt": "Did breath awareness help?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 12,
+      "theme": "Mastery of contemplation gives the power to extend from  ...",
+      "sutra": {
+        "number": "1.4",
+        "sanskrit": "परमाणुपरममहत्त्वान्तोऽस्य वशीकारः",
+        "transliteration": "Sutra 1.4",
+        "meaning": "Mastery of contemplation gives the power to extend from  the smallest to largest and from the subtlest to the grossest."
+      },
+      "insight": "Awareness expands limitlessly.",
+      "reflectionPrompt": "How can I expand my awareness?",
+      "practice": "Observe things and events deeply, down to their very core.",
+      "meditation": "10 min meditation",
+      "journalPrompt": "What expanded?",
+      "whatOthersSaid": ""
+    }
+  ]
+}

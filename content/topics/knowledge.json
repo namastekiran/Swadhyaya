@@ -1,0 +1,89 @@
+{
+  "id": "knowledge",
+  "title": "Knowledge",
+  "tagline": "Pramana — the light of true understanding",
+  "icon": "book-open",
+  "totalSections": 5,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Knowledge comes from i) direct perception, ii) inference ...",
+      "sutra": {
+        "number": "1.7",
+        "sanskrit": "प्रत्यक्षानुमानागमाः प्रमाणानि",
+        "transliteration": "Sutra 1.7",
+        "meaning": "Knowledge comes from i) direct perception, ii) inference or deduction,iii) scriptural testimony."
+      },
+      "insight": "Direct experience is most powerful. To be in meditation one should decide not to dwell on any logic or be interested in any proof.",
+      "reflectionPrompt": "Do I feel a need to be correct or logical all the time? Am I judgemental?",
+      "practice": "Observe thoughts without reacting\nDo I rely on experience or assumption?",
+      "meditation": "3 min reflection\nObserve - how do I form  my opinions. 10 min meditation",
+      "journalPrompt": "note down results",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 2,
+      "theme": "Wrong or perverse knowledge is false understanding based ...",
+      "sutra": {
+        "number": "1.8",
+        "sanskrit": "विपर्ययो मिथ्याज्ञानमतद्रूपप्रतिष्ठम्",
+        "transliteration": "Sutra 1.8",
+        "meaning": "Wrong or perverse knowledge is false understanding based on what is not a fact or real."
+      },
+      "insight": "Many beliefs are based on incomplete perception. For instance a person suffering inferiority complex may find others behavior arrogant.",
+      "reflectionPrompt": "Which of my beliefs may be wrong?",
+      "practice": "Question one of your assumptions today. Think deeply.",
+      "meditation": "3 min reflection.10 min meditation",
+      "journalPrompt": "note down results",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 3,
+      "theme": "Imagination is based on mere words not based on reality",
+      "sutra": {
+        "number": "1.9",
+        "sanskrit": "शब्दज्ञानानुपाती वस्तुशून्यो विकल्पः",
+        "transliteration": "Sutra 1.9",
+        "meaning": "Imagination is based on mere words not based on reality"
+      },
+      "insight": "The mind creates stories without facts. Sometimes its mere pleasureable fantasy but at other times it could be baseless fears.",
+      "reflectionPrompt": "What story did my mind create?",
+      "practice": "Observe imagination vs reality",
+      "meditation": "3 min breath. 10 min meditation",
+      "journalPrompt": "What did I imagine?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 4,
+      "theme": "Sleep is a mental state based on absence of thought or kn...",
+      "sutra": {
+        "number": "1.1",
+        "sanskrit": "अभावप्रत्ययालम्बना वृत्तिर्निद्रा",
+        "transliteration": "Sutra 1.1",
+        "meaning": "Sleep is a mental state based on absence of thought or knowledge."
+      },
+      "insight": "When the mind is not seeking proof or deluding or making up stories, it is asleep.",
+      "reflectionPrompt": "How has been my rest ?",
+      "practice": "Notice sleep patterns",
+      "meditation": "3 min relaxation 10 min meditation",
+      "journalPrompt": "How does rest or lack thereof affect me?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 5,
+      "theme": "In Ishvara lies infinite knowledge",
+      "sutra": {
+        "number": "1.25, 1.26",
+        "sanskrit": "तत्र निरतिशयं सर्वज्ञबीजम्\nस पूर्वेषामपि गुरुः कालेनानवच्छेदात",
+        "transliteration": "Sutra 1.25, 1.26",
+        "meaning": "In Ishvara lies infinite knowledge\nThe divine is the eternal teacher"
+      },
+      "insight": "The source of knowledge is within.\nWisdom is timeless.",
+      "reflectionPrompt": "Do I trust inner wisdom?",
+      "practice": "Listen inward\nReflect on guidance",
+      "meditation": "10 min meditation",
+      "journalPrompt": "What insight came?",
+      "whatOthersSaid": ""
+    }
+  ]
+}

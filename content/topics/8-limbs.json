@@ -1,0 +1,377 @@
+{
+  "id": "8-limbs",
+  "title": "8 Limbs of Yoga",
+  "tagline": "Ashtanga — the complete path of yoga",
+  "icon": "lotus",
+  "totalSections": 23,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Yama (moral injunctions), Niyama (observances), Āsana (po...",
+      "sutra": {
+        "number": "2.29",
+        "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
+        "transliteration": "Sutra 2.29",
+        "meaning": "Yama (moral injunctions), Niyama (observances), Āsana (posture), Prāṇāyāma (regulation of breath), Pratyāhāra (withholding of senses), Dhāraṇā (fixity of attention), Dhyāna (meditation), and Samādhi (absorption of consciousness in the self) are the eight accessories (limbs) of Yoga"
+      },
+      "insight": "Yoga is a complete lifestyle.",
+      "reflectionPrompt": "Which limb can I improve?",
+      "practice": "attempt to take up one new practice or change in lifestyle in accordance with yamas and niyamas",
+      "meditation": "10 min breath observance",
+      "journalPrompt": "What did I focus on?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 2,
+      "theme": "Ahimsa (non-violence/non-injury), Satya (truthfulness), A...",
+      "sutra": {
+        "number": "2.3",
+        "sanskrit": "अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहा यमाः",
+        "transliteration": "Sutra 2.3",
+        "meaning": "Ahimsa (non-violence/non-injury), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (right use of energy/continence), and Aparigraha (non-possessiveness/non-greed) are the five Yamas (restraints or social codes)"
+      },
+      "insight": "non-violence,truth, non-stealing,moderation,non-possessiveness are universal values.",
+      "reflectionPrompt": "Did I live these today? Which can I work on? Which is difficult for me?",
+      "practice": "Observe yourself and note how many times you strayed or were tempted to stray from adhering to the Yamas",
+      "meditation": "20 min of meditation",
+      "journalPrompt": "Which of the Yamas did I not follow.",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 3,
+      "theme": "\"These (Yamas) are the Great Vows, universal, and not lim...",
+      "sutra": {
+        "number": "2.31",
+        "sanskrit": "जातिदेशकालसमयानवच्छिन्नाः सार्वभौमा महाव्रतम्",
+        "transliteration": "Sutra 2.31",
+        "meaning": "\"These (Yamas) are the Great Vows, universal, and not limited by life-state (birth), space, time, or circumstance"
+      },
+      "insight": "Truth is beyond conditions.",
+      "reflectionPrompt": "Was I consistent?",
+      "practice": "Make a commitment to practice everywhere",
+      "meditation": "5 min awareness with meditation thereafter",
+      "journalPrompt": "Where did I slip?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 4,
+      "theme": "Cleanliness, contentment, discipline, self-study, surrend...",
+      "sutra": {
+        "number": "2.32",
+        "sanskrit": "शौचसंतोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः",
+        "transliteration": "Sutra 2.32",
+        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life."
+      },
+      "insight": "There is always scope for improvement in following all of these Niyamas",
+      "reflectionPrompt": "Which one needs special attention from me?",
+      "practice": "Focus on one at a time. Which one is particularly challenging for me.",
+      "meditation": "5 min stillness with meditation thereafter",
+      "journalPrompt": "What changes was I inspired to make in my life?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 5,
+      "theme": "Non-violence creates peace around",
+      "sutra": {
+        "number": "2.35",
+        "sanskrit": "अहिंसाप्रतिष्ठायां तत्सन्निधौ वैरत्यागः",
+        "transliteration": "Sutra 2.35",
+        "meaning": "Non-violence creates peace around"
+      },
+      "insight": "Your presence influences others.",
+      "reflectionPrompt": "Was I peaceful?",
+      "practice": "Practice kindness in word, deed and thought today",
+      "meditation": "20 min meditation",
+      "journalPrompt": "Did others feel calm in my presence?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 6,
+      "theme": "Truthfulness brings alignment",
+      "sutra": {
+        "number": "2.36",
+        "sanskrit": "सत्यप्रतिष्ठायां क्रियाफलाश्रयत्वम्",
+        "transliteration": "Sutra 2.36",
+        "meaning": "Truthfulness brings alignment"
+      },
+      "insight": "Truth aligns actions and outcomes.",
+      "reflectionPrompt": "Was I truthful?",
+      "practice": "Speak consciously",
+      "meditation": "20 min reflection",
+      "journalPrompt": "What was my truth?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 7,
+      "theme": "Non-stealing brings abundance",
+      "sutra": {
+        "number": "2.37",
+        "sanskrit": "अस्तेयप्रतिष्ठायां सर्वरत्नोपस्थानम्",
+        "transliteration": "Sutra 2.37",
+        "meaning": "Non-stealing brings abundance"
+      },
+      "insight": "Stealing can be of all kinds of things- material and non material; we normally think only of the material theft.",
+      "reflectionPrompt": "Did I ever steal say ideas, appreciation, attention?",
+      "practice": "observe if you covet anything anyone else has.",
+      "meditation": "20 min meditation",
+      "journalPrompt": "Do I feel lack.",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 8,
+      "theme": "Moderation brings strength",
+      "sutra": {
+        "number": "2.38",
+        "sanskrit": "ब्रह्मचर्यप्रतिष्ठायां वीर्यलाभः",
+        "transliteration": "Sutra 2.38",
+        "meaning": "Moderation brings strength"
+      },
+      "insight": "Energy is preserved through balance.",
+      "reflectionPrompt": "Where did I waste energy?",
+      "practice": "Conserve energy",
+      "meditation": "20 min reflection",
+      "journalPrompt": "What drained me?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 9,
+      "theme": "Non-possessiveness brings clarity",
+      "sutra": {
+        "number": "2.39",
+        "sanskrit": "अपरिग्रहस्थैर्ये जन्मकथंतासंबोधः",
+        "transliteration": "Sutra 2.39",
+        "meaning": "Non-possessiveness brings clarity"
+      },
+      "insight": "Letting go brings understanding.",
+      "reflectionPrompt": "What did I hold onto?",
+      "practice": "Practice letting go",
+      "meditation": "20 min meditation",
+      "journalPrompt": "What did I release?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 10,
+      "theme": "Purity leads to respect for body and mind",
+      "sutra": {
+        "number": "2.4",
+        "sanskrit": "शौचात्स्वाङ्गजुगुप्सा परैरसंसर्गः",
+        "transliteration": "Sutra 2.4",
+        "meaning": "Purity leads to respect for body and mind"
+      },
+      "insight": "Inner cleanliness reflects outward.",
+      "reflectionPrompt": "Was I pure in thought?",
+      "practice": "Maintain clarity",
+      "meditation": "20 min reflection",
+      "journalPrompt": "What felt clean?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 11,
+      "theme": "From contentment, the very best in happiness is obtained",
+      "sutra": {
+        "number": "2.42",
+        "sanskrit": "स॒न्तो॒षादनुत्तमसु॑खला॒भः",
+        "transliteration": "Sutra 2.42",
+        "meaning": "From contentment, the very best in happiness is obtained."
+      },
+      "insight": "Contentment attracts abundance.",
+      "reflectionPrompt": "Did I feel content?",
+      "practice": "Avoid comparison",
+      "meditation": "20 min meditation",
+      "journalPrompt": "What did I have enough of?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 12,
+      "theme": "Austerity, resulting in the elimination of impurity produ...",
+      "sutra": {
+        "number": "2.43",
+        "sanskrit": "का॒येन्द्रियसिद्धिर॒शु॒द्धिक्ष॒यात् तपसः",
+        "transliteration": "Sutra 2.43",
+        "meaning": "Austerity, resulting in the elimination of impurity produces perfection of the body and sensual energy."
+      },
+      "insight": "Self-discipline (tapas) burns away impurities and kindles the sparks of Divinity.",
+      "reflectionPrompt": "Is maintaining discipline a problem for me.",
+      "practice": "Make a note of areas of your life which need you to be disciplined. Can you commit to yourself to make an effort in the area/s.",
+      "meditation": "20 min meditation",
+      "journalPrompt": "Did the commitment seem like a burden or serve as an inspiration.",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 13,
+      "theme": "From study of our own psyche, comes intimate contact with...",
+      "sutra": {
+        "number": "2.44",
+        "sanskrit": "स्वा॒ध्या॒याद् इ॒ष्टदे॒व॒तासम्प्रयोगः",
+        "transliteration": "Sutra 2.44",
+        "meaning": "From study of our own psyche, comes intimate contact with the cherished divine being."
+      },
+      "insight": "asana and pranayama are integral to connecting awareness of the body with core and vice versa",
+      "reflectionPrompt": "Can I commit to my daily practice or kriya",
+      "practice": "Practice asana and pranayam with complete focus inward.",
+      "meditation": "20 min meditation",
+      "journalPrompt": "is yoga practice enjoyable or painful for me",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 14,
+      "theme": "From  profound  meditation upon the Divine comes the perf...",
+      "sutra": {
+        "number": "2.45",
+        "sanskrit": "स॒मा॒धिसि॒द्धिरीश्वरप्र॑णिधा॒नात्",
+        "transliteration": "Sutra 2.45",
+        "meaning": "From  profound  meditation upon the Divine comes the perfection of continuous effortless linkage of the attention to that Divinity."
+      },
+      "insight": "The power of samadhi comes to him who takes refuge in the Divine.",
+      "reflectionPrompt": "surrender to God brings perfection in samadhi. Can I surrender to the Divine?",
+      "practice": "sit for meditation with the intention of total surrender",
+      "meditation": "20 min meditation",
+      "journalPrompt": "what did I observe",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 15,
+      "theme": "The posture should be steady and comfortable",
+      "sutra": {
+        "number": "2.46",
+        "sanskrit": "स्थिरसुख॑म् आस॒नम्",
+        "transliteration": "Sutra 2.46",
+        "meaning": "The posture should be steady and comfortable."
+      },
+      "insight": "asanas are required to be performed with easeI need to watch my food and other habits to stay healthy.",
+      "reflectionPrompt": "Am I flexible in body and mind?",
+      "practice": "watch your body's ability to perform the asanas. What do you need to do them with ease.",
+      "meditation": "20 min meditation",
+      "journalPrompt": "Do I need to work on perfecting my asanas",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 16,
+      "theme": "It results in relaxation of effort and the meeting with t...",
+      "sutra": {
+        "number": "2.47",
+        "sanskrit": "प्र॒य॒त्नशैथिल्यानन्तस॑माप॒त्ति॒भ्याम्",
+        "transliteration": "Sutra 2.47",
+        "meaning": "It results in relaxation of effort and the meeting with the infinite."
+      },
+      "insight": "Yogic practices should feel pleasureable to be sustained.",
+      "reflectionPrompt": "Am I making my life more satvic and the body more healthy?",
+      "practice": "practice asanas with awareness",
+      "meditation": "20 min meditation",
+      "journalPrompt": "Did I feel relaxed after yoga.",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 17,
+      "theme": "From then on, there are no botherations from the dualitie...",
+      "sutra": {
+        "number": "2.48",
+        "sanskrit": "ततो द्व॒न्द्वान॑भिघा॒तः",
+        "transliteration": "Sutra 2.48",
+        "meaning": "From then on, there are no botherations from the dualities like happiness and distress, heat and cold."
+      },
+      "insight": "yoga is a life long practice which makes one strong physically and mentally.",
+      "reflectionPrompt": "Is daily yoga practice for me like brushing my teeth or taking a bath yet?",
+      "practice": "practice asanas with awareness",
+      "meditation": "20 min meditation",
+      "journalPrompt": "",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 18,
+      "theme": "Once this is accomplished, regulation of the incoming and...",
+      "sutra": {
+        "number": "2.49",
+        "sanskrit": "त॒स्मिन्सति श्वा॒सप्र॒श्वा॒स॒योर्ग॒ति॒वि॒च्छेदः प्रा॑णाया॒मः",
+        "transliteration": "Sutra 2.49",
+        "meaning": "Once this is accomplished, regulation of the incoming and the outgoing breath with retention is attained."
+      },
+      "insight": "Prana is the all permeating, auto generated  energy which sustains and destroys life. It is also at the heart of the practice of yoga.  Pranayama consists of prana + ayama ie regulation. Prana is vital to maintaining life and the systems of the body. Pranayama helps to keep its free flow.",
+      "reflectionPrompt": "Am I practicing pranayam with attention and ease?",
+      "practice": "practice asanas and alternate nostril breathing at a very slow rate, as per capacity",
+      "meditation": "20 min meditation",
+      "journalPrompt": "",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 19,
+      "theme": "Pranayam has three movements : regulated inhalation, exha...",
+      "sutra": {
+        "number": "2.50000000000001",
+        "sanskrit": "बाह्याभ्यन्तरस्तम्भवृत्तिर्देशकालसंख्याभिः परिदृष्टो दीर्घसूक्ष्मः",
+        "transliteration": "Sutra 2.50000000000001",
+        "meaning": "Pranayam has three movements : regulated inhalation, exhalation and retention as per the sadhak's capacity."
+      },
+      "insight": "Pranayam need to be practiced with awareness as per ones capacity over a long period of time.Practice everday gradually increasing the capacity of the lungs.",
+      "reflectionPrompt": "Am I practicing pranayam with attention and ease?",
+      "practice": "practice alternate nostril breathing at a very slow rate, for 9 rotations, focusing on inhalation for 4 , retention 2  and exhalation 6 counts.",
+      "meditation": "20 min meditation",
+      "journalPrompt": "",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 20,
+      "theme": "That which transcends the objective external and internal...",
+      "sutra": {
+        "number": "2.51000000000001",
+        "sanskrit": "बा॒ह्या॒भ्यन्तरवि॒ष॒या॒क्षे॒पी",
+        "transliteration": "Sutra 2.51000000000001",
+        "meaning": "That which transcends the objective external and internal breath regulation is the fourth type of pranayama."
+      },
+      "insight": "The fourth type of Pranayama goes beyond inhalation,exhalation amd retention. It happens of its own volition wherein a state of pause is experienced in both the breath and the mind. Therefore it is rightly called nirbeej pranayam. This is experienced by sadhak's doing a long session of pranayam for instance during Long kriya.",
+      "reflectionPrompt": "Am I doing my practice with commitment.",
+      "practice": "Make a commitment and effort to intensify your practice. Pranayam with meditation for 20 min.",
+      "meditation": "20 min meditation",
+      "journalPrompt": "",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 21,
+      "theme": "From that is dissipated, the mental darkness which veils ...",
+      "sutra": {
+        "number": "2.52, 2.53",
+        "sanskrit": "त॒तः॒ क्षी॒य॒ते प्रकाशा॑वर॒णम् \nधा॒र॒णासु च योग्यता॑ मन॒सः",
+        "transliteration": "Sutra 2.52, 2.53",
+        "meaning": "From that is dissipated, the mental darkness which veils the light, ... and from that, is attained the state of the mind for linking the attention to a higher concentration force or person."
+      },
+      "insight": "Pranayama removes the veil covering the light of knowledge and heralds the dawn of wisdom. The mind becomes fit, thereafter, for Dharana or concentration.. the next limb of yoga.Once the mind is still and free of thought it can focus on a single point. This is when it can manifest what it wants.",
+      "reflectionPrompt": "Is my practice intense?",
+      "practice": "Make a commitment and effort to intensify your practice. Meditate for 20 min",
+      "meditation": "20 min meditation",
+      "journalPrompt": "",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 22,
+      "theme": "The withdrawal of the senses, mind and consciousness from...",
+      "sutra": {
+        "number": "2.54000000000001",
+        "sanskrit": "स्ववि॒ष॒या॒स॒म्प्रयो॒गे चि॒त्त॒स्व॒रूपानुकार॑ इ॒वे॒न्द्रि॒या॒णां प्र॑त्याहा॒रः",
+        "transliteration": "Sutra 2.54000000000001",
+        "meaning": "The withdrawal of the senses, mind and consciousness from contact with external objects and then drawing them inwards towards the seer is Pratyahara."
+      },
+      "insight": "This is the foundation of the path of renunciation.A gradual withdrawal from the external to the inwards is the purpose of following yogic practices.",
+      "reflectionPrompt": "Is my practice intense?",
+      "practice": "Make a commitment and effort to intensify your practice. Meditate for 20 min",
+      "meditation": "20 min meditation",
+      "journalPrompt": "",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 23,
+      "theme": "Pratyahara results in the absolute control of the sense o...",
+      "sutra": {
+        "number": "2.55000000000001",
+        "sanskrit": "त॒तः॒ प॒र॒मा वश्यते॑न्द्रिया॒णाम्",
+        "transliteration": "Sutra 2.55000000000001",
+        "meaning": "Pratyahara results in the absolute control of the sense organs,."
+      },
+      "insight": "When the senses have stopped running after outward pleasures they can aid the journey inwards.",
+      "reflectionPrompt": "A gradual withdrawal from the external to the inwards is the purpose of following yogic practices. Am I putting in the effort?",
+      "practice": "Make a commitment and effort to intensify your practice. Meditate for 20 min",
+      "meditation": "20 min meditation",
+      "journalPrompt": "",
+      "whatOthersSaid": ""
+    }
+  ]
+}

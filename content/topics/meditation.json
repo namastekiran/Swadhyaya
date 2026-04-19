@@ -1,0 +1,345 @@
+{
+  "id": "meditation",
+  "title": "Meditation",
+  "tagline": "Dhyana — the art of turning inward",
+  "icon": "brain",
+  "totalSections": 21,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Practice and detachment can make one experience samadhi i...",
+      "sutra": {
+        "number": "1.17",
+        "sanskrit": "वितर्कविचारानन्दास्मितारूपानुगमात्संप्रज्ञातः समाधिः",
+        "transliteration": "Sutra 1.17",
+        "meaning": "Practice and detachment can make one experience samadhi in four ways- i) self-analysis, wherein one logically understands the 'Self' and experiences a shift within. ii) synthesis of senses and thought which brings about 'an awareness' without any disturbance iii) bliss iv) only the experience of 'I am'"
+      },
+      "insight": "It can be a gradual movement from one to the other or any one of the way",
+      "reflectionPrompt": "Do I need to rationally understand the process or am willing to sit for meditation and let go?",
+      "practice": "sit in meditation for 10 mins and observe your experience. Meditation evolves gradually. Give yourself time.",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What do I feel in silence?",
+      "whatOthersSaid": "1.17"
+    },
+    {
+      "section": 2,
+      "theme": "Asamprajnat-Samadhi is the other kind of Samadhi which is...",
+      "sutra": {
+        "number": "1.18",
+        "sanskrit": "विरामप्रत्ययाभ्यासपूर्व: संस्कारशेषोSन्यः",
+        "transliteration": "Sutra 1.18",
+        "meaning": "Asamprajnat-Samadhi is the other kind of Samadhi which is attained by the constant practice of cessation of all mental modifications, in which the Chitta retains only the unmanifested impression."
+      },
+      "insight": "This state is akin to the state just before falling asleep. The intelligence dissolves but the sense of self remains.",
+      "reflectionPrompt": "Am I close to stopping the modulations of the mind to some extent?",
+      "practice": "Intensify your practices to quiten the mind.",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 3,
+      "theme": "In this state the sadhak may experience bodilessness or b...",
+      "sutra": {
+        "number": "1.19",
+        "sanskrit": "भवप्रत्ययो विदेहप्रकृतिलयानाम्",
+        "transliteration": "Sutra 1.19",
+        "meaning": "In this state the sadhak may experience bodilessness or become merged in nature leading to solitude."
+      },
+      "insight": "In this samadhi the sadhak is freed from all modulations but the samskaras spring back to life the moment he comes out of this state.",
+      "reflectionPrompt": "Am I open to this kind of experience yet?",
+      "practice": "Intensify your practices to quiten the mind.",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 4,
+      "theme": "Practice must be persued with faith,confidence, energy, k...",
+      "sutra": {
+        "number": "1.2",
+        "sanskrit": "श्रद्धावीर्यस्मृतिसमाधिप्रज्ञापूर्वक इतरेषाम्",
+        "transliteration": "Sutra 1.2",
+        "meaning": "Practice must be persued with faith,confidence, energy, keenness of memory and the power to absorb to avoid spiritual complacency."
+      },
+      "insight": "I need to put in my 100% to make progress",
+      "reflectionPrompt": "Inner growth needs sincerity and effort. Am I a willing sadhak?",
+      "practice": "Be 100% present in whatever you do today",
+      "meditation": "5 mins total focus on breath meditate 20 min",
+      "journalPrompt": "Do I have trust in the path?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 5,
+      "theme": "Intense effort brings quick progress",
+      "sutra": {
+        "number": "1.21, 1.22",
+        "sanskrit": "तीव्रसंवेगानामासन्नः\nमृदुमध्याधिमात्रत्वात्ततोऽपि विशेषः",
+        "transliteration": "Sutra 1.21, 1.22",
+        "meaning": "Intense effort brings quick progress\nEffort varies in intensity -i) feeble ii) moderate iii)steady"
+      },
+      "insight": "Depth of desire determines growth.\nThe pace of growth depends on your effort.",
+      "reflectionPrompt": "How strong is my intention?\nWhere am I on this scale?",
+      "practice": "Act with intensity in all you do today.\nObserve effort level",
+      "meditation": "10 min meditation",
+      "journalPrompt": "Did I give my best?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 6,
+      "theme": "The Chitta ie consciousness may be totaly focused and sur...",
+      "sutra": {
+        "number": "1.23, 1.24",
+        "sanskrit": "ईश्वरप्रणिधानाद्वा\n\nक्लेशकर्मविपाकाशयैरपरामृष्टः पुरुषविशेष ईश्वरः",
+        "transliteration": "Sutra 1.23, 1.24",
+        "meaning": "The Chitta ie consciousness may be totaly focused and surrendered to God.\nIshvara is untouched by suffering and karma"
+      },
+      "insight": "The divine is pure and unaffected.",
+      "reflectionPrompt": "What is beyond the noise?",
+      "practice": "Reflect on purity",
+      "meditation": "5 min awareness and surrender meditate 20 min",
+      "journalPrompt": "How intense was I?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 7,
+      "theme": "Om is the expression of the divine",
+      "sutra": {
+        "number": "1.27, 1.28",
+        "sanskrit": "तस्य वाचकः प्रणवः\nतज्जपस्तदर्थभावनम्",
+        "transliteration": "Sutra 1.27, 1.28",
+        "meaning": "Om is the expression of the divine\nRepeat Om with awareness"
+      },
+      "insight": "Sound connects to consciousness.\nRepetition deepens experience.",
+      "reflectionPrompt": "Can I feel the vibrations of the sounds around me?",
+      "practice": "Chant Om 11 times watching the vibrations it makes within",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What did I feel?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 8,
+      "theme": "Om chanting leads inward and removes obstacles",
+      "sutra": {
+        "number": "1.29",
+        "sanskrit": "ततः प्रत्यक्चेतनाधिगमोऽप्यन्तरायाभावश्च",
+        "transliteration": "Sutra 1.29",
+        "meaning": "Om chanting leads inward and removes obstacles"
+      },
+      "insight": "Inner connection reduces disturbances.",
+      "reflectionPrompt": "Am I able to go inwards when I sit in silence with eyes closed?",
+      "practice": "Observe your thoughts. Does that quieten them",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What reduced?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 9,
+      "theme": "Meditate on an object of your choice which is spiritually...",
+      "sutra": {
+        "number": "1.39",
+        "sanskrit": "यथाभिमतध्यानाद्वा",
+        "transliteration": "Sutra 1.39",
+        "meaning": "Meditate on an object of your choice which is spiritually uplifting to you"
+      },
+      "insight": "Any sincere focus leads inward.",
+      "reflectionPrompt": "What inspires me?",
+      "practice": "Meditate at a chosen spot on a chosen idea",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What inspired me?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 10,
+      "theme": "Mastery extends from smallest to largest",
+      "sutra": {
+        "number": "1.4",
+        "sanskrit": "परमाणुपरममहत्त्वान्तोऽस्य वशीकारः",
+        "transliteration": "Sutra 1.4",
+        "meaning": "Mastery extends from smallest to largest"
+      },
+      "insight": "Awareness expands limitlessly.",
+      "reflectionPrompt": "Where can I expand awareness?",
+      "practice": "Observe deeply",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What expanded?",
+      "whatOthersSaid": ""
+    },
+    {
+      "section": 11,
+      "theme": "When mind becomes clear it reflects reality like a crystal",
+      "sutra": {
+        "number": "1.41",
+        "sanskrit": "क्षीणवृत्तेरभिजातस्येव मणेर्ग्रहीतृग्रहणग्राह्येषु तत्स्थतदञ्जनता समापत्तिः",
+        "transliteration": "Sutra 1.41",
+        "meaning": "When mind becomes clear it reflects reality like a crystal"
+      },
+      "insight": "When the mind is pure it reflects truth without distortion.",
+      "reflectionPrompt": "Is my perception clear or colored?",
+      "practice": "Observe reactions without bias",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "what was my observation",
+      "whatOthersSaid": "Where was I unbiased?"
+    },
+    {
+      "section": 12,
+      "theme": "Subtle states of awareness deepen perception",
+      "sutra": {
+        "number": "1.44",
+        "sanskrit": "एतयैव सविचारा निर्विचारा च सूक्ष्मविषया व्याख्याता",
+        "transliteration": "Sutra 1.44",
+        "meaning": "Subtle states of awareness deepen perception"
+      },
+      "insight": "Awareness refines from gross to subtle.",
+      "reflectionPrompt": "Can I notice subtle feelings?",
+      "practice": "Observe finer sensations",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What subtlety did I notice?",
+      "whatOthersSaid": "same"
+    },
+    {
+      "section": 13,
+      "theme": "Subtle awareness leads to formless state",
+      "sutra": {
+        "number": "1.45",
+        "sanskrit": "सूक्ष्मविषयत्वं चालिङ्गपर्यवसानम्",
+        "transliteration": "Sutra 1.45",
+        "meaning": "Subtle awareness leads to formless state"
+      },
+      "insight": "Awareness expands beyond form.",
+      "reflectionPrompt": "Can I go beyond labels?",
+      "practice": "Sit in silence beyond thought",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What was beyond thought?",
+      "whatOthersSaid": "same"
+    },
+    {
+      "section": 14,
+      "theme": "These are seed-based meditations",
+      "sutra": {
+        "number": "1.46",
+        "sanskrit": "ता एव सबीजः समाधिः",
+        "transliteration": "Sutra 1.46",
+        "meaning": "These are seed-based meditations"
+      },
+      "insight": "Even deep meditation still has impressions.",
+      "reflectionPrompt": "What patterns remain?",
+      "practice": "Observe lingering thoughts",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What remained?",
+      "whatOthersSaid": "same"
+    },
+    {
+      "section": 15,
+      "theme": "Clarity in subtle awareness brings inner joy",
+      "sutra": {
+        "number": "1.47",
+        "sanskrit": "निर्विचारवैशारद्येऽध्यात्मप्रसादः",
+        "transliteration": "Sutra 1.47",
+        "meaning": "Clarity in subtle awareness brings inner joy"
+      },
+      "insight": "Inner clarity brings calm happiness.",
+      "reflectionPrompt": "Did I feel inner ease?",
+      "practice": "Rest in clarity",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What brought ease?",
+      "whatOthersSaid": "same"
+    },
+    {
+      "section": 16,
+      "theme": "Truth-bearing wisdom arises",
+      "sutra": {
+        "number": "1.48",
+        "sanskrit": "ऋतम्भरा तत्र प्रज्ञा",
+        "transliteration": "Sutra 1.48",
+        "meaning": "Truth-bearing wisdom arises"
+      },
+      "insight": "Inner wisdom is beyond logic.",
+      "reflectionPrompt": "Did insight arise naturally?",
+      "practice": "Trust inner knowing",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What insight came?",
+      "whatOthersSaid": "same"
+    },
+    {
+      "section": 17,
+      "theme": "This wisdom differs from knowledge gained externally",
+      "sutra": {
+        "number": "1.49",
+        "sanskrit": "श्रुतानुमानप्रज्ञाभ्यामन्यविषया विशेषार्थत्वात्",
+        "transliteration": "Sutra 1.49",
+        "meaning": "This wisdom differs from knowledge gained externally"
+      },
+      "insight": "Direct experience is different from learned knowledge.",
+      "reflectionPrompt": "Did I experience or just think?",
+      "practice": "Focus on experience",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What was experiential?",
+      "whatOthersSaid": "same"
+    },
+    {
+      "section": 18,
+      "theme": "New impressions override old patterns",
+      "sutra": {
+        "number": "1.5",
+        "sanskrit": "तज्जः संस्कारोऽन्यसंस्कारप्रतिबन्धी",
+        "transliteration": "Sutra 1.5",
+        "meaning": "New impressions override old patterns"
+      },
+      "insight": "Awareness replaces conditioning.",
+      "reflectionPrompt": "What pattern shifted?",
+      "practice": "Repeat awareness",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What changed?",
+      "whatOthersSaid": "same"
+    },
+    {
+      "section": 19,
+      "theme": "Even impressions dissolve leading to seedless state",
+      "sutra": {
+        "number": "1.51",
+        "sanskrit": "तस्यापि निरोधे सर्वनिरोधान्निर्बीजः समाधिः",
+        "transliteration": "Sutra 1.51",
+        "meaning": "Even impressions dissolve leading to seedless state"
+      },
+      "insight": "Ultimate stillness is beyond all patterns.",
+      "reflectionPrompt": "Can I rest without effort?",
+      "practice": "Sit in silence",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What was beyond effort?",
+      "whatOthersSaid": "same"
+    },
+    {
+      "section": 20,
+      "theme": "Subtle impressions dissolve by returning to source",
+      "sutra": {
+        "number": "2.1",
+        "sanskrit": "ते प्रतिप्रसवहेयाः सूक्ष्माः",
+        "transliteration": "Sutra 2.1",
+        "meaning": "Subtle impressions dissolve by returning to source"
+      },
+      "insight": "Going inward dissolves patterns.",
+      "reflectionPrompt": "Can I go inward?",
+      "practice": "Sit in silence",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What softened?",
+      "whatOthersSaid": "same"
+    },
+    {
+      "section": 21,
+      "theme": "Meditation removes disturbances",
+      "sutra": {
+        "number": "2.11",
+        "sanskrit": "ध्यानहेयास्तद्वृत्तयः",
+        "transliteration": "Sutra 2.11",
+        "meaning": "Meditation removes disturbances"
+      },
+      "insight": "Meditation clears mind patterns.",
+      "reflectionPrompt": "Did meditation help?",
+      "practice": "Meditate daily",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What reduced?",
+      "whatOthersSaid": "same"
+    }
+  ]
+}
