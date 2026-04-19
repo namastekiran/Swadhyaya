@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <div className="space-y-8">
       <div className="flex justify-end pt-2">
-        <UserMenu />
+        {/* <UserMenu /> */}
       </div>
 
       <header className="text-center pb-2">
