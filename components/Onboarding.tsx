@@ -37,7 +37,10 @@ export function Onboarding() {
               Welcome to Swadhyaya
             </h1>
             <p className="text-base text-muted-foreground leading-relaxed">
-              A gentle daily journey through the wisdom of the Patanjali Yoga Sutras.
+              When the movements of the mind settle, the Self is revealed.
+            </p>
+            <p className="text-sm text-muted-foreground/70">
+              This is the journey of Swadhyaya.
             </p>
           </div>
 
