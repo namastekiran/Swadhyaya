@@ -14,11 +14,22 @@ interface ReflectionEntry {
   savedAt: string;
 }
 
+interface AiChatMessage {
+  role: "user" | "assistant";
+  content: string;
+}
+
+interface SavedChat {
+  messages: AiChatMessage[];
+  savedAt: string;
+}
+
 interface SectionAnswers {
   reflections: ReflectionEntry[];
   practiceAnswer?: string;
   journalEntry?: string;
   completedSteps: ("sutra" | "reflection" | "practice" | "journal")[];
+  savedChats: SavedChat[];
   updatedAt?: string;
 }
 
@@ -37,6 +48,7 @@ interface AppState {
   saveReflection: (topicId: string, section: number, answer: string) => void;
   savePractice: (topicId: string, section: number, answer: string) => void;
   saveJournal: (topicId: string, section: number, entry: string) => void;
+  saveAiChat: (topicId: string, section: number, messages: AiChatMessage[]) => void;
   completeAndNext: (
     topicId: string,
     section: number,
@@ -51,6 +63,7 @@ const DEFAULT_PROGRESS: TopicProgress = {
 
 const DEFAULT_ANSWERS: SectionAnswers = {
   reflections: [],
+  savedChats: [],
   completedSteps: [],
 };
 
@@ -155,6 +168,27 @@ export const useAppStore = create<AppState>()(
                 ...prev,
                 journalEntry: entry,
                 completedSteps: Array.from(steps),
+                updatedAt: new Date().toISOString(),
+              },
+            },
+          };
+        });
+      },
+
+      saveAiChat: (topicId, section, messages) => {
+        set((state) => {
+          const key = answersKey(topicId, section);
+          const prev = state.answers[key] ?? { ...DEFAULT_ANSWERS };
+          const newChat: SavedChat = {
+            messages,
+            savedAt: new Date().toISOString(),
+          };
+          return {
+            answers: {
+              ...state.answers,
+              [key]: {
+                ...prev,
+                savedChats: [...(prev.savedChats ?? []), newChat],
                 updatedAt: new Date().toISOString(),
               },
             },

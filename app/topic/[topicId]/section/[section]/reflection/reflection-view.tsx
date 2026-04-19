@@ -34,6 +34,7 @@ export function ReflectionView({
   section: SectionData;
 }) {
   const saveReflection = useAppStore((s) => s.saveReflection);
+  const saveAiChat = useAppStore((s) => s.saveAiChat);
   const getSectionAnswers = useAppStore((s) => s.getSectionAnswers);
   const answers = getSectionAnswers(topicId, section.section);
   const reflections = answers.reflections ?? [];
@@ -90,6 +91,10 @@ export function ReflectionView({
           sutraMeaning={section.sutra.meaning}
           insight={section.insight}
           reflectionPrompt={section.reflectionPrompt}
+          savedChats={answers.savedChats ?? []}
+          onSaveChat={(msgs) =>
+            saveAiChat(topicId, section.section, msgs)
+          }
           onClose={() => setShowAi(false)}
         />
       ) : (

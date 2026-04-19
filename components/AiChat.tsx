@@ -2,7 +2,19 @@
 
 import { useState, useRef, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
-import { Sparkles, Send, X, Loader2, User, Bot } from "lucide-react";
+import {
+  Sparkles,
+  Send,
+  X,
+  Loader2,
+  User,
+  Bot,
+  Save,
+  Check,
+  History,
+  ChevronDown,
+  ChevronUp,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface ChatMessage {
@@ -10,11 +22,18 @@ interface ChatMessage {
   content: string;
 }
 
+interface SavedChatData {
+  messages: ChatMessage[];
+  savedAt: string;
+}
+
 interface AiChatProps {
   sutraNumber: string;
   sutraMeaning: string;
   insight: string;
   reflectionPrompt: string;
+  savedChats?: SavedChatData[];
+  onSaveChat?: (messages: ChatMessage[]) => void;
   onClose: () => void;
 }
 
@@ -76,17 +95,52 @@ function AssistantMessage({ content }: { content: string }) {
   );
 }
 
+function formatChatDate(iso: string) {
+  return new Date(iso).toLocaleDateString("en-IN", {
+    day: "numeric",
+    month: "short",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
 export function AiChat({
   sutraNumber,
   sutraMeaning,
   insight,
   reflectionPrompt,
+  savedChats = [],
+  onSaveChat,
   onClose,
 }: AiChatProps) {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
   const [isStreaming, setIsStreaming] = useState(false);
+  const [justSaved, setJustSaved] = useState(false);
+  const [showHistory, setShowHistory] = useState(false);
+  const [viewingChat, setViewingChat] = useState<number | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
+
+  const canSave = messages.length >= 2 && !isStreaming;
+
+  function handleSaveChat() {
+    if (!canSave || !onSaveChat) return;
+    onSaveChat(messages);
+    setJustSaved(true);
+    setTimeout(() => setJustSaved(false), 2000);
+  }
+
+  function loadSavedChat(index: number) {
+    setViewingChat(index);
+    setMessages(savedChats[index].messages);
+    setShowHistory(false);
+  }
+
+  function startNewChat() {
+    setMessages([]);
+    setViewingChat(null);
+    setJustSaved(false);
+  }
 
   useEffect(() => {
     scrollRef.current?.scrollTo({
@@ -204,13 +258,81 @@ export function AiChat({
             AI Insights
           </span>
         </div>
-        <button
-          onClick={onClose}
-          className="w-7 h-7 rounded-lg flex items-center justify-center hover:bg-white/60 transition-colors"
-        >
-          <X className="w-4 h-4 text-muted-foreground" />
-        </button>
+        <div className="flex items-center gap-1">
+          {savedChats.length > 0 && (
+            <button
+              onClick={() => setShowHistory(!showHistory)}
+              className="w-7 h-7 rounded-lg flex items-center justify-center hover:bg-white/60 transition-colors relative"
+              title="Chat history"
+            >
+              <History className="w-3.5 h-3.5 text-muted-foreground" />
+              <span className="absolute -top-0.5 -right-0.5 w-3.5 h-3.5 bg-purple-400 text-white text-[8px] font-bold rounded-full flex items-center justify-center">
+                {savedChats.length}
+              </span>
+            </button>
+          )}
+          {canSave && onSaveChat && (
+            <button
+              onClick={handleSaveChat}
+              disabled={justSaved}
+              className="w-7 h-7 rounded-lg flex items-center justify-center hover:bg-white/60 transition-colors"
+              title="Save chat"
+            >
+              {justSaved ? (
+                <Check className="w-3.5 h-3.5 text-green-500" />
+              ) : (
+                <Save className="w-3.5 h-3.5 text-muted-foreground" />
+              )}
+            </button>
+          )}
+          <button
+            onClick={onClose}
+            className="w-7 h-7 rounded-lg flex items-center justify-center hover:bg-white/60 transition-colors"
+          >
+            <X className="w-4 h-4 text-muted-foreground" />
+          </button>
+        </div>
       </div>
+
+      {/* History dropdown */}
+      {showHistory && (
+        <div className="border-b border-purple-100/50 bg-purple-50/30 p-3 space-y-2">
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-semibold text-muted-foreground uppercase tracking-widest">
+              Saved Chats
+            </span>
+            <button
+              onClick={startNewChat}
+              className="text-xs text-purple-600 font-medium hover:underline"
+            >
+              + New Chat
+            </button>
+          </div>
+          {savedChats.map((chat, i) => (
+            <button
+              key={i}
+              onClick={() => loadSavedChat(i)}
+              className={`w-full text-left p-2.5 rounded-xl text-xs transition-all ${
+                viewingChat === i
+                  ? "bg-purple-100 border border-purple-200"
+                  : "bg-white/80 border border-gray-100 hover:border-purple-200"
+              }`}
+            >
+              <div className="flex items-center justify-between">
+                <span className="font-medium text-foreground truncate mr-2">
+                  {chat.messages.find((m) => m.role === "user")?.content.slice(0, 40) ?? "Chat"}...
+                </span>
+                <span className="text-muted-foreground/60 whitespace-nowrap">
+                  {formatChatDate(chat.savedAt)}
+                </span>
+              </div>
+              <span className="text-muted-foreground/50 mt-0.5 block">
+                {chat.messages.length} messages
+              </span>
+            </button>
+          ))}
+        </div>
+      )}
 
       {/* Messages */}
       <div ref={scrollRef} className="max-h-96 overflow-y-auto p-4 space-y-3">
