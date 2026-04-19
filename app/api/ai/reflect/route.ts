@@ -50,7 +50,7 @@ The user is reflecting on this teaching. Help them go deeper.`;
   messages.push({ role: "user", content: userMessage });
 
   const stream = await openai.chat.completions.create({
-    model: "gpt-4.1-mini",
+    model: "gpt-5.4-mini",
     max_tokens: 300,
     stream: true,
     messages,
