@@ -32,6 +32,8 @@ interface AiChatProps {
   sutraMeaning: string;
   insight: string;
   reflectionPrompt: string;
+  userName?: string;
+  userIntention?: string;
   savedChats?: SavedChatData[];
   onSaveChat?: (messages: ChatMessage[]) => void;
   onClose: () => void;
@@ -109,6 +111,8 @@ export function AiChat({
   sutraMeaning,
   insight,
   reflectionPrompt,
+  userName,
+  userIntention,
   savedChats = [],
   onSaveChat,
   onClose,
@@ -170,6 +174,8 @@ export function AiChat({
           sutraMeaning,
           insight,
           reflectionPrompt,
+          userName,
+          userIntention,
           userMessage: text,
           history: messages,
         }),

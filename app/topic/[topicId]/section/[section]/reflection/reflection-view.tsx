@@ -37,6 +37,7 @@ export function ReflectionView({
   const saveReflection = useAppStore((s) => s.saveReflection);
   const deleteReflection = useAppStore((s) => s.deleteReflection);
   const saveAiChat = useAppStore((s) => s.saveAiChat);
+  const profile = useAppStore((s) => s.profile);
   const answersKey = `${topicId}::${section.section}`;
   const answers = useAppStore(
     (s) => s.answers[answersKey] ?? { reflections: [], savedChats: [], completedSteps: [] }
@@ -95,6 +96,8 @@ export function ReflectionView({
           sutraMeaning={section.sutra.meaning}
           insight={section.insight}
           reflectionPrompt={section.reflectionPrompt}
+          userName={profile?.name}
+          userIntention={profile?.intention}
           savedChats={answers.savedChats ?? []}
           onSaveChat={(msgs) =>
             saveAiChat(topicId, section.section, msgs)

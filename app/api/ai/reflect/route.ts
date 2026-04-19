@@ -24,14 +24,18 @@ Formatting rules (IMPORTANT):
 Respond in the same language the user writes in. If they write in Hindi or Hinglish, respond accordingly.`;
 
 export async function POST(request: Request) {
-  const { sutraNumber, sutraMeaning, insight, reflectionPrompt, userMessage, history } =
+  const { sutraNumber, sutraMeaning, insight, reflectionPrompt, userMessage, history, userName, userIntention } =
     await request.json();
+
+  const personalContext = userName
+    ? `\n- User's name: ${userName}${userIntention ? `\n- Their intention: ${userIntention}` : ""}\nAddress them by name occasionally to make it personal.`
+    : "";
 
   const contextMessage = `Context for this conversation:
 - Sutra: ${sutraNumber}
 - Meaning: ${sutraMeaning}
 - Insight: ${insight}
-- Reflection prompt: ${reflectionPrompt}
+- Reflection prompt: ${reflectionPrompt}${personalContext}
 
 The user is reflecting on this teaching. Help them go deeper.`;
 

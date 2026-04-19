@@ -39,12 +39,20 @@ interface SectionAnswers {
   updatedAt?: string;
 }
 
+interface UserProfile {
+  name: string;
+  intention: string;
+  createdAt: string;
+}
+
 interface AppState {
   deviceId: string;
+  profile: UserProfile | null;
   topics: Record<string, TopicProgress>;
   answers: Record<string, SectionAnswers>;
   hydrated: boolean;
 
+  setProfile: (name: string, intention: string) => void;
   initDevice: () => void;
   loadFromSupabase: () => Promise<void>;
   getSectionStatus: (topicId: string, section: number) => SectionStatus;
@@ -114,9 +122,20 @@ export const useAppStore = create<AppState>()(
   persist(
     (set, get) => ({
       deviceId: "",
+      profile: null,
       topics: {},
       answers: {},
       hydrated: false,
+
+      setProfile: (name, intention) => {
+        set({
+          profile: {
+            name: name.trim(),
+            intention: intention.trim(),
+            createdAt: new Date().toISOString(),
+          },
+        });
+      },
 
       initDevice: () => {
         let id = get().deviceId;
@@ -310,6 +329,7 @@ export const useAppStore = create<AppState>()(
       name: "swadhyaya-progress",
       partialize: (state) => ({
         deviceId: state.deviceId,
+        profile: state.profile,
         topics: state.topics,
         answers: state.answers,
       }),

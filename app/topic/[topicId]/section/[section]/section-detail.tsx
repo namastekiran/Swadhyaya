@@ -74,9 +74,11 @@ export function SectionDetail({
   totalSections,
 }: Props) {
   const router = useRouter();
+  const profile = useAppStore((s) => s.profile);
   const getSectionStatus = useAppStore((s) => s.getSectionStatus);
   const getSectionAnswers = useAppStore((s) => s.getSectionAnswers);
   const completeAndNext = useAppStore((s) => s.completeAndNext);
+  const firstName = profile?.name?.split(" ")[0];
 
   const status = getSectionStatus(topicId, section.section);
   const isDone = status === "done";
@@ -129,7 +131,7 @@ export function SectionDetail({
         <div className="flex items-center gap-2 mb-2">
           <Sparkles className="w-4 h-4 text-purple-400" />
           <span className="text-xs font-semibold text-purple-500 uppercase tracking-widest">
-            Today&apos;s Focus
+            {firstName ? `${firstName}'s Focus` : "Today's Focus"}
           </span>
         </div>
         <h2 className="text-2xl font-bold text-foreground leading-snug">
