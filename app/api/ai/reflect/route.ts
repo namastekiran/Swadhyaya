@@ -1,6 +1,8 @@
-import Anthropic from "@anthropic-ai/sdk";
+import OpenAI from "openai";
 
-const anthropic = new Anthropic();
+const openai = new OpenAI({
+  apiKey: process.env.OPEN_AI_API_KEY,
+});
 
 const SYSTEM_PROMPT = `You are a warm, wise guide helping someone explore the Patanjali Yoga Sutras in their daily life. You speak with the calm clarity of a teacher who has practiced yoga for decades — compassionate, non-judgmental, and gently encouraging.
 
@@ -26,7 +28,8 @@ export async function POST(request: Request) {
 
 The user is reflecting on this teaching. Help them go deeper.`;
 
-  const messages: Anthropic.MessageParam[] = [
+  const messages: OpenAI.ChatCompletionMessageParam[] = [
+    { role: "system", content: SYSTEM_PROMPT },
     { role: "user", content: contextMessage },
     {
       role: "assistant",
@@ -46,10 +49,10 @@ The user is reflecting on this teaching. Help them go deeper.`;
 
   messages.push({ role: "user", content: userMessage });
 
-  const stream = anthropic.messages.stream({
-    model: "claude-sonnet-4-20250514",
+  const stream = await openai.chat.completions.create({
+    model: "gpt-4.1-mini",
     max_tokens: 300,
-    system: SYSTEM_PROMPT,
+    stream: true,
     messages,
   });
 
@@ -58,13 +61,11 @@ The user is reflecting on this teaching. Help them go deeper.`;
   const readable = new ReadableStream({
     async start(controller) {
       try {
-        for await (const event of stream) {
-          if (
-            event.type === "content_block_delta" &&
-            event.delta.type === "text_delta"
-          ) {
+        for await (const chunk of stream) {
+          const text = chunk.choices[0]?.delta?.content;
+          if (text) {
             controller.enqueue(
-              encoder.encode(`data: ${JSON.stringify({ text: event.delta.text })}\n\n`)
+              encoder.encode(`data: ${JSON.stringify({ text })}\n\n`)
             );
           }
         }
