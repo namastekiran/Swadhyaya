@@ -37,8 +37,10 @@ export function ReflectionView({
   const saveReflection = useAppStore((s) => s.saveReflection);
   const deleteReflection = useAppStore((s) => s.deleteReflection);
   const saveAiChat = useAppStore((s) => s.saveAiChat);
-  const getSectionAnswers = useAppStore((s) => s.getSectionAnswers);
-  const answers = getSectionAnswers(topicId, section.section);
+  const answersKey = `${topicId}::${section.section}`;
+  const answers = useAppStore(
+    (s) => s.answers[answersKey] ?? { reflections: [], savedChats: [], completedSteps: [] }
+  );
   const reflections = answers.reflections ?? [];
   const hasReflections = reflections.length > 0;
 
