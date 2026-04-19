@@ -39,7 +39,7 @@ export function Onboarding() {
             <p className="text-base text-muted-foreground leading-relaxed">
               When the movements of the mind settle, the Self is revealed.
             </p>
-            <p className="text-sm text-muted-foreground/70">
+            <p className="text-base font-semibold text-purple-600 mt-1">
               This is the journey of Swadhyaya.
             </p>
           </div>
