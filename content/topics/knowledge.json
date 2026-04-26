@@ -3,7 +3,7 @@
   "title": "Knowledge",
   "tagline": "Pramana — the light of true understanding",
   "icon": "book-open",
-  "totalSections": 5,
+  "totalSections": 6,
   "sections": [
     {
       "section": 1,
@@ -16,10 +16,12 @@
       },
       "insight": "Direct experience is most powerful. To be in meditation one should decide not to dwell on any logic or be interested in any proof.",
       "reflectionPrompt": "Do I feel a need to be correct or logical all the time? Am I judgemental?",
-      "practice": "Observe thoughts without reacting\nDo I rely on experience or assumption?",
-      "meditation": "3 min reflection\nObserve - how do I form  my opinions. 10 min meditation",
+      "practice": "Observe thoughts without reacting\r\nDo I rely on experience or assumption?",
+      "meditation": "3 min Reflection\r\nObserve - how do I form  my opinions. 10 min meditation",
       "journalPrompt": "note down results",
-      "whatOthersSaid": ""
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
     },
     {
       "section": 2,
@@ -33,9 +35,11 @@
       "insight": "Many beliefs are based on incomplete perception. For instance a person suffering inferiority complex may find others behavior arrogant.",
       "reflectionPrompt": "Which of my beliefs may be wrong?",
       "practice": "Question one of your assumptions today. Think deeply.",
-      "meditation": "3 min reflection.10 min meditation",
+      "meditation": "3 min Reflection.10 min meditation",
       "journalPrompt": "note down results",
-      "whatOthersSaid": ""
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
     },
     {
       "section": 3,
@@ -51,15 +55,17 @@
       "practice": "Observe imagination vs reality",
       "meditation": "3 min breath. 10 min meditation",
       "journalPrompt": "What did I imagine?",
-      "whatOthersSaid": ""
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
     },
     {
       "section": 4,
       "theme": "The State of Sleep",
       "sutra": {
-        "number": "1.1",
+        "number": "1.10",
         "sanskrit": "अभावप्रत्ययालम्बना वृत्तिर्निद्रा",
-        "transliteration": "Sutra 1.1",
+        "transliteration": "Sutra 1.10",
         "meaning": "Sleep is a mental state based on absence of thought or knowledge."
       },
       "insight": "When the mind is not seeking proof or deluding or making up stories, it is asleep.",
@@ -67,23 +73,45 @@
       "practice": "Notice sleep patterns",
       "meditation": "3 min relaxation 10 min meditation",
       "journalPrompt": "How does rest or lack thereof affect me?",
-      "whatOthersSaid": ""
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
     },
     {
       "section": 5,
       "theme": "Infinite Knowledge",
       "sutra": {
         "number": "1.25, 1.26",
-        "sanskrit": "तत्र निरतिशयं सर्वज्ञबीजम्\nस पूर्वेषामपि गुरुः कालेनानवच्छेदात",
+        "sanskrit": "तत्र निरतिशयं सर्वज्ञबीजम्\r\nस पूर्वेषामपि गुरुः कालेनानवच्छेदात",
         "transliteration": "Sutra 1.25, 1.26",
-        "meaning": "In Ishvara lies infinite knowledge\nThe divine is the eternal teacher"
+        "meaning": "In Ishvara lies infinite knowledge\r\nThe divine is the eternal teacher"
       },
-      "insight": "The source of knowledge is within.\nWisdom is timeless.",
+      "insight": "The source of knowledge is within.\r\nWisdom is timeless.",
       "reflectionPrompt": "Do I trust inner wisdom?",
-      "practice": "Listen inward\nReflect on guidance",
+      "practice": "Listen inward\r\nReflect on guidance",
       "meditation": "10 min meditation",
       "journalPrompt": "What insight came?",
-      "whatOthersSaid": ""
+      "whatOthersSaid": "",
+      "shlokaFrom": "श्रद्धावाँल्लभते ज्ञानं तत्परः संयतेन्द्रियः ।\nज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति ॥  4.39",
+      "wisdomFrom": "The man of faith obtains knowledge. Devoted to it and controlling his senses, having obtained knowledge he quickly attains supreme peace."
+    },
+    {
+      "section": 6,
+      "theme": "Section 6",
+      "sutra": {
+        "number": "2.34",
+        "sanskrit": "वितर्का हिंसादयः कृतकारितानुमोदिता लोभक्रोधमोहपूर्वका मृदुमध्याधिमात्रा दुःखाज्ञानानन्तफला इति प्रतिपक्षभावनम्",
+        "transliteration": "Sutra 2.34",
+        "meaning": ""
+      },
+      "insight": "",
+      "reflectionPrompt": "",
+      "practice": "",
+      "meditation": "",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
     }
   ]
 }

@@ -19,39 +19,45 @@
       "practice": "Find a quiet and comfortable place to sit and set a time for daily practice.",
       "meditation": "Sit quietly and set an intention,3 min breath awareness and 10 min meditation.",
       "journalPrompt": "",
-      "whatOthersSaid": "Provide LInk to Gurudevs audio"
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
     },
     {
       "section": 2,
       "theme": "Stilling the Mind",
       "sutra": {
         "number": "1.2, 1.3",
-        "sanskrit": "योगश्चित्तवृत्तिनिरोधः\nतदा द्रष्टुः स्वरूपेऽवस्थानम्",
+        "sanskrit": "योगश्चित्तवृत्तिनिरोधः\r\nतदा द्रष्टुः स्वरूपेऽवस्थानम्",
         "transliteration": "Sutra 1.2, 1.3",
-        "meaning": "Yoga is the stilling of the fluctuations of the Consciousness ie Chitta. The Chitta comprises of the Manas, Buddhi, Ahamkar. The mind, intellect and ego.\nThen the seer abides in their true nature."
+        "meaning": "Yoga is the stilling of the fluctuations of the Consciousness ie Chitta. The Chitta comprises of the Manas, Buddhi, Ahamkar. The mind, intellect and ego.\r\nThen the seer abides in their true nature."
       },
-      "insight": "The mind keeps moving. Awareness—not suppression—brings stillness. Yoga shows us how. \nWhen the mind settles you experience your true self—peaceful and aware.",
+      "insight": "The mind keeps moving. Awareness—not suppression—brings stillness. Yoga shows us how. \r\nWhen the mind settles you experience your true self—peaceful and aware.",
       "reflectionPrompt": "When is my mind most restless?",
       "practice": "Observe thoughts without reacting. I should watch like I hawk which thoughts are frequent visitors.",
-      "meditation": "3 min breathing. \nPause and observe moments of stillness. meditate for 10 min",
+      "meditation": "3 min breathing. \r\nPause and observe moments of stillness. meditate for 10 min",
       "journalPrompt": "Did I observe repetitive thoughts?",
-      "whatOthersSaid": "2.48 yogastha kuru karmani sangatyaktva dhananjaya,\n sidhyasidhyoh samo bhutva samatvam yog uchyate. Bhagwadgita"
+      "whatOthersSaid": "",
+      "shlokaFrom": "2.48 yogastha kuru karmani sangatyaktva dhananjaya,\nsidhyasidhyoh samo bhutva samatvam yog uchyate. Bhagwadgita",
+      "wisdomFrom": "Be steadfast in the \r\nperformance of your duty,\r\n O Arjun, abandoning\r\n attachment to success\r\n and failure. Such \r\nequanimity is called Yog."
     },
     {
       "section": 3,
       "theme": "Discipline & Self-Study",
       "sutra": {
         "number": "2.1, 2.2",
-        "sanskrit": "तपःस्वाध्यायेश्वरप्रणिधानानि क्रियायोगः\nसमाधिभावनार्थः क्लेशतनूकरणार्थश्च",
+        "sanskrit": "तपःस्वाध्यायेश्वरप्रणिधानानि क्रियायोगः\r\n\r\n\r\nसमाधिभावनार्थः क्लेशतनूकरणार्थश्च",
         "transliteration": "Sutra 2.1, 2.2",
-        "meaning": "Discipline in practice, self-study, study of the scriptures and surrender to God are the acts of yoga.\nYoga reduces suffering and prepares for meditation."
+        "meaning": "Discipline in practice, self-study, study of the scriptures and surrender to God are the acts of yoga.\r\nYoga reduces suffering and prepares for meditation."
       },
       "insight": "I need to be committed to make progress",
-      "reflectionPrompt": "Can I make a commitment to myself?\n\n\nEffort + awareness + surrender = growth.\tAm I balanced in effort?",
+      "reflectionPrompt": "Can I make a commitment to myself?\r\n\r\n\r\nEffort + awareness + surrender = growth.\tAm I balanced in effort?",
       "practice": "Practice discipline",
       "meditation": "10 mins meditation with intention to be comitted",
       "journalPrompt": "",
-      "whatOthersSaid": ""
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
     },
     {
       "section": 4,
@@ -67,7 +73,9 @@
       "practice": "Follow daily discipline",
       "meditation": "10 min meditation",
       "journalPrompt": "What improved?",
-      "whatOthersSaid": ""
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
     },
     {
       "section": 5,
@@ -80,10 +88,12 @@
       },
       "insight": "Yoga is a complete lifestyle.",
       "reflectionPrompt": "Which limb can I improve?",
-      "practice": "Pick one practice for the day",
+      "practice": "Pick one Micro Practice",
       "meditation": "10 min breath",
       "journalPrompt": "What did I focus on?",
-      "whatOthersSaid": ""
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
     }
   ]
 }

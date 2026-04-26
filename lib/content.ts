@@ -2,13 +2,24 @@ import { TopicData, TopicSummary } from "./types";
 
 const topicIds = [
   "self-discipline",
+  "intensity",
   "practice",
-  "meditation",
-  "detachment",
+  "dhyana-samadhi",
   "knowledge",
   "yoga",
   "consciousness",
   "8-limbs",
+  "yama",
+  "niyama",
+  "asana",
+  "pranayama",
+  "pratyahara",
+  "dharana",
+  "dhyana",
+  "attachment",
+  "impressions-karma",
+  "ignorance-suffering",
+  "samyama",
 ] as const;
 
 let topicCache: Map<string, TopicData> | null = null;

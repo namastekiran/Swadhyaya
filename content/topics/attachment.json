@@ -1,0 +1,297 @@
+{
+  "id": "attachment",
+  "title": "Attachment",
+  "tagline": "Vairagya — freedom through letting go",
+  "icon": "leaf",
+  "totalSections": 16,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Section 1",
+      "sutra": {
+        "number": "1.37",
+        "sanskrit": "वीतरागविषयं वा चित्तम्",
+        "transliteration": "Sutra 1.37",
+        "meaning": "Mind becomes calm by detachment"
+      },
+      "insight": "Letting go brings peace.",
+      "reflectionPrompt": "What did I release?",
+      "practice": "Observe yourself whenever you feel attachment and possesiveness to people and objects.",
+      "meditation": "10 min silence with meditation",
+      "journalPrompt": "What changed?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 2,
+      "theme": "Section 2",
+      "sutra": {
+        "number": "2.3",
+        "sanskrit": "अविद्यास्मितारागद्वेषाभिनिवेशाः क्लेशाः",
+        "transliteration": "Sutra 2.3",
+        "meaning": "Suffering comes from 1. ignorance or lack of wisdom, 2.ego, 3.attachment to pleasure, 4.aversion to pain and 5.fear of death. These are the root causes of disturbance in our equilibrium."
+      },
+      "insight": "All sufferings have one or the other of these at its root.",
+      "reflectionPrompt": "Can I see their presence in me?",
+      "practice": "Recall incidents causing you distress and identify the reason at their root. Identify one pattern.",
+      "meditation": "10 mins meditation",
+      "journalPrompt": "What did I find at the root?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "आपूर्यमाणमचलप्रतिष्ठं समुद्रमापः प्रविशन्ति यद्वत् ।\nतद्वत्कामा यं प्रविशन्ति सर्वे स शान्तिमाप्नोति न कामकामी ॥  2.70",
+      "wisdomFrom": "A person who is not disturbed by the incessant flow of desires - that enter like rivers into the ocean, which is ever being filled but is always still - can alone achieve peace, and not the man who strives to satisfy such desires."
+    },
+    {
+      "section": 3,
+      "theme": "Section 3",
+      "sutra": {
+        "number": "2.4",
+        "sanskrit": "अविद्या क्षेत्रमुत्तरेषां प्रसुप्ततनुविच्छिन्नोदाराणाम्",
+        "transliteration": "Sutra 2.4",
+        "meaning": "Ignorance is the root of all suffering"
+      },
+      "insight": "Unawareness fuels all reactions.",
+      "reflectionPrompt": "am I unaware of who I really am?",
+      "practice": "Observe your reactions in all situations specially those that cause you suffering.",
+      "meditation": "10 min stillness",
+      "journalPrompt": "What did I miss?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 4,
+      "theme": "Section 4",
+      "sutra": {
+        "number": "2.5",
+        "sanskrit": "अनित्याशुचिदुःखानात्मसु नित्यशुचिसुखात्मख्यातिरविद्या",
+        "transliteration": "Sutra 2.5",
+        "meaning": "Confusing temporary as permanent is ignorance"
+      },
+      "insight": "Misperception creates suffering. Life itself is impermanent so everything else around it too is not permanent.",
+      "reflectionPrompt": "What am I holding as permanent which is not so?",
+      "practice": "Reflect deeply",
+      "meditation": "10 min meditation",
+      "journalPrompt": "What is temporary?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 5,
+      "theme": "Section 5",
+      "sutra": {
+        "number": "2.6",
+        "sanskrit": "दृग्दर्शनशक्त्योरेकात्मतेवास्मिता",
+        "transliteration": "Sutra 2.6",
+        "meaning": "Ego is identification of seer with seeing"
+      },
+      "insight": "We confuse self with roles.",
+      "reflectionPrompt": "Who am I beyond roles?",
+      "practice": "Observe identity",
+      "meditation": "10 min awareness",
+      "journalPrompt": "Where did I identify?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 6,
+      "theme": "Section 6",
+      "sutra": {
+        "number": "2.7",
+        "sanskrit": "सुखानुशयी रागः",
+        "transliteration": "Sutra 2.7",
+        "meaning": "Attachment comes from pleasure"
+      },
+      "insight": "We cling to what feels good.",
+      "reflectionPrompt": "What am I attached to?",
+      "practice": "Observe craving",
+      "meditation": "10 min stillness",
+      "journalPrompt": "Where did I cling?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "ये हि संस्पर्शजा भोगा दुःखयोनय एव ते |आद्यन्तवन्तः कौन्तेय न तेषु रमते बुधः || 5.22",
+      "wisdomFrom": "The pleasures that arise from contact with the sense objects, though appearing as enjoyable to worldly-minded people, are verily a source of misery. O son of Kunti, such pleasures have a beginning and an end, and so the wise do not delight in them."
+    },
+    {
+      "section": 7,
+      "theme": "Section 7",
+      "sutra": {
+        "number": "2.8",
+        "sanskrit": "दुःखानुशयी द्वेषः",
+        "transliteration": "Sutra 2.8",
+        "meaning": "Aversion comes from pain"
+      },
+      "insight": "We avoid discomfort.",
+      "reflectionPrompt": "What do I avoid?",
+      "practice": "Face discomfort",
+      "meditation": "10 min observe breath",
+      "journalPrompt": "What do I avoid?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 8,
+      "theme": "Section 8",
+      "sutra": {
+        "number": "2.9",
+        "sanskrit": "स्वरसवाही विदुषोऽपि तथारूढोऽभिनिवेशः",
+        "transliteration": "Sutra 2.9",
+        "meaning": "Fear of loss persists even in the wise"
+      },
+      "insight": "Fear is deeply rooted. All fear emanates from the fear of death.",
+      "reflectionPrompt": "What fear drives me?",
+      "practice": "Observe the fears you confront today, no matter how small.",
+      "meditation": "10 min calming breath",
+      "journalPrompt": "What fears did I face?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 9,
+      "theme": "Section 9",
+      "sutra": {
+        "number": "2.12",
+        "sanskrit": "क्लेशमूलः कर्माशयो दृष्टादृष्टजन्मवेदनीयः",
+        "transliteration": "Sutra 2.12",
+        "meaning": "Karma is rooted in suffering"
+      },
+      "insight": "Actions leave impressions.",
+      "reflectionPrompt": "What action affected me?",
+      "practice": "Observe consequences",
+      "meditation": "10 min awareness",
+      "journalPrompt": "What did I create?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 10,
+      "theme": "Section 10",
+      "sutra": {
+        "number": "2.13",
+        "sanskrit": "सति मूले तद्विपाको जात्यायुर्भोगाः",
+        "transliteration": "Sutra 2.13",
+        "meaning": "Karma determines life experience"
+      },
+      "insight": "Patterns shape life.",
+      "reflectionPrompt": "What pattern repeats in my life?",
+      "practice": "Observe cycles",
+      "meditation": "10 min stillness",
+      "journalPrompt": "What repeats?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 11,
+      "theme": "Section 11",
+      "sutra": {
+        "number": "2.14",
+        "sanskrit": "ते ह्लादपरितापफलाः पुण्यापुण्यहेतुत्वात्",
+        "transliteration": "Sutra 2.14",
+        "meaning": "Actions bring joy or suffering"
+      },
+      "insight": "Choices shape experience.",
+      "reflectionPrompt": "What choice affected me?",
+      "practice": "Choose wisely",
+      "meditation": "10 min Reflection",
+      "journalPrompt": "What choices did I make.",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 12,
+      "theme": "Section 12",
+      "sutra": {
+        "number": "2.15",
+        "sanskrit": "परिणामतापसंस्कारदुःखैर्गुणवृत्तिविरोधाच्च दुःखमेव सर्वं विवेकिनः",
+        "transliteration": "Sutra 2.15",
+        "meaning": "Wise see suffering in all change"
+      },
+      "insight": "Everything changes—awareness frees you.",
+      "reflectionPrompt": "Can I accept change?",
+      "practice": "Observe impermanence",
+      "meditation": "10 min stillness",
+      "journalPrompt": "What changed?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 13,
+      "theme": "Section 13",
+      "sutra": {
+        "number": "2.16",
+        "sanskrit": "हेयं दुःखमनागतम",
+        "transliteration": "Sutra 2.16",
+        "meaning": "Future suffering can be avoided"
+      },
+      "insight": "Awareness prevents suffering.",
+      "reflectionPrompt": "can I prevent suffering in the future?",
+      "practice": "Act consciously",
+      "meditation": "10 min awareness",
+      "journalPrompt": "What did I avoid?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "उदासीनवदासीनो गुणैर्यो न विचाल्यते ।\nगुणा वर्तन्त इत्येव योऽवतिष्ठति नेङ्गते ॥  14.22",
+      "wisdomFrom": "He who seated like one unconcerned is not moved by the modes of nature, who remains firm and never wavers, knowing that the modes alone are active."
+    },
+    {
+      "section": 14,
+      "theme": "Section 14",
+      "sutra": {
+        "number": "2.17",
+        "sanskrit": "द्रष्टृदृश्ययोः संयोगो हेयहेतुः",
+        "transliteration": "Sutra 2.17",
+        "meaning": "Union of seer and seen causes suffering"
+      },
+      "insight": "Attachment causes confusion.",
+      "reflectionPrompt": "Where am I attached?",
+      "practice": "Observe separation. Observe how it will make you feel.",
+      "meditation": "10min stillness",
+      "journalPrompt": "What caused disturbance?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "असक्तबुद्धिः सर्वत्र जितात्मा विगतस्पृहः ।\nनैष्कर्म्यसिद्धिं परमां सन्न्यासेनाधिगच्छति ॥  18.49",
+      "wisdomFrom": "He whose intellect is unattached everywhere, who has subdued his self, from whom desire has fled - he attains the supreme perfection of freedom from action through renunciation."
+    },
+    {
+      "section": 15,
+      "theme": "Section 15",
+      "sutra": {
+        "number": "4.1",
+        "sanskrit": "तासामनादित्वं चाशिषो नित्यत्वात्",
+        "transliteration": "Sutra 4.1",
+        "meaning": "Desires are beginningless and have existed eternally as the desire to live is eternal."
+      },
+      "insight": "Craving continues endlessly.",
+      "reflectionPrompt": "What do I keep wanting?",
+      "practice": "Observe desires",
+      "meditation": "10 min stillness",
+      "journalPrompt": "What do I crave?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "यदा हि नेन्द्रियार्थेषु न कर्मस्वनुषज्जते ।\nसर्वसङ्कल्पसंन्यासी योगारूढस्तदोच्यते ॥  6.4",
+      "wisdomFrom": "When one is neither attached to sense objects nor to actions, such a person is said to be elevated in the science of Yog, having renounced all desires for the fruits of actions."
+    },
+    {
+      "section": 16,
+      "theme": "Section 16",
+      "sutra": {
+        "number": "4.11",
+        "sanskrit": "हेतुफलाश्रयालम्बनैः संगृहीतत्वादेषामभावे तदभावः",
+        "transliteration": "Sutra 4.11",
+        "meaning": "Impressions and desires are bound by cause and effect. Removing cause removes effect"
+      },
+      "insight": "Cut the root of patterns.",
+      "reflectionPrompt": "What is the root cause?",
+      "practice": "Go deeper",
+      "meditation": "10 min meditation",
+      "journalPrompt": "What is at the root?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "तस्मादसक्तः सततं कार्यं कर्म समाचर ।\nअसक्तो ह्याचरन्कर्म परमाप्नोति पूरुषः ॥  3.19",
+      "wisdomFrom": "Therefore, without attachment, perform always the work that has to be done, for man attains the highest by doing work without attachment."
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "yama",
+  "title": "Yama",
+  "tagline": "Universal morality",
+  "icon": "users",
+  "totalSections": 9,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Section 1",
+      "sutra": {
+        "number": "2.29",
+        "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
+        "transliteration": "Sutra 2.29",
+        "meaning": "Yama (moral injunctions), Niyama (observances), Āsana (posture), Prāṇāyāma (regulation of breath), Pratyāhāra (withholding of senses), Dhāraṇā (fixity of attention), Dhyāna (meditation), and Samādhi (absorption of consciousness in the self) are the eight accessories (limbs) of Yoga"
+      },
+      "insight": "Yoga is a complete lifestyle.",
+      "reflectionPrompt": "Which limb can I improve?",
+      "practice": "attempt to take up one new practice or change in lifestyle in accordance with yamas and niyamas",
+      "meditation": "10 min breath observance",
+      "journalPrompt": "What did I focus on?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 2,
+      "theme": "Section 2",
+      "sutra": {
+        "number": "2.30",
+        "sanskrit": "अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहा यमाः",
+        "transliteration": "Sutra 2.30",
+        "meaning": "Ahimsa (non-violence/non-injury), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (right use of energy/continence), and Aparigraha (non-possessiveness/non-greed) are the five Yamas (restraints or social codes)"
+      },
+      "insight": "non-violence,truth, non-stealing,moderation,non-possessiveness are universal values.",
+      "reflectionPrompt": "Did I live these today? Which can I work on? Which is difficult for me?",
+      "practice": "Observe yourself and note how many times you strayed or were tempted to stray from adhering to the Yamas",
+      "meditation": "20 min of meditation",
+      "journalPrompt": "Which of the Yamas did I not follow.",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 3,
+      "theme": "Section 3",
+      "sutra": {
+        "number": "2.31",
+        "sanskrit": "जातिदेशकालसमयानवच्छिन्नाः सार्वभौमा महाव्रतम्",
+        "transliteration": "Sutra 2.31",
+        "meaning": "\"These (Yamas) are the Great Vows, universal, and not limited by life-state (birth), space, time, or circumstance"
+      },
+      "insight": "Truth is beyond conditions.",
+      "reflectionPrompt": "Was I consistent?",
+      "practice": "Make a commitment to practice everywhere",
+      "meditation": "5 min awareness with meditation thereafter",
+      "journalPrompt": "Where did I slip?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 4,
+      "theme": "Section 4",
+      "sutra": {
+        "number": "2.33",
+        "sanskrit": "वितर्कबाधने प्रतिपक्षभावनम्",
+        "transliteration": "Sutra 2.33",
+        "meaning": "There may be doubts about the claims of yoga made in this text of Sri Patanjali and made in other yoga books, however one should cast these doubts aside and practice. When the doubts arise, one should ignore the doubtful ideas and push ahead with practice."
+      },
+      "insight": "",
+      "reflectionPrompt": "",
+      "practice": "",
+      "meditation": "",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 5,
+      "theme": "Section 5",
+      "sutra": {
+        "number": "2.35",
+        "sanskrit": "अहिंसाप्रतिष्ठायां तत्सन्निधौ वैरत्यागः",
+        "transliteration": "Sutra 2.35",
+        "meaning": "Non-violence creates peace around"
+      },
+      "insight": "Your presence influences others.",
+      "reflectionPrompt": "Was I peaceful?",
+      "practice": "Practice kindness in word, deed and thought today",
+      "meditation": "20 min meditation",
+      "journalPrompt": "Did others feel calm in my presence?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 6,
+      "theme": "Section 6",
+      "sutra": {
+        "number": "2.36",
+        "sanskrit": "सत्यप्रतिष्ठायां क्रियाफलाश्रयत्वम्",
+        "transliteration": "Sutra 2.36",
+        "meaning": "Truthfulness brings alignment"
+      },
+      "insight": "Truth aligns actions and outcomes.",
+      "reflectionPrompt": "Was I truthful?",
+      "practice": "Speak consciously",
+      "meditation": "20 min Reflection",
+      "journalPrompt": "What was my truth?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 7,
+      "theme": "Section 7",
+      "sutra": {
+        "number": "2.37",
+        "sanskrit": "अस्तेयप्रतिष्ठायां सर्वरत्नोपस्थानम्",
+        "transliteration": "Sutra 2.37",
+        "meaning": "Non-stealing brings abundance"
+      },
+      "insight": "Stealing can be of all kinds of things- material and non material; we normally think only of the material theft.",
+      "reflectionPrompt": "Did I ever steal say ideas, appreciation, attention?",
+      "practice": "observe if you covet anything anyone else has.",
+      "meditation": "20 min meditation",
+      "journalPrompt": "Do I feel lack.",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 8,
+      "theme": "Section 8",
+      "sutra": {
+        "number": "2.38",
+        "sanskrit": "ब्रह्मचर्यप्रतिष्ठायां वीर्यलाभः",
+        "transliteration": "Sutra 2.38",
+        "meaning": "Moderation brings strength"
+      },
+      "insight": "Energy is preserved through balance.",
+      "reflectionPrompt": "Where did I waste energy?",
+      "practice": "Conserve energy",
+      "meditation": "20 min Reflection",
+      "journalPrompt": "What drained me?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 9,
+      "theme": "Section 9",
+      "sutra": {
+        "number": "2.39",
+        "sanskrit": "अपरिग्रहस्थैर्ये जन्मकथंतासंबोधः",
+        "transliteration": "Sutra 2.39",
+        "meaning": "Non-possessiveness brings clarity"
+      },
+      "insight": "Letting go brings understanding.",
+      "reflectionPrompt": "What did I hold onto?",
+      "practice": "Practice letting go",
+      "meditation": "20 min meditation",
+      "journalPrompt": "What did I release?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    }
+  ]
+}

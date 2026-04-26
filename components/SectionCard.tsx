@@ -23,9 +23,6 @@ export function SectionCard({ topicId, section, status }: SectionCardProps) {
             <Lock className="w-4 h-4 text-gray-300" />
           </div>
           <div className="flex-1 min-w-0">
-            <span className="text-xs font-medium text-muted-foreground/60">
-              Section {section.section}
-            </span>
             <p className="text-sm text-muted-foreground/60 truncate">
               {section.theme}
             </p>
@@ -67,9 +64,6 @@ export function SectionCard({ topicId, section, status }: SectionCardProps) {
 
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2">
-            <span className="text-xs font-medium text-muted-foreground">
-              Section {section.section}
-            </span>
             {isCurrent && (
               <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-purple-100 text-purple-600">
                 Current

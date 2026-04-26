@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { Flower2 } from "lucide-react";
 import { TopicList } from "./topic-list";
 import { Onboarding } from "@/components/Onboarding";
@@ -14,7 +15,16 @@ function getGreeting() {
 }
 
 export function HomeContent({ topics }: { topics: TopicSummary[] }) {
+  const [mounted, setMounted] = useState(false);
   const profile = useAppStore((s) => s.profile);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null; // Prevent hydration mismatch
+  }
 
   if (!profile) {
     return <Onboarding />;
@@ -50,7 +60,7 @@ export function HomeContent({ topics }: { topics: TopicSummary[] }) {
 
       <div className="space-y-5">
         <h2 className="text-xs font-semibold text-muted-foreground uppercase tracking-widest px-1">
-          Choose a topic
+          Choose Your Journey
         </h2>
         <TopicList topics={topics} />
       </div>

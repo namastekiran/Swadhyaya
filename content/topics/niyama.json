@@ -1,0 +1,171 @@
+{
+  "id": "niyama",
+  "title": "Niyama",
+  "tagline": "Personal observances",
+  "icon": "user",
+  "totalSections": 9,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Section 1",
+      "sutra": {
+        "number": "2.29",
+        "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
+        "transliteration": "Sutra 2.29",
+        "meaning": "Yama (moral injunctions), Niyama (observances), Āsana (posture), Prāṇāyāma (regulation of breath), Pratyāhāra (withholding of senses), Dhāraṇā (fixity of attention), Dhyāna (meditation), and Samādhi (absorption of consciousness in the self) are the eight accessories (limbs) of Yoga"
+      },
+      "insight": "Yoga is a complete lifestyle.",
+      "reflectionPrompt": "Which limb can I improve?",
+      "practice": "attempt to take up one new practice or change in lifestyle in accordance with yamas and niyamas",
+      "meditation": "10 min breath observance",
+      "journalPrompt": "What did I focus on?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 2,
+      "theme": "Section 2",
+      "sutra": {
+        "number": "2.32",
+        "sanskrit": "शौचसंतोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः",
+        "transliteration": "Sutra 2.32",
+        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life."
+      },
+      "insight": "There is always scope for improvement in following all of these Niyamas",
+      "reflectionPrompt": "Which one needs special attention from me?",
+      "practice": "Focus on one at a time. Which one is particularly challenging for me.",
+      "meditation": "5 min stillness with meditation thereafter",
+      "journalPrompt": "What changes was I inspired to make in my life?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 3,
+      "theme": "Section 3",
+      "sutra": {
+        "number": "2.33",
+        "sanskrit": "वितर्कबाधने प्रतिपक्षभावनम्",
+        "transliteration": "Sutra 2.33",
+        "meaning": "There may be doubts about the claims of yoga made in this text of Sri Patanjali and made in other yoga books, however one should cast these doubts aside and practice. When the doubts arise, one should ignore the doubtful ideas and push ahead with practice."
+      },
+      "insight": "",
+      "reflectionPrompt": "",
+      "practice": "",
+      "meditation": "",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 4,
+      "theme": "Section 4",
+      "sutra": {
+        "number": "2.40",
+        "sanskrit": "शौचात्स्वाङ्गजुगुप्सा परैरसंसर्गः",
+        "transliteration": "Sutra 2.40",
+        "meaning": "Purity leads to respect for body and mind"
+      },
+      "insight": "Inner cleanliness reflects outward.",
+      "reflectionPrompt": "Was I pure in thought?",
+      "practice": "Maintain clarity",
+      "meditation": "20 min Reflection",
+      "journalPrompt": "What felt clean?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 5,
+      "theme": "Section 5",
+      "sutra": {
+        "number": "2.41",
+        "sanskrit": "स॒त्त्वशु॒द्धिसौ॒मनस्यै॒काग्र्येन्॒द्रियजया॒त्मदर्शनयोग्य॑त्वानि॒ च",
+        "transliteration": "Sutra 2.41",
+        "meaning": "Purification of the psyche results in benevolence, the ability to link the attention to one concentration force or person, conquest of the sensual energy, vision of the spirit and fitness for abstract meditation."
+      },
+      "insight": "",
+      "reflectionPrompt": "",
+      "practice": "",
+      "meditation": "",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 6,
+      "theme": "Section 6",
+      "sutra": {
+        "number": "2.42",
+        "sanskrit": "स॒न्तो॒षादनुत्तमसु॑खला॒भः",
+        "transliteration": "Sutra 2.42",
+        "meaning": "From contentment, the very best in happiness is obtained."
+      },
+      "insight": "Contentment attracts abundance.",
+      "reflectionPrompt": "Did I feel content?",
+      "practice": "Avoid comparison",
+      "meditation": "20 min meditation",
+      "journalPrompt": "What did I have enough of?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 7,
+      "theme": "Section 7",
+      "sutra": {
+        "number": "2.43",
+        "sanskrit": "का॒येन्द्रियसिद्धिर॒शु॒द्धिक्ष॒यात् तपसः",
+        "transliteration": "Sutra 2.43",
+        "meaning": "Austerity, resulting in the elimination of impurity produces perfection of the body and sensual energy."
+      },
+      "insight": "Self-discipline (tapas) burns away impurities and kindles the sparks of Divinity.",
+      "reflectionPrompt": "Is maintaining discipline a problem for me.",
+      "practice": "Make a note of areas of your life which need you to be disciplined. Can you commit to yourself to make an effort in the area/s.",
+      "meditation": "20 min meditation",
+      "journalPrompt": "Did the commitment seem like a burden or serve as an inspiration.",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 8,
+      "theme": "Section 8",
+      "sutra": {
+        "number": "2.44",
+        "sanskrit": "स्वा॒ध्या॒याद् इ॒ष्टदे॒व॒तासम्प्रयोगः",
+        "transliteration": "Sutra 2.44",
+        "meaning": "From study of our own psyche, comes intimate contact with the cherished divine being."
+      },
+      "insight": "asana and pranayama are integral to connecting awareness of the body with core and vice versa",
+      "reflectionPrompt": "Can I commit to my daily practice or kriya",
+      "practice": "Practice asana and pranayam with complete focus inward.",
+      "meditation": "20 min meditation",
+      "journalPrompt": "is yoga practice enjoyable or painful for me",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 9,
+      "theme": "Section 9",
+      "sutra": {
+        "number": "2.45",
+        "sanskrit": "स॒मा॒धिसि॒द्धिरीश्वरप्र॑णिधा॒नात्",
+        "transliteration": "Sutra 2.45",
+        "meaning": "From  profound  meditation upon the Divine comes the perfection of continuous effortless linkage of the attention to that Divinity."
+      },
+      "insight": "The power of samadhi comes to him who takes refuge in the Divine.",
+      "reflectionPrompt": "surrender to God brings perfection in samadhi. Can I surrender to the Divine?",
+      "practice": "sit for meditation with the intention of total surrender",
+      "meditation": "20 min meditation",
+      "journalPrompt": "what did I observe",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    }
+  ]
+}

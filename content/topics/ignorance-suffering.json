@@ -1,0 +1,153 @@
+{
+  "id": "ignorance-suffering",
+  "title": "Ignorance & Suffering",
+  "tagline": "Avidya and kleshas",
+  "icon": "cloud-rain",
+  "totalSections": 8,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Section 1",
+      "sutra": {
+        "number": "2.3",
+        "sanskrit": "अविद्यास्मितारागद्वेषाभिनिवेशाः क्लेशाः",
+        "transliteration": "Sutra 2.3",
+        "meaning": "Suffering comes from 1. ignorance or lack of wisdom, 2.ego, 3.attachment to pleasure, 4.aversion to pain and 5.fear of death. These are the root causes of disturbance in our equilibrium."
+      },
+      "insight": "All sufferings have one or the other of these at its root.",
+      "reflectionPrompt": "Can I see their presence in me",
+      "practice": "Recall incidents causing you distress and identify the reason at their root",
+      "meditation": "10 mins meditation",
+      "journalPrompt": "Identify one pattern",
+      "whatOthersSaid": "",
+      "shlokaFrom": "अज्ञश्चाश्रद्दधानश्च संशयात्मा विनश्यति ।\nनायं लोकोऽस्ति न परो न सुखं संशयात्मनः ॥  4.40",
+      "wisdomFrom": "The ignorant, the faithless, and the doubting soul are destroyed. There is neither this world nor the next, nor happiness for the doubting soul."
+    },
+    {
+      "section": 2,
+      "theme": "Section 2",
+      "sutra": {
+        "number": "2.4",
+        "sanskrit": "अविद्या क्षेत्रमुत्तरेषां प्रसुप्ततनुविच्छिन्नोदाराणाम्",
+        "transliteration": "Sutra 2.4",
+        "meaning": "Ignorance is the root of all suffering"
+      },
+      "insight": "Unawareness fuels all reactions.",
+      "reflectionPrompt": "Where am I unaware?",
+      "practice": "Observe reactions",
+      "meditation": "10 mins meditation",
+      "journalPrompt": "What did I miss?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "तस्मादज्ञानसम्भूतं हृत्स्थं ज्ञानासिनात्मनः ।\nछित्त्वैनं संशयं योगमातिष्ठोत्तिष्ठ भारत ॥  4.42",
+      "wisdomFrom": "Therefore, with the sword of knowledge, cut asunder this doubt in your heart born of ignorance. Take refuge in yoga and arise, O Bharata!"
+    },
+    {
+      "section": 3,
+      "theme": "Section 3",
+      "sutra": {
+        "number": "2.5",
+        "sanskrit": "अनित्याशुचिदुःखानात्मसु नित्यशुचिसुखात्मख्यातिरविद्या",
+        "transliteration": "Sutra 2.5",
+        "meaning": "Confusing temporary as permanent is ignorance"
+      },
+      "insight": "Misperception creates suffering.",
+      "reflectionPrompt": "What am I holding as permanent?",
+      "practice": "Reflect deeply",
+      "meditation": "10 mins meditation",
+      "journalPrompt": "What is temporary?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "यो यो यां यां तनुं भक्तः श्रद्धयार्चितुमिच्छति ।\nतस्य तस्याचलां श्रद्धां तामेव विदधाम्यहम् ॥  7.21",
+      "wisdomFrom": "Whatever form any devotee desires to worship with faith, I make that faith of his steady."
+    },
+    {
+      "section": 4,
+      "theme": "Section 4",
+      "sutra": {
+        "number": "2.6",
+        "sanskrit": "दृग्दर्शनशक्त्योरेकात्मतेवास्मिता",
+        "transliteration": "Sutra 2.6",
+        "meaning": "Ego is identification of seer with seeing"
+      },
+      "insight": "We confuse self with roles.",
+      "reflectionPrompt": "Who am I beyond roles?",
+      "practice": "Observe identity",
+      "meditation": "10 mins meditation",
+      "journalPrompt": "Where did I identify?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 5,
+      "theme": "Section 5",
+      "sutra": {
+        "number": "2.15",
+        "sanskrit": "परिणामतापसंस्कारदुःखैर्गुणवृत्तिविरोधाच्च दुःखमेव सर्वं विवेकिनः",
+        "transliteration": "Sutra 2.15",
+        "meaning": "Wise see suffering in all change"
+      },
+      "insight": "Everything changes—awareness frees you.",
+      "reflectionPrompt": "Can I accept change?",
+      "practice": "Observe impermanence in all things around you",
+      "meditation": "10 mins meditation",
+      "journalPrompt": "What changed?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 6,
+      "theme": "Section 6",
+      "sutra": {
+        "number": "2.16",
+        "sanskrit": "हेयं दुःखमनागतम",
+        "transliteration": "Sutra 2.16",
+        "meaning": "Future suffering can be avoided"
+      },
+      "insight": "Awareness prevents suffering.",
+      "reflectionPrompt": "What can I prevent?",
+      "practice": "Act consciously",
+      "meditation": "10 mins meditation",
+      "journalPrompt": "What did I avoid?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 7,
+      "theme": "Section 7",
+      "sutra": {
+        "number": "2.17",
+        "sanskrit": "द्रष्टृदृश्ययोः संयोगो हेयहेतुः",
+        "transliteration": "Sutra 2.17",
+        "meaning": "Union of seer and seen causes suffering"
+      },
+      "insight": "Attachment causes confusion.",
+      "reflectionPrompt": "Where am I attached?",
+      "practice": "Observe separation of seer and seen",
+      "meditation": "10 mins meditation",
+      "journalPrompt": "What caused disturbance?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "तं विद्याद् दुःखसंयोगवियोगं योगसंज्ञितम् ।\nस निश्चयेन योक्तव्यो योगोऽनिर्विण्णचेतसा ॥  6.23",
+      "wisdomFrom": "Know that severance from union with pain is called yoga. This yoga should be practiced with determination and with an undaunted mind."
+    },
+    {
+      "section": 8,
+      "theme": "Section 8",
+      "sutra": {
+        "number": "2.25",
+        "sanskrit": "तदभावात् संयोगाभावो हानं तद् दृशेः कैवल्यम्",
+        "transliteration": "Sutra 2.25",
+        "meaning": "One must practice the kriya discipline because it affords a sadhak the tools whereby the perceiver is separated from the perceived."
+      },
+      "insight": "Right knowledge is a necessity on the path of yoga if the practitioner has to break the link between the seer and the seen and get self-realisation.",
+      "reflectionPrompt": "Do I have confidence in my path and the determination to follow it.",
+      "practice": "Practice observing separation of seer and seen",
+      "meditation": "20 minute meditation",
+      "journalPrompt": "Did I feel the separation during meditation.",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    }
+  ]
+}

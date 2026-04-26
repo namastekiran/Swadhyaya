@@ -1,0 +1,104 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Swadhyaya Flow">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- START -->
+        <mxCell id="start" value="Start: Open App" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- HOME -->
+        <mxCell id="home" value="Home Screen\n(Login / Guest / Explore)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="220" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- TOPIC LIST -->
+        <mxCell id="topics" value="Topic List" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- TOPIC OVERVIEW -->
+        <mxCell id="overview" value="Topic Overview\n(Start Journey)" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="220" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- DASHBOARD -->
+        <mxCell id="dashboard" value="Dashboard\n(Streak / Progress / Reflections)" style="rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="350" y="50" width="240" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- DAILY FLOW -->
+        <mxCell id="sutra" value="Sutra\n(Save option)" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="audio" value="Audio (Play / Skip)" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="260" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="meaning" value="Meaning" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="340" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="reflection" value="Reflection\n(Write / Skip)" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="420" width="220" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="practice" value="Micro Practice\n(Done / Remind Later)" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="520" width="240" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="journal" value="Journal\n(Save Reflection)" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="620" width="220" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="completion" value="Day Complete\n(Streak + Insight)" style="rounded=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="350" y="720" width="240" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- RETURN -->
+        <mxCell id="resume" value="Next Visit\n(Continue / Repeat)" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="300" width="220" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- COMEBACK -->
+        <mxCell id="comeback" value="Comeback Flow\n(Resume / Restart)" style="rounded=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="650" y="420" width="220" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- HISTORY -->
+        <mxCell id="history" value="Reflection History\n(Logged-in only)" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="540" width="220" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- SAVED -->
+        <mxCell id="saved" value="Saved Sutras / Insights" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="660" width="220" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- END -->
+        <mxCell id="end" value="End / Journey Complete" style="ellipse;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="650" y="780" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- EDGES -->
+        <mxCell edge="1" parent="1" source="start" target="home"/>
+        <mxCell edge="1" parent="1" source="home" target="topics"/>
+        <mxCell edge="1" parent="1" source="topics" target="overview"/>
+        <mxCell edge="1" parent="1" source="overview" target="dashboard"/>
+        <mxCell edge="1" parent="1" source="dashboard" target="sutra"/>
+        <mxCell edge="1" parent="1" source="sutra" target="audio"/>
+        <mxCell edge="1" parent="1" source="audio" target="meaning"/>
+        <mxCell edge="1" parent="1" source="meaning" target="reflection"/>
+        <mxCell edge="1" parent="1" source="reflection" target="practice"/>
+        <mxCell edge="1" parent="1" source="practice" target="journal"/>
+        <mxCell edge="1" parent="1" source="journal" target="completion"/>
+        <mxCell edge="1" parent="1" source="completion" target="resume"/>
+        <mxCell edge="1" parent="1" source="resume" target="dashboard"/>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

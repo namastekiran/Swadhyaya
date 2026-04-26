@@ -43,7 +43,7 @@ export function JournalView({
         </Link>
         <div>
           <p className="text-xs text-muted-foreground">
-            Section {section.section}
+            {section.theme}
           </p>
           <h1 className="text-lg font-bold text-foreground">Journal</h1>
         </div>

@@ -1,0 +1,99 @@
+{
+  "id": "asana",
+  "title": "Asana",
+  "tagline": "Physical postures",
+  "icon": "dumbbell",
+  "totalSections": 5,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Section 1",
+      "sutra": {
+        "number": "2.29",
+        "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
+        "transliteration": "Sutra 2.29",
+        "meaning": "Yama (moral injunctions), Niyama (observances), Āsana (posture), Prāṇāyāma (regulation of breath), Pratyāhāra (withholding of senses), Dhāraṇā (fixity of attention), Dhyāna (meditation), and Samādhi (absorption of consciousness in the self) are the eight accessories (limbs) of Yoga"
+      },
+      "insight": "Yoga is a complete lifestyle.",
+      "reflectionPrompt": "Which limb can I improve?",
+      "practice": "attempt to take up one new practice or change in lifestyle in accordance with yamas and niyamas",
+      "meditation": "10 min breath observance",
+      "journalPrompt": "What did I focus on?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 2,
+      "theme": "Section 2",
+      "sutra": {
+        "number": "2.46",
+        "sanskrit": "स्थिरसुख॑म् आस॒नम्",
+        "transliteration": "Sutra 2.46",
+        "meaning": "The posture should be steady and comfortable."
+      },
+      "insight": "asanas are required to be performed with easeI need to watch my food and other habits to stay healthy.",
+      "reflectionPrompt": "Am I flexible in body and mind?",
+      "practice": "watch your body's ability to perform the asanas. What do you need to do them with ease.",
+      "meditation": "20 min meditation",
+      "journalPrompt": "Do I need to work on perfecting my asanas",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 3,
+      "theme": "Section 3",
+      "sutra": {
+        "number": "2.47",
+        "sanskrit": "प्र॒य॒त्नशैथिल्यानन्तस॑माप॒त्ति॒भ्याम्",
+        "transliteration": "Sutra 2.47",
+        "meaning": "It results in relaxation of effort and the meeting with the infinite."
+      },
+      "insight": "Yogic practices should feel pleasureable to be sustained.",
+      "reflectionPrompt": "Am I making my life more satvic and the body more healthy?",
+      "practice": "practice asanas with awareness",
+      "meditation": "20 min meditation",
+      "journalPrompt": "Did I feel relaxed after yoga.",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 4,
+      "theme": "Section 4",
+      "sutra": {
+        "number": "2.48",
+        "sanskrit": "ततो द्व॒न्द्वान॑भिघा॒तः",
+        "transliteration": "Sutra 2.48",
+        "meaning": "From then on, there are no botherations from the dualities like happiness and distress, heat and cold."
+      },
+      "insight": "yoga is a life long practice which makes one strong physically and mentally.",
+      "reflectionPrompt": "Is daily yoga practice for me like brushing my teeth or taking a bath yet?",
+      "practice": "practice asanas with awareness",
+      "meditation": "20 min meditation",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 5,
+      "theme": "Section 5",
+      "sutra": {
+        "number": "2.49",
+        "sanskrit": "त॒स्मिन्सति श्वा॒सप्र॒श्वा॒स॒योर्ग॒ति॒वि॒च्छेदः प्रा॑णाया॒मः",
+        "transliteration": "Sutra 2.49",
+        "meaning": "Once this is accomplished, regulation of the incoming and the outgoing breath with retention is attained."
+      },
+      "insight": "Prana is the all permeating, auto generated  energy which sustains and destroys life. It is also at the heart of the practice of yoga.  Pranayama consists of prana + ayama ie regulation. Prana is vital to maintaining life and the systems of the body. Pranayama helps to keep its free flow.",
+      "reflectionPrompt": "Am I practicing pranayam with attention and ease?",
+      "practice": "practice asanas and alternate nostril breathing at a very slow rate, as per capacity",
+      "meditation": "20 min meditation",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "अपाने जुह्वति प्राणं प्राणेऽपानं तथापरे |प्राणापानगती रुद्ध्वा प्राणायामपरायणा: || 29|| अपरे नियताहारा: प्राणान्प्राणेषु जुह्वति |सर्वेऽप्येते यज्ञविदो यज्ञक्षपितकल्मषा: || 30||",
+      "wisdomFrom": "Still others offer as sacrifice the outgoing breath in the incoming breath, while some offer the incoming breath into the outgoing breath. Some arduously practice prāṇāyām and restrain the incoming and outgoing breaths, purely absorbed in the regulation of the life-energy. Yet others curtail their food intake and offer the breath into the life-energy as sacrifice. All these knowers of sacrifice are cleansed of their impurities as a result of such performances."
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "impressions-karma",
+  "title": "Impressions & Karma",
+  "tagline": "Samskaras and action",
+  "icon": "orbit",
+  "totalSections": 10,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Section 1",
+      "sutra": {
+        "number": "1.11",
+        "sanskrit": "अनुभूतविषयासम्प्रमोषः स्मृतिः",
+        "transliteration": "Sutra 1.11",
+        "meaning": "Memory is unmodified, retained experience"
+      },
+      "insight": "Past impressions influence present behavior. When awake if the mind is in any of the four modulations  then that is not meditation. It is not Yoga.",
+      "reflectionPrompt": "What memory got triggered in me today?",
+      "practice": "Observe recurring patterns",
+      "meditation": "3 min stillness",
+      "journalPrompt": "What repeated today?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 2,
+      "theme": "Section 2",
+      "sutra": {
+        "number": "1.41",
+        "sanskrit": "क्षीणवृत्तेरभिजातस्येव मणेर्ग्रहीतृग्रहणग्राह्येषु तत्स्थतदञ्जनता समापत्तिः",
+        "transliteration": "Sutra 1.41",
+        "meaning": "When mind becomes clear it reflects reality like a crystal"
+      },
+      "insight": "When the mind is pure it reflects truth without distortion.",
+      "reflectionPrompt": "Is my perception clear or colored?",
+      "practice": "Observe reactions without bias",
+      "meditation": "5 min stillness",
+      "journalPrompt": "what was my observation",
+      "whatOthersSaid": "",
+      "shlokaFrom": "लभन्ते ब्रह्मनिर्वाणमृषयः क्षीणकल्मषाः ।\nछिन्नद्वैधा यतात्मानः सर्वभूतहिते रताः ॥",
+      "wisdomFrom": "The sages whose sins are destroyed, whose doubts are dispelled, whose minds are disciplined, and who rejoice in the welfare of all beings, attain liberation in Brahman."
+    },
+    {
+      "section": 3,
+      "theme": "Section 3",
+      "sutra": {
+        "number": "1.42",
+        "sanskrit": "तत्र शब्दार्थज्ञानविकल्पैः संकीर्णा सवितर्का समापत्तिः",
+        "transliteration": "Sutra 1.42",
+        "meaning": "Mixed perception includes words meaning and content and becomes a special knowledge. ."
+      },
+      "insight": "This is a very refined state of consciousness.",
+      "reflectionPrompt": "Where do I over-interpret?",
+      "practice": "Notice labeling of situations",
+      "meditation": "5 min stillness",
+      "journalPrompt": "what was my observation",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 4,
+      "theme": "Section 4",
+      "sutra": {
+        "number": "1.43",
+        "sanskrit": "स्मृतिपरिशुद्धौ स्वरूपशून्येवार्थमात्रनिर्भासा निर्वितर्का",
+        "transliteration": "Sutra 1.43",
+        "meaning": "When memory is purified only truth shines Let go of past filters to see clearly."
+      },
+      "insight": "Let go of past filters to see clearly.",
+      "reflectionPrompt": "Do I think too much of what has passed.",
+      "practice": "Observe without past reference",
+      "meditation": "20 min stillness",
+      "journalPrompt": "what was my observation",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 5,
+      "theme": "Section 5",
+      "sutra": {
+        "number": "1.5",
+        "sanskrit": "तज्जः संस्कारोऽन्यसंस्कारप्रतिबन्धी",
+        "transliteration": "Sutra 1.5",
+        "meaning": "New impressions override old patterns"
+      },
+      "insight": "Awareness replaces conditioning.",
+      "reflectionPrompt": "What pattern shifted?",
+      "practice": "Repeat awareness",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What changed?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 6,
+      "theme": "Section 6",
+      "sutra": {
+        "number": "1.51",
+        "sanskrit": "तस्यापि निरोधे सर्वनिरोधान्निर्बीजः समाधिः",
+        "transliteration": "Sutra 1.51",
+        "meaning": "Even impressions dissolve leading to seedless state"
+      },
+      "insight": "Ultimate stillness is beyond all patterns.",
+      "reflectionPrompt": "Can I rest without effort?",
+      "practice": "Sit in silence",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What was beyond effort?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 7,
+      "theme": "Section 7",
+      "sutra": {
+        "number": "2.12",
+        "sanskrit": "क्लेशमूलः कर्माशयो दृष्टादृष्टजन्मवेदनीयः",
+        "transliteration": "Sutra 2.12",
+        "meaning": "Karma is rooted in suffering"
+      },
+      "insight": "Actions leave impressions.",
+      "reflectionPrompt": "What action affected me?",
+      "practice": "Observe consequences",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What did I create?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 8,
+      "theme": "Section 8",
+      "sutra": {
+        "number": "2.13",
+        "sanskrit": "सति मूले तद्विपाको जात्यायुर्भोगाः",
+        "transliteration": "Sutra 2.13",
+        "meaning": "Karma determines life experience"
+      },
+      "insight": "Patterns shape life.",
+      "reflectionPrompt": "What pattern repeats?",
+      "practice": "Observe cycles",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What repeats?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 9,
+      "theme": "Section 9",
+      "sutra": {
+        "number": "2.14",
+        "sanskrit": "ते ह्लादपरितापफलाः पुण्यापुण्यहेतुत्वात्",
+        "transliteration": "Sutra 2.14",
+        "meaning": "Actions bring joy or suffering"
+      },
+      "insight": "Choices shape experience.",
+      "reflectionPrompt": "What choice affected me?",
+      "practice": "Choose wisely",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What did I choose?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "अश्रद्दधानाः पुरुषा धर्मस्यास्य परन्तप ।\nअप्राप्य मां निवर्तन्ते मृत्युसंसारवर्त्मनि ॥",
+      "wisdomFrom": "Those who have no faith in this dharma, O Parantapa, without attaining Me, return to the path of this world of death."
+    },
+    {
+      "section": 10,
+      "theme": "Section 10",
+      "sutra": {
+        "number": "2.15",
+        "sanskrit": "परिणामतापसंस्कारदुःखैर्गुणवृत्तिविरोधाच्च दुःखमेव सर्वं विवेकिनः",
+        "transliteration": "Sutra 2.15",
+        "meaning": "An advanced yogi has a special discriminating ability, whereby he can sort between his spirit and his psychological viewing aids. Thus he recognizes the potential for distress which cultural activity and the resulting impressions pose. There will be circumstantial changes which are beyond the performer’s control and which may aid or frustrate his enterprise. He must exert himself on many occasions. He must submit to impulsive motivations from time to time, and he must react to some clashing aspects whether he wants to or not. Finally, he cannot at all times suppress the urges which grow out of his mind and emotions."
+      },
+      "insight": "",
+      "reflectionPrompt": "",
+      "practice": "",
+      "meditation": "",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    }
+  ]
+}

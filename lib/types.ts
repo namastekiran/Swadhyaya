@@ -15,6 +15,8 @@ export interface SectionData {
   meditation: string;
   journalPrompt: string;
   whatOthersSaid: string;
+  shlokaFrom?: string;
+  wisdomFrom?: string;
 }
 
 export interface TopicData {

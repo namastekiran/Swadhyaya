@@ -2,12 +2,12 @@
 
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, BookOpen, Lightbulb, CheckCircle2 } from "lucide-react";
+import { ArrowLeft, BookOpen, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useAppStore } from "@/lib/store";
 import type { SectionData } from "@/lib/types";
 
-export function SutraView({
+export function GitaView({
   topicId,
   section,
 }: {
@@ -18,10 +18,10 @@ export function SutraView({
   const completeStep = useAppStore((s) => s.completeStep);
   const getSectionAnswers = useAppStore((s) => s.getSectionAnswers);
   const answers = getSectionAnswers(topicId, section.section);
-  const done = answers.completedSteps.includes("sutra");
+  const done = answers.completedSteps.includes("gita");
 
   function handleDone() {
-    completeStep(topicId, section.section, "sutra");
+    completeStep(topicId, section.section, "gita");
     router.push(`/topic/${topicId}/section/${section.section}`);
   }
 
@@ -40,46 +40,34 @@ export function SutraView({
           <p className="text-xs text-muted-foreground">
             {section.theme}
           </p>
-          <h1 className="text-lg font-bold text-foreground">Sutra & Insight</h1>
+          <h1 className="text-lg font-bold text-foreground">Wisdom from the Gita</h1>
         </div>
       </div>
 
-      {/* Sutra card */}
-      <div className="rounded-2xl p-5 bg-gradient-to-br from-amber-50/80 to-orange-50/60">
+      <div className="rounded-2xl p-5 bg-gradient-to-br from-indigo-50/80 to-blue-50/60">
         <div className="flex items-center gap-2 mb-3">
-          <BookOpen className="w-4 h-4 text-amber-500 opacity-70" />
-          <span className="text-xs font-semibold text-amber-600 uppercase tracking-widest">
-            Sutra {section.sutra.number}
+          <BookOpen className="w-4 h-4 text-indigo-500 opacity-70" />
+          <span className="text-xs font-semibold text-indigo-600 uppercase tracking-widest">
+            Gita Wisdom
           </span>
         </div>
-        <p className="font-devanagari text-2xl leading-relaxed text-foreground mb-4 whitespace-pre-wrap break-words">
-          {section.sutra.sanskrit}
-        </p>
-        <p className="text-xs text-muted-foreground italic mb-3">
-          {section.sutra.transliteration}
-        </p>
-        <div className="h-px bg-amber-200/40 my-4" />
-        <p className="text-sm text-foreground/80 leading-relaxed">
-          {section.sutra.meaning}
-        </p>
+        
+        {section.shlokaFrom && (
+          <>
+            <p className="font-devanagari text-xl leading-relaxed text-foreground mb-4 whitespace-pre-wrap break-words">
+              {section.shlokaFrom}
+            </p>
+            <div className="h-px bg-indigo-200/40 my-4" />
+          </>
+        )}
+        
+        {section.wisdomFrom && (
+          <p className="text-sm text-foreground/80 leading-relaxed">
+            {section.wisdomFrom}
+          </p>
+        )}
       </div>
 
-      {/* Insight card */}
-      {section.insight && (
-        <div className="rounded-2xl p-5 bg-gradient-to-br from-violet-50/70 to-blue-50/50">
-          <div className="flex items-center gap-2 mb-3">
-            <Lightbulb className="w-4 h-4 text-violet-500 opacity-70" />
-            <span className="text-xs font-semibold text-violet-600 uppercase tracking-widest">
-              Insight
-            </span>
-          </div>
-          <p className="text-sm text-foreground/80 leading-relaxed whitespace-pre-line">
-            {section.insight}
-          </p>
-        </div>
-      )}
-
-      {/* Mark done */}
       <div className="fixed bottom-0 left-0 right-0 p-4 bg-background/90 backdrop-blur-md">
         <div className="max-w-lg mx-auto">
           {done ? (
@@ -94,7 +82,7 @@ export function SutraView({
           ) : (
             <Button
               onClick={handleDone}
-              className="w-full h-12 text-base font-semibold rounded-2xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white shadow-md shadow-amber-200/50"
+              className="w-full h-12 text-base font-semibold rounded-2xl bg-gradient-to-r from-indigo-500 to-blue-500 hover:from-indigo-600 hover:to-blue-600 text-white shadow-md shadow-indigo-200/50"
             >
               I&apos;ve read this
               <CheckCircle2 className="w-5 h-5 ml-2" />

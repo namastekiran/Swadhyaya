@@ -11,8 +11,8 @@ import * as path from "path";
 const XLSX = require("xlsx");
 
 const EXCEL_PATH = path.resolve(
-  process.env.HOME || "~",
-  "Downloads/Swadhyaya (1).xlsx"
+  process.env.USERPROFILE || process.env.HOME || "~",
+  "Downloads/Swadhyaya_Content.xlsx"
 );
 const OUTPUT_DIR = path.resolve(__dirname, "../content/topics");
 
@@ -33,6 +33,8 @@ interface SectionData {
   meditation: string;
   journalPrompt: string;
   whatOthersSaid: string;
+  shlokaFrom?: string;
+  wisdomFrom?: string;
 }
 
 interface TopicData {
@@ -174,6 +176,14 @@ const TOPIC_CONFIG: {
     hasTopicColumn: false,
   },
   {
+    sheetName: "Intensity",
+    id: "intensity",
+    title: "Intensity",
+    tagline: "Tapas — the fire of discipline",
+    icon: "zap",
+    hasTopicColumn: false,
+  },
+  {
     sheetName: "Practice",
     id: "practice",
     title: "Practice",
@@ -182,19 +192,11 @@ const TOPIC_CONFIG: {
     hasTopicColumn: false,
   },
   {
-    sheetName: "Meditation",
-    id: "meditation",
-    title: "Meditation",
-    tagline: "Dhyana — the art of turning inward",
+    sheetName: "Dhyana & Samadhi",
+    id: "dhyana-samadhi",
+    title: "Dhyana & Samadhi",
+    tagline: "Deep meditation and absorption",
     icon: "brain",
-    hasTopicColumn: false,
-  },
-  {
-    sheetName: "Attachment",
-    id: "detachment",
-    title: "Detachment",
-    tagline: "Vairagya — freedom through letting go",
-    icon: "wind",
     hasTopicColumn: false,
   },
   {
@@ -214,7 +216,7 @@ const TOPIC_CONFIG: {
     hasTopicColumn: false,
   },
   {
-    sheetName: "Cosciousness",
+    sheetName: "Consciousness",
     id: "consciousness",
     title: "Consciousness",
     tagline: "Chitta — exploring the depths of awareness",
@@ -229,6 +231,94 @@ const TOPIC_CONFIG: {
     icon: "lotus",
     hasTopicColumn: true,
   },
+  {
+    sheetName: "Yama",
+    id: "yama",
+    title: "Yama",
+    tagline: "Universal morality",
+    icon: "users",
+    hasTopicColumn: false,
+  },
+  {
+    sheetName: "Niyama",
+    id: "niyama",
+    title: "Niyama",
+    tagline: "Personal observances",
+    icon: "user",
+    hasTopicColumn: false,
+  },
+  {
+    sheetName: "Asana",
+    id: "asana",
+    title: "Asana",
+    tagline: "Physical postures",
+    icon: "dumbbell",
+    hasTopicColumn: false,
+  },
+  {
+    sheetName: "Pranayama",
+    id: "pranayama",
+    title: "Pranayama",
+    tagline: "Breath control",
+    icon: "wind",
+    hasTopicColumn: false,
+  },
+  {
+    sheetName: "Pratyahara",
+    id: "pratyahara",
+    title: "Pratyahara",
+    tagline: "Withdrawal of senses",
+    icon: "eye-off",
+    hasTopicColumn: false,
+  },
+  {
+    sheetName: "Dharana",
+    id: "dharana",
+    title: "Dharana",
+    tagline: "Concentration",
+    icon: "target",
+    hasTopicColumn: false,
+  },
+  {
+    sheetName: "Dhyana",
+    id: "dhyana",
+    title: "Dhyana",
+    tagline: "Meditation",
+    icon: "moon",
+    hasTopicColumn: false,
+  },
+  {
+    sheetName: "Attachment",
+    id: "attachment",
+    title: "Attachment",
+    tagline: "Vairagya — freedom through letting go",
+    icon: "leaf",
+    hasTopicColumn: false,
+  },
+  {
+    sheetName: "Impressions&karma",
+    id: "impressions-karma",
+    title: "Impressions & Karma",
+    tagline: "Samskaras and action",
+    icon: "orbit",
+    hasTopicColumn: false,
+  },
+  {
+    sheetName: "Ignorance&suffering",
+    id: "ignorance-suffering",
+    title: "Ignorance & Suffering",
+    tagline: "Avidya and kleshas",
+    icon: "cloud-rain",
+    hasTopicColumn: false,
+  },
+  {
+    sheetName: "Samyama",
+    id: "samyama",
+    title: "Samyama",
+    tagline: "Perfect integration",
+    icon: "sun",
+    hasTopicColumn: false,
+  }
 ];
 
 function clean(val: unknown): string {
@@ -238,6 +328,49 @@ function clean(val: unknown): string {
 
 function generateTransliteration(sutraNum: string): string {
   return `Sutra ${sutraNum}`;
+}
+
+function formatGitaShloka(raw: string): string {
+  if (!raw) return "";
+
+  let chapter = "";
+  let verse = "";
+  const refMatch = raw.match(/Bhag\w*\s*Gita\s*(\d+)[.:](\d+)/i);
+  if (refMatch) {
+    chapter = refMatch[1];
+    verse = refMatch[2];
+  }
+
+  let cleaned = raw.replace(/Bhag\w*\s*Gita\s*\d+[.:]\d+/i, "").trim();
+
+  function toDevanagari(numStr: string) {
+    const devDigits = ['०','१','२','३','४','५','६','७','८','९'];
+    return numStr.split('').map(char => {
+      const d = parseInt(char, 10);
+      return isNaN(d) ? char : devDigits[d];
+    }).join('');
+  }
+
+  let suffix = "";
+  if (chapter && verse) {
+    const devCh = toDevanagari(chapter);
+    const devV = toDevanagari(verse);
+    cleaned = cleaned.replace(/॥\s*$/, "").trim();
+    suffix = ` ॥ ${devCh}-${devV} ॥`;
+  }
+
+  // Replace single danda with danda + newline
+  cleaned = cleaned.replace(/।/g, " ।\n").trim();
+  // Remove extra spaces at start of new lines
+  cleaned = cleaned.split("\n").map(l => l.trim()).join("\n");
+
+  if (suffix) {
+    cleaned = cleaned + suffix;
+  } else {
+    cleaned = cleaned.replace(/॥/g, " ॥ ");
+  }
+
+  return cleaned.trim();
 }
 
 function parseTopic(
@@ -268,7 +401,9 @@ function parseTopic(
     const practice = clean(row[5 + offset]);
     const meditation = clean(row[6 + offset]);
     const journal = clean(row[7 + offset]);
-    const whatOthersSaid = clean(row[8 + offset]);
+    const shlokaFrom = formatGitaShloka(clean(row[8 + offset]));
+    const wisdomFrom = clean(row[9 + offset]);
+    const whatOthersSaid = clean(row[10 + offset]);
 
     if (!sutraNo || !sanskrit) continue;
 
@@ -297,8 +432,11 @@ function parseTopic(
       meditation,
       journalPrompt: journal,
       whatOthersSaid,
+      shlokaFrom,
+      wisdomFrom,
     });
   }
+
 
   return {
     id: config.id,

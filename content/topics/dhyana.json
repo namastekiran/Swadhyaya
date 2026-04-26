@@ -1,0 +1,81 @@
+{
+  "id": "dhyana",
+  "title": "Dhyana",
+  "tagline": "Meditation",
+  "icon": "moon",
+  "totalSections": 4,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Section 1",
+      "sutra": {
+        "number": "2.29",
+        "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
+        "transliteration": "Sutra 2.29",
+        "meaning": "Yama (moral injunctions), Niyama (observances), Āsana (posture), Prāṇāyāma (regulation of breath), Pratyāhāra (withholding of senses), Dhāraṇā (fixity of attention), Dhyāna (meditation), and Samādhi (absorption of consciousness in the self) are the eight accessories (limbs) of Yoga"
+      },
+      "insight": "Yoga is a complete lifestyle.",
+      "reflectionPrompt": "Which limb can I improve?",
+      "practice": "attempt to take up one new practice or change in lifestyle in accordance with yamas and niyamas",
+      "meditation": "10 min breath observance",
+      "journalPrompt": "What did I focus on?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 2,
+      "theme": "Section 2",
+      "sutra": {
+        "number": "1.17",
+        "sanskrit": "वितर्कविचारानन्दास्मितारूपानुगमात्संप्रज्ञातः समाधिः",
+        "transliteration": "Sutra 1.17",
+        "meaning": "Practice and detachment can make one experience samadhi in four ways- i) self-analysis, wherein one logically understands the 'Self' and experiences a shift within. ii) synthesis of senses and thought which brings about 'an awareness' without any disturbance iii) bliss iv) only the experience of 'I am'"
+      },
+      "insight": "It can be a gradual movement from one to the other or any one of the way",
+      "reflectionPrompt": "Do I need to rationally understand the process or am willing to sit for meditation and let go?",
+      "practice": "sit in meditation for 10 mins and observe your experience. Meditation evolves gradually. Give yourself time.",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What do I feel in silence?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "श्रेयो हि ज्ञानमभ्यासाज्ज्ञानाद्ध्यानं विशिष्यते |\nध्यानात्कर्मफलत्यागस्त्यागाच्छान्तिरनन्तरम् || 12||\n\n\n\n\n\nhttps://youtube.com/shorts/hLZ33mfTOMs?si=egvadD0_i6bntHwp",
+      "wisdomFrom": "Better than mechanical practice is knowledge; better than knowledge is meditation. Better than meditation is renunciation of the fruits of actions, for peace immediately follows such renunciation."
+    },
+    {
+      "section": 3,
+      "theme": "Section 3",
+      "sutra": {
+        "number": "1.18",
+        "sanskrit": "विरामप्रत्ययाभ्यासपूर्व: संस्कारशेषोSन्यः",
+        "transliteration": "Sutra 1.18",
+        "meaning": "Asamprajnat-Samadhi is the other kind of Samadhi which is attained by the constant practice of cessation of all mental modifications, in which the Chitta retains only the unmanifested impression."
+      },
+      "insight": "This state is akin to the state just before falling asleep. The intelligence dissolves but the sense of self remains.",
+      "reflectionPrompt": "Am I close to stopping the modulations of the mind to some extent?",
+      "practice": "Intensify your practices to quiten the mind.",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 4,
+      "theme": "Section 4",
+      "sutra": {
+        "number": "1.19",
+        "sanskrit": "भवप्रत्ययो विदेहप्रकृतिलयानाम्",
+        "transliteration": "Sutra 1.19",
+        "meaning": "In this state the sadhak may experience bodilessness or become merged in nature leading to solitude."
+      },
+      "insight": "In this samadhi the sadhak is freed from all modulations but the samskaras spring back to life the moment he comes out of this state.",
+      "reflectionPrompt": "Am I open to this kind of experience yet?",
+      "practice": "Intensify your practices to quiten the mind.",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    }
+  ]
+}

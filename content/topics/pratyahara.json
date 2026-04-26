@@ -1,0 +1,81 @@
+{
+  "id": "pratyahara",
+  "title": "Pratyahara",
+  "tagline": "Withdrawal of senses",
+  "icon": "eye-off",
+  "totalSections": 4,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Section 1",
+      "sutra": {
+        "number": "2.29",
+        "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
+        "transliteration": "Sutra 2.29",
+        "meaning": "Yama (moral injunctions), Niyama (observances), Āsana (posture), Prāṇāyāma (regulation of breath), Pratyāhāra (withholding of senses), Dhāraṇā (fixity of attention), Dhyāna (meditation), and Samādhi (absorption of consciousness in the self) are the eight accessories (limbs) of Yoga"
+      },
+      "insight": "Yoga is a complete lifestyle.",
+      "reflectionPrompt": "Which limb can I improve?",
+      "practice": "attempt to take up one new practice or change in lifestyle in accordance with yamas and niyamas",
+      "meditation": "10 min breath observance",
+      "journalPrompt": "What did I focus on?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 2,
+      "theme": "Section 2",
+      "sutra": {
+        "number": "2.52, 2.53",
+        "sanskrit": "त॒तः॒ क्षी॒य॒ते प्रकाशा॑वर॒णम् \r\nधा॒र॒णासु च योग्यता॑ मन॒सः",
+        "transliteration": "Sutra 2.52, 2.53",
+        "meaning": "From that is dissipated, the mental darkness which veils the light, ... and from that, is attained the state of the mind for linking the attention to a higher concentration force or person."
+      },
+      "insight": "Pranayama removes the veil covering the light of knowledge and heralds the dawn of wisdom. The mind becomes fit, thereafter, for Dharana or concentration.. the next limb of yoga.Once the mind is still and free of thought it can focus on a single point. This is when it can manifest what it wants.",
+      "reflectionPrompt": "Is my practice intense?",
+      "practice": "Make a commitment and effort to intensify your practice. Meditate for 20 min",
+      "meditation": "20 min meditation",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 3,
+      "theme": "Section 3",
+      "sutra": {
+        "number": "2.54000000000001",
+        "sanskrit": "स्ववि॒ष॒या॒स॒म्प्रयो॒गे चि॒त्त॒स्व॒रूपानुकार॑ इ॒वे॒न्द्रि॒या॒णां प्र॑त्याहा॒रः",
+        "transliteration": "Sutra 2.54000000000001",
+        "meaning": "The withdrawal of the senses, mind and consciousness from contact with external objects and then drawing them inwards towards the seer is Pratyahara."
+      },
+      "insight": "This is the foundation of the path of renunciation.A gradual withdrawal from the external to the inwards is the purpose of following yogic practices.",
+      "reflectionPrompt": "Is my practice intense?",
+      "practice": "Make a commitment and effort to intensify your practice. Meditate for 20 min",
+      "meditation": "20 min meditation",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "यदा संहरते चायं कूर्मोऽङ्गानीव सर्वश: |इन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता || 2.58||",
+      "wisdomFrom": "When the yogi, like the tortoise drawing back its limbs into its own shell, withdraws all the senses from the sense objects, his wisdom is firmly fixed."
+    },
+    {
+      "section": 4,
+      "theme": "Section 4",
+      "sutra": {
+        "number": "2.55000000000001",
+        "sanskrit": "त॒तः॒ प॒र॒मा वश्यते॑न्द्रिया॒णाम्",
+        "transliteration": "Sutra 2.55000000000001",
+        "meaning": "Pratyahara results in the absolute control of the sense organs,."
+      },
+      "insight": "When the senses have stopped running after outward pleasures they can aid the journey inwards.",
+      "reflectionPrompt": "A gradual withdrawal from the external to the inwards is the purpose of following yogic practices. Am I putting in the effort?",
+      "practice": "Make a commitment and effort to intensify your practice. Meditate for 20 min",
+      "meditation": "20 min meditation",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "id": "dhyana-samadhi",
+  "title": "Dhyana & Samadhi",
+  "tagline": "Deep meditation and absorption",
+  "icon": "brain",
+  "totalSections": 23,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Section 1",
+      "sutra": {
+        "number": "3.3",
+        "sanskrit": "तदेवार्थमात्रनिर्भासं स्वरूपशून्यमिव समाधिः",
+        "transliteration": "Sutra 3.3",
+        "meaning": "When, however, that sense of effortless linkage of the attention joins continually to a particular location in the mind or emotions or outside into a higher dimension, it is the highest stage of yoga, that of samadhi. It may be a link to a greater yogi or to a divinity. This is experienced as illumination of the higher concentration force or person while the yogi feels as if devoid of his conditioned self."
+      },
+      "insight": "",
+      "reflectionPrompt": "",
+      "practice": "",
+      "meditation": "",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 2,
+      "theme": "Section 2",
+      "sutra": {
+        "number": "1.18",
+        "sanskrit": "विरामप्रत्ययाभ्यासपूर्व: संस्कारशेषोSन्यः",
+        "transliteration": "Sutra 1.18",
+        "meaning": "Asamprajnat-Samadhi is the other kind of Samadhi which is attained by the constant practice of cessation of all mental modifications, in which the Chitta retains only the unmanifested impression."
+      },
+      "insight": "This state is akin to the state just before falling asleep. The intelligence dissolves but the sense of self remains.",
+      "reflectionPrompt": "Am I close to stopping the modulations of the mind to some extent?",
+      "practice": "Intensify your practices to quiten the mind.",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 3,
+      "theme": "Section 3",
+      "sutra": {
+        "number": "1.19",
+        "sanskrit": "भवप्रत्ययो विदेहप्रकृतिलयानाम्",
+        "transliteration": "Sutra 1.19",
+        "meaning": "In Asamprajnat Samadhi the sadhak may experience bodilessness or become merged in nature leading to solitude."
+      },
+      "insight": "In this samadhi the sadhak is freed from all modulations but the samskaras spring back to life the moment he comes out of this state.",
+      "reflectionPrompt": "Am I open to this kind of experience yet?",
+      "practice": "Intensify your practices to quiten the mind.",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 4,
+      "theme": "Section 4",
+      "sutra": {
+        "number": "1.20",
+        "sanskrit": "श्रद्धावीर्यस्मृतिसमाधिप्रज्ञापूर्वक इतरेषाम्",
+        "transliteration": "Sutra 1.20",
+        "meaning": "Practice must be persued with faith,confidence, energy, keenness of memory and the power to absorb to avoid spiritual complacency."
+      },
+      "insight": "I need to put in my 100% to make progress",
+      "reflectionPrompt": "Inner growth needs sincerity and effort. Am I a willing sadhak?",
+      "practice": "Be 100% present in whatever you do today",
+      "meditation": "5 mins total focus on breath meditate 20 min",
+      "journalPrompt": "Do I have trust in the path?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 5,
+      "theme": "Section 5",
+      "sutra": {
+        "number": "1.21, 1.22",
+        "sanskrit": "तीव्रसंवेगानामासन्नः\r\nमृदुमध्याधिमात्रत्वात्ततोऽपि विशेषः",
+        "transliteration": "Sutra 1.21, 1.22",
+        "meaning": "Intense effort brings quick progress\r\nEffort varies in intensity -i) feeble ii) moderate iii)steady"
+      },
+      "insight": "Depth of desire determines growth.\r\nThe pace of growth depends on your effort.",
+      "reflectionPrompt": "How strong is my intention?\r\nWhere am I on this scale?",
+      "practice": "Act with intensity in all you do today.\r\nObserve effort level",
+      "meditation": "10 min meditation",
+      "journalPrompt": "Did I give my best?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 6,
+      "theme": "Section 6",
+      "sutra": {
+        "number": "1.23, 1.24",
+        "sanskrit": "ईश्वरप्रणिधानाद्वा\r\n\r\nक्लेशकर्मविपाकाशयैरपरामृष्टः पुरुषविशेष ईश्वरः",
+        "transliteration": "Sutra 1.23, 1.24",
+        "meaning": "The Chitta ie consciousness may be totaly focused and surrendered to God.\r\nIshvara is untouched by suffering and karma"
+      },
+      "insight": "The divine is pure and unaffected. The purpose of human life is to reach that state.",
+      "reflectionPrompt": "What is beyond the noise?",
+      "practice": "Reflect on purity",
+      "meditation": "5 min awareness and surrender meditate 20 min",
+      "journalPrompt": "How intense was I?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 7,
+      "theme": "Section 7",
+      "sutra": {
+        "number": "1.27, 1.28",
+        "sanskrit": "तस्य वाचकः प्रणवः\r\nतज्जपस्तदर्थभावनम्",
+        "transliteration": "Sutra 1.27, 1.28",
+        "meaning": "Om is the expression of the divine\r\nRepeat Om with awareness"
+      },
+      "insight": "Sound connects to consciousness because it is at the source of all creation. Aum is the symbol of divinity.\r\nRepetition deepens experience.",
+      "reflectionPrompt": "Can I feel the vibrations of the sounds around me?",
+      "practice": "Chant Om 11 times watching the vibrations it makes within",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What did I feel?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "ओमित्येकाक्षरं ब्रह्म व्याहरन्मामनुस्मरन् | य: प्रयाति त्यजन्देहं स याति परमां गतिम् || 8.13||",
+      "wisdomFrom": "One who departs from the body while remembering Me, the Supreme Personality, and chanting the syllable Om, will attain the supreme goal."
+    },
+    {
+      "section": 8,
+      "theme": "Section 8",
+      "sutra": {
+        "number": "1.29",
+        "sanskrit": "ततः प्रत्यक्चेतनाधिगमोऽप्यन्तरायाभावश्च",
+        "transliteration": "Sutra 1.29",
+        "meaning": "Om chanting leads inward and removes obstacles"
+      },
+      "insight": "Inner connection ie. when the experiencer, the experience and the experienced become one there is no inner or outer turmoil.",
+      "reflectionPrompt": "Am I able to go inwards when I sit in silence with eyes closed?",
+      "practice": "Observe your thoughts. Does that quieten them",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What reduced?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "कविं पुराणमनुशासितार मणोरणीयांसमनुस्मरेद्य: |\nसर्वस्य धातारमचिन्त्यरूप मादित्यवर्णं तमस: परस्तात् || 8.9||\nप्रयाणकाले मनसाचलेन भक्त्या युक्तो योगबलेन चैव |\nभ्रुवोर्मध्ये प्राणमावेश्य सम्यक् स तं परं पुरुषमुपैति दिव्यम् || 8.10||",
+      "wisdomFrom": "God is Omniscient, the most ancient One, the Controller, subtler than the subtlest, the Support of all, and the possessor of an inconceivable divine form; He is brighter than the sun, and beyond all darkness of ignorance. One who at the time of death, with unmoving mind attained by the practice of Yog, fixes the prāṇ (life-airs) between the eyebrows, and steadily remembers the Divine Lord with great devotion, certainly attains Him."
+    },
+    {
+      "section": 9,
+      "theme": "Section 9",
+      "sutra": {
+        "number": "1.39",
+        "sanskrit": "यथाभिमतध्यानाद्वा",
+        "transliteration": "Sutra 1.39",
+        "meaning": "Meditate on an object of your choice which is spiritually uplifting to you"
+      },
+      "insight": "Any sincere focus leads inward. This method of meditation by Patanjali in this group is seemingly the simplest but actually the hardest. Meditating on ones', self which is of course the most pleasant object to everyone, is the simplest and also the most difficult.",
+      "reflectionPrompt": "What inspires me?",
+      "practice": "Meditate at a chosen spot focusing within.",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What inspired me?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 10,
+      "theme": "Section 10",
+      "sutra": {
+        "number": "1.40",
+        "sanskrit": "परमाणुपरममहत्त्वान्तोऽस्य वशीकारः",
+        "transliteration": "Sutra 1.40",
+        "meaning": "Mastery extends from smallest to largest"
+      },
+      "insight": "Awareness expands limitlessly. Maharishi Patanjali has given various methods of dhyan or meditation  to master ones chitta or cosciousness and stop the desires from overtaking the mind.",
+      "reflectionPrompt": "Where can I expand awareness?",
+      "practice": "Observe deeply",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What expanded?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 11,
+      "theme": "Section 11",
+      "sutra": {
+        "number": "1.41",
+        "sanskrit": "क्षीणवृत्तेरभिजातस्येव मणेर्ग्रहीतृग्रहणग्राह्येषु तत्स्थतदञ्जनता समापत्तिः",
+        "transliteration": "Sutra 1.41",
+        "meaning": "When the seer the seen and the instrument of perception become one, the mind becomes clear and it reflects reality like a crystal"
+      },
+      "insight": "When the mind is pure it reflects truth without distortion.This is a very refined state of consciousness called samapatti. \r\nThus yoga and samadhi are but means to reach the state of samapatti.",
+      "reflectionPrompt": "Is my perception clear or colored?",
+      "practice": "Observe reactions without bias",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "what was my observation",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 12,
+      "theme": "Section 12",
+      "sutra": {
+        "number": "1.42",
+        "sanskrit": "तत्र शब्दार्थज्ञानविकल्पैः संकीर्णा सवितर्का समापत्तिः",
+        "transliteration": "Sutra 1.42",
+        "meaning": "Savitarka samapatti wherein perception words, their meaning simultaneously blend with understanding into a special knowledge. ."
+      },
+      "insight": "The sadhaks chitta has become clear like a mirror and there are no boundaries to understanding.",
+      "reflectionPrompt": "Where do I over-interpret?",
+      "practice": "Notice labeling of situations",
+      "meditation": "20 min stillness",
+      "journalPrompt": "what was my observation",
+      "whatOthersSaid": "What did I assume?",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 13,
+      "theme": "Section 13",
+      "sutra": {
+        "number": "1.43",
+        "sanskrit": "स्मृतिपरिशुद्धौ स्वरूपशून्येवार्थमात्रनिर्भासा निर्वितर्का",
+        "transliteration": "Sutra 1.43",
+        "meaning": "When memory is purified only truth shines Let go of past filters to see clearly."
+      },
+      "insight": "Past impressions create biases and prejudices. Unless the slate is continuously cleaned the writing on top will be garbled.",
+      "reflectionPrompt": "Do I think too much of what has passed. Is my perception colored by past experiences.",
+      "practice": "Observe without past reference",
+      "meditation": "20 min stillness",
+      "journalPrompt": "what was my observation",
+      "whatOthersSaid": "same",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 14,
+      "theme": "Section 14",
+      "sutra": {
+        "number": "1.44",
+        "sanskrit": "एतयैव सविचारा निर्विचारा च सूक्ष्मविषया व्याख्याता",
+        "transliteration": "Sutra 1.44",
+        "meaning": "Awareness refines from subte to the subtlest when the sadhak moves from savichar samapatti to nirvichar samapatti."
+      },
+      "insight": "Subtle states of awareness deepen perception when from meditating on  oneself or objects of the senses etc the sadhak withdraws to contemplate beyond space and time or cause and effect.",
+      "reflectionPrompt": "Can I notice subtle feelings?",
+      "practice": "Observe finer sensations",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What subtlety did I notice?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 15,
+      "theme": "Section 15",
+      "sutra": {
+        "number": "1.45",
+        "sanskrit": "सूक्ष्मविषयत्वं चालिङ्गपर्यवसानम्",
+        "transliteration": "Sutra 1.45",
+        "meaning": "Nature at its subtlest is consciousness. When the two dissolve into one it is at its purest."
+      },
+      "insight": "Awareness expands beyond form. There is total cessation of the modulations of the small mind and the appearance of the Cosmic Mind or mahat.",
+      "reflectionPrompt": "Can I go beyond labels?",
+      "practice": "Sit in silence beyond thought",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What was beyond thought?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 16,
+      "theme": "Section 16",
+      "sutra": {
+        "number": "1.46",
+        "sanskrit": "ता एव सबीजः समाधिः",
+        "transliteration": "Sutra 1.46",
+        "meaning": "These are seed-based meditations, ie the sadhak's intellect or buddhi is still in play."
+      },
+      "insight": "The six samapattis mentioned viz. savitarka, nirvitarka, savichara, nirvichara , ananda and asmita are all sabeej (or seeded in nature).",
+      "reflectionPrompt": "What patterns remain?",
+      "practice": "Observe lingering thoughts",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What remained?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 17,
+      "theme": "Section 17",
+      "sutra": {
+        "number": "1.47",
+        "sanskrit": "निर्विचारवैशारद्येऽध्यात्मप्रसादः",
+        "transliteration": "Sutra 1.47",
+        "meaning": "Nirvichar or non Reflection brings clarity in subtle awareness and inner joy"
+      },
+      "insight": "When the chitta (consciousness) and buddhi (intellect) remain non reflective inner clarity blossoms and brings calm and happiness.",
+      "reflectionPrompt": "Did I feel inner ease?",
+      "practice": "Rest in clarity",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What brought ease?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 18,
+      "theme": "Section 18",
+      "sutra": {
+        "number": "1.48",
+        "sanskrit": "ऋतम्भरा तत्र प्रज्ञा",
+        "transliteration": "Sutra 1.48",
+        "meaning": "Seasoned wisdom arises in the chitta (consciousness) and provides immense insight."
+      },
+      "insight": "Inner wisdom is beyond logic and human intellect.",
+      "reflectionPrompt": "Did insight arise naturally?",
+      "practice": "Trust inner knowing",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What insight came?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 19,
+      "theme": "Section 19",
+      "sutra": {
+        "number": "1.49",
+        "sanskrit": "श्रुतानुमानप्रज्ञाभ्यामन्यविषया विशेषार्थत्वात्",
+        "transliteration": "Sutra 1.49",
+        "meaning": "This wisdom differs from knowledge gained externally"
+      },
+      "insight": "Direct experience is different from learned knowledge.",
+      "reflectionPrompt": "Did I experience or just think?",
+      "practice": "Focus on experience",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What was experiential?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 20,
+      "theme": "Section 20",
+      "sutra": {
+        "number": "1.50",
+        "sanskrit": "तज्जः संस्कारोऽन्यसंस्कारप्रतिबन्धी",
+        "transliteration": "Sutra 1.50",
+        "meaning": "New impressions are prevented whereas old patterns are erased."
+      },
+      "insight": "Awareness replaces conditioning.",
+      "reflectionPrompt": "What pattern shifted?",
+      "practice": "Repeat awareness",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What changed?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 21,
+      "theme": "Section 21",
+      "sutra": {
+        "number": "1.51",
+        "sanskrit": "तस्यापि निरोधे सर्वनिरोधान्निर्बीजः समाधिः",
+        "transliteration": "Sutra 1.51",
+        "meaning": "Even this new state of wisdom dissolves leading to a nirbeeja or seedless state"
+      },
+      "insight": "Ultimate stillness is beyond all patterns.",
+      "reflectionPrompt": "Can I rest without effort?",
+      "practice": "Sit in silence",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What was beyond effort?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 22,
+      "theme": "Section 22",
+      "sutra": {
+        "number": "2.10",
+        "sanskrit": "ते प्रतिप्रसवहेयाः सूक्ष्माः",
+        "transliteration": "Sutra 2.10",
+        "meaning": "Subtle impressions dissolve by returning to source"
+      },
+      "insight": "Going inward dissolves patterns.",
+      "reflectionPrompt": "Can I go inward?",
+      "practice": "Sit in silence",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What softened?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 23,
+      "theme": "Section 23",
+      "sutra": {
+        "number": "2.11",
+        "sanskrit": "ध्यानहेयास्तद्वृत्तयः",
+        "transliteration": "Sutra 2.11",
+        "meaning": "Meditation removes disturbances"
+      },
+      "insight": "Meditation clears mind patterns.",
+      "reflectionPrompt": "Did meditation help?",
+      "practice": "Meditate daily",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What reduced?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "सङ्कल्पप्रभवान्कामांस्त्यक्त्वा सर्वानशेषत: |\nमनसैवेन्द्रियग्रामं विनियम्य समन्तत: || 6.24||\nशनै: शनैरुपरमेद्बुद्ध्या धृतिगृहीतया |\nआत्मसंस्थं मन: कृत्वा न किञ्चिदपि चिन्तयेत् ||6. 25||",
+      "wisdomFrom": "We can meditate upon God in several ways. The Names, Forms, Leelas (Pastimes), Associates, and Abodes of God. There is no difference among all these aspects of God. Therefore, one can meditate on any one or all of them. Such meditation, where we attach our mind to the Supreme Divinity, takes our mind to the divine realm, and as a result, it purifies."
+    }
+  ]
+}

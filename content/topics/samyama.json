@@ -1,0 +1,81 @@
+{
+  "id": "samyama",
+  "title": "Samyama",
+  "tagline": "Perfect integration",
+  "icon": "sun",
+  "totalSections": 4,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Section 1",
+      "sutra": {
+        "number": "3.1",
+        "sanskrit": "देशबन्धश्चित्तस्य धारणा",
+        "transliteration": "Sutra 3.1",
+        "meaning": "Dharana or Concentration is fixing the chitta or consciousness on one point"
+      },
+      "insight": "Focus strengthens the mind and the thoughts and disturbances are kept at bay.",
+      "reflectionPrompt": "Was I focused?",
+      "practice": "Practice single-tasking",
+      "meditation": "5 min focus",
+      "journalPrompt": "What distracted me?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 2,
+      "theme": "Section 2",
+      "sutra": {
+        "number": "3.2",
+        "sanskrit": "तत्र प्रत्ययैकतानता ध्यानम्",
+        "transliteration": "Sutra 3.2",
+        "meaning": "Dhyana or Meditation is a steady, continuous flow of attention towards one point or region"
+      },
+      "insight": "Sustained focus becomes meditation.",
+      "reflectionPrompt": "Did I sustain attention?",
+      "practice": "Practice longer focus",
+      "meditation": "5 min meditation",
+      "journalPrompt": "How long did I stay?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 3,
+      "theme": "Section 3",
+      "sutra": {
+        "number": "3.3",
+        "sanskrit": "तदेवार्थमात्रनिर्भासं स्वरूपशून्यमिव समाधिः",
+        "transliteration": "Sutra 3.3",
+        "meaning": "Samadhi is the meditator merging with the object of meditation and losing his self awareness."
+      },
+      "insight": "When the lines become blurred gradually you become one with awareness.",
+      "reflectionPrompt": "Did I feel absorbed?",
+      "practice": "Deepen meditation",
+      "meditation": "5 min silence",
+      "journalPrompt": "What dissolved?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 4,
+      "theme": "Section 4",
+      "sutra": {
+        "number": "3.4",
+        "sanskrit": "त्रयमेकत्र संयमः",
+        "transliteration": "Sutra 3.4",
+        "meaning": "These three together are called Samyama"
+      },
+      "insight": "Integration leads to mastery. The three flow seamlessly from one to the other.",
+      "reflectionPrompt": "Can I integrate focus?",
+      "practice": "Practice all three",
+      "meditation": "5 min meditation",
+      "journalPrompt": "What improved?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    }
+  ]
+}

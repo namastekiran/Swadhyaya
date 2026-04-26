@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
@@ -24,9 +25,22 @@ interface Props {
   totalSections: number;
 }
 
-const STEP_CARDS = [
+type StepKey = "sutra" | "reflection" | "practice" | "journal" | "gita";
+
+interface StepCardDef {
+  key: StepKey;
+  label: string;
+  description: string;
+  icon: any;
+  href: string;
+  gradient: string;
+  iconColor: string;
+  checkColor: string;
+}
+
+const STEP_CARDS: StepCardDef[] = [
   {
-    key: "sutra" as const,
+    key: "sutra",
     label: "Sutra & Insight",
     description: "Read the sutra and explore its meaning",
     icon: BookOpen,
@@ -36,7 +50,7 @@ const STEP_CARDS = [
     checkColor: "text-amber-500",
   },
   {
-    key: "reflection" as const,
+    key: "reflection",
     label: "Reflection",
     description: "Reflect on the teaching and share your thoughts",
     icon: MessageCircle,
@@ -46,7 +60,7 @@ const STEP_CARDS = [
     checkColor: "text-teal-500",
   },
   {
-    key: "practice" as const,
+    key: "practice",
     label: "Micro Practice",
     description: "A small action and meditation for the day",
     icon: Dumbbell,
@@ -56,7 +70,7 @@ const STEP_CARDS = [
     checkColor: "text-violet-500",
   },
   {
-    key: "journal" as const,
+    key: "journal",
     label: "Journal",
     description: "Write down your experience and insights",
     icon: PenLine,
@@ -73,11 +87,21 @@ export function SectionDetail({
   section,
   totalSections,
 }: Props) {
+  const [mounted, setMounted] = useState(false);
   const router = useRouter();
   const profile = useAppStore((s) => s.profile);
   const getSectionStatus = useAppStore((s) => s.getSectionStatus);
   const getSectionAnswers = useAppStore((s) => s.getSectionAnswers);
   const completeAndNext = useAppStore((s) => s.completeAndNext);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null;
+  }
+
   const firstName = profile?.name?.split(" ")[0];
 
   const status = getSectionStatus(topicId, section.section);
@@ -85,8 +109,22 @@ export function SectionDetail({
   const answers = getSectionAnswers(topicId, section.section);
   const isLast = section.section >= totalSections;
 
-  const allStepsComplete = STEP_CARDS.every((s) =>
-    answers.completedSteps.includes(s.key)
+  const activeSteps: StepCardDef[] = [...STEP_CARDS];
+  if (section.shlokaFrom || section.wisdomFrom) {
+    activeSteps.push({
+      key: "gita" as const,
+      label: "Wisdom from the Gita",
+      description: "Read related wisdom from the Bhagavad Gita",
+      icon: BookOpen,
+      href: "gita",
+      gradient: "from-indigo-50 to-blue-50",
+      iconColor: "bg-indigo-100 text-indigo-500",
+      checkColor: "text-indigo-500",
+    });
+  }
+
+  const allStepsComplete = activeSteps.every((s) =>
+    answers.completedSteps.includes(s.key as "sutra" | "reflection" | "practice" | "journal" | "gita")
   );
 
   function handleCompleteSection() {
@@ -115,7 +153,7 @@ export function SectionDetail({
         <div className="flex-1 min-w-0">
           <p className="text-xs text-muted-foreground">{topicTitle}</p>
           <h1 className="text-xl font-bold text-foreground leading-tight mt-0.5">
-            Section {section.section}
+            {section.theme}
           </h1>
         </div>
         {isDone && (
@@ -145,8 +183,8 @@ export function SectionDetail({
       {/* Step progress */}
       <div className="space-y-2 px-1">
         <div className="flex items-center gap-2">
-          {STEP_CARDS.map((step) => {
-            const done = answers.completedSteps.includes(step.key);
+          {activeSteps.map((step) => {
+            const done = answers.completedSteps.includes(step.key as "sutra" | "reflection" | "practice" | "journal" | "gita");
             return (
               <div key={step.key} className="flex-1">
                 <div
@@ -159,15 +197,15 @@ export function SectionDetail({
           })}
         </div>
         <p className="text-xs text-muted-foreground">
-          {answers.completedSteps.length} of {STEP_CARDS.length} steps complete
+          {activeSteps.filter(s => answers.completedSteps.includes(s.key as any)).length} of {activeSteps.length} steps complete
         </p>
       </div>
 
-      {/* 4 step cards */}
+      {/* Step cards */}
       <div className="space-y-3.5">
-        {STEP_CARDS.map((step) => {
+        {activeSteps.map((step) => {
           const Icon = step.icon;
-          const done = answers.completedSteps.includes(step.key);
+          const done = answers.completedSteps.includes(step.key as any);
           return (
             <Link key={step.key} href={`${basePath}/${step.href}`}>
               <div
@@ -231,7 +269,7 @@ export function SectionDetail({
             </Button>
             {!allStepsComplete && (
               <p className="text-xs text-center text-muted-foreground mt-3">
-                Complete all 4 steps to unlock
+                Complete all {activeSteps.length} steps to unlock
               </p>
             )}
           </div>

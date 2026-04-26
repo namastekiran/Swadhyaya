@@ -1,0 +1,207 @@
+{
+  "id": "dharana",
+  "title": "Dharana",
+  "tagline": "Concentration",
+  "icon": "target",
+  "totalSections": 11,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Section 1",
+      "sutra": {
+        "number": "2.29",
+        "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
+        "transliteration": "Sutra 2.29",
+        "meaning": "Yama (moral injunctions), Niyama (observances), Āsana (posture), Prāṇāyāma (regulation of breath), Pratyāhāra (withholding of senses), Dhāraṇā (fixity of attention), Dhyāna (meditation), and Samādhi (absorption of consciousness in the self) are the eight accessories (limbs) of Yoga"
+      },
+      "insight": "Yoga is a complete lifestyle.",
+      "reflectionPrompt": "Which limb can I improve?",
+      "practice": "attempt to take up one new practice or change in lifestyle in accordance with yamas and niyamas",
+      "meditation": "10 min breath observance",
+      "journalPrompt": "What did I focus on?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 2,
+      "theme": "Section 2",
+      "sutra": {
+        "number": "2.52, 2.53",
+        "sanskrit": "त॒तः॒ क्षी॒य॒ते प्रकाशा॑वर॒णम् \r\nधा॒र॒णासु च योग्यता॑ मन॒सः",
+        "transliteration": "Sutra 2.52, 2.53",
+        "meaning": "From that is dissipated, the mental darkness which veils the light, ... and from that, is attained the state of the mind for linking the attention to a higher concentration force or person."
+      },
+      "insight": "Pranayama removes the veil covering the light of knowledge and heralds the dawn of wisdom. The mind becomes fit, thereafter, for Dharana or concentration.. the next limb of yoga.Once the mind is still and free of thought it can focus on a single point. This is when it can manifest what it wants.",
+      "reflectionPrompt": "Is my practice intense?",
+      "practice": "Make a commitment and effort to intensify your practice. Meditate for 20 min",
+      "meditation": "20 min focus on your heart",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 3,
+      "theme": "Section 3",
+      "sutra": {
+        "number": "3.1",
+        "sanskrit": "देशबन्धश्चित्तस्य धारणा",
+        "transliteration": "Sutra 3.1",
+        "meaning": "The yogi must be so familiar with the realm of mind and emotions, that he should begin to recognize where thoughts, ideas, images and memories arise. Their particular location in the mind environment and emotional atmosphere should be known. Then he may practice the sixth stage of yoga, which is linking of the attention to a concentration force or person through a restricted location in the mento-emotional space."
+      },
+      "insight": "",
+      "reflectionPrompt": "",
+      "practice": "",
+      "meditation": "",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 4,
+      "theme": "Section 4",
+      "sutra": {
+        "number": "1.27, 1.28",
+        "sanskrit": "तस्य वाचकः प्रणवः\r\nतज्जपस्तदर्थभावनम्",
+        "transliteration": "Sutra 1.27, 1.28",
+        "meaning": "Om is the expression of the divine\r\nRepeat Om with awareness"
+      },
+      "insight": "Sound connects to consciousness because it is at the source of all creation. Aum is the symbol of divinity.\r\nRepetition deepens experience.",
+      "reflectionPrompt": "Can I feel the vibrations of the sounds around me?",
+      "practice": "Chant Om 11 times watching the vibrations it makes within",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What did I feel?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "ओमित्येकाक्षरं ब्रह्म व्याहरन्मामनुस्मरन् | य: प्रयाति त्यजन्देहं स याति परमां गतिम् || 8.13||",
+      "wisdomFrom": "One who departs from the body while remembering Me, the Supreme Personality, and chanting the syllable Om, will attain the supreme goal."
+    },
+    {
+      "section": 5,
+      "theme": "Section 5",
+      "sutra": {
+        "number": "1.35",
+        "sanskrit": "विषयवती वा प्रवृत्तिरुत्पन्ना मनसः स्थितिनिबन्धिनी",
+        "transliteration": "Sutra 1.35",
+        "meaning": "Focused awareness on one object stabilizes mind"
+      },
+      "insight": "Attention brings stability.",
+      "reflectionPrompt": "Bring your attention to your breath",
+      "practice": "Observe breathing",
+      "meditation": "3 min awareness",
+      "journalPrompt": "What grounded me?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 6,
+      "theme": "Section 6",
+      "sutra": {
+        "number": "1.36",
+        "sanskrit": "विशोका वा ज्योतिष्मती",
+        "transliteration": "Sutra 1.36",
+        "meaning": "Beyond sorrow is inner light"
+      },
+      "insight": "Inner light removes heaviness.",
+      "reflectionPrompt": "Did I feel lightness?",
+      "practice": "Focus on inner calm",
+      "meditation": "3 min stillness",
+      "journalPrompt": "Did I feel light?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 7,
+      "theme": "Section 7",
+      "sutra": {
+        "number": "1.38",
+        "sanskrit": "ततः प्रत्यक्चेतनाधिगमोऽप्यन्तरायाभावश्च",
+        "transliteration": "Sutra 1.38",
+        "meaning": "Om chanting leads inward and removes obstacles"
+      },
+      "insight": "Inner connection reduces disturbances.",
+      "reflectionPrompt": "Am I able to go inwards when I sit in silence with eyes closed?",
+      "practice": "Observe your thoughts. Does that quieten them",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What reduced?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "कविं पुराणमनुशासितार मणोरणीयांसमनुस्मरेद्य: |\nसर्वस्य धातारमचिन्त्यरूप मादित्यवर्णं तमस: परस्तात् || 8.9||\nप्रयाणकाले मनसाचलेन भक्त्या युक्तो योगबलेन चैव |\nभ्रुवोर्मध्ये प्राणमावेश्य सम्यक् स तं परं पुरुषमुपैति दिव्यम् || 8.10||",
+      "wisdomFrom": "God is Omniscient, the most ancient One, the Controller, subtler than the subtlest, the Support of all, and the possessor of an inconceivable divine form; He is brighter than the sun, and beyond all darkness of ignorance. One who at the time of death, with unmoving mind attained by the practice of Yog, fixes the prāṇ (life-airs) between the eyebrows, and steadily remembers the Divine Lord with great devotion, certainly attains Him."
+    },
+    {
+      "section": 8,
+      "theme": "Section 8",
+      "sutra": {
+        "number": "1.39",
+        "sanskrit": "यथाभिमतध्यानाद्वा",
+        "transliteration": "Sutra 1.39",
+        "meaning": "Meditate on an object of your choice which is spiritually uplifting to you"
+      },
+      "insight": "Any sincere focus leads inward.",
+      "reflectionPrompt": "What inspires me?",
+      "practice": "Meditate at a chosen spot on a chosen idea",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What inspired me?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 9,
+      "theme": "Section 9",
+      "sutra": {
+        "number": "1.4",
+        "sanskrit": "परमाणुपरममहत्त्वान्तोऽस्य वशीकारः",
+        "transliteration": "Sutra 1.4",
+        "meaning": "Mastery extends from smallest to largest"
+      },
+      "insight": "Awareness expands limitlessly.",
+      "reflectionPrompt": "Where can I expand awareness?",
+      "practice": "Observe deeply",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "What expanded?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 10,
+      "theme": "Section 10",
+      "sutra": {
+        "number": "1.41",
+        "sanskrit": "क्षीणवृत्तेरभिजातस्येव मणेर्ग्रहीतृग्रहणग्राह्येषु तत्स्थतदञ्जनता समापत्तिः",
+        "transliteration": "Sutra 1.41",
+        "meaning": "The seer the seen and the instrument of perception become one.When mind becomes clear it reflects reality like a crystal"
+      },
+      "insight": "When the mind is pure it reflects truth without distortion.",
+      "reflectionPrompt": "Is my perception clear or colored?",
+      "practice": "Observe reactions without bias",
+      "meditation": "meditate 20 min",
+      "journalPrompt": "what was my observation",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 11,
+      "theme": "Section 11",
+      "sutra": {
+        "number": "1.42",
+        "sanskrit": "तत्र शब्दार्थज्ञानविकल्पैः संकीर्णा सवितर्का समापत्तिः",
+        "transliteration": "Sutra 1.42",
+        "meaning": "Mixed perception includes words meaning and content and becomes a special knowledge. ."
+      },
+      "insight": "This is a very refined state of consciousness.",
+      "reflectionPrompt": "Where do I over-interpret?",
+      "practice": "Notice labeling of situations",
+      "meditation": "20 min stillness",
+      "journalPrompt": "what was my observation",
+      "whatOthersSaid": "What did I assume?",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    }
+  ]
+}

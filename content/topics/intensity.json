@@ -1,0 +1,99 @@
+{
+  "id": "intensity",
+  "title": "Intensity",
+  "tagline": "Tapas — the fire of discipline",
+  "icon": "zap",
+  "totalSections": 5,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Section 1",
+      "sutra": {
+        "number": "1.12, 1.13",
+        "sanskrit": "अभ्यासवैराग्याभ्यां तन्निरोधः\r\n\r\n\r\nतत्र स्थितौ यत्नोऽभ्यासः",
+        "transliteration": "Sutra 1.12, 1.13",
+        "meaning": "Repeated practice without atachment is the way to still the mind."
+      },
+      "insight": "Consistency and letting go brings mastery. I will not be focused on the end result while I practice regularly.\r\nMaharishi Patanjali's eightfold principles from yama to dhyana are intended for this purpose.",
+      "reflectionPrompt": "Can I practice consistently without constantly measuring my progress?",
+      "practice": "Do one task at a time with full attention",
+      "meditation": "20 min breath awareness",
+      "journalPrompt": "Did I stay consistent?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "2.47 कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।\n\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥",
+      "wisdomFrom": "You have the right to action only, \r\nnever to  the fruits. Let not the\r\n fruits of action be thy motive,\r\n nor let thy attachment be to\r\n inaction"
+    },
+    {
+      "section": 2,
+      "theme": "Section 2",
+      "sutra": {
+        "number": "1.14",
+        "sanskrit": "स तु दीर्घकालनैरन्तर्यसत्कारासेवितो दृढभूमिः",
+        "transliteration": "Sutra 1.14",
+        "meaning": "Practice becomes firm when done for a long time with sincerity and dedication."
+      },
+      "insight": "Consistency builds physical and mental strength, naturally. I need to honour the practice and do it regularly giving it my full attention.",
+      "reflectionPrompt": "can I sustain my practice daily?",
+      "practice": "Observe what routine and necessary work you find boring. Try doing them with full attention.",
+      "meditation": "20 min breath awareness",
+      "journalPrompt": "Could I do even the boring jobs with 100% attention. Did that make a difference",
+      "whatOthersSaid": "",
+      "shlokaFrom": "तानि सर्वाणि संयम्य युक्त आसीत मत्परः ।\n\nवशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता ॥  2.61",
+      "wisdomFrom": "One who restrains their senses and fixes their consciousness upon Me is known as a man of steady intelligence"
+    },
+    {
+      "section": 3,
+      "theme": "Section 3",
+      "sutra": {
+        "number": "1.2",
+        "sanskrit": "श्रद्धावीर्यस्मृतिसमाधिप्रज्ञापूर्वक इतरेषाम्",
+        "transliteration": "Sutra 1.2",
+        "meaning": "Practice must be persued with faith,confidence, energy, keenness of memory and the power to absorb to avoid spiritual complacency."
+      },
+      "insight": "I need to put in my 100% to make progress",
+      "reflectionPrompt": "Inner growth needs sincerity and effort. Am I willing to make the effort?",
+      "practice": "Be 100% present in whatever you do today",
+      "meditation": "20 mins total focus on breath",
+      "journalPrompt": "Do I have doubts about the knowledge or my ability to adhere to it?\r\nHow present was I while doing my chores today?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    },
+    {
+      "section": 4,
+      "theme": "Section 4",
+      "sutra": {
+        "number": "1.21, 1.22",
+        "sanskrit": "तीव्रसंवेगानामासन्नः\r\nमृदुमध्याधिमात्रत्वात्ततोऽपि विशेषः",
+        "transliteration": "Sutra 1.21, 1.22",
+        "meaning": "Intense effort brings quick progress. \r\nEffort varies in intensity -i) feeble ii) moderate iii)steady"
+      },
+      "insight": "Depth of desire determines growth. Intensity comes when the sadhak has faith in himself, the process and the teacher.\r\nThe pace of growth depends on your effort.",
+      "reflectionPrompt": "How strong is my intention?\r\nWhere am I on this scale?",
+      "practice": "Act with intensity\r\nObserve effort level",
+      "meditation": "20 min meditation",
+      "journalPrompt": "Did I give my best?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "चञ्चलं हि मनः कृष्ण प्रमाथि बलवद्दृढम् ।\n\nतस्याहं निग्रहं मन्ये वायोरिव सुदुष्करम् ॥  6.34 Bhagvad Gita",
+      "wisdomFrom": "The mind is restless, turbulent, strong, and stubborn; controlling it is as difficult as controlling the wind"
+    },
+    {
+      "section": 5,
+      "theme": "Section 5",
+      "sutra": {
+        "number": "1.4",
+        "sanskrit": "परमाणुपरममहत्त्वान्तोऽस्य वशीकारः",
+        "transliteration": "Sutra 1.4",
+        "meaning": "Mastery of contemplation gives the power to extend from  the smallest to largest and from the subtlest to the grossest."
+      },
+      "insight": "Awareness expands limitlessly. Maharishi Patanjali has given various methods of dhyan or meditation  to master ones chitta or cosciousness and stop the desires from overtaking the mind.",
+      "reflectionPrompt": "How can I expand my awareness?",
+      "practice": "Observe things and events deeply, down to their very core.",
+      "meditation": "10 min meditation",
+      "journalPrompt": "What expanded?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": ""
+    }
+  ]
+}

@@ -1,9 +1,5 @@
 import OpenAI from "openai";
 
-const openai = new OpenAI({
-  apiKey: process.env.OPEN_AI_API_KEY,
-});
-
 const SYSTEM_PROMPT = `You are a warm, wise guide helping someone explore the Patanjali Yoga Sutras in their daily life. You speak with the calm clarity of a teacher who has practiced yoga for decades — compassionate, non-judgmental, and gently encouraging.
 
 Your role:
@@ -24,6 +20,10 @@ Formatting rules (IMPORTANT):
 Respond in the same language the user writes in. If they write in Hindi or Hinglish, respond accordingly.`;
 
 export async function POST(request: Request) {
+  const openai = new OpenAI({
+    apiKey: process.env.OPEN_AI_API_KEY || "dummy-key-for-build",
+  });
+
   const { sutraNumber, sutraMeaning, insight, reflectionPrompt, userMessage, history, userName, userIntention } =
     await request.json();
 
