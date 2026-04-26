@@ -109,16 +109,16 @@ export function TopicCard({ topic }: { topic: TopicSummary }) {
             {topic.title}
           </h3>
           
-          <p className="text-[12px] text-gray-500 mt-2.5 line-clamp-3 leading-relaxed font-medium">
+          <p className="text-[11.5px] text-gray-500 mt-2.5 leading-relaxed font-medium">
             {topic.description}
           </p>
 
-          <div className="mt-auto pt-4 flex items-center gap-2 border-t border-black/5 mt-4">
-            <span className="text-[10px] font-bold text-gray-500 uppercase tracking-tight">
+          <div className="mt-auto pt-4 flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-black/5 mt-4">
+            <span className="text-[10px] font-bold text-gray-500 uppercase tracking-tight whitespace-nowrap">
               {topic.totalSections} sutras
             </span>
             <span className="text-gray-300">•</span>
-            <span className="text-[10px] font-bold text-gray-500 uppercase tracking-tight">
+            <span className="text-[10px] font-bold text-gray-500 uppercase tracking-tight whitespace-nowrap">
               {topic.totalSections} days
             </span>
           </div>
