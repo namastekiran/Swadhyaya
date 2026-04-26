@@ -23,6 +23,7 @@ export interface TopicData {
   id: string;
   title: string;
   tagline: string;
+  description: string;
   icon: string;
   totalSections: number;
   sections: SectionData[];
@@ -32,6 +33,7 @@ export interface TopicSummary {
   id: string;
   title: string;
   tagline: string;
+  description: string;
   icon: string;
   totalSections: number;
 }
