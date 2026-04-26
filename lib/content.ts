@@ -38,10 +38,11 @@ function loadAllTopics(): Map<string, TopicData> {
 
 export function getAllTopicSummaries(): TopicSummary[] {
   const topics = loadAllTopics();
-  return Array.from(topics.values()).map(({ id, title, tagline, icon, totalSections }) => ({
+  return Array.from(topics.values()).map(({ id, title, tagline, description, icon, totalSections }) => ({
     id,
     title,
     tagline,
+    description,
     icon,
     totalSections,
   }));

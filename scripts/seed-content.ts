@@ -164,6 +164,7 @@ const TOPIC_CONFIG: {
   id: string;
   title: string;
   tagline: string;
+  description: string;
   icon: string;
   hasTopicColumn: boolean;
 }[] = [
