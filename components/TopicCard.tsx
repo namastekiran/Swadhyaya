@@ -94,51 +94,47 @@ export function TopicCard({ topic }: { topic: TopicSummary }) {
       : 0;
 
   return (
-    <Link href={`/topic/${topic.id}`} className="block">
+    <Link href={`/topic/${topic.id}`} className="block h-full">
       <div
-        className="relative overflow-hidden rounded-[32px] p-6 sm:p-8 bg-white transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 group border border-gray-100/50"
+        className={`relative h-full overflow-hidden rounded-[28px] p-5 ${style.bg} transition-all duration-300 hover:shadow-xl hover:-translate-y-1 group flex flex-col border border-white/50 shadow-sm`}
       >
-        <div className="flex flex-col sm:flex-row items-start gap-6">
-          <div
-            className={`flex-shrink-0 w-16 h-16 sm:w-20 sm:h-20 rounded-[24px] flex items-center justify-center ${style.iconBg} transition-transform duration-300 group-hover:scale-110 shadow-sm`}
-          >
-            <Icon className="w-8 h-8 sm:w-10 sm:h-10" />
-          </div>
+        <div
+          className={`flex-shrink-0 w-12 h-12 rounded-2xl flex items-center justify-center ${style.iconBg} mb-4 shadow-sm transition-transform duration-300 group-hover:scale-110`}
+        >
+          <Icon className="w-6 h-6" />
+        </div>
 
-          <div className="flex-1 min-w-0">
-            <h3 className="text-xl sm:text-2xl font-bold text-gray-900 leading-tight transition-colors group-hover:text-orange-500">
-              {topic.title}
-            </h3>
-            
-            <p className="text-[14px] sm:text-[15px] text-gray-500 mt-3 leading-relaxed font-medium line-clamp-2 sm:line-clamp-none">
-              {topic.description}
-            </p>
+        <div className="flex-1 flex flex-col">
+          <h3 className="text-[15px] font-bold text-gray-900 leading-tight group-hover:text-purple-600 transition-colors">
+            {topic.title}
+          </h3>
+          
+          <p className="text-[12px] text-gray-500 mt-2.5 line-clamp-3 leading-relaxed font-medium">
+            {topic.description}
+          </p>
 
-            <div className="flex items-center gap-3 mt-5">
-              <span className="text-[13px] font-bold text-orange-400">
-                {topic.totalSections} sutras
-              </span>
-              <span className="text-gray-300 font-bold">•</span>
-              <span className="text-[13px] font-bold text-orange-400">
-                {topic.totalSections} days
-              </span>
-            </div>
+          <div className="mt-auto pt-4 flex items-center gap-2 border-t border-black/5 mt-4">
+            <span className="text-[10px] font-bold text-gray-500 uppercase tracking-tight">
+              {topic.totalSections} sutras
+            </span>
+            <span className="text-gray-300">•</span>
+            <span className="text-[10px] font-bold text-gray-500 uppercase tracking-tight">
+              {topic.totalSections} days
+            </span>
           </div>
         </div>
         
         {hasStarted && !isComplete && (
-          <div className="absolute bottom-0 left-0 right-0 h-1 bg-gray-50">
+          <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-white/40">
             <div
-              className="h-full rounded-r-full transition-all duration-1000 bg-orange-400"
+              className={`h-full transition-all duration-1000 ${style.accent}`}
               style={{ width: `${progressPercent}%` }}
             />
           </div>
         )}
         {isComplete && (
-          <div className="absolute top-4 right-8">
-            <span className="text-[10px] font-black text-green-500 tracking-widest uppercase">
-              Completed
-            </span>
+          <div className="absolute top-4 right-4">
+            <div className="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.5)]" />
           </div>
         )}
       </div>

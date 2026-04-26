@@ -5,7 +5,7 @@ import type { TopicSummary } from "@/lib/types";
 
 export function TopicList({ topics }: { topics: TopicSummary[] }) {
   return (
-    <div className="grid grid-cols-1 gap-6">
+    <div className="grid grid-cols-2 gap-4">
       {topics.map((topic) => (
         <TopicCard key={topic.id} topic={topic} />
       ))}
