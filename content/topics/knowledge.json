@@ -17,8 +17,8 @@
       },
       "insight": "Direct experience is most powerful. To be in meditation one should decide not to dwell on any logic or be interested in any proof.",
       "reflectionPrompt": "Do I feel a need to be correct or logical all the time? Am I judgemental?",
-      "practice": "Observe thoughts without reacting\r\nDo I rely on experience or assumption?",
-      "meditation": "3 min Reflection\r\nObserve - how do I form  my opinions. 10 min meditation",
+      "practice": "Observe thoughts without reacting\nDo I rely on experience or assumption?",
+      "meditation": "3 min Reflection\nObserve - how do I form  my opinions. 10 min meditation",
       "journalPrompt": "note down results",
       "whatOthersSaid": "",
       "shlokaFrom": "",
@@ -83,13 +83,13 @@
       "theme": "Infinite Knowledge",
       "sutra": {
         "number": "1.25, 1.26",
-        "sanskrit": "तत्र निरतिशयं सर्वज्ञबीजम्\r\nस पूर्वेषामपि गुरुः कालेनानवच्छेदात",
+        "sanskrit": "तत्र निरतिशयं सर्वज्ञबीजम्\nस पूर्वेषामपि गुरुः कालेनानवच्छेदात",
         "transliteration": "Sutra 1.25, 1.26",
-        "meaning": "In Ishvara lies infinite knowledge\r\nThe divine is the eternal teacher"
+        "meaning": "In Ishvara lies infinite knowledge\nThe divine is the eternal teacher"
       },
-      "insight": "The source of knowledge is within.\r\nWisdom is timeless.",
+      "insight": "The source of knowledge is within.\nWisdom is timeless.",
       "reflectionPrompt": "Do I trust inner wisdom?",
-      "practice": "Listen inward\r\nReflect on guidance",
+      "practice": "Listen inward\nReflect on guidance",
       "meditation": "10 min meditation",
       "journalPrompt": "What insight came?",
       "whatOthersSaid": "",
@@ -103,13 +103,13 @@
         "number": "2.34",
         "sanskrit": "वितर्का हिंसादयः कृतकारितानुमोदिता लोभक्रोधमोहपूर्वका मृदुमध्याधिमात्रा दुःखाज्ञानानन्तफला इति प्रतिपक्षभावनम्",
         "transliteration": "Sutra 2.34",
-        "meaning": ""
+        "meaning": "Negative thoughts (like violence) caused by greed, anger or delusion—whether done, caused, or approved of, and whether mild, moderate, or intense—result in endless pain and ignorance. Cultivating the opposite, ie., positive thought is necessary to stop this cycle."
       },
-      "insight": "",
-      "reflectionPrompt": "",
-      "practice": "",
-      "meditation": "",
-      "journalPrompt": "",
+      "insight": "One has to develop and exercise the discriminatory faculty to curtail vitarka or dubious, wavering or uncertain knowledge.",
+      "reflectionPrompt": "Do I easily believe everything I see or hear or do I take an objective and rational view of things.",
+      "practice": "Today observe your mind while reading or watching or hearing anything which makes you angry or sad.",
+      "meditation": "20 min meditation",
+      "journalPrompt": "Do I feel immediate emotional reaction within me at every negative info.",
       "whatOthersSaid": "",
       "shlokaFrom": "",
       "wisdomFrom": ""

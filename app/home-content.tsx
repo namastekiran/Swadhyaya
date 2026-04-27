@@ -16,10 +16,12 @@ function getGreeting() {
 
 export function HomeContent({ topics }: { topics: TopicSummary[] }) {
   const [mounted, setMounted] = useState(false);
+  const [greeting, setGreeting] = useState("");
   const profile = useAppStore((s) => s.profile);
 
   useEffect(() => {
     setMounted(true);
+    setGreeting(getGreeting());
   }, []);
 
   if (!mounted) {
@@ -41,7 +43,7 @@ export function HomeContent({ topics }: { topics: TopicSummary[] }) {
           </div>
           <div>
             <p className="text-sm text-muted-foreground">
-              {getGreeting()},
+              {greeting},
             </p>
             <h1 className="text-2xl font-bold text-foreground leading-tight">
               {firstName}
@@ -57,6 +59,29 @@ export function HomeContent({ topics }: { topics: TopicSummary[] }) {
           </p>
         </div>
       </header>
+
+      {/* The Swadhyaya Method */}
+      <section className="bg-orange-50/50 rounded-[32px] p-8 space-y-6 border border-orange-100/50">
+        <h2 className="text-[20px] font-bold text-orange-900 tracking-tight">
+          The Swadhyaya Method
+        </h2>
+        <ul className="space-y-4">
+          {[
+            "Daily contemplation of authentic Patanjali sutras",
+            "Guided audio meditations (coming soon)",
+            "Deep reflection questions for self-inquiry",
+            "Daily micro-practices to integrate wisdom",
+            "Personal journaling for insights"
+          ].map((point, i) => (
+            <li key={i} className="flex items-start gap-4">
+              <div className="w-1.5 h-1.5 rounded-full bg-orange-400 mt-2 flex-shrink-0" />
+              <p className="text-[14px] text-gray-600 font-medium leading-snug">
+                {point}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </section>
 
       <div className="space-y-5">
         <h2 className="text-xs font-semibold text-muted-foreground uppercase tracking-widest px-1">

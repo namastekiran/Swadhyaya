@@ -11,18 +11,18 @@
       "theme": "Section 1",
       "sutra": {
         "number": "1.12, 1.13",
-        "sanskrit": "अभ्यासवैराग्याभ्यां तन्निरोधः\r\n\r\n\r\nतत्र स्थितौ यत्नोऽभ्यासः",
+        "sanskrit": "अभ्यासवैराग्याभ्यां तन्निरोधः\nतत्र स्थितौ यत्नोऽभ्यासः",
         "transliteration": "Sutra 1.12, 1.13",
         "meaning": "Repeated practice without atachment is the way to still the mind."
       },
-      "insight": "Consistency and letting go brings mastery. I will not be focused on the end result while I practice regularly.\r\nMaharishi Patanjali's eightfold principles from yama to dhyana are intended for this purpose.",
+      "insight": "Consistency and letting go brings mastery. I will not be focused on the end result while I practice regularly.\nMaharishi Patanjali's eightfold principles from yama to dhyana are intended for this purpose.",
       "reflectionPrompt": "Can I practice consistently without constantly measuring my progress?",
       "practice": "Do one task at a time with full attention",
       "meditation": "20 min breath awareness",
       "journalPrompt": "Did I stay consistent?",
       "whatOthersSaid": "",
       "shlokaFrom": "2.47 कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।\n\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥",
-      "wisdomFrom": "You have the right to action only, \r\nnever to  the fruits. Let not the\r\n fruits of action be thy motive,\r\n nor let thy attachment be to\r\n inaction"
+      "wisdomFrom": "You have the right to action only, \nnever to  the fruits. Let not the\n fruits of action be thy motive,\n nor let thy attachment be to\n inaction"
     },
     {
       "section": 2,
@@ -55,7 +55,7 @@
       "reflectionPrompt": "Inner growth needs sincerity and effort. Am I willing to make the effort?",
       "practice": "Be 100% present in whatever you do today",
       "meditation": "20 mins total focus on breath",
-      "journalPrompt": "Do I have doubts about the knowledge or my ability to adhere to it?\r\nHow present was I while doing my chores today?",
+      "journalPrompt": "Do I have doubts about the knowledge or my ability to adhere to it?\nHow present was I while doing my chores today?",
       "whatOthersSaid": "",
       "shlokaFrom": "",
       "wisdomFrom": ""
@@ -65,13 +65,13 @@
       "theme": "Section 4",
       "sutra": {
         "number": "1.21, 1.22",
-        "sanskrit": "तीव्रसंवेगानामासन्नः\r\nमृदुमध्याधिमात्रत्वात्ततोऽपि विशेषः",
+        "sanskrit": "तीव्रसंवेगानामासन्नः\nमृदुमध्याधिमात्रत्वात्ततोऽपि विशेषः",
         "transliteration": "Sutra 1.21, 1.22",
-        "meaning": "Intense effort brings quick progress. \r\nEffort varies in intensity -i) feeble ii) moderate iii)steady"
+        "meaning": "Intense effort brings quick progress. \nEffort varies in intensity -i) feeble ii) moderate iii)steady"
       },
-      "insight": "Depth of desire determines growth. Intensity comes when the sadhak has faith in himself, the process and the teacher.\r\nThe pace of growth depends on your effort.",
-      "reflectionPrompt": "How strong is my intention?\r\nWhere am I on this scale?",
-      "practice": "Act with intensity\r\nObserve effort level",
+      "insight": "Depth of desire determines growth. Intensity comes when the sadhak has faith in himself, the process and the teacher.\nThe pace of growth depends on your effort.",
+      "reflectionPrompt": "How strong is my intention?\nWhere am I on this scale?",
+      "practice": "Act with intensity\nObserve effort level",
       "meditation": "20 min meditation",
       "journalPrompt": "Did I give my best?",
       "whatOthersSaid": "",

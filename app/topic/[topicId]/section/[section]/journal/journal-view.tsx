@@ -81,8 +81,8 @@ export function JournalView({
         />
         {submitted && (
           <div className="flex items-center gap-2 px-1">
-            <CheckCircle2 className="w-4 h-4 text-rose-500" />
-            <span className="text-xs text-rose-600 font-medium">
+            <CheckCircle2 className="w-4 h-4 text-emerald-500" />
+            <span className="text-xs text-emerald-600 font-medium">
               Journal entry saved
             </span>
           </div>

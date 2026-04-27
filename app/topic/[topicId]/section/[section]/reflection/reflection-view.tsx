@@ -27,6 +27,8 @@ function formatDate(iso: string) {
   });
 }
 
+const DEFAULT_ANSWERS = { reflections: [], savedChats: [], completedSteps: [] };
+
 export function ReflectionView({
   topicId,
   section,
@@ -40,7 +42,7 @@ export function ReflectionView({
   const profile = useAppStore((s) => s.profile);
   const answersKey = `${topicId}::${section.section}`;
   const answers = useAppStore(
-    (s) => s.answers[answersKey] ?? { reflections: [], savedChats: [], completedSteps: [] }
+    (s) => s.answers[answersKey] ?? DEFAULT_ANSWERS
   );
   const reflections = answers.reflections ?? [];
   const hasReflections = reflections.length > 0;

@@ -12,6 +12,7 @@ import {
   ChevronRight,
   CheckCircle2,
   Sparkles,
+  Lock,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useAppStore } from "@/lib/store";
@@ -151,7 +152,7 @@ export function SectionDetail({
           <ArrowLeft className="w-5 h-5 text-foreground" />
         </Link>
         <div className="flex-1 min-w-0">
-          <p className="text-xs text-muted-foreground">{topicTitle}</p>
+          <p className="text-xs text-muted-foreground uppercase tracking-wider font-semibold opacity-70">{topicTitle}</p>
           <h1 className="text-xl font-bold text-foreground leading-tight mt-0.5">
             {section.theme}
           </h1>
@@ -165,19 +166,13 @@ export function SectionDetail({
       </div>
 
       {/* Theme banner */}
-      <div className="rounded-2xl bg-gradient-to-br from-purple-50/80 to-pink-50/60 p-6">
-        <div className="flex items-center gap-2 mb-2">
+      <div className="rounded-[32px] bg-gradient-to-br from-purple-50/80 to-pink-50/60 p-5 border border-purple-100/30">
+        <div className="flex items-center gap-2">
           <Sparkles className="w-4 h-4 text-purple-400" />
-          <span className="text-xs font-semibold text-purple-500 uppercase tracking-widest">
+          <span className="text-[10px] font-bold text-purple-500 uppercase tracking-widest">
             {firstName ? `${firstName}'s Focus` : "Today's Focus"}
           </span>
         </div>
-        <h2 className="text-2xl font-bold text-foreground leading-snug">
-          {section.theme}
-        </h2>
-        <p className="text-sm text-muted-foreground mt-2">
-          Sutra {section.sutra.number}
-        </p>
       </div>
 
       {/* Step progress */}
@@ -242,36 +237,30 @@ export function SectionDetail({
         })}
       </div>
 
-      {/* Complete section button */}
+      {/* Unified Action Button */}
       {!isDone && (
         <div className="fixed bottom-0 left-0 right-0 p-5 bg-background/90 backdrop-blur-md border-t border-gray-100/50">
-          <div className="max-w-md mx-auto sm:max-w-lg">
+          <div className="max-w-md mx-auto sm:max-w-lg space-y-4">
             <Button
               onClick={handleCompleteSection}
-              disabled={!allStepsComplete}
-              className={`w-full h-14 text-base font-semibold rounded-2xl transition-all ${
+              className={`w-full h-14 text-base font-bold rounded-2xl transition-all duration-300 relative overflow-hidden group ${
                 allStepsComplete
-                  ? "bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white shadow-lg shadow-purple-200/60"
-                  : "bg-gray-100 text-gray-400 cursor-not-allowed"
+                  ? "bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-xl shadow-purple-200/50 hover:scale-[1.02] active:scale-[0.98]"
+                  : "bg-gray-100 text-gray-400 border border-gray-200/50"
               }`}
             >
-              {isLast ? (
-                <>
-                  Complete Journey
-                  <CheckCircle2 className="w-5 h-5 ml-2" />
-                </>
-              ) : (
-                <>
-                  Complete & Next
-                  <ChevronRight className="w-5 h-5 ml-2" />
-                </>
-              )}
+              <div className="relative z-10 flex items-center justify-center gap-2">
+                {!allStepsComplete && <Lock className="w-4 h-4 opacity-50" />}
+                <span>
+                  {allStepsComplete 
+                    ? (isLast ? "Complete Your Journey" : "Complete & Next Section") 
+                    : `Complete ${activeSteps.length - answers.completedSteps.length} more steps`}
+                </span>
+                {allStepsComplete && <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />}
+              </div>
+              
+              {/* Progress background for the button itself? Maybe too complex, let's keep it clean */}
             </Button>
-            {!allStepsComplete && (
-              <p className="text-xs text-center text-muted-foreground mt-3">
-                Complete all {activeSteps.length} steps to unlock
-              </p>
-            )}
           </div>
         </div>
       )}

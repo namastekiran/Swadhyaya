@@ -14,9 +14,5 @@ export default async function JourneyPage({ params }: Props) {
     notFound();
   }
 
-  return (
-    <div className="space-y-4">
-      <JourneyList topic={topic} />
-    </div>
-  );
+  return <JourneyList topic={topic} />;
 }

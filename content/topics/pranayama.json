@@ -37,7 +37,7 @@
       "reflectionPrompt": "Am I practicing pranayam with attention and ease?",
       "practice": "practice asanas and alternate nostril breathing at a very slow rate, as per capacity",
       "meditation": "20 min meditation",
-      "journalPrompt": "",
+      "journalPrompt": "What was my experience?",
       "whatOthersSaid": "",
       "shlokaFrom": "अपाने जुह्वति प्राणं प्राणेऽपानं तथापरे |प्राणापानगती रुद्ध्वा प्राणायामपरायणा: || 29|| अपरे नियताहारा: प्राणान्प्राणेषु जुह्वति |सर्वेऽप्येते यज्ञविदो यज्ञक्षपितकल्मषा: || 30||",
       "wisdomFrom": "Still others offer as sacrifice the outgoing breath in the incoming breath, while some offer the incoming breath into the outgoing breath. Some arduously practice prāṇāyām and restrain the incoming and outgoing breaths, purely absorbed in the regulation of the life-energy. Yet others curtail their food intake and offer the breath into the life-energy as sacrifice. All these knowers of sacrifice are cleansed of their impurities as a result of such performances."
@@ -55,7 +55,7 @@
       "reflectionPrompt": "Am I practicing pranayam with attention and ease?",
       "practice": "practice alternate nostril breathing at a very slow rate, for 9 rotations, focusing on inhalation for 4 , retention 2  and exhalation 6 counts.",
       "meditation": "20 min meditation",
-      "journalPrompt": "",
+      "journalPrompt": "Record improvement.",
       "whatOthersSaid": "",
       "shlokaFrom": "",
       "wisdomFrom": ""
@@ -73,7 +73,7 @@
       "reflectionPrompt": "Am I doing my practice with commitment.",
       "practice": "Make a commitment and effort to intensify your practice. Pranayam with meditation for 20 min.",
       "meditation": "20 min meditation",
-      "journalPrompt": "",
+      "journalPrompt": "Record improvement.",
       "whatOthersSaid": "",
       "shlokaFrom": "",
       "wisdomFrom": ""
@@ -83,7 +83,7 @@
       "theme": "Section 5",
       "sutra": {
         "number": "2.52, 2.53",
-        "sanskrit": "त॒तः॒ क्षी॒य॒ते प्रकाशा॑वर॒णम् \r\nधा॒र॒णासु च योग्यता॑ मन॒सः",
+        "sanskrit": "त॒तः॒ क्षी॒य॒ते प्रकाशा॑वर॒णम् \nधा॒र॒णासु च योग्यता॑ मन॒सः",
         "transliteration": "Sutra 2.52, 2.53",
         "meaning": "From that is dissipated, the mental darkness which veils the light, ... and from that, is attained the state of the mind for linking the attention to a higher concentration force or person."
       },
@@ -91,7 +91,7 @@
       "reflectionPrompt": "Is my practice intense?",
       "practice": "Make a commitment and effort to intensify your practice. Meditate for 20 min",
       "meditation": "20 min meditation",
-      "journalPrompt": "",
+      "journalPrompt": "Record improvement.",
       "whatOthersSaid": "",
       "shlokaFrom": "",
       "wisdomFrom": ""

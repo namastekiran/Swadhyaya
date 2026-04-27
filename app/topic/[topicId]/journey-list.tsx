@@ -53,12 +53,14 @@ function SectionRow({
   theme,
   status,
   isLast,
+  completedStepsCount = 0,
 }: {
   topicId: string;
   sectionNum: number;
   theme: string;
   status: SectionStatus;
   isLast: boolean;
+  completedStepsCount?: number;
 }) {
   const isDone = status === "done";
   const isCurrent = status === "current";
@@ -128,7 +130,11 @@ function SectionRow({
               </h3>
               {!isLocked && (
                 <p className="text-xs text-gray-500 mt-1.5 font-medium group-hover:text-purple-500 transition-colors">
-                  {isDone ? "Review session →" : "Continue journey →"}
+                  {isDone 
+                    ? "Review session →" 
+                    : completedStepsCount > 0 
+                      ? "Continue journey →" 
+                      : "Start exploration →"}
                 </p>
               )}
             </div>
@@ -162,6 +168,7 @@ export function JourneyList({ topic }: { topic: TopicData }) {
   const [mounted, setMounted] = useState(false);
   const getSectionStatus = useAppStore((s) => s.getSectionStatus);
   const getTopicProgress = useAppStore((s) => s.getTopicProgress);
+  const getSectionAnswers = useAppStore((s) => s.getSectionAnswers);
   
   useEffect(() => {
     setMounted(true);
@@ -232,6 +239,7 @@ export function JourneyList({ topic }: { topic: TopicData }) {
             sectionNum={section.section}
             theme={section.theme}
             status={getSectionStatus(topic.id, section.section)}
+            completedStepsCount={getSectionAnswers(topic.id, section.section).completedSteps.length}
             isLast={i === topic.sections.length - 1}
           />
         ))}

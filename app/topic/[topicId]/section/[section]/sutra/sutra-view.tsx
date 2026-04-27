@@ -52,15 +52,15 @@ export function SutraView({
             Sutra {section.sutra.number}
           </span>
         </div>
-        <p className="font-devanagari text-2xl leading-relaxed text-foreground mb-4 whitespace-pre-wrap break-words">
+        <p className="font-devanagari text-2xl leading-snug text-foreground mb-4 whitespace-pre-wrap break-words">
           {section.sutra.sanskrit}
         </p>
         <p className="text-xs text-muted-foreground italic mb-3">
-          {section.sutra.transliteration}
+          {section.sutra.transliteration.replace(new RegExp(`sutra\\s*${section.sutra.number.replace('.', '\\.')}`, 'gi'), '').trim()}
         </p>
         <div className="h-px bg-amber-200/40 my-4" />
         <p className="text-sm text-foreground/80 leading-relaxed">
-          {section.sutra.meaning}
+          {section.sutra.meaning.replace(new RegExp(`sutra\\s*${section.sutra.number.replace('.', '\\.')}`, 'gi'), '').trim()}
         </p>
       </div>
 

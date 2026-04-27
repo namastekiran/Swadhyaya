@@ -314,7 +314,7 @@ const TOPIC_CONFIG: {
     hasTopicColumn: false,
   },
   {
-    sheetName: "Impressions&karma",
+    sheetName: "Impressionskarma",
     id: "impressions-karma",
     title: "Impressions & Karma",
     tagline: "Samskaras and action",
@@ -323,7 +323,7 @@ const TOPIC_CONFIG: {
     hasTopicColumn: false,
   },
   {
-    sheetName: "Ignorance&suffering",
+    sheetName: "Ignorancesuffering",
     id: "ignorance-suffering",
     title: "Ignorance & Suffering",
     tagline: "Avidya and kleshas",
@@ -344,7 +344,14 @@ const TOPIC_CONFIG: {
 
 function clean(val: unknown): string {
   if (val === null || val === undefined) return "";
-  return String(val).trim();
+  let s = String(val).trim();
+  // Normalize all line endings to \n
+  s = s.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+  // Collapse multiple line breaks (even with spaces between them) into one
+  s = s.replace(/\n\s*\n+/g, "\n");
+  // Remove incorrect phrases as per user request
+  s = s.replace(/This state is akin to the state just before falling asleep\./gi, "").trim();
+  return s;
 }
 
 function generateTransliteration(sutraNum: string): string {
@@ -443,7 +450,7 @@ function parseTopic(
       theme,
       sutra: {
         number: cleanedSutraNo,
-        sanskrit: sanskrit.replace(/\n{3,}/g, "\n"),
+        sanskrit: sanskrit.replace(/\n{2,}/g, "\n"),
         transliteration: generateTransliteration(cleanedSutraNo),
         meaning,
       },
@@ -480,7 +487,21 @@ function main() {
 
   const wb = XLSX.readFile(EXCEL_PATH);
 
+  // Map sheet names to their visibility state
+  const sheetVisibility: Record<string, number> = {};
+  if (wb.Workbook && wb.Workbook.Sheets) {
+    wb.SheetNames.forEach((name: string, i: number) => {
+      sheetVisibility[name] = wb.Workbook.Sheets[i]?.Hidden || 0;
+    });
+  }
+
   for (const config of TOPIC_CONFIG) {
+    // Skip if sheet is hidden (1 = Hidden, 2 = Very Hidden)
+    if (sheetVisibility[config.sheetName] > 0) {
+      console.warn(`  Skipping hidden sheet: "${config.sheetName}"`);
+      continue;
+    }
+
     const topic = parseTopic(wb, config);
     const outPath = path.join(OUTPUT_DIR, `${topic.id}.json`);
     fs.writeFileSync(outPath, JSON.stringify(topic, null, 2), "utf-8");

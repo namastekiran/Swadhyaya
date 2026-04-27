@@ -29,7 +29,7 @@
       "theme": "Section 2",
       "sutra": {
         "number": "2.52, 2.53",
-        "sanskrit": "त॒तः॒ क्षी॒य॒ते प्रकाशा॑वर॒णम् \r\nधा॒र॒णासु च योग्यता॑ मन॒सः",
+        "sanskrit": "त॒तः॒ क्षी॒य॒ते प्रकाशा॑वर॒णम् \nधा॒र॒णासु च योग्यता॑ मन॒सः",
         "transliteration": "Sutra 2.52, 2.53",
         "meaning": "From that is dissipated, the mental darkness which veils the light, ... and from that, is attained the state of the mind for linking the attention to a higher concentration force or person."
       },
