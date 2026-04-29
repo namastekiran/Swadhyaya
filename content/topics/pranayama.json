@@ -8,7 +8,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "Section 1",
+      "theme": "8 limbs of yoga",
       "sutra": {
         "number": "2.29",
         "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
@@ -26,7 +26,7 @@
     },
     {
       "section": 2,
-      "theme": "Section 2",
+      "theme": "pranayama",
       "sutra": {
         "number": "2.49",
         "sanskrit": "त॒स्मिन्सति श्वा॒सप्र॒श्वा॒स॒योर्ग॒ति॒वि॒च्छेदः प्रा॑णाया॒मः",
@@ -44,7 +44,7 @@
     },
     {
       "section": 3,
-      "theme": "Section 3",
+      "theme": "3 movements",
       "sutra": {
         "number": "2.50",
         "sanskrit": "बाह्याभ्यन्तरस्तम्भवृत्तिर्देशकालसंख्याभिः परिदृष्टो दीर्घसूक्ष्मः",
@@ -62,7 +62,7 @@
     },
     {
       "section": 4,
-      "theme": "Section 4",
+      "theme": "4th type",
       "sutra": {
         "number": "2.51000000000001",
         "sanskrit": "बा॒ह्या॒भ्यन्तरवि॒ष॒या॒क्षे॒पी",
@@ -80,10 +80,10 @@
     },
     {
       "section": 5,
-      "theme": "Section 5",
+      "theme": "fit for Dharana",
       "sutra": {
         "number": "2.52, 2.53",
-        "sanskrit": "त॒तः॒ क्षी॒य॒ते प्रकाशा॑वर॒णम् \nधा॒र॒णासु च योग्यता॑ मन॒सः",
+        "sanskrit": "त॒तः॒ क्षी॒य॒ते प्रकाशा॑वर॒णम्\nधा॒र॒णासु च योग्यता॑ मन॒सः",
         "transliteration": "Sutra 2.52, 2.53",
         "meaning": "From that is dissipated, the mental darkness which veils the light, ... and from that, is attained the state of the mind for linking the attention to a higher concentration force or person."
       },

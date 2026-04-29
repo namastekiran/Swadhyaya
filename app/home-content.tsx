@@ -16,78 +16,68 @@ function getGreeting() {
 
 export function HomeContent({ topics }: { topics: TopicSummary[] }) {
   const [mounted, setMounted] = useState(false);
-  const [greeting, setGreeting] = useState("");
+  const [category, setCategory] = useState("All paths");
   const profile = useAppStore((s) => s.profile);
 
   useEffect(() => {
     setMounted(true);
-    setGreeting(getGreeting());
   }, []);
 
   if (!mounted) {
-    return null; // Prevent hydration mismatch
+    return null;
   }
 
   if (!profile) {
     return <Onboarding />;
   }
 
-  const firstName = profile.name.split(" ")[0];
+  const categories = [
+    "All journeys",
+    "I procrastinate",
+    "I feel anxious",
+    "My mind won't settle",
+    "I feel lost",
+    "I lose my temper",
+    "I can't stay consistent",
+    "I lack purpose",
+    "My ego gets in the way"
+  ];
 
   return (
-    <div className="space-y-10">
-      <header className="space-y-5 pt-4">
-        <div className="flex items-center gap-3.5">
-          <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-purple-100 to-pink-100 flex items-center justify-center shadow-sm">
-            <Flower2 className="w-6 h-6 text-purple-400" />
-          </div>
-          <div>
-            <p className="text-sm text-muted-foreground">
-              {greeting},
-            </p>
-            <h1 className="text-2xl font-bold text-foreground leading-tight">
-              {firstName}
-            </h1>
-          </div>
-        </div>
-
-        <div className="rounded-2xl bg-gradient-to-br from-purple-50/80 to-pink-50/60 p-5">
-          <p className="text-sm text-foreground/80 leading-relaxed">
-            {profile.intention
-              ? `Your intention: "${profile.intention}"`
-              : "Reflect, practice, and grow — one small step at a time."}
-          </p>
-        </div>
+    <div className="space-y-12 pb-20">
+      {/* Emotional Header - Original Style */}
+      <header className="text-center space-y-4 pt-12">
+        <p className="text-[10px] font-bold text-amber-700/60 uppercase tracking-[0.2em] px-1">
+          SWADHYAYA — SELF STUDY
+        </p>
+        <h1 className="text-5xl font-serif text-gray-900 leading-tight">
+          What&apos;s weighing on you?
+        </h1>
+        <p className="text-sm text-muted-foreground max-w-lg mx-auto leading-relaxed">
+          Filter by what you&apos;re going through — we&apos;ll show the right path
+        </p>
       </header>
 
-      {/* The Swadhyaya Method */}
-      <section className="bg-orange-50/50 rounded-[32px] p-8 space-y-6 border border-orange-100/50">
-        <h2 className="text-[20px] font-bold text-orange-900 tracking-tight">
-          The Swadhyaya Method
-        </h2>
-        <ul className="space-y-4">
-          {[
-            "Daily contemplation of authentic Patanjali sutras",
-            "Guided audio meditations (coming soon)",
-            "Deep reflection questions for self-inquiry",
-            "Daily micro-practices to integrate wisdom",
-            "Personal journaling for insights"
-          ].map((point, i) => (
-            <li key={i} className="flex items-start gap-4">
-              <div className="w-1.5 h-1.5 rounded-full bg-orange-400 mt-2 flex-shrink-0" />
-              <p className="text-[14px] text-gray-600 font-medium leading-snug">
-                {point}
-              </p>
-            </li>
-          ))}
-        </ul>
-      </section>
+      {/* Emotional Filters - Original Style */}
+      <div className="flex flex-wrap items-center justify-center gap-2 max-w-4xl mx-auto">
+        {categories.map((cat) => (
+          <button
+            key={cat}
+            onClick={() => setCategory(cat)}
+            className={`px-5 py-2 rounded-xl text-[13px] font-bold transition-all duration-300 ${
+              category === cat
+                ? "bg-purple-600 text-white shadow-md shadow-purple-100"
+                : "bg-gray-50 text-gray-400 hover:bg-gray-100 hover:text-gray-600"
+            }`}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
 
-      <div className="space-y-5">
-        <h2 className="text-xs font-semibold text-muted-foreground uppercase tracking-widest px-1">
-          Choose Your Journey
-        </h2>
-        <TopicList topics={topics} />
+      {/* Topic List */}
+      <div className="px-1">
+        <TopicList topics={topics} activeCategory={category} />
       </div>
     </div>
   );

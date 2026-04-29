@@ -8,7 +8,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "Section 1",
+      "theme": "The 8 limbs of yoga",
       "sutra": {
         "number": "2.29",
         "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
@@ -26,7 +26,7 @@
     },
     {
       "section": 2,
-      "theme": "Section 2",
+      "theme": "Steady",
       "sutra": {
         "number": "2.46",
         "sanskrit": "स्थिरसुख॑म् आस॒नम्",
@@ -44,7 +44,7 @@
     },
     {
       "section": 3,
-      "theme": "Section 3",
+      "theme": "Relaxing",
       "sutra": {
         "number": "2.47",
         "sanskrit": "प्र॒य॒त्नशैथिल्यानन्तस॑माप॒त्ति॒भ्याम्",
@@ -62,7 +62,7 @@
     },
     {
       "section": 4,
-      "theme": "Section 4",
+      "theme": "Dualities dissappear",
       "sutra": {
         "number": "2.48",
         "sanskrit": "ततो द्व॒न्द्वान॑भिघा॒तः",
@@ -73,14 +73,14 @@
       "reflectionPrompt": "Is daily yoga practice for me like brushing my teeth or taking a bath yet?",
       "practice": "practice asanas with awareness",
       "meditation": "20 min meditation",
-      "journalPrompt": "",
+      "journalPrompt": "Am I inspired to do the asanas daily.",
       "whatOthersSaid": "",
       "shlokaFrom": "",
       "wisdomFrom": ""
     },
     {
       "section": 5,
-      "theme": "Section 5",
+      "theme": "Breath control",
       "sutra": {
         "number": "2.49",
         "sanskrit": "त॒स्मिन्सति श्वा॒सप्र॒श्वा॒स॒योर्ग॒ति॒वि॒च्छेदः प्रा॑णाया॒मः",
@@ -91,7 +91,7 @@
       "reflectionPrompt": "Am I practicing pranayam with attention and ease?",
       "practice": "practice asanas and alternate nostril breathing at a very slow rate, as per capacity",
       "meditation": "20 min meditation",
-      "journalPrompt": "",
+      "journalPrompt": "Observe your breath during asanas as well.",
       "whatOthersSaid": "",
       "shlokaFrom": "अपाने जुह्वति प्राणं प्राणेऽपानं तथापरे |प्राणापानगती रुद्ध्वा प्राणायामपरायणा: || 29|| अपरे नियताहारा: प्राणान्प्राणेषु जुह्वति |सर्वेऽप्येते यज्ञविदो यज्ञक्षपितकल्मषा: || 30||",
       "wisdomFrom": "Still others offer as sacrifice the outgoing breath in the incoming breath, while some offer the incoming breath into the outgoing breath. Some arduously practice prāṇāyām and restrain the incoming and outgoing breaths, purely absorbed in the regulation of the life-energy. Yet others curtail their food intake and offer the breath into the life-energy as sacrifice. All these knowers of sacrifice are cleansed of their impurities as a result of such performances."

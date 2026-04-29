@@ -8,7 +8,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "Section 1",
+      "theme": "Why do we suffer?",
       "sutra": {
         "number": "2.3",
         "sanskrit": "अविद्यास्मितारागद्वेषाभिनिवेशाः क्लेशाः",
@@ -21,56 +21,56 @@
       "meditation": "10 mins meditation",
       "journalPrompt": "Identify one pattern",
       "whatOthersSaid": "",
-      "shlokaFrom": "अज्ञश्चाश्रद्दधानश्च संशयात्मा विनश्यति ।\nनायं लोकोऽस्ति न परो न सुखं संशयात्मनः ॥  4.40",
+      "shlokaFrom": "अज्ञश्चाश्रद्दधानश्च संशयात्मा विनश्यति।नायं लोकोऽस्ति न परो न सुखं संशयात्मनः॥ 4.40",
       "wisdomFrom": "The ignorant, the faithless, and the doubting soul are destroyed. There is neither this world nor the next, nor happiness for the doubting soul."
     },
     {
       "section": 2,
-      "theme": "Section 2",
+      "theme": "Ignorant about the real identity",
       "sutra": {
         "number": "2.4",
         "sanskrit": "अविद्या क्षेत्रमुत्तरेषां प्रसुप्ततनुविच्छिन्नोदाराणाम्",
         "transliteration": "Sutra 2.4",
-        "meaning": "Ignorance is the root of all suffering"
+        "meaning": "Spiritual ignorance is the root of all suffering because it may cause arrogance, cravings, aversion, attachment etc which are impediments to growth and cause suffering."
       },
-      "insight": "Unawareness fuels all reactions.",
-      "reflectionPrompt": "Where am I unaware?",
+      "insight": "Unawareness fuels all reactions which cause karmic residue.",
+      "reflectionPrompt": "Do I  function unawares of the cause or consequence?",
       "practice": "Observe reactions",
       "meditation": "10 mins meditation",
       "journalPrompt": "What did I miss?",
       "whatOthersSaid": "",
-      "shlokaFrom": "तस्मादज्ञानसम्भूतं हृत्स्थं ज्ञानासिनात्मनः ।\nछित्त्वैनं संशयं योगमातिष्ठोत्तिष्ठ भारत ॥  4.42",
+      "shlokaFrom": "तस्मादज्ञानसम्भूतं हृत्स्थं ज्ञानासिनात्मनः।छित्त्वैनं संशयं योगमातिष्ठोत्तिष्ठ भारत॥ 4.42",
       "wisdomFrom": "Therefore, with the sword of knowledge, cut asunder this doubt in your heart born of ignorance. Take refuge in yoga and arise, O Bharata!"
     },
     {
       "section": 3,
-      "theme": "Section 3",
+      "theme": "What really is permanent",
       "sutra": {
         "number": "2.5",
         "sanskrit": "अनित्याशुचिदुःखानात्मसु नित्यशुचिसुखात्मख्यातिरविद्या",
         "transliteration": "Sutra 2.5",
-        "meaning": "Confusing temporary as permanent is ignorance"
+        "meaning": "Confusing temporary as permanent is ignorance for example assuming the world to be prmanent."
       },
-      "insight": "Misperception creates suffering.",
-      "reflectionPrompt": "What am I holding as permanent?",
+      "insight": "Misperception of what really matters creates suffering.Misperception creates suffering. Life itself is impermanent so everything else around it too is not permanent.",
+      "reflectionPrompt": "What am I holding as permanent which is perishable?",
       "practice": "Reflect deeply",
       "meditation": "10 mins meditation",
       "journalPrompt": "What is temporary?",
       "whatOthersSaid": "",
-      "shlokaFrom": "यो यो यां यां तनुं भक्तः श्रद्धयार्चितुमिच्छति ।\nतस्य तस्याचलां श्रद्धां तामेव विदधाम्यहम् ॥  7.21",
+      "shlokaFrom": "यो यो यां यां तनुं भक्तः श्रद्धयार्चितुमिच्छति।तस्य तस्याचलां श्रद्धां तामेव विदधाम्यहम्॥ 7.21",
       "wisdomFrom": "Whatever form any devotee desires to worship with faith, I make that faith of his steady."
     },
     {
       "section": 4,
-      "theme": "Section 4",
+      "theme": "Is the Ego false",
       "sutra": {
         "number": "2.6",
         "sanskrit": "दृग्दर्शनशक्त्योरेकात्मतेवास्मिता",
         "transliteration": "Sutra 2.6",
-        "meaning": "Ego is identification of seer with seeing"
+        "meaning": "Ego is identification of seer with seeing ie the body, mind and intellect as the eternal, indestructible Self"
       },
-      "insight": "We confuse self with roles.",
-      "reflectionPrompt": "Who am I beyond roles?",
+      "insight": "We confuse self with the roles we are playing.",
+      "reflectionPrompt": "Who am I beyond the roles?",
       "practice": "Observe identity",
       "meditation": "10 mins meditation",
       "journalPrompt": "Where did I identify?",
@@ -80,15 +80,15 @@
     },
     {
       "section": 5,
-      "theme": "Section 5",
+      "theme": "Change is the only constant.",
       "sutra": {
         "number": "2.15",
         "sanskrit": "परिणामतापसंस्कारदुःखैर्गुणवृत्तिविरोधाच्च दुःखमेव सर्वं विवेकिनः",
         "transliteration": "Sutra 2.15",
-        "meaning": "Wise see suffering in all change"
+        "meaning": "Wise see suffering in all change, even what apparently seems pleasant is tinged with suffering and sorrow."
       },
       "insight": "Everything changes—awareness frees you.",
-      "reflectionPrompt": "Can I accept change?",
+      "reflectionPrompt": "Can I accept change without getting derailed?",
       "practice": "Observe impermanence in all things around you",
       "meditation": "10 mins meditation",
       "journalPrompt": "What changed?",
@@ -98,15 +98,15 @@
     },
     {
       "section": 6,
-      "theme": "Section 6",
+      "theme": "Cause and effect affects all.",
       "sutra": {
         "number": "2.16",
         "sanskrit": "हेयं दुःखमनागतम",
         "transliteration": "Sutra 2.16",
-        "meaning": "Future suffering can be avoided"
+        "meaning": "Future suffering can be avoided if we adopt the path of yoga because this alone prevents further impressions ie. karma from taking root."
       },
-      "insight": "Awareness prevents suffering.",
-      "reflectionPrompt": "What can I prevent?",
+      "insight": "Awareness of the impermanency of the world prevents future suffering.",
+      "reflectionPrompt": "Am I established on the path of yoga?",
       "practice": "Act consciously",
       "meditation": "10 mins meditation",
       "journalPrompt": "What did I avoid?",
@@ -116,25 +116,25 @@
     },
     {
       "section": 7,
-      "theme": "Section 7",
+      "theme": "The seer is not the seen.",
       "sutra": {
         "number": "2.17",
         "sanskrit": "द्रष्टृदृश्ययोः संयोगो हेयहेतुः",
         "transliteration": "Sutra 2.17",
-        "meaning": "Union of seer and seen causes suffering"
+        "meaning": "Union of seer and seen causes suffering because the self which is eternal is mistakenly seen as the same as the body with its organs of perception etc"
       },
-      "insight": "Attachment causes confusion.",
-      "reflectionPrompt": "Where am I attached?",
+      "insight": "Attachment to the non permanent causes confusion.",
+      "reflectionPrompt": "Can I differentiate between my body and the Self yet?",
       "practice": "Observe separation of seer and seen",
       "meditation": "10 mins meditation",
       "journalPrompt": "What caused disturbance?",
       "whatOthersSaid": "",
-      "shlokaFrom": "तं विद्याद् दुःखसंयोगवियोगं योगसंज्ञितम् ।\nस निश्चयेन योक्तव्यो योगोऽनिर्विण्णचेतसा ॥  6.23",
+      "shlokaFrom": "तं विद्याद् दुःखसंयोगवियोगं योगसंज्ञितम्।स निश्चयेन योक्तव्यो योगोऽनिर्विण्णचेतसा॥ 6.23",
       "wisdomFrom": "Know that severance from union with pain is called yoga. This yoga should be practiced with determination and with an undaunted mind."
     },
     {
       "section": 8,
-      "theme": "Section 8",
+      "theme": "Practice is gold.",
       "sutra": {
         "number": "2.25",
         "sanskrit": "तदभावात् संयोगाभावो हानं तद् दृशेः कैवल्यम्",

@@ -4,11 +4,11 @@
   "tagline": "Deep meditation and absorption",
   "description": "Journey into the highest stages of yoga, exploring the profound states of meditative absorption where the observer and the observed become one.",
   "icon": "brain",
-  "totalSections": 24,
+  "totalSections": 22,
   "sections": [
     {
       "section": 1,
-      "theme": "Section 1",
+      "theme": "Meditation is effortless.",
       "sutra": {
         "number": "3.3",
         "sanskrit": "तदेवार्थमात्रनिर्भासं स्वरूपशून्यमिव समाधिः",
@@ -26,7 +26,7 @@
     },
     {
       "section": 2,
-      "theme": "Section 2",
+      "theme": "Experience of samadhi is varied.",
       "sutra": {
         "number": "1.17",
         "sanskrit": "प्रत्यक्षानुमानागमाः प्रमाणानि ॥१.७॥",
@@ -39,19 +39,19 @@
       "meditation": "meditate 20 min",
       "journalPrompt": "What do I feel in silence?",
       "whatOthersSaid": "",
-      "shlokaFrom": "श्रेयो हि ज्ञानमभ्यासाज्ज्ञानाद्ध्यानं विशिष्यते  ।\n\nध्यानात्कर्मफलत्यागस्त्यागाच्छान्तिरनन्तरम्  ॥  १२-१२ ॥",
+      "shlokaFrom": "श्रेयो हि ज्ञानमभ्यासाज्ज्ञानाद्ध्यानं विशिष्यते ।\nध्यानात्कर्मफलत्यागस्त्यागाच्छान्तिरनन्तरम् ॥ १२-१२॥",
       "wisdomFrom": "Better than mechanical practice is knowledge; better than knowledge is meditation. Better than meditation is renunciation of the fruits of actions, for peace immediately follows such renunciation."
     },
     {
       "section": 3,
-      "theme": "Section 3",
+      "theme": "Dissolution of all save the Self",
       "sutra": {
         "number": "1.18",
         "sanskrit": "विरामप्रत्ययाभ्यासपूर्व: संस्कारशेषोSन्यः",
         "transliteration": "Sutra 1.18",
         "meaning": "Asamprajnat-Samadhi is the other kind of Samadhi which is attained by the constant practice of cessation of all mental modifications, in which the Chitta retains only the unmanifested impression."
       },
-      "insight": "The intelligence dissolves but the sense of self remains.",
+      "insight": "This state is akin to the state just before falling asleep. The intelligence dissolves but the sense of self remains.",
       "reflectionPrompt": "Am I close to stopping the modulations of the mind to some extent?",
       "practice": "Intensify your practices to quiten the mind.",
       "meditation": "meditate 20 min",
@@ -62,7 +62,7 @@
     },
     {
       "section": 4,
-      "theme": "Section 4",
+      "theme": "The consciousness is freed of all disturbance.",
       "sutra": {
         "number": "1.19",
         "sanskrit": "भवप्रत्ययो विदेहप्रकृतिलयानाम्",
@@ -80,7 +80,7 @@
     },
     {
       "section": 5,
-      "theme": "Section 5",
+      "theme": "Faith is everything.",
       "sutra": {
         "number": "1.20",
         "sanskrit": "श्रद्धावीर्यस्मृतिसमाधिप्रज्ञापूर्वक इतरेषाम्",
@@ -98,7 +98,7 @@
     },
     {
       "section": 6,
-      "theme": "Section 6",
+      "theme": "Effort can be varied.",
       "sutra": {
         "number": "1.21, 1.22",
         "sanskrit": "तीव्रसंवेगानामासन्नः\nमृदुमध्याधिमात्रत्वात्ततोऽपि विशेषः",
@@ -116,7 +116,7 @@
     },
     {
       "section": 7,
-      "theme": "Section 7",
+      "theme": "Ultimate goal is the supreme divinity.",
       "sutra": {
         "number": "1.23, 1.24",
         "sanskrit": "ईश्वरप्रणिधानाद्वा\nक्लेशकर्मविपाकाशयैरपरामृष्टः पुरुषविशेष ईश्वरः",
@@ -134,7 +134,7 @@
     },
     {
       "section": 8,
-      "theme": "Section 8",
+      "theme": "One way is by sound vibrations.",
       "sutra": {
         "number": "1.27, 1.28",
         "sanskrit": "तस्य वाचकः प्रणवः\nतज्जपस्तदर्थभावनम्",
@@ -147,12 +147,12 @@
       "meditation": "meditate 20 min",
       "journalPrompt": "What did I feel?",
       "whatOthersSaid": "",
-      "shlokaFrom": "अन्तकाले च मामेव स्मरन्मुक्त्वा कलेवरम्  ।\n\nयः प्रयाति स मद्भावं याति नास्त्यत्र संशयः  ॥  8.5  ॥",
+      "shlokaFrom": "अन्तकाले च मामेव स्मरन्मुक्त्वा कलेवरम् ।\nयः प्रयाति स मद्भावं याति नास्त्यत्र संशयः ॥ 8.5 ॥",
       "wisdomFrom": "One who departs from the body while remembering Me, the Supreme Personality, and chanting the syllable Om, will attain the supreme goal."
     },
     {
       "section": 9,
-      "theme": "Section 9",
+      "theme": "Om chanting is the way.",
       "sutra": {
         "number": "1.29",
         "sanskrit": "ततः प्रत्यक्चेतनाधिगमोऽप्यन्तरायाभावश्च",
@@ -170,7 +170,7 @@
     },
     {
       "section": 10,
-      "theme": "Section 10",
+      "theme": "Another way is through focus on something.",
       "sutra": {
         "number": "1.39",
         "sanskrit": "यथाभिमतध्यानाद्वा",
@@ -188,7 +188,7 @@
     },
     {
       "section": 11,
-      "theme": "Section 11",
+      "theme": "The smallest to the largest  are all within the purview.",
       "sutra": {
         "number": "1.40",
         "sanskrit": "परमाणुपरममहत्त्वान्तोऽस्य वशीकारः",
@@ -206,7 +206,7 @@
     },
     {
       "section": 12,
-      "theme": "Section 12",
+      "theme": "Purity of mind is the aim.",
       "sutra": {
         "number": "1.41",
         "sanskrit": "क्षीणवृत्तेरभिजातस्येव मणेर्ग्रहीतृग्रहणग्राह्येषु तत्स्थतदञ्जनता समापत्तिः",
@@ -224,7 +224,7 @@
     },
     {
       "section": 13,
-      "theme": "Section 13",
+      "theme": "It all becomes the One.",
       "sutra": {
         "number": "1.42",
         "sanskrit": "तत्र शब्दार्थज्ञानविकल्पैः संकीर्णा सवितर्का समापत्तिः",
@@ -242,7 +242,7 @@
     },
     {
       "section": 14,
-      "theme": "Section 14",
+      "theme": "Memory is the grime on the mirror.",
       "sutra": {
         "number": "1.43",
         "sanskrit": "स्मृतिपरिशुद्धौ स्वरूपशून्येवार्थमात्रनिर्भासा निर्वितर्का",
@@ -260,7 +260,7 @@
     },
     {
       "section": 15,
-      "theme": "Section 15",
+      "theme": "From subtle to subtler",
       "sutra": {
         "number": "1.44",
         "sanskrit": "एतयैव सविचारा निर्विचारा च सूक्ष्मविषया व्याख्याता",
@@ -278,7 +278,7 @@
     },
     {
       "section": 16,
-      "theme": "Section 16",
+      "theme": "Nature dissolves into consciousness.",
       "sutra": {
         "number": "1.45",
         "sanskrit": "सूक्ष्मविषयत्वं चालिङ्गपर्यवसानम्",
@@ -296,7 +296,7 @@
     },
     {
       "section": 17,
-      "theme": "Section 17",
+      "theme": "The intellect needs to dissolve too.",
       "sutra": {
         "number": "1.46",
         "sanskrit": "ता एव सबीजः समाधिः",
@@ -314,7 +314,7 @@
     },
     {
       "section": 18,
-      "theme": "Section 18",
+      "theme": "Bliss is all that remains.",
       "sutra": {
         "number": "1.47",
         "sanskrit": "निर्विचारवैशारद्येऽध्यात्मप्रसादः",
@@ -332,7 +332,7 @@
     },
     {
       "section": 19,
-      "theme": "Section 19",
+      "theme": "Wisdom dawns.",
       "sutra": {
         "number": "1.48",
         "sanskrit": "ऋतम्भरा तत्र प्रज्ञा",
@@ -350,7 +350,7 @@
     },
     {
       "section": 20,
-      "theme": "Section 20",
+      "theme": "Its a different kind of wisdom.",
       "sutra": {
         "number": "1.49",
         "sanskrit": "श्रुतानुमानप्रज्ञाभ्यामन्यविषया विशेषार्थत्वात्",
@@ -368,15 +368,15 @@
     },
     {
       "section": 21,
-      "theme": "Section 21",
+      "theme": "Nothing old nor anything new.",
       "sutra": {
-        "number": "1.50",
-        "sanskrit": "तज्जः संस्कारोऽन्यसंस्कारप्रतिबन्धी",
-        "transliteration": "Sutra 1.50",
-        "meaning": "New impressions are prevented whereas old patterns are erased."
+        "number": "1.50, 1.51",
+        "sanskrit": "तज्जः संस्कारोऽन्यसंस्कारप्रतिबन्धी\nतस्यापि निरोधे सर्वनिरोधान्निर्बीजः समाधिः",
+        "transliteration": "Sutra 1.50, 1.51",
+        "meaning": "New impressions are prevented whereas old patterns are erased.\nEven this new state of wisdom dissolves leading to a nirbeeja or seedless state"
       },
-      "insight": "Awareness replaces conditioning.",
-      "reflectionPrompt": "What pattern shifted?",
+      "insight": "Awareness replaces conditioning.\nUltimate stillness is beyond all patterns.",
+      "reflectionPrompt": "What pattern shifted?\nCan I rest without effort?",
       "practice": "Repeat awareness",
       "meditation": "meditate 20 min",
       "journalPrompt": "What changed?",
@@ -386,57 +386,21 @@
     },
     {
       "section": 22,
-      "theme": "Section 22",
-      "sutra": {
-        "number": "1.51",
-        "sanskrit": "तस्यापि निरोधे सर्वनिरोधान्निर्बीजः समाधिः",
-        "transliteration": "Sutra 1.51",
-        "meaning": "Even this new state of wisdom dissolves leading to a nirbeeja or seedless state"
-      },
-      "insight": "Ultimate stillness is beyond all patterns.",
-      "reflectionPrompt": "Can I rest without effort?",
-      "practice": "Sit in silence",
-      "meditation": "meditate 20 min",
-      "journalPrompt": "What was beyond effort?",
-      "whatOthersSaid": "",
-      "shlokaFrom": "",
-      "wisdomFrom": ""
-    },
-    {
-      "section": 23,
-      "theme": "Section 23",
+      "theme": "Going inward dissolves patterns.",
       "sutra": {
         "number": "2.10",
-        "sanskrit": "ते प्रतिप्रसवहेयाः सूक्ष्माः",
+        "sanskrit": "ते प्रतिप्रसवहेयाः सूक्ष्माः\nध्यानहेयास्तद्वृत्तयः",
         "transliteration": "Sutra 2.10",
-        "meaning": "Subtle impressions dissolve by returning to source"
+        "meaning": "Subtle impressions dissolve by returning to source.Meditation removes disturbances"
       },
-      "insight": "Going inward dissolves patterns.",
-      "reflectionPrompt": "Can I go inward?",
-      "practice": "Sit in silence",
+      "insight": "Going inward dissolves patterns.Meditation clears mind patterns.",
+      "reflectionPrompt": "Can I go inward?Did meditation help?",
+      "practice": "Sit in silence, Meditate daily",
       "meditation": "meditate 20 min",
       "journalPrompt": "What softened?",
       "whatOthersSaid": "",
       "shlokaFrom": "",
       "wisdomFrom": ""
-    },
-    {
-      "section": 24,
-      "theme": "Section 24",
-      "sutra": {
-        "number": "2.11",
-        "sanskrit": "ध्यानहेयास्तद्वृत्तयः",
-        "transliteration": "Sutra 2.11",
-        "meaning": "Meditation removes disturbances"
-      },
-      "insight": "Meditation clears mind patterns.",
-      "reflectionPrompt": "Did meditation help?",
-      "practice": "Meditate daily",
-      "meditation": "meditate 20 min",
-      "journalPrompt": "What reduced?",
-      "whatOthersSaid": "",
-      "shlokaFrom": "सङ्कल्पप्रभवान्कामांस्त्यक्त्वा सर्वानशेषत: |\nमनसैवेन्द्रियग्रामं विनियम्य समन्तत: || 6.24||\nशनै: शनैरुपरमेद्बुद्ध्या धृतिगृहीतया |\nआत्मसंस्थं मन: कृत्वा न किञ्चिदपि चिन्तयेत् ||6. 25||",
-      "wisdomFrom": "We can meditate upon God in several ways. The Names, Forms, Leelas (Pastimes), Associates, and Abodes of God. There is no difference among all these aspects of God. Therefore, one can meditate on any one or all of them. Such meditation, where we attach our mind to the Supreme Divinity, takes our mind to the divine realm, and as a result, it purifies."
     }
   ]
 }

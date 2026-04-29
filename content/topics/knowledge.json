@@ -8,7 +8,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "Three Sources of Knowledge",
+      "theme": "Three sources of true knowing.",
       "sutra": {
         "number": "1.7",
         "sanskrit": "प्रत्यक्षानुमानागमाः प्रमाणानि",
@@ -26,7 +26,7 @@
     },
     {
       "section": 2,
-      "theme": "Wrong Understanding",
+      "theme": "The distortion of wrong knowing.",
       "sutra": {
         "number": "1.8",
         "sanskrit": "विपर्ययो मिथ्याज्ञानमतद्रूपप्रतिष्ठम्",
@@ -44,7 +44,7 @@
     },
     {
       "section": 3,
-      "theme": "The Nature of Imagination",
+      "theme": "The stories the mind invents.",
       "sutra": {
         "number": "1.9",
         "sanskrit": "शब्दज्ञानानुपाती वस्तुशून्यो विकल्पः",
@@ -54,7 +54,7 @@
       "insight": "The mind creates stories without facts. Sometimes its mere pleasureable fantasy but at other times it could be baseless fears.",
       "reflectionPrompt": "What story did my mind create?",
       "practice": "Observe imagination vs reality",
-      "meditation": "3 min breath. 10 min meditation",
+      "meditation": "3 min breath consciously. 10 min meditation",
       "journalPrompt": "What did I imagine?",
       "whatOthersSaid": "",
       "shlokaFrom": "",
@@ -62,7 +62,7 @@
     },
     {
       "section": 4,
-      "theme": "The State of Sleep",
+      "theme": "Sleep too is a movement.",
       "sutra": {
         "number": "1.10",
         "sanskrit": "अभावप्रत्ययालम्बना वृत्तिर्निद्रा",
@@ -80,7 +80,7 @@
     },
     {
       "section": 5,
-      "theme": "Infinite Knowledge",
+      "theme": "The eternal source of wisdom.",
       "sutra": {
         "number": "1.25, 1.26",
         "sanskrit": "तत्र निरतिशयं सर्वज्ञबीजम्\nस पूर्वेषामपि गुरुः कालेनानवच्छेदात",
@@ -93,12 +93,12 @@
       "meditation": "10 min meditation",
       "journalPrompt": "What insight came?",
       "whatOthersSaid": "",
-      "shlokaFrom": "श्रद्धावाँल्लभते ज्ञानं तत्परः संयतेन्द्रियः ।\nज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति ॥  4.39",
+      "shlokaFrom": "श्रद्धावाँल्लभते ज्ञानं तत्परः संयतेन्द्रियः।ज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति॥ 4.39",
       "wisdomFrom": "The man of faith obtains knowledge. Devoted to it and controlling his senses, having obtained knowledge he quickly attains supreme peace."
     },
     {
       "section": 6,
-      "theme": "Section 6",
+      "theme": "Even subtle violence harms.",
       "sutra": {
         "number": "2.34",
         "sanskrit": "वितर्का हिंसादयः कृतकारितानुमोदिता लोभक्रोधमोहपूर्वका मृदुमध्याधिमात्रा दुःखाज्ञानानन्तफला इति प्रतिपक्षभावनम्",

@@ -8,7 +8,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "The Sacred Beginning",
+      "theme": "The sacred beginning.",
       "sutra": {
         "number": "1.1",
         "sanskrit": "अ॒थ योगानु॑शास॒नम् ॥",
@@ -21,12 +21,12 @@
       "meditation": "10 min breath awareness",
       "journalPrompt": "Was sitting still in silence difficult?",
       "whatOthersSaid": "",
-      "shlokaFrom": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत्  ।\n\nआत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः  ॥  ६-५  ॥",
+      "shlokaFrom": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत् ।\nआत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः ॥ ६-५ ॥",
       "wisdomFrom": "Elevate yourself through the power of your mind, and not degrade yourself. For the mind can be the friend and also the enemy of the self\"."
     },
     {
       "section": 2,
-      "theme": "Stilling the Mind",
+      "theme": "Stillness reveals the self.",
       "sutra": {
         "number": "1.2, 1.3",
         "sanskrit": "योगश्चित्तवृत्तिनिरोधः\nतदा द्रष्टुः स्वरूपेऽवस्थानम्",
@@ -44,14 +44,14 @@
     },
     {
       "section": 3,
-      "theme": "Five Movements of Mind",
+      "theme": "The five movements of mind.",
       "sutra": {
         "number": "1.5, 1.6",
         "sanskrit": "वृत्तयः पञ्चतय्यः क्लिष्टाक्लिष्टाः\nप्रमाणविपर्ययविकल्पनिद्रास्मृतयः",
         "transliteration": "Sutra 1.5, 1.6",
-        "meaning": "The chitta is disturbed by five-fold movements of our mind, some of these vrittis or modulations can be painful others not so much however all of them bring disturbance. Yoga is when they are dropped.\nThey are- 1. It seeks Pramana or validity of knowledge. Is the knowledge experiential, or at least can be guessed at. Perhaps the scriptures say so. 2. However, despite all the proof seeking the mind may still opt for Viparyaya ie. perverse or wrong knowledge, 3. Sometimes there is no truth at all just imagination or delusion ie vikalpa, 4.The 4th vritti is sleep and 5.  the memory of it all. All this keeps our mind busy unless asleep."
+        "meaning": "The chitta is disturbed by five-fold movements of our mind, some of these vrittis or modulations can be painful others not so much however all of them bring disturbance. Yoga is when they are dropped.\n\nThey are- 1. It seeks Pramana or validity of knowledge. Is the knowledge experiential, or at least can be guessed at. Perhaps the scriptures say so. 2. However, despite all the proof seeking the mind may still opt for Viparyaya ie. perverse or wrong knowledge, 3. Sometimes there is no truth at all just imagination or delusion ie vikalpa, 4.The 4th vritti is sleep and 5.  the memory of it all. All this keeps our mind busy unless asleep."
       },
-      "insight": "Some thoughts bring a lot of misery some less. Awareness quietens most thoughts.\nPramana is direct knowledge, from the core of ones being. Viparyaya is wrong perceptions gathered by the senses of perception like taking the coat stand for a ghost in the dark. Vikalpa is just being in la-la land without any  basis in facts. Smriti helps one recollect experiences for right understanding and waking from sleep one experiences the quietude ie. the opposite of the disturbed chitta.",
+      "insight": "Some thoughts bring a lot of misery some less. Awareness quietens most thoughts.\n\nPramana is direct knowledge, from the core of ones being. Viparyaya is wrong perceptions gathered by the senses of perception like taking the coat stand for a ghost in the dark. Vikalpa is just being in la-la land without any  basis in facts. Smriti helps one recollect experiences for right understanding and waking from sleep one experiences the quietude ie. the opposite of the disturbed chitta.",
       "reflectionPrompt": "Which thoughts disturb me most?\nWhich of Patanjali's classifications keeps my mind busy? What happens when observed?",
       "practice": "Observe thoughts without reacting",
       "meditation": "10 min meditation.\nObserve thoughts as helpful/unhelpful",
@@ -62,7 +62,7 @@
     },
     {
       "section": 4,
-      "theme": "Practice & Letting Go",
+      "theme": "Practice and let go.",
       "sutra": {
         "number": "1.12, 1.13",
         "sanskrit": "अभ्यासवैराग्याभ्यां तन्निरोधः\nतत्र स्थितौ यत्नोऽभ्यासः",
@@ -75,12 +75,12 @@
       "meditation": "20 min breath awareness",
       "journalPrompt": "Did I stay consistent?",
       "whatOthersSaid": "",
-      "shlokaFrom": "2.47 कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।\n\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥",
+      "shlokaFrom": "2.47 कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥",
       "wisdomFrom": "You have the right to action only, \nnever to  the fruits. Let not the\n fruits of action be thy motive,\n nor let thy attachment be to\n inaction"
     },
     {
       "section": 5,
-      "theme": "Steady Dedication",
+      "theme": "Steadiness is built slowly.",
       "sutra": {
         "number": "1.14",
         "sanskrit": "स तु दीर्घकालनैरन्तर्यसत्कारासेवितो दृढभूमिः",
@@ -93,12 +93,12 @@
       "meditation": "20 min breath awareness",
       "journalPrompt": "Could I do even the boring jobs with 100% attention. Did that make a difference",
       "whatOthersSaid": "",
-      "shlokaFrom": "तानि सर्वाणि संयम्य युक्त आसीत मत्परः ।\n\nवशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता ॥  2.61",
+      "shlokaFrom": "तानि सर्वाणि संयम्य युक्त आसीत मत्परः।\nवशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता॥ 2.61",
       "wisdomFrom": "One who restrains their senses and fixes their consciousness upon Me is known as a man of steady intelligence"
     },
     {
       "section": 6,
-      "theme": "Faith & Inner Strength",
+      "theme": "Bring your full self.",
       "sutra": {
         "number": "1.20",
         "sanskrit": "श्रद्धावीर्यस्मृतिसमाधिप्रज्ञापूर्वक इतरेषाम्",
@@ -116,25 +116,25 @@
     },
     {
       "section": 7,
-      "theme": "Intensity of Effort",
+      "theme": "How much do you want it?",
       "sutra": {
         "number": "1.21, 1.22",
         "sanskrit": "तीव्रसंवेगानामासन्नः\nमृदुमध्याधिमात्रत्वात्ततोऽपि विशेषः",
         "transliteration": "Sutra 1.21, 1.22",
         "meaning": "Intense effort brings quick progress\nEffort varies in intensity -i) feeble ii) moderate iii)steady"
       },
-      "insight": "Depth of desire determines growth. How badly do you want it.\nThe pace of growth depends on your effort.",
+      "insight": "Depth of desire determines growth. How badly do you want it.\n\nThe pace of growth depends on your effort.",
       "reflectionPrompt": "How strong is my intention?\nWhere am I on this scale?",
       "practice": "Act with intensity\nObserve effort level",
       "meditation": "20 min meditation",
       "journalPrompt": "Did I give my best?",
       "whatOthersSaid": "",
-      "shlokaFrom": "चञ्चलं हि मनः कृष्ण प्रमाथि बलवद्दृढम् ।\n\nतस्याहं निग्रहं मन्ये वायोरिव सुदुष्करम् ॥  6.34 Bhagvad Gita",
+      "shlokaFrom": "चञ्चलं हि मनः कृष्ण प्रमाथि बलवद्दृढम्।\nतस्याहं निग्रहं मन्ये वायोरिव सुदुष्करम्॥ 6.34 Bhagvad Gita",
       "wisdomFrom": "The mind is restless, turbulent, strong, and stubborn; controlling it is as difficult as controlling the wind"
     },
     {
       "section": 8,
-      "theme": "Obstacles on the Path",
+      "theme": "Nine doors of distraction.",
       "sutra": {
         "number": "1.30",
         "sanskrit": "व्याधिस्त्यानसंशयप्रमादालस्याविरतिभ्रान्तिदर्शनालब्धभूमिकत्वानवस्थितत्वानि चित्तविक्षेपास्तेऽन्तरायाः",
@@ -147,19 +147,19 @@
       "meditation": "20 min meditate on the challenge/s you have encountered in your practice",
       "journalPrompt": "What blocked me?",
       "whatOthersSaid": "",
-      "shlokaFrom": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।\n\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥  2.47 Bhagvad Gita",
+      "shlokaFrom": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥ 2.47 Bhagvad Gita",
       "wisdomFrom": "You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions"
     },
     {
       "section": 9,
-      "theme": "Signs of Imbalance",
+      "theme": "One focus steadies everything.",
       "sutra": {
         "number": "1.31, 1.32",
         "sanskrit": "दुःखदौर्मनस्याङ्गमेजयत्वश्वासप्रश्वासा विक्षेपसहभुवः\nतत्प्रतिषेधार्थमेकतत्त्वाभ्यासः",
         "transliteration": "Sutra 1.31, 1.32",
-        "meaning": "Sorrow, despair, unsteadiness of the body and irregular breathing further distract the chitta.\nAdherence to single minded effort prevents these impediments."
+        "meaning": "Sorrow, despair, unsteadiness of the body and irregular breathing further distract the chitta.\n\nAdherence to single minded effort prevents these impediments."
       },
-      "insight": "During meditation the body and mind feel restless.\nSingle minded focus reduces distraction.",
+      "insight": "During meditation the body and mind feel restless.\n\n\nSingle minded focus reduces distraction.",
       "reflectionPrompt": "How does my body and mind feel?",
       "practice": "Whenever there is free time ponder about the obstacles to your practice. Why are they there?",
       "meditation": "5 min breathing, observe physical and mental state.\nMeditate for 20 min",
@@ -170,15 +170,15 @@
     },
     {
       "section": 10,
-      "theme": "The Three Pillars",
+      "theme": "Discipline, study, surrender.",
       "sutra": {
         "number": "2.1, 2.2",
         "sanskrit": "तपःस्वाध्यायेश्वरप्रणिधानानि क्रियायोगः\nसमाधिभावनार्थः क्लेशतनूकरणार्थश्च",
         "transliteration": "Sutra 2.1, 2.2",
-        "meaning": "Discipline in practice, self-study, study of the scriptures and surrender to God are the acts of yoga.\nYoga reduces suffering and prepares for meditation."
+        "meaning": "Discipline in practice, self-study, study of the scriptures and surrender to God are the acts of yoga.\n\nYoga reduces suffering and prepares for meditation."
       },
       "insight": "I need to be committed to make progress",
-      "reflectionPrompt": "Can I make a commitment to myself?\nEffort + awareness + surrender = growth.\tAm I balanced in effort?",
+      "reflectionPrompt": "Can I make a commitment to myself?\n\n\nEffort + awareness + surrender = growth.\tAm I balanced in effort?",
       "practice": "Be disciplined in daily practice starting today.",
       "meditation": "20 mins meditation with intention to be comitted",
       "journalPrompt": "Set a tracker for daily practice",

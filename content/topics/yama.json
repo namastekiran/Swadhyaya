@@ -8,7 +8,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "Section 1",
+      "theme": "Ashtang Yoga",
       "sutra": {
         "number": "2.29",
         "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
@@ -26,7 +26,7 @@
     },
     {
       "section": 2,
-      "theme": "Section 2",
+      "theme": "The yamas",
       "sutra": {
         "number": "2.30",
         "sanskrit": "अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहा यमाः",
@@ -44,7 +44,7 @@
     },
     {
       "section": 3,
-      "theme": "Section 3",
+      "theme": "The universal great vows",
       "sutra": {
         "number": "2.31",
         "sanskrit": "जातिदेशकालसमयानवच्छिन्नाः सार्वभौमा महाव्रतम्",
@@ -62,7 +62,7 @@
     },
     {
       "section": 4,
-      "theme": "Section 4",
+      "theme": "Do not doubt them",
       "sutra": {
         "number": "2.33",
         "sanskrit": "वितर्कबाधने प्रतिपक्षभावनम्",
@@ -80,7 +80,7 @@
     },
     {
       "section": 5,
-      "theme": "Section 5",
+      "theme": "Ahimsa",
       "sutra": {
         "number": "2.35",
         "sanskrit": "अहिंसाप्रतिष्ठायां तत्सन्निधौ वैरत्यागः",
@@ -98,7 +98,7 @@
     },
     {
       "section": 6,
-      "theme": "Section 6",
+      "theme": "Truthfulness",
       "sutra": {
         "number": "2.36",
         "sanskrit": "सत्यप्रतिष्ठायां क्रियाफलाश्रयत्वम्",
@@ -116,7 +116,7 @@
     },
     {
       "section": 7,
-      "theme": "Section 7",
+      "theme": "non stealing",
       "sutra": {
         "number": "2.37",
         "sanskrit": "अस्तेयप्रतिष्ठायां सर्वरत्नोपस्थानम्",
@@ -125,7 +125,7 @@
       },
       "insight": "Stealing can be of all kinds of things- material and non material; we normally think only of the material theft.",
       "reflectionPrompt": "Did I ever steal say ideas, appreciation, attention?",
-      "practice": "observe if you covet anything anyone else has.",
+      "practice": "observe if you covet anything someone else has.",
       "meditation": "20 min meditation",
       "journalPrompt": "Do I feel lack.",
       "whatOthersSaid": "",
@@ -134,7 +134,7 @@
     },
     {
       "section": 8,
-      "theme": "Section 8",
+      "theme": "moderation",
       "sutra": {
         "number": "2.38",
         "sanskrit": "ब्रह्मचर्यप्रतिष्ठायां वीर्यलाभः",
@@ -152,7 +152,7 @@
     },
     {
       "section": 9,
-      "theme": "Section 9",
+      "theme": "non possesiveness",
       "sutra": {
         "number": "2.39",
         "sanskrit": "अपरिग्रहस्थैर्ये जन्मकथंतासंबोधः",

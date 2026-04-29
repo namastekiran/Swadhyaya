@@ -8,7 +8,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "The Sacred Beginning",
+      "theme": "The sacred beginning.",
       "sutra": {
         "number": "1.1",
         "sanskrit": "अ॒थ योगानु॑शास॒नम् ॥",
@@ -26,7 +26,7 @@
     },
     {
       "section": 2,
-      "theme": "Stilling the Mind",
+      "theme": "Yoga stills the inner noise.",
       "sutra": {
         "number": "1.2, 1.3",
         "sanskrit": "योगश्चित्तवृत्तिनिरोधः\nतदा द्रष्टुः स्वरूपेऽवस्थानम्",
@@ -39,21 +39,21 @@
       "meditation": "3 min breathing. \nPause and observe moments of stillness. meditate for 10 min",
       "journalPrompt": "Did I observe repetitive thoughts?",
       "whatOthersSaid": "",
-      "shlokaFrom": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय  ।\n\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते  ॥  ४८  ॥",
+      "shlokaFrom": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय ।\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते ॥ ४८ ॥",
       "wisdomFrom": "Be steadfast in the \nperformance of your duty,\n O Arjun, abandoning\n attachment to success\n and failure. Such \nequanimity is called Yog."
     },
     {
       "section": 3,
-      "theme": "Discipline & Self-Study",
+      "theme": "The three pillars of practice.",
       "sutra": {
         "number": "2.1, 2.2",
         "sanskrit": "तपःस्वाध्यायेश्वरप्रणिधानानि क्रियायोगः\nसमाधिभावनार्थः क्लेशतनूकरणार्थश्च",
         "transliteration": "Sutra 2.1, 2.2",
-        "meaning": "Discipline in practice, self-study, study of the scriptures and surrender to God are the acts of yoga.\nYoga reduces suffering and prepares for meditation."
+        "meaning": "Discipline in practice, self-study, study of the scriptures and surrender to God are the acts of yoga.\nYoga reduces suffering and prepares one for meditation."
       },
       "insight": "I need to be committed to make progress",
-      "reflectionPrompt": "Can I make a commitment to myself?\nEffort + awareness + surrender = growth.\tAm I balanced in effort?",
-      "practice": "Practice discipline",
+      "reflectionPrompt": "Can I make a commitment to myself?\n\n\nEffort + awareness + surrender = growth.\tAm I balanced in effort?",
+      "practice": "Practice discipline consciously.",
       "meditation": "10 mins meditation with intention to be comitted",
       "journalPrompt": "",
       "whatOthersSaid": "",
@@ -62,7 +62,7 @@
     },
     {
       "section": 4,
-      "theme": "Purification Through Practice",
+      "theme": "Yoga purifies, wisdom blooms.",
       "sutra": {
         "number": "2.28",
         "sanskrit": "योगाङ्गानुष्ठानादशुद्धिक्षये ज्ञानदीप्तिराविवेकख्यातेः",
@@ -80,12 +80,12 @@
     },
     {
       "section": 5,
-      "theme": "The Eightfold Path",
+      "theme": "A complete map for living.",
       "sutra": {
         "number": "2.29",
         "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
         "transliteration": "Sutra 2.29",
-        "meaning": "Eight limbs of yoga guide the path"
+        "meaning": "Eight limbs of yoga guide the path.\nYama (moral injunctions), Niyama (observances), Āsana (posture), Prāṇāyāma (regulation of breath), Pratyāhāra (withholding of senses), Dhāraṇā (fixity of attention), Dhyāna (meditation), and Samādhi (absorption of consciousness in the self) are the eight accessories (limbs) of Yoga"
       },
       "insight": "Yoga is a complete lifestyle.",
       "reflectionPrompt": "Which limb can I improve?",

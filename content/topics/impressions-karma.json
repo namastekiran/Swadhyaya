@@ -4,16 +4,16 @@
   "tagline": "Samskaras and action",
   "description": "Understand the subtle imprints left by your actions and learn how to navigate the law of karma to create a life of purpose and freedom.",
   "icon": "orbit",
-  "totalSections": 10,
+  "totalSections": 8,
   "sections": [
     {
       "section": 1,
-      "theme": "Section 1",
+      "theme": "Memory brings karma.",
       "sutra": {
         "number": "1.11",
         "sanskrit": "अनुभूतविषयासम्प्रमोषः स्मृतिः",
         "transliteration": "Sutra 1.11",
-        "meaning": "Memory is unmodified, retained experience"
+        "meaning": "Memory is unmodified, retained experience. It is the collection of the modulations and impressions of correct knowledge, perverse knowledge, illusory knowledge and sleep."
       },
       "insight": "Past impressions influence present behavior. When awake if the mind is in any of the four modulations  then that is not meditation. It is not Yoga.",
       "reflectionPrompt": "What memory got triggered in me today?",
@@ -26,12 +26,12 @@
     },
     {
       "section": 2,
-      "theme": "Section 2",
+      "theme": "The fragmented psyche  has tomerge",
       "sutra": {
         "number": "1.41",
         "sanskrit": "क्षीणवृत्तेरभिजातस्येव मणेर्ग्रहीतृग्रहणग्राह्येषु तत्स्थतदञ्जनता समापत्तिः",
         "transliteration": "Sutra 1.41",
-        "meaning": "When mind becomes clear it reflects reality like a crystal"
+        "meaning": "When mind becomes clear it reflects reality like a crystal-  As realisation dawns that the knower , the instrument of knowing and the known are but one."
       },
       "insight": "When the mind is pure it reflects truth without distortion.",
       "reflectionPrompt": "Is my perception clear or colored?",
@@ -39,17 +39,17 @@
       "meditation": "10 min stillness",
       "journalPrompt": "what was my observation",
       "whatOthersSaid": "",
-      "shlokaFrom": "लभन्ते ब्रह्मनिर्वाणमृषयः क्षीणकल्मषाः ।\nछिन्नद्वैधा यतात्मानः सर्वभूतहिते रताः ॥",
+      "shlokaFrom": "लभन्ते ब्रह्मनिर्वाणमृषयः क्षीणकल्मषाः।छिन्नद्वैधा यतात्मानः सर्वभूतहिते रताः॥",
       "wisdomFrom": "The sages whose sins are destroyed, whose doubts are dispelled, whose minds are disciplined, and who rejoice in the welfare of all beings, attain liberation in Brahman."
     },
     {
       "section": 3,
-      "theme": "Section 3",
+      "theme": "Perceptions need change",
       "sutra": {
         "number": "1.42",
         "sanskrit": "तत्र शब्दार्थज्ञानविकल्पैः संकीर्णा सवितर्का समापत्तिः",
         "transliteration": "Sutra 1.42",
-        "meaning": "Mixed perception includes words meaning and content and becomes a special knowledge. ."
+        "meaning": "Mixed perception including words, meaning and content  becomes a special knowledge at this stage called savitarka samadhi. ."
       },
       "insight": "This is a very refined state of consciousness.",
       "reflectionPrompt": "Where do I over-interpret?",
@@ -62,14 +62,14 @@
     },
     {
       "section": 4,
-      "theme": "Section 4",
+      "theme": "memory needs purification",
       "sutra": {
         "number": "1.43",
         "sanskrit": "स्मृतिपरिशुद्धौ स्वरूपशून्येवार्थमात्रनिर्भासा निर्वितर्का",
         "transliteration": "Sutra 1.43",
-        "meaning": "When memory is purified only truth shines Let go of past filters to see clearly."
+        "meaning": "When memory is purified only truth shines Let go of past recordings to see clearly. This is nirvitarka samadhi."
       },
-      "insight": "Let go of past filters to see clearly.",
+      "insight": "Let go of past filters to see the present clearly as it is. When memory is cleansed the consciousness shines without reflection.",
       "reflectionPrompt": "Do I think too much of what has passed.",
       "practice": "Observe without past reference",
       "meditation": "20 min stillness",
@@ -80,12 +80,12 @@
     },
     {
       "section": 5,
-      "theme": "Section 5",
+      "theme": "Constant cleansing needs awareness",
       "sutra": {
-        "number": "1.5",
+        "number": "1.50",
         "sanskrit": "तज्जः संस्कारोऽन्यसंस्कारप्रतिबन्धी",
-        "transliteration": "Sutra 1.5",
-        "meaning": "New impressions override old patterns"
+        "transliteration": "Sutra 1.50",
+        "meaning": "New impressions override old patterns..In fact the insight of the cleansed intellect negates all  residue action and prevents new ones taking root."
       },
       "insight": "Awareness replaces conditioning.",
       "reflectionPrompt": "What pattern shifted?",
@@ -98,12 +98,12 @@
     },
     {
       "section": 6,
-      "theme": "Section 6",
+      "theme": "Wisdom may be the last bastion",
       "sutra": {
         "number": "1.51",
         "sanskrit": "तस्यापि निरोधे सर्वनिरोधान्निर्बीजः समाधिः",
         "transliteration": "Sutra 1.51",
-        "meaning": "Even impressions dissolve leading to seedless state"
+        "meaning": "However, when even the new found wisdom is dropped it leads to a seedless state or nirbeej samadhi."
       },
       "insight": "Ultimate stillness is beyond all patterns.",
       "reflectionPrompt": "Can I rest without effort?",
@@ -116,15 +116,15 @@
     },
     {
       "section": 7,
-      "theme": "Section 7",
+      "theme": "karma and its vagaries",
       "sutra": {
-        "number": "2.12",
-        "sanskrit": "क्लेशमूलः कर्माशयो दृष्टादृष्टजन्मवेदनीयः",
-        "transliteration": "Sutra 2.12",
-        "meaning": "Karma is rooted in suffering"
+        "number": "2.12, 2.13, 2.14",
+        "sanskrit": "क्लेशमूलः कर्माशयो दृष्टादृष्टजन्मवेदनीयः\nसति मूले तद्विपाको जात्यायुर्भोगाः\nते ह्लादपरितापफलाः पुण्यापुण्यहेतुत्वात्",
+        "transliteration": "Sutra 2.12, 2.13, 2.14",
+        "meaning": "Karma is rooted in suffering,it determines life experiences.\nKarma determines if actions bring joy or suffering"
       },
-      "insight": "Actions leave impressions.",
-      "reflectionPrompt": "What action affected me?",
+      "insight": "Actions leave impressions which accumulate and will be experienced in present and future lives\nPatterns shape life.\nChoices shape experience.",
+      "reflectionPrompt": "What action affected me?\nWhat patterns repeat in my life?",
       "practice": "Observe consequences",
       "meditation": "meditate 20 min",
       "journalPrompt": "What did I create?",
@@ -134,43 +134,7 @@
     },
     {
       "section": 8,
-      "theme": "Section 8",
-      "sutra": {
-        "number": "2.13",
-        "sanskrit": "सति मूले तद्विपाको जात्यायुर्भोगाः",
-        "transliteration": "Sutra 2.13",
-        "meaning": "Karma determines life experience"
-      },
-      "insight": "Patterns shape life.",
-      "reflectionPrompt": "What pattern repeats?",
-      "practice": "Observe cycles",
-      "meditation": "meditate 20 min",
-      "journalPrompt": "What repeats?",
-      "whatOthersSaid": "",
-      "shlokaFrom": "",
-      "wisdomFrom": ""
-    },
-    {
-      "section": 9,
-      "theme": "Section 9",
-      "sutra": {
-        "number": "2.14",
-        "sanskrit": "ते ह्लादपरितापफलाः पुण्यापुण्यहेतुत्वात्",
-        "transliteration": "Sutra 2.14",
-        "meaning": "Actions bring joy or suffering"
-      },
-      "insight": "Choices shape experience.",
-      "reflectionPrompt": "What choice affected me?",
-      "practice": "Choose wisely",
-      "meditation": "meditate 20 min",
-      "journalPrompt": "What did I choose?",
-      "whatOthersSaid": "",
-      "shlokaFrom": "अश्रद्दधानाः पुरुषा धर्मस्यास्य परन्तप ।\nअप्राप्य मां निवर्तन्ते मृत्युसंसारवर्त्मनि ॥",
-      "wisdomFrom": "Those who have no faith in this dharma, O Parantapa, without attaining Me, return to the path of this world of death."
-    },
-    {
-      "section": 10,
-      "theme": "Section 10",
+      "theme": "vigil is needed to stay true",
       "sutra": {
         "number": "2.15",
         "sanskrit": "परिणामतापसंस्कारदुःखैर्गुणवृत्तिविरोधाच्च दुःखमेव सर्वं विवेकिनः",
@@ -183,8 +147,8 @@
       "meditation": "meditate 20 min",
       "journalPrompt": "Did I make considered decisions today.",
       "whatOthersSaid": "",
-      "shlokaFrom": "",
-      "wisdomFrom": ""
+      "shlokaFrom": "अश्रद्दधानाः पुरुषा धर्मस्यास्य परन्तप।अप्राप्य मां निवर्तन्ते मृत्युसंसारवर्त्मनि॥",
+      "wisdomFrom": "Those who have no faith in this dharma, O Parantapa, without attaining Me, return to the path of this world of death."
     }
   ]
 }

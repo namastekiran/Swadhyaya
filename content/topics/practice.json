@@ -8,7 +8,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "Practice & Detachment",
+      "theme": "Practice and let go.",
       "sutra": {
         "number": "1.12, 1.13",
         "sanskrit": "अभ्यासवैराग्याभ्यां तन्निरोधः\nतत्र स्थितौ यत्नोऽभ्यासः",
@@ -21,12 +21,12 @@
       "meditation": "10 min breath awareness",
       "journalPrompt": "Did I stay consistent?",
       "whatOthersSaid": "",
-      "shlokaFrom": "2.47 कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।\n\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥",
+      "shlokaFrom": "2.47 कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥",
       "wisdomFrom": "You have right to action only, \nnever to fruits. Let not the\n fruits of action be thy motive,\n nor let thy attachment be to\n inaction"
     },
     {
       "section": 2,
-      "theme": "Steady Dedication",
+      "theme": "Steadiness is built slowly.",
       "sutra": {
         "number": "1.14",
         "sanskrit": "स तु दीर्घकालनैरन्तर्यसत्कारासेवितो दृढभूमिः",
@@ -44,7 +44,7 @@
     },
     {
       "section": 3,
-      "theme": "Freedom from Craving",
+      "theme": "Release what you grip tightly.",
       "sutra": {
         "number": "1.15, 1.16",
         "sanskrit": "दृष्टानुश्रविकविषयवितृष्णस्य वशीकारसंज्ञा वैराग्यम्\nतत्परं पुरुषख्यातेर्गुणवैतृष्ण्यम्",
@@ -62,7 +62,7 @@
     },
     {
       "section": 4,
-      "theme": "Stages of Samadhi",
+      "theme": "Four doorways to samadhi.",
       "sutra": {
         "number": "1.17",
         "sanskrit": "वितर्कविचारानन्दास्मितारूपानुगमात्संप्रज्ञातः समाधिः",
@@ -71,7 +71,7 @@
       },
       "insight": "It can be a gradual movement from one to the other or any one of the ways.",
       "reflectionPrompt": "Do I need to rationally understand the process or am I willing to sit for meditation and let go?",
-      "practice": "Meditation evolves gradually, give yourself time",
+      "practice": "Meditation evolves gradually, give yourself time. Be patient but not slack.",
       "meditation": "sit in meditation for 10 mins and observe your experience",
       "journalPrompt": "What do I feel in silence?",
       "whatOthersSaid": "",
@@ -80,7 +80,7 @@
     },
     {
       "section": 5,
-      "theme": "Intensity of Effort",
+      "theme": "How much do you want it?",
       "sutra": {
         "number": "1.21, 1.22",
         "sanskrit": "तीव्रसंवेगानामासन्नः\nमृदुमध्याधिमात्रत्वात्ततोऽपि विशेषः",
@@ -98,7 +98,7 @@
     },
     {
       "section": 6,
-      "theme": "Faith & Confidence",
+      "theme": "Bring your full self.",
       "sutra": {
         "number": "1.20",
         "sanskrit": "श्रद्धावीर्यस्मृतिसमाधिप्रज्ञापूर्वक इतरेषाम्",
@@ -116,7 +116,7 @@
     },
     {
       "section": 7,
-      "theme": "Total Focus",
+      "theme": "Surrender to the divine.",
       "sutra": {
         "number": "1.23, 1.24",
         "sanskrit": "ईश्वरप्रणिधानाद्वा\nक्लेशकर्मविपाकाशयैरपरामृष्टः पुरुषविशेष ईश्वरः",
@@ -134,7 +134,7 @@
     },
     {
       "section": 8,
-      "theme": "Turning Inward",
+      "theme": "Aum clears the path.",
       "sutra": {
         "number": "1.29",
         "sanskrit": "ततः प्रत्यक्चेतनाधिगमोऽप्यन्तरायाभावश्च",
@@ -152,7 +152,7 @@
     },
     {
       "section": 9,
-      "theme": "One-Pointed Awareness",
+      "theme": "One-pointed attention transforms.",
       "sutra": {
         "number": "1.35",
         "sanskrit": "विषयवती वा प्रवृत्तिरुत्पन्ना मनसः स्थितिनिबन्धिनी",
@@ -170,7 +170,7 @@
     },
     {
       "section": 10,
-      "theme": "The Sound of Om",
+      "theme": "The sound behind all sounds.",
       "sutra": {
         "number": "1.27, 1.28",
         "sanskrit": "तस्य वाचकः प्रणवः\nतज्जपस्तदर्थभावनम्",
@@ -188,14 +188,14 @@
     },
     {
       "section": 11,
-      "theme": "Cultivating Serenity",
+      "theme": "The art of right attitude.",
       "sutra": {
         "number": "1.33, 1.34",
-        "sanskrit": "मैत्रीकरुणामुदितोपेक्षाणां सुखदुःखपुण्यापुण्यविषयाणां भावनातश्चित्तप्रसादनम् \nप्रच्छर्दनविधारणाभ्यां वा प्राणस्य",
+        "sanskrit": "मैत्रीकरुणामुदितोपेक्षाणां सुखदुःखपुण्यापुण्यविषयाणां भावनातश्चित्तप्रसादनम्\nप्रच्छर्दनविधारणाभ्यां वा प्राणस्य",
         "transliteration": "Sutra 1.33, 1.34",
-        "meaning": "The mind becomes clarified and serene by cultivating: \nMaitri (Friendliness) toward those who are happy,\nKaruṇa (Compassion) toward those who are unhappy or suffering ,\nMudita (Joy) toward those who are virtuous or meritorious and\nUpekṣa (Equanimity/Indifference) toward those who are non-virtuous or sinful (apuṇya). \nOr regulating the breath calms the mind too."
+        "meaning": "The mind becomes clarified and serene by cultivating: \nMaitri (Friendliness) toward those who are happy,\nKaruṇa (Compassion) toward those who are unhappy or suffering ,\nMudita (Joy) toward those who are virtuous or meritorious and\nUpekṣa (Equanimity/Indifference) toward those who are non-virtuous or sinful (apuṇya). \n\n\nOr regulating the breath calms the mind too."
       },
-      "insight": "One should be friendly and compassionate to all but be in close proximity to only those who are in a happy state of mind for sad and grumpy people will make you sad and grumpy which will do no favours to you or the person concerned.\nFeeling happy for the success of good people and indifferent to that of those who you think dont deserve it is a smart thing to do. Such an attitude will help you maintain your own equanimity.\nBreath is the key to balance.",
+      "insight": "One should be friendly and compassionate to all but be in close proximity to only those who are in a happy state of mind for sad and grumpy people will make you sad and grumpy which will do no favours to you or the person concerned.\nFeeling happy for the success of good people and indifferent to that of those who you think dont deserve it is a smart thing to do. Such an attitude will help you maintain your own equanimity.\n\n\n\n\n\n\n\n\nBreath is the key to balance.",
       "reflectionPrompt": "I need to watch my emotional entanglement while dealing with other people. Can I take a step back and observe myself?",
       "practice": "Observe your breathing. Inhale full and watch your belly inflate; exhale slowly and see it deflate. Continue for a few mins.",
       "meditation": "10 min meditation",
@@ -206,7 +206,7 @@
     },
     {
       "section": 12,
-      "theme": "Mastery of Contemplation",
+      "theme": "Awareness spans the infinite.",
       "sutra": {
         "number": "1.40",
         "sanskrit": "परमाणुपरममहत्त्वान्तोऽस्य वशीकारः",

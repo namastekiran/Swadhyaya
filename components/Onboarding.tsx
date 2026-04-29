@@ -1,150 +1,81 @@
 "use client";
 
 import { useState } from "react";
-import { Flower2, ArrowRight, Sparkles } from "lucide-react";
+import { Flower2, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useAppStore } from "@/lib/store";
 
-const INTENTIONS = [
-  "Build daily discipline",
-  "Find inner peace",
-  "Deepen my meditation",
-  "Understand yoga philosophy",
-  "Manage stress better",
-  "Grow spiritually",
-];
-
 export function Onboarding() {
   const setProfile = useAppStore((s) => s.setProfile);
-  const [step, setStep] = useState(0);
   const [name, setName] = useState("");
-  const [intention, setIntention] = useState("");
 
-  function handleFinish() {
-    setProfile(name, intention);
-  }
-
-  if (step === 0) {
-    return (
-      <div className="min-h-[85vh] flex flex-col items-center justify-center text-center px-2">
-        <div className="space-y-6 w-full max-w-sm">
-          <div className="inline-flex items-center justify-center w-20 h-20 rounded-3xl bg-gradient-to-br from-purple-100 to-pink-100 shadow-sm p-5">
-            <Flower2 className="w-10 h-10 text-purple-400" />
-          </div>
-
-          <div className="space-y-3">
-            <h1 className="text-3xl font-bold text-foreground tracking-tight">
-              Welcome to Swadhyaya
-            </h1>
-            <p className="text-base text-muted-foreground leading-relaxed">
-              When the movements of the mind settle, the Self is revealed.
-            </p>
-            <p className="text-base font-semibold text-purple-600 mt-1">
-              This is the journey of Swadhyaya.
-            </p>
-          </div>
-
-          <Button
-            onClick={() => setStep(1)}
-            className="w-full h-14 text-base font-semibold rounded-2xl bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white shadow-md shadow-purple-200/50"
-          >
-            Let&apos;s Begin
-            <ArrowRight className="w-5 h-5 ml-2" />
-          </Button>
-        </div>
-      </div>
-    );
-  }
-
-  if (step === 1) {
-    return (
-      <div className="min-h-[85vh] flex flex-col items-center justify-center px-2">
-        <div className="space-y-8 w-full max-w-sm">
-          <div className="space-y-2 text-center">
-            <h2 className="text-2xl font-bold text-foreground">
-              What should we call you?
-            </h2>
-            <p className="text-sm text-muted-foreground">
-              We&apos;ll use this to personalize your experience
-            </p>
-          </div>
-
-          <input
-            type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            placeholder="Your first name"
-            autoFocus
-            className="w-full rounded-2xl px-5 py-4 text-lg text-center bg-white border border-gray-100 shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-200 placeholder:text-muted-foreground/40"
-          />
-
-          <Button
-            onClick={() => setStep(2)}
-            disabled={!name.trim()}
-            className={`w-full h-14 text-base font-semibold rounded-2xl transition-all ${
-              name.trim()
-                ? "bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white shadow-md shadow-purple-200/50"
-                : "bg-gray-100 text-gray-400 cursor-not-allowed"
-            }`}
-          >
-            Continue
-            <ArrowRight className="w-5 h-5 ml-2" />
-          </Button>
-        </div>
-      </div>
-    );
+  function handleStart() {
+    setProfile(name, "");
   }
 
   return (
-    <div className="min-h-[85vh] flex flex-col items-center justify-center px-2">
-      <div className="space-y-8 w-full max-w-sm">
-        <div className="space-y-2 text-center">
-          <h2 className="text-2xl font-bold text-foreground">
-            What brings you here, {name.trim().split(" ")[0]}?
-          </h2>
-          <p className="text-sm text-muted-foreground">
-            Choose what resonates or write your own
-          </p>
+    <div className="min-h-screen flex items-center justify-center bg-[#FAFAFB] px-6">
+      <div className="w-full max-w-[440px] space-y-10 animate-in fade-in slide-in-from-bottom-8 duration-700">
+
+        {/* Brand/Icon Area */}
+        <div className="flex flex-col items-center text-center space-y-4">
+          <div className="relative">
+            <div className="absolute -inset-4 bg-purple-100/50 rounded-full blur-2xl animate-pulse" />
+            <div className="relative w-20 h-20 rounded-[28px] bg-white shadow-xl shadow-purple-100/20 flex items-center justify-center">
+              <Flower2 className="w-10 h-10 text-purple-500" />
+            </div>
+          </div>
+          <div className="space-y-1">
+            <h1 className="text-3xl font-black text-gray-900 tracking-tight">
+              Swadhyaya
+            </h1>
+            <p className="text-sm font-medium text-purple-600/80 uppercase tracking-widest">
+              The Journey Inward
+            </p>
+          </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-2.5">
-          {INTENTIONS.map((item) => (
-            <button
-              key={item}
-              onClick={() => setIntention(item)}
-              className={`p-3.5 rounded-xl text-sm font-medium text-left transition-all ${
-                intention === item
-                  ? "bg-purple-100 text-purple-700 ring-2 ring-purple-300"
-                  : "bg-white border border-gray-100 text-foreground hover:border-purple-200 hover:bg-purple-50/30"
-              }`}
-            >
-              {item}
-            </button>
-          ))}
+        {/* Interaction Card */}
+        <div className="bg-white rounded-[40px] p-8 shadow-[0_20px_50px_rgba(0,0,0,0.04)] border border-white/50 relative overflow-hidden">
+          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-purple-500 to-pink-500" />
+
+          <div className="space-y-8">
+            <div className="space-y-2 text-center">
+              <h2 className="text-lg font-semibold text-gray-900">
+                How should we greet you?
+              </h2>
+              <p className="text-[14px] text-gray-500 leading-relaxed max-w-[280px] mx-auto">
+                Ancient wisdom is best explored as a personal conversation. Tell us your name to begin.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <input
+                type="text"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                onKeyDown={(e) => e.key === "Enter" && name.trim() && handleStart()}
+                placeholder="Your first name"
+                autoFocus
+                className="w-full bg-gray-50/50 border border-gray-100 rounded-3xl px-6 py-5 text-lg font-medium text-center transition-all focus:bg-white focus:ring-4 focus:ring-purple-50 focus:border-purple-200 outline-none placeholder:text-gray-300"
+              />
+
+              <Button
+                onClick={handleStart}
+                disabled={!name.trim()}
+                className={`w-full h-16 text-lg font-bold rounded-3xl transition-all duration-300 ${
+                  name.trim()
+                    ? "bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-xl shadow-purple-100/50 hover:scale-[1.02] active:scale-[0.98]"
+                    : "bg-gray-100 text-gray-300 cursor-not-allowed"
+                }`}
+              >
+                <span>Start Your Journey</span>
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Button>
+            </div>
+          </div>
         </div>
 
-        <div className="relative">
-          <input
-            type="text"
-            value={INTENTIONS.includes(intention) ? "" : intention}
-            onChange={(e) => setIntention(e.target.value)}
-            placeholder="Or type your own..."
-            className="w-full rounded-xl px-4 py-3 text-sm bg-white border border-gray-100 shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-200 placeholder:text-muted-foreground/40"
-          />
-        </div>
-
-        <Button
-          onClick={handleFinish}
-          disabled={!intention.trim()}
-          className={`w-full h-14 text-base font-semibold rounded-2xl transition-all ${
-            intention.trim()
-              ? "bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white shadow-md shadow-purple-200/50"
-              : "bg-gray-100 text-gray-400 cursor-not-allowed"
-          }`}
-        >
-          <Sparkles className="w-5 h-5 mr-2" />
-          Start My Journey
-        </Button>
       </div>
     </div>
   );

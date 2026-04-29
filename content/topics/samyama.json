@@ -8,7 +8,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "Section 1",
+      "theme": "One pointed attention",
       "sutra": {
         "number": "3.1",
         "sanskrit": "देशबन्धश्चित्तस्य धारणा",
@@ -26,7 +26,7 @@
     },
     {
       "section": 2,
-      "theme": "Section 2",
+      "theme": "Continuous flow of attention",
       "sutra": {
         "number": "3.2",
         "sanskrit": "तत्र प्रत्ययैकतानता ध्यानम्",
@@ -44,7 +44,7 @@
     },
     {
       "section": 3,
-      "theme": "Section 3",
+      "theme": "The lines blurring",
       "sutra": {
         "number": "3.3",
         "sanskrit": "तदेवार्थमात्रनिर्भासं स्वरूपशून्यमिव समाधिः",
@@ -62,7 +62,7 @@
     },
     {
       "section": 4,
-      "theme": "Section 4",
+      "theme": "The integration",
       "sutra": {
         "number": "3.4",
         "sanskrit": "त्रयमेकत्र संयमः",

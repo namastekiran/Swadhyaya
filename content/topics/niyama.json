@@ -8,7 +8,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "Section 1",
+      "theme": "Ashtang yoga",
       "sutra": {
         "number": "2.29",
         "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
@@ -26,7 +26,7 @@
     },
     {
       "section": 2,
-      "theme": "Section 2",
+      "theme": "The niyamas",
       "sutra": {
         "number": "2.32",
         "sanskrit": "शौचसंतोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः",
@@ -44,7 +44,7 @@
     },
     {
       "section": 3,
-      "theme": "Section 3",
+      "theme": "Do not doubt them",
       "sutra": {
         "number": "2.33",
         "sanskrit": "वितर्कबाधने प्रतिपक्षभावनम्",
@@ -62,7 +62,7 @@
     },
     {
       "section": 4,
-      "theme": "Section 4",
+      "theme": "Cleanliness",
       "sutra": {
         "number": "2.40",
         "sanskrit": "शौचात्स्वाङ्गजुगुप्सा परैरसंसर्गः",
@@ -80,7 +80,7 @@
     },
     {
       "section": 5,
-      "theme": "Section 5",
+      "theme": "Mind cleanses",
       "sutra": {
         "number": "2.41",
         "sanskrit": "स॒त्त्वशु॒द्धिसौ॒मनस्यै॒काग्र्येन्॒द्रियजया॒त्मदर्शनयोग्य॑त्वानि॒ च",
@@ -98,7 +98,7 @@
     },
     {
       "section": 6,
-      "theme": "Section 6",
+      "theme": "contentment",
       "sutra": {
         "number": "2.42",
         "sanskrit": "स॒न्तो॒षादनुत्तमसु॑खला॒भः",
@@ -116,7 +116,7 @@
     },
     {
       "section": 7,
-      "theme": "Section 7",
+      "theme": "tapas",
       "sutra": {
         "number": "2.43",
         "sanskrit": "का॒येन्द्रियसिद्धिर॒शु॒द्धिक्ष॒यात् तपसः",
@@ -134,7 +134,7 @@
     },
     {
       "section": 8,
-      "theme": "Section 8",
+      "theme": "swadhyaya",
       "sutra": {
         "number": "2.44",
         "sanskrit": "स्वा॒ध्या॒याद् इ॒ष्टदे॒व॒तासम्प्रयोगः",
@@ -152,7 +152,7 @@
     },
     {
       "section": 9,
-      "theme": "Section 9",
+      "theme": "samadhi happens",
       "sutra": {
         "number": "2.45",
         "sanskrit": "स॒मा॒धिसि॒द्धिरीश्वरप्र॑णिधा॒नात्",
@@ -160,7 +160,7 @@
         "meaning": "From  profound  meditation upon the Divine comes the perfection of continuous effortless linkage of the attention to that Divinity."
       },
       "insight": "The power of samadhi comes to him who takes refuge in the Divine.",
-      "reflectionPrompt": "surrender to God brings perfection in samadhi. Can I surrender to the Divine?",
+      "reflectionPrompt": "Surrender to God brings perfection in samadhi. Can I surrender to the Divine?",
       "practice": "sit for meditation with the intention of total surrender",
       "meditation": "20 min meditation",
       "journalPrompt": "what did I observe",
