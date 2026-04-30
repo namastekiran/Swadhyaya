@@ -419,10 +419,7 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
                       className="flex items-center justify-center flex-shrink-0"
                       style={{ width: 44, height: 44, borderRadius: 12, background: isDone ? `${sc.bg}99` : sc.bg }}
                     >
-                      {isDone
-                        ? <Check style={{ width: 18, height: 18, color: sc.icon }} />
-                        : <Icon style={{ width: 18, height: 18, color: sc.icon }} />
-                      }
+                      <Icon style={{ width: 18, height: 18, color: sc.icon }} />
                     </div>
                     <div className="flex-1 min-w-0">
                       {isCurrent && (
@@ -438,7 +435,14 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
                         {step.description} · {step.minutes} min
                       </p>
                     </div>
-                    <ArrowRight style={{ width: 14, height: 14, color: sc.icon, flexShrink: 0 }} />
+                    {isDone ? (
+                      <div className="flex items-center justify-center flex-shrink-0"
+                        style={{ width: 22, height: 22, borderRadius: "50%", background: sc.bg }}>
+                        <Check style={{ width: 11, height: 11, color: sc.icon }} />
+                      </div>
+                    ) : (
+                      <ArrowRight style={{ width: 14, height: 14, color: sc.icon, flexShrink: 0 }} />
+                    )}
                   </div>
                 </Link>
               );
