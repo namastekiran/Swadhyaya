@@ -22,6 +22,7 @@ export function PracticeView({ topicId, section }: { topicId: string; section: S
   const alreadyDone = answers.completedSteps.includes("practice");
 
   const [text, setText] = useState(answers.practiceAnswer ?? "");
+  const [initialText] = useState(answers.practiceAnswer ?? "");
   const [timerRunning, setTimerRunning] = useState(false);
   const [secondsLeft, setSecondsLeft] = useState(TIMER_SECONDS);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -169,7 +170,7 @@ export function PracticeView({ topicId, section }: { topicId: string; section: S
           </p>
 
           {/* CTA */}
-          {alreadyDone && !text.trim() ? (
+          {alreadyDone && text === initialText ? (
             <Link
               href={backPath}
               className="w-full flex items-center justify-center gap-2"

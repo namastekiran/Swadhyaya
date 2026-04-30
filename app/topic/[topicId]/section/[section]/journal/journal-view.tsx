@@ -23,6 +23,7 @@ export function JournalView({ topicId, section }: { topicId: string; section: Se
   const alreadyDone = answers.completedSteps.includes("journal");
 
   const [text, setText] = useState(answers.journalEntry ?? "");
+  const [initialText] = useState(answers.journalEntry ?? "");
   const backPath = `/topic/${topicId}/section/${section.section}`;
   const words = wordCount(text);
 
@@ -113,7 +114,7 @@ export function JournalView({ topicId, section }: { topicId: string; section: Se
           </Link>
 
           {/* CTA */}
-          {alreadyDone && !text.trim() ? (
+          {alreadyDone && text === initialText ? (
             <Link
               href={backPath}
               className="w-full flex items-center justify-center gap-2"

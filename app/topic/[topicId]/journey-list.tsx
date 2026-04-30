@@ -253,9 +253,26 @@ export function JourneyList({ topic }: { topic: TopicData }) {
   const [mounted, setMounted] = useState(false);
   const getSectionStatus = useAppStore((s) => s.getSectionStatus);
   const getTopicProgress = useAppStore((s) => s.getTopicProgress);
+  const completeAndNext = useAppStore((s) => s.completeAndNext);
   const answers = useAppStore((s) => s.answers);
 
   useEffect(() => { setMounted(true); }, []);
+
+  // Self-heal: call completeAndNext for any section whose steps are all done
+  // but isn't yet in completedSections (handles stale data from old app versions)
+  useEffect(() => {
+    if (!mounted) return;
+    topic.sections.forEach((section) => {
+      const key = `${topic.id}::${section.section}`;
+      const sectionAnswers = answers[key];
+      const totalStepsForSection = 3 + (section.shlokaFrom || section.wisdomFrom ? 1 : 0) + 1;
+      if ((sectionAnswers?.completedSteps?.length ?? 0) >= totalStepsForSection) {
+        completeAndNext(topic.id, section.section, topic.totalSections);
+      }
+    });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mounted]);
+
   if (!mounted) return null;
 
   const progress = getTopicProgress(topic.id);

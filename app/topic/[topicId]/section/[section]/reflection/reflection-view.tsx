@@ -28,6 +28,7 @@ export function ReflectionView({ topicId, section }: { topicId: string; section:
   const answers = useAppStore((s) => s.answers[answersKey] ?? DEFAULT_ANSWERS);
   const reflections = answers.reflections ?? [];
   const hasReflections = reflections.length > 0;
+  const alreadyDone = (answers.completedSteps ?? []).includes("reflection");
 
   const [text, setText] = useState("");
   const [showAi, setShowAi] = useState(false);
@@ -171,7 +172,7 @@ export function ReflectionView({ topicId, section }: { topicId: string; section:
           </div>
 
           {/* Save CTA */}
-          {hasReflections && !text.trim() ? (
+          {alreadyDone && !text.trim() ? (
             <Link
               href={backPath}
               className="w-full flex items-center justify-center gap-2 active:scale-95 transition-transform"

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { ArrowLeft, ArrowRight, BookOpen, MessageCircle, Dumbbell, PenLine, Check } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import type { SectionData } from "@/lib/types";
@@ -274,6 +275,7 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
   const [nextTheme, setNextTheme] = useState("");
   const [nextSutra, setNextSutra] = useState("");
   const getSectionAnswers = useAppStore((s) => s.getSectionAnswers);
+  const completeAndNext = useAppStore((s) => s.completeAndNext);
 
   useEffect(() => { setMounted(true); }, []);
 
@@ -286,6 +288,12 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
   const isLast = section.section >= totalSections;
   const nextNum = section.section + 1;
 
+  // Mark section done in store and unlock next section when all steps complete
+  useEffect(() => {
+    if (allDone) completeAndNext(topicId, section.section, totalSections);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [allDone]);
+
   useEffect(() => {
     if (!allDone || isLast) return;
     fetch(`/api/topics/${topicId}`)
@@ -297,10 +305,20 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
       .catch(() => {});
   }, [allDone, isLast, topicId, nextNum]);
 
+  const router = useRouter();
+
+  // When last session is done, auto-redirect to journey page (shows JourneyComplete screen)
+  useEffect(() => {
+    if (allDone && isLast) {
+      router.replace(`/topic/${topicId}`);
+    }
+  }, [allDone, isLast, router, topicId]);
+
   if (!mounted) return null;
 
-  // Find current step index (first not completed)
+  // First incomplete step — used only as a visual "resume here" hint, not a gate
   const currentIdx = steps.findIndex((s) => !completedKeys.includes(s.key));
+  const nonJournalDone = steps.filter((s) => s.key !== "journal").every((s) => completedKeys.includes(s.key));
 
   const basePath = `/topic/${topicId}/section/${section.section}`;
 
@@ -374,11 +392,10 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
           <div className="space-y-3">
             {steps.map((step, idx) => {
               const isDone = completedKeys.includes(step.key);
-              const isCurrent = idx === currentIdx;
-              const isLocked = !isDone && !isCurrent;
+              const isCurrent = !allDone && idx === currentIdx;
+              const isJournalNudge = step.key === "journal" && !isDone && !nonJournalDone;
               const Icon = step.icon;
 
-              // Per-step pastel colors
               const STEP_COLORS: Record<string, { icon: string; bg: string; border: string; label: string }> = {
                 sutra:      { icon: "#7c5cbf", bg: "#f0ebff", border: "#e0d5f5", label: "#a389d4" },
                 reflection: { icon: "#c4707a", bg: "#fce8ea", border: "#f0d0d8", label: "#c4707a" },
@@ -388,95 +405,68 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
               };
               const sc = STEP_COLORS[step.key] ?? STEP_COLORS.sutra;
 
-              // When the whole session is done, every step is tappable (read-only revisit)
-              const effectiveLocked = allDone ? false : isLocked;
-
-              const inner = (
-                <div
-                  className="flex items-center gap-4 p-4 rounded-2xl transition-all"
-                  style={{
-                    opacity: effectiveLocked ? 0.4 : 1,
-                    border: isCurrent ? `1.5px solid ${sc.border}` : isDone && !allDone ? "1px solid #f0eef8" : "1.5px solid transparent",
-                    background: isCurrent ? "#fff" : isDone ? `${sc.bg}55` : "#fff",
-                    boxShadow: isCurrent ? `0 2px 12px ${sc.border}88` : undefined,
-                  }}
-                >
-                  <div
-                    className="flex items-center justify-center flex-shrink-0"
-                    style={{ width: 44, height: 44, borderRadius: 12, background: isDone ? `${sc.bg}99` : isCurrent ? sc.bg : "#f8f7fa" }}
-                  >
-                    {isDone
-                      ? <Check style={{ width: 18, height: 18, color: sc.icon }} />
-                      : <Icon style={{ width: 18, height: 18, color: isCurrent ? sc.icon : "#c8c0d0" }} />
-                    }
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    {isCurrent && !allDone && (
-                      <p style={{ fontSize: 9, fontWeight: 600, color: sc.label, letterSpacing: "0.07em", marginBottom: 2 }}>RESUME HERE</p>
-                    )}
-                    <p style={{ fontSize: 14, fontWeight: 500, color: isDone ? "#3d2f5e" : "#3d2f5e" }}>
-                      {step.label}
-                    </p>
-                    <p style={{ fontSize: 11, color: "#c0b8c8", marginTop: 1 }}>
-                      {step.description} · {step.minutes} min
-                    </p>
-                  </div>
-                  {!effectiveLocked && (
-                    <ArrowRight style={{ width: 14, height: 14, color: isDone ? sc.icon : sc.icon, flexShrink: 0 }} />
-                  )}
-                </div>
-              );
-
-              if (effectiveLocked) return <div key={step.key}>{inner}</div>;
-
               return (
                 <Link key={step.key} href={`${basePath}/${step.href}`}>
-                  {inner}
+                  <div
+                    className="flex items-center gap-4 p-4 rounded-2xl transition-all"
+                    style={{
+                      border: isCurrent ? `1.5px solid ${sc.border}` : `1px solid ${sc.border}88`,
+                      background: isCurrent ? "#fff" : isDone ? `${sc.bg}55` : `${sc.bg}30`,
+                      boxShadow: isCurrent ? `0 2px 12px ${sc.border}88` : undefined,
+                    }}
+                  >
+                    <div
+                      className="flex items-center justify-center flex-shrink-0"
+                      style={{ width: 44, height: 44, borderRadius: 12, background: isDone ? `${sc.bg}99` : sc.bg }}
+                    >
+                      {isDone
+                        ? <Check style={{ width: 18, height: 18, color: sc.icon }} />
+                        : <Icon style={{ width: 18, height: 18, color: sc.icon }} />
+                      }
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      {isCurrent && (
+                        <p style={{ fontSize: 9, fontWeight: 600, color: sc.label, letterSpacing: "0.07em", marginBottom: 2 }}>RESUME HERE</p>
+                      )}
+                      {isJournalNudge && (
+                        <p style={{ fontSize: 9, fontWeight: 600, color: "#90a8c8", letterSpacing: "0.07em", marginBottom: 2 }}>BEST DONE LAST</p>
+                      )}
+                      <p style={{ fontSize: 14, fontWeight: 500, color: "#3d2f5e" }}>
+                        {step.label}
+                      </p>
+                      <p style={{ fontSize: 11, color: "#c0b8c8", marginTop: 1 }}>
+                        {step.description} · {step.minutes} min
+                      </p>
+                    </div>
+                    <ArrowRight style={{ width: 14, height: 14, color: sc.icon, flexShrink: 0 }} />
+                  </div>
                 </Link>
               );
             })}
           </div>
 
-          {/* UP NEXT card — shown when session is complete */}
-          {allDone && (
+          {/* UP NEXT card — shown when session complete and not the last session */}
+          {allDone && !isLast && (
             <div style={{ marginTop: 20 }}>
-              {isLast ? (
-                <Link
-                  href={`/topic/${topicId}`}
-                  className="flex items-center justify-between"
-                  style={{ background: "linear-gradient(135deg,#a389d4 0%,#c9a8e0 100%)", borderRadius: 14, padding: "16px 18px" }}
-                >
-                  <div>
-                    <p style={{ fontSize: 9, color: "rgba(255,255,255,0.6)", letterSpacing: "0.06em", marginBottom: 4 }}>JOURNEY COMPLETE 🎉</p>
-                    <p style={{ fontSize: 14, fontWeight: 500, color: "#fff" }}>You&apos;ve finished all sessions!</p>
-                    <p style={{ fontSize: 10, color: "rgba(255,255,255,0.65)", marginTop: 2 }}>Tap to view your journey</p>
-                  </div>
-                  <div className="flex items-center justify-center flex-shrink-0"
-                    style={{ width: 34, height: 34, borderRadius: "50%", background: "rgba(255,255,255,0.18)" }}>
-                    <ArrowRight style={{ width: 14, height: 14, color: "#fff" }} />
-                  </div>
-                </Link>
-              ) : (
-                <Link
-                  href={`/topic/${topicId}/section/${nextNum}`}
-                  className="flex items-center justify-between"
-                  style={{ background: "linear-gradient(135deg,#a389d4 0%,#c9a8e0 100%)", borderRadius: 14, padding: "16px 18px" }}
-                >
-                  <div>
-                    <p style={{ fontSize: 9, color: "rgba(255,255,255,0.6)", letterSpacing: "0.06em", marginBottom: 4 }}>UP NEXT</p>
-                    <p style={{ fontSize: 14, fontWeight: 500, color: "#fff", marginBottom: 2 }}>
-                      {nextTheme || `Session ${nextNum}`}
-                    </p>
-                    <p style={{ fontSize: 10, color: "rgba(255,255,255,0.65)" }}>
-                      Session {nextNum}{nextSutra ? ` · Sutra ${nextSutra.split(",")[0].trim()}` : ""}
-                    </p>
-                  </div>
-                  <div className="flex items-center justify-center flex-shrink-0"
-                    style={{ width: 34, height: 34, borderRadius: "50%", background: "rgba(255,255,255,0.18)" }}>
-                    <ArrowRight style={{ width: 14, height: 14, color: "#fff" }} />
-                  </div>
-                </Link>
-              )}
+              <Link
+                href={`/topic/${topicId}/section/${nextNum}`}
+                className="flex items-center justify-between"
+                style={{ background: "linear-gradient(135deg,#a389d4 0%,#c9a8e0 100%)", borderRadius: 14, padding: "16px 18px" }}
+              >
+                <div>
+                  <p style={{ fontSize: 9, color: "rgba(255,255,255,0.6)", letterSpacing: "0.06em", marginBottom: 4 }}>UP NEXT</p>
+                  <p style={{ fontSize: 14, fontWeight: 500, color: "#fff", marginBottom: 2 }}>
+                    {nextTheme || `Session ${nextNum}`}
+                  </p>
+                  <p style={{ fontSize: 10, color: "rgba(255,255,255,0.65)" }}>
+                    Session {nextNum}{nextSutra ? ` · Sutra ${nextSutra.split(",")[0].trim()}` : ""}
+                  </p>
+                </div>
+                <div className="flex items-center justify-center flex-shrink-0"
+                  style={{ width: 34, height: 34, borderRadius: "50%", background: "rgba(255,255,255,0.18)" }}>
+                  <ArrowRight style={{ width: 14, height: 14, color: "#fff" }} />
+                </div>
+              </Link>
             </div>
           )}
         </div>
