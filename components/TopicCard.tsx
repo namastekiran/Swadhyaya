@@ -97,29 +97,25 @@ export function TopicCard({ topic, index }: { topic: TopicSummary; index: number
   return (
     <Link href={`/topic/${topic.id}`} className="block h-full group">
       <div
-        className={`relative h-full overflow-hidden rounded-[28px] p-5 ${style.bg} transition-all duration-300 hover:shadow-xl hover:-translate-y-1 flex flex-col border border-white/50 shadow-sm`}
+        className={`relative h-full overflow-hidden rounded-[20px] p-3 ${style.bg} transition-all duration-300 hover:shadow-xl hover:-translate-y-1 flex flex-col border border-white/50 shadow-sm`}
       >
         <div
-          className={`flex-shrink-0 w-12 h-12 rounded-2xl flex items-center justify-center ${style.iconBg} mb-4 shadow-sm transition-transform duration-300 group-hover:scale-110`}
+          className={`flex-shrink-0 w-9 h-9 rounded-xl flex items-center justify-center ${style.iconBg} mb-3 shadow-sm transition-transform duration-300 group-hover:scale-110`}
         >
-          <Icon className="w-6 h-6" />
+          <Icon className="w-4 h-4" />
         </div>
 
         <div className="flex-1 flex flex-col">
-          <h3 className="text-[22px] font-serif text-gray-900 leading-tight group-hover:text-purple-600 transition-colors">
+          <h3 className="text-[14px] font-serif text-gray-900 leading-snug group-hover:text-purple-600 transition-colors">
             {topic.title}
           </h3>
-          
-          <p className="text-[12px] text-gray-500 mt-2 leading-relaxed font-medium">
-            {topic.description}
+
+          <p className="text-[10px] text-gray-500 mt-1 leading-relaxed font-medium line-clamp-2">
+            {topic.tagline}
           </p>
 
-          <div className="mt-auto pt-4 flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-black/5 mt-4">
-            <span className="text-[10px] font-bold text-gray-500 uppercase tracking-tight whitespace-nowrap">
-              {topic.totalSections} sutras
-            </span>
-            <span className="text-gray-300">•</span>
-            <span className="text-[10px] font-bold text-gray-500 uppercase tracking-tight whitespace-nowrap">
+          <div className="mt-auto pt-2 border-t border-black/5 mt-3">
+            <span className="text-[9px] font-bold text-gray-400 uppercase tracking-tight">
               {topic.totalSections} days
             </span>
           </div>
