@@ -1,35 +1,29 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Flower2 } from "lucide-react";
 import { TopicList } from "./topic-list";
+import { ReturningHome } from "./returning-home";
 import { Onboarding } from "@/components/Onboarding";
 import { useAppStore } from "@/lib/store";
 import type { TopicSummary } from "@/lib/types";
 
-function getGreeting() {
-  const hour = new Date().getHours();
-  if (hour < 12) return "Good morning";
-  if (hour < 17) return "Good afternoon";
-  return "Good evening";
-}
-
 export function HomeContent({ topics }: { topics: TopicSummary[] }) {
   const [mounted, setMounted] = useState(false);
+  const [showAll, setShowAll] = useState(false);
   const [category, setCategory] = useState("All paths");
   const profile = useAppStore((s) => s.profile);
+  const topicsProgress = useAppStore((s) => s.topics);
+  const answers = useAppStore((s) => s.answers);
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
-  if (!mounted) {
-    return null;
-  }
+  const hasJourney = Object.keys(topicsProgress).length > 0 || Object.keys(answers).length > 0;
 
-  if (!profile) {
-    return <Onboarding />;
-  }
+  if (!mounted) return null;
+  if (!profile) return <Onboarding />;
+  if (hasJourney && !showAll) return <ReturningHome topics={topics} onViewAll={() => setShowAll(true)} />;
 
   const categories = [
     "All journeys",

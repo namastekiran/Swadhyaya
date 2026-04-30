@@ -2,91 +2,106 @@
 
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, BookOpen, CheckCircle2 } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { ArrowLeft, Check } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import type { SectionData } from "@/lib/types";
 
-export function GitaView({
-  topicId,
-  section,
-}: {
-  topicId: string;
-  section: SectionData;
-}) {
+export function GitaView({ topicId, section }: { topicId: string; section: SectionData }) {
   const router = useRouter();
   const completeStep = useAppStore((s) => s.completeStep);
   const getSectionAnswers = useAppStore((s) => s.getSectionAnswers);
   const answers = getSectionAnswers(topicId, section.section);
   const done = answers.completedSteps.includes("gita");
 
-  function handleDone() {
-    completeStep(topicId, section.section, "gita");
-    router.push(`/topic/${topicId}/section/${section.section}`);
-  }
-
   const backPath = `/topic/${topicId}/section/${section.section}`;
 
+  function handleDone() {
+    completeStep(topicId, section.section, "gita");
+    router.push(backPath);
+  }
+
+  // shlokaFrom may contain multiple verses separated by line breaks or periods
+  const shlokaLines = (section.shlokaFrom ?? "").split(/\n+/).filter(Boolean);
+
   return (
-    <div className="space-y-5 pb-28">
-      <div className="flex items-center gap-3">
-        <Link
-          href={backPath}
-          className="flex-shrink-0 w-10 h-10 rounded-xl bg-white shadow-sm flex items-center justify-center hover:shadow-md transition-shadow"
-        >
-          <ArrowLeft className="w-4 h-4 text-foreground" />
-        </Link>
-        <div>
-          <p className="text-xs text-muted-foreground">
-            {section.theme}
-          </p>
-          <h1 className="text-lg font-bold text-foreground">Wisdom from the Gita</h1>
-        </div>
-      </div>
+    <div className="pb-20 -mx-6">
+      <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#fdfcff" }}>
 
-      <div className="rounded-2xl p-5 bg-gradient-to-br from-indigo-50/80 to-blue-50/60">
-        <div className="flex items-center gap-2 mb-3">
-          <BookOpen className="w-4 h-4 text-indigo-500 opacity-70" />
-          <span className="text-xs font-semibold text-indigo-600 uppercase tracking-widest">
-            Gita Wisdom
-          </span>
+        {/* Lavender header */}
+        <div style={{ background: "linear-gradient(160deg,#fef0e0 0%,#fef8f0 100%)", padding: "20px 20px 22px" }}>
+          <div className="flex items-center gap-3">
+            <Link
+              href={backPath}
+              className="flex items-center justify-center flex-shrink-0"
+              style={{ width: 28, height: 28, borderRadius: "50%", background: "rgba(255,255,255,0.6)" }}
+            >
+              <ArrowLeft style={{ width: 11, height: 11, color: "#c48450" }} />
+            </Link>
+            <div>
+              <p style={{ fontSize: 10, color: "#c8a888" }}>{section.theme}</p>
+              <p style={{ fontSize: 14, fontWeight: 500, color: "#4a2e18" }}>Wisdom from the Gita</p>
+            </div>
+          </div>
         </div>
-        
-        {section.shlokaFrom && (
-          <>
-            <p className="font-devanagari text-xl leading-relaxed text-foreground mb-4 whitespace-pre-wrap break-words">
-              {section.shlokaFrom}
-            </p>
-            <div className="h-px bg-indigo-200/40 my-4" />
-          </>
-        )}
-        
-        {section.wisdomFrom && (
-          <p className="text-sm text-foreground/80 leading-relaxed">
-            {section.wisdomFrom}
-          </p>
-        )}
-      </div>
 
-      <div className="fixed bottom-0 left-0 right-0 p-4 bg-background/90 backdrop-blur-md">
-        <div className="max-w-lg mx-auto">
+        {/* Body */}
+        <div style={{ padding: "20px 20px 24px" }}>
+
+          {/* Verse card */}
+          {section.shlokaFrom && (
+            <div style={{ background: "linear-gradient(135deg,#fef0e0,#fff5e8)", borderRadius: 16, padding: 18, border: "1px solid #f0d8b8", marginBottom: 16 }}>
+              {shlokaLines.length > 1 ? (
+                shlokaLines.map((line, i) => (
+                  <div key={i}>
+                    {i > 0 && <div style={{ height: 1, background: "#e0d5f5", margin: "14px 0" }} />}
+                    <p className="font-devanagari" style={{ fontSize: 13, color: "#4a2e18", lineHeight: 1.9, whiteSpace: "pre-wrap" }}>
+                      {line}
+                    </p>
+                  </div>
+                ))
+              ) : (
+                <p className="font-devanagari" style={{ fontSize: 13, color: "#4a2e18", lineHeight: 1.9, whiteSpace: "pre-wrap" }}>
+                  {section.shlokaFrom}
+                </p>
+              )}
+            </div>
+          )}
+
+          {/* Meaning */}
+          {section.wisdomFrom && (
+            <div style={{ marginBottom: 16 }}>
+              <p style={{ fontSize: 9, fontWeight: 500, color: "#c0b0d8", letterSpacing: "0.08em", marginBottom: 10 }}>MEANING</p>
+              <p style={{ fontSize: 13, color: "#7a4828", lineHeight: 1.7 }}>{section.wisdomFrom}</p>
+            </div>
+          )}
+
+          {/* How this connects */}
+          {section.insight && (
+            <div style={{ background: "#fef5e8", borderRadius: 12, padding: "12px 14px", marginBottom: 20, borderLeft: "3px solid #dda870" }}>
+              <p style={{ fontSize: 11, color: "#c48450", fontWeight: 500, marginBottom: 3 }}>How this connects</p>
+              <p style={{ fontSize: 12, color: "#c8a888", lineHeight: 1.5 }}>{section.insight}</p>
+            </div>
+          )}
+
+          {/* CTA */}
           {done ? (
-            <Link href={backPath}>
-              <Button
-                className="w-full h-12 text-base font-semibold rounded-2xl bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white shadow-md shadow-green-200/50"
-              >
-                <CheckCircle2 className="w-5 h-5 mr-2" />
-                Completed — Back to Section
-              </Button>
+            <Link
+              href={backPath}
+              className="w-full flex items-center justify-center gap-2"
+              style={{ background: "linear-gradient(135deg,#c48450,#dda870)", borderRadius: 14, padding: 13 }}
+            >
+              <span style={{ fontSize: 13, fontWeight: 500, color: "#fff" }}>Back to session</span>
+              <Check style={{ width: 14, height: 14, color: "#fff" }} />
             </Link>
           ) : (
-            <Button
+            <button
               onClick={handleDone}
-              className="w-full h-12 text-base font-semibold rounded-2xl bg-gradient-to-r from-indigo-500 to-blue-500 hover:from-indigo-600 hover:to-blue-600 text-white shadow-md shadow-indigo-200/50"
+              className="w-full flex items-center justify-center gap-2"
+              style={{ background: "linear-gradient(135deg,#c48450,#dda870)", borderRadius: 14, padding: 13 }}
             >
-              I&apos;ve read this
-              <CheckCircle2 className="w-5 h-5 ml-2" />
-            </Button>
+              <span style={{ fontSize: 13, fontWeight: 500, color: "#fff" }}>I&apos;ve read this</span>
+              <Check style={{ width: 14, height: 14, color: "#fff" }} />
+            </button>
           )}
         </div>
       </div>

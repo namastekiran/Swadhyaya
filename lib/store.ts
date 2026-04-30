@@ -9,6 +9,7 @@ import {
   fetchAllProgress,
   fetchAllAnswers,
 } from "./supabase/db";
+import { createClient } from "./supabase/client";
 
 interface TopicProgress {
   currentSection: number;
@@ -51,6 +52,16 @@ interface AppState {
   topics: Record<string, TopicProgress>;
   answers: Record<string, SectionAnswers>;
   hydrated: boolean;
+
+  authMode: "unknown" | "guest" | "authenticated";
+  isLoginModalOpen: boolean;
+  pendingAction: (() => void) | null;
+
+  setAuthMode: (mode: "unknown" | "guest" | "authenticated") => void;
+  setLoginModalOpen: (isOpen: boolean) => void;
+  requestAuth: (action: () => void) => void;
+  executePendingAction: () => void;
+  checkSession: () => Promise<void>;
 
   setProfile: (name: string, intention: string) => void;
   initDevice: () => void;
@@ -105,7 +116,7 @@ function syncAnswersToDb(deviceId: string, topicId: string, section: number, ans
   }).then(() => {
     console.log(`[Supabase] Synced answers: ${topicId}::${section}`);
   }).catch((err) => {
-    console.error(`[Supabase] Failed to sync answers: ${topicId}::${section}`, err);
+    console.warn(`[Supabase] Could not sync answers (offline?):`, (err as Error)?.message ?? err);
   });
 }
 
@@ -114,7 +125,7 @@ function syncProgressToDb(deviceId: string, topicId: string, progress: TopicProg
   upsertProgress(deviceId, topicId, progress.currentSection, progress.completedSections).then(() => {
     console.log(`[Supabase] Synced progress: ${topicId}`);
   }).catch((err) => {
-    console.error(`[Supabase] Failed to sync progress: ${topicId}`, err);
+    console.warn(`[Supabase] Could not sync progress (offline?):`, (err as Error)?.message ?? err);
   });
 }
 
@@ -126,6 +137,27 @@ export const useAppStore = create<AppState>()(
       topics: {},
       answers: {},
       hydrated: false,
+      authMode: "unknown",
+      isLoginModalOpen: false,
+      pendingAction: null,
+
+      setAuthMode: (mode) => set({ authMode: mode }),
+      setLoginModalOpen: (isOpen) => set({ isLoginModalOpen: isOpen }),
+      requestAuth: (action) => {
+        const { authMode } = get();
+        if (authMode === "unknown") {
+          set({ pendingAction: action, isLoginModalOpen: true });
+        } else {
+          action();
+        }
+      },
+      executePendingAction: () => {
+        const { pendingAction } = get();
+        if (pendingAction) {
+          pendingAction();
+          set({ pendingAction: null });
+        }
+      },
 
       setProfile: (name, intention) => {
         set({
@@ -138,12 +170,26 @@ export const useAppStore = create<AppState>()(
       },
 
       initDevice: () => {
+        // Prevent double-init from React Strict Mode double-mount
+        if ((globalThis as any).__swInit) return;
+        (globalThis as any).__swInit = true;
         let id = get().deviceId;
         if (!id) {
           id = generateDeviceId();
           set({ deviceId: id });
         }
+        get().checkSession();
         get().loadFromSupabase();
+      },
+
+      checkSession: async () => {
+        try {
+          const supabase = createClient();
+          const { data: { session } } = await supabase.auth.getSession();
+          if (session) set({ authMode: "authenticated" });
+        } catch {
+          // silently ignore — network errors or React Strict Mode auth lock
+        }
       },
 
       loadFromSupabase: async () => {
@@ -188,7 +234,7 @@ export const useAppStore = create<AppState>()(
             set({ hydrated: true });
           }
         } catch (err) {
-          console.error("[Supabase] Failed to load:", err);
+          console.warn("[Supabase] Could not load from cloud (offline or config missing):", (err as Error)?.message ?? err);
           set({ hydrated: true });
         }
       },
@@ -209,35 +255,39 @@ export const useAppStore = create<AppState>()(
       },
 
       completeStep: (topicId, section, step) => {
-        set((state) => {
-          const key = answersKey(topicId, section);
-          const prev = state.answers[key] ?? { ...DEFAULT_ANSWERS };
-          const steps = new Set(prev.completedSteps);
-          steps.add(step);
-          const updated = {
-            ...prev,
-            completedSteps: Array.from(steps) as SectionAnswers["completedSteps"],
-            updatedAt: new Date().toISOString(),
-          };
-          syncAnswersToDb(state.deviceId, topicId, section, updated);
-          return { answers: { ...state.answers, [key]: updated } };
+        get().requestAuth(() => {
+          set((state) => {
+            const key = answersKey(topicId, section);
+            const prev = state.answers[key] ?? { ...DEFAULT_ANSWERS };
+            const steps = new Set(prev.completedSteps);
+            steps.add(step);
+            const updated = {
+              ...prev,
+              completedSteps: Array.from(steps) as SectionAnswers["completedSteps"],
+              updatedAt: new Date().toISOString(),
+            };
+            syncAnswersToDb(state.deviceId, topicId, section, updated);
+            return { answers: { ...state.answers, [key]: updated } };
+          });
         });
       },
 
       saveReflection: (topicId, section, answer) => {
-        set((state) => {
-          const key = answersKey(topicId, section);
-          const prev = state.answers[key] ?? { ...DEFAULT_ANSWERS };
-          const steps = new Set(prev.completedSteps);
-          steps.add("reflection");
-          const updated: SectionAnswers = {
-            ...prev,
-            reflections: [...(prev.reflections ?? []), { text: answer, savedAt: new Date().toISOString() }],
-            completedSteps: Array.from(steps) as SectionAnswers["completedSteps"],
-            updatedAt: new Date().toISOString(),
-          };
-          syncAnswersToDb(state.deviceId, topicId, section, updated);
-          return { answers: { ...state.answers, [key]: updated } };
+        get().requestAuth(() => {
+          set((state) => {
+            const key = answersKey(topicId, section);
+            const prev = state.answers[key] ?? { ...DEFAULT_ANSWERS };
+            const steps = new Set(prev.completedSteps);
+            steps.add("reflection");
+            const updated: SectionAnswers = {
+              ...prev,
+              reflections: [...(prev.reflections ?? []), { text: answer, savedAt: new Date().toISOString() }],
+              completedSteps: Array.from(steps) as SectionAnswers["completedSteps"],
+              updatedAt: new Date().toISOString(),
+            };
+            syncAnswersToDb(state.deviceId, topicId, section, updated);
+            return { answers: { ...state.answers, [key]: updated } };
+          });
         });
       },
 
@@ -258,70 +308,78 @@ export const useAppStore = create<AppState>()(
       },
 
       savePractice: (topicId, section, answer) => {
-        set((state) => {
-          const key = answersKey(topicId, section);
-          const prev = state.answers[key] ?? { ...DEFAULT_ANSWERS };
-          const steps = new Set(prev.completedSteps);
-          steps.add("practice");
-          const updated: SectionAnswers = {
-            ...prev,
-            practiceAnswer: answer,
-            completedSteps: Array.from(steps) as SectionAnswers["completedSteps"],
-            updatedAt: new Date().toISOString(),
-          };
-          syncAnswersToDb(state.deviceId, topicId, section, updated);
-          return { answers: { ...state.answers, [key]: updated } };
+        get().requestAuth(() => {
+          set((state) => {
+            const key = answersKey(topicId, section);
+            const prev = state.answers[key] ?? { ...DEFAULT_ANSWERS };
+            const steps = new Set(prev.completedSteps);
+            steps.add("practice");
+            const updated: SectionAnswers = {
+              ...prev,
+              practiceAnswer: answer,
+              completedSteps: Array.from(steps) as SectionAnswers["completedSteps"],
+              updatedAt: new Date().toISOString(),
+            };
+            syncAnswersToDb(state.deviceId, topicId, section, updated);
+            return { answers: { ...state.answers, [key]: updated } };
+          });
         });
       },
 
       saveJournal: (topicId, section, entry) => {
-        set((state) => {
-          const key = answersKey(topicId, section);
-          const prev = state.answers[key] ?? { ...DEFAULT_ANSWERS };
-          const steps = new Set(prev.completedSteps);
-          steps.add("journal");
-          const updated: SectionAnswers = {
-            ...prev,
-            journalEntry: entry,
-            completedSteps: Array.from(steps) as SectionAnswers["completedSteps"],
-            updatedAt: new Date().toISOString(),
-          };
-          syncAnswersToDb(state.deviceId, topicId, section, updated);
-          return { answers: { ...state.answers, [key]: updated } };
+        get().requestAuth(() => {
+          set((state) => {
+            const key = answersKey(topicId, section);
+            const prev = state.answers[key] ?? { ...DEFAULT_ANSWERS };
+            const steps = new Set(prev.completedSteps);
+            steps.add("journal");
+            const updated: SectionAnswers = {
+              ...prev,
+              journalEntry: entry,
+              completedSteps: Array.from(steps) as SectionAnswers["completedSteps"],
+              updatedAt: new Date().toISOString(),
+            };
+            syncAnswersToDb(state.deviceId, topicId, section, updated);
+            return { answers: { ...state.answers, [key]: updated } };
+          });
         });
       },
 
       saveAiChat: (topicId, section, messages) => {
-        set((state) => {
-          const key = answersKey(topicId, section);
-          const prev = state.answers[key] ?? { ...DEFAULT_ANSWERS };
-          const newChat: SavedChat = { messages, savedAt: new Date().toISOString() };
-          const updated: SectionAnswers = {
-            ...prev,
-            savedChats: [...(prev.savedChats ?? []), newChat],
-            updatedAt: new Date().toISOString(),
-          };
-          syncAnswersToDb(state.deviceId, topicId, section, updated);
-          return { answers: { ...state.answers, [key]: updated } };
+        get().requestAuth(() => {
+          set((state) => {
+            const key = answersKey(topicId, section);
+            const prev = state.answers[key] ?? { ...DEFAULT_ANSWERS };
+            const newChat: SavedChat = { messages, savedAt: new Date().toISOString() };
+            const updated: SectionAnswers = {
+              ...prev,
+              savedChats: [...(prev.savedChats ?? []), newChat],
+              updatedAt: new Date().toISOString(),
+            };
+            syncAnswersToDb(state.deviceId, topicId, section, updated);
+            return { answers: { ...state.answers, [key]: updated } };
+          });
         });
       },
 
       completeAndNext: (topicId, section, totalSections) => {
-        set((state) => {
-          const prev = state.topics[topicId] ?? { ...DEFAULT_PROGRESS };
-          const completed = new Set(prev.completedSections);
-          completed.add(section);
+        get().requestAuth(() => {
+          set((state) => {
+            const prev = state.topics[topicId] ?? { ...DEFAULT_PROGRESS };
+            const completed = new Set(prev.completedSections);
+            completed.add(section);
 
-          const nextSection = Math.min(section + 1, totalSections);
-          const newCurrent =
-            nextSection > prev.currentSection ? nextSection : prev.currentSection;
+            const nextSection = Math.min(section + 1, totalSections);
+            const newCurrent =
+              nextSection > prev.currentSection ? nextSection : prev.currentSection;
 
-          const updated: TopicProgress = {
-            currentSection: completed.size >= totalSections ? totalSections : newCurrent,
-            completedSections: Array.from(completed).sort((a, b) => a - b),
-          };
-          syncProgressToDb(state.deviceId, topicId, updated);
-          return { topics: { ...state.topics, [topicId]: updated } };
+            const updated: TopicProgress = {
+              currentSection: completed.size >= totalSections ? totalSections : newCurrent,
+              completedSections: Array.from(completed).sort((a, b) => a - b),
+            };
+            syncProgressToDb(state.deviceId, topicId, updated);
+            return { topics: { ...state.topics, [topicId]: updated } };
+          });
         });
       },
     }),
@@ -332,6 +390,7 @@ export const useAppStore = create<AppState>()(
         profile: state.profile,
         topics: state.topics,
         answers: state.answers,
+        authMode: state.authMode, // Persist auth mode so guest stays guest
       }),
     }
   )

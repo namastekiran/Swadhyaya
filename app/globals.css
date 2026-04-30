@@ -132,3 +132,33 @@
 .font-devanagari {
   font-family: var(--font-devanagari), serif;
 }
+
+/* ── Button / link press feedback ────────────────────────────────────────── */
+
+/* Remove default mobile tap flash */
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* All interactive elements get a press animation */
+button:not(:disabled),
+a[href],
+[role="button"] {
+  transition: transform 0.12s cubic-bezier(0.25,0.46,0.45,0.94),
+              filter 0.12s cubic-bezier(0.25,0.46,0.45,0.94) !important;
+  cursor: pointer;
+}
+
+button:not(:disabled):active,
+a[href]:active,
+[role="button"]:active {
+  transform: scale(0.94) !important;
+  filter: brightness(0.88) !important;
+}
+
+/* Disabled buttons — no pointer, no press */
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
