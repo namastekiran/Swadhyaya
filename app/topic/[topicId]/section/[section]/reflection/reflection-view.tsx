@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, ArrowRight, Check, Trash2, Clock } from "lucide-react";
 import { AiChat } from "@/components/AiChat";
@@ -19,6 +20,7 @@ function wordCount(text: string) {
 const DEFAULT_ANSWERS = { reflections: [], savedChats: [], completedSteps: [] };
 
 export function ReflectionView({ topicId, section }: { topicId: string; section: SectionData }) {
+  const router = useRouter();
   const saveReflection = useAppStore((s) => s.saveReflection);
   const deleteReflection = useAppStore((s) => s.deleteReflection);
   const saveAiChat = useAppStore((s) => s.saveAiChat);
@@ -40,7 +42,7 @@ export function ReflectionView({ topicId, section }: { topicId: string; section:
   function handleSave() {
     if (!text.trim()) return;
     saveReflection(topicId, section.section, text.trim());
-    setText("");
+    router.push(backPath);
   }
 
   // Split prompt into main + sub if multiple sentences
