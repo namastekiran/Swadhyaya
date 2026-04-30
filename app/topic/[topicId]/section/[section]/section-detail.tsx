@@ -93,6 +93,7 @@ function SessionComplete({
 
   const [nextTheme, setNextTheme] = useState("");
   const [nextSutra, setNextSutra] = useState("");
+  const [showSteps, setShowSteps] = useState(false);
 
   const isLast = section.section >= totalSections;
   const nextNum = section.section + 1;
@@ -175,7 +176,7 @@ function SessionComplete({
 
           {/* Up Next / Journey Complete */}
           {isLast ? (
-            <div style={{ background: "linear-gradient(135deg,#a389d4 0%,#c9a8e0 100%)", borderRadius: 14, padding: "20px 18px", textAlign: "center" }}>
+            <div style={{ background: "linear-gradient(135deg,#a389d4 0%,#c9a8e0 100%)", borderRadius: 14, padding: "20px 18px", textAlign: "center", marginBottom: 14 }}>
               <p style={{ fontSize: 28, marginBottom: 8 }}>🎉</p>
               <p style={{ fontSize: 15, fontWeight: 500, color: "#fff", marginBottom: 6 }}>Journey complete!</p>
               <p style={{ fontSize: 11, color: "rgba(255,255,255,0.7)", marginBottom: 16 }}>
@@ -192,7 +193,7 @@ function SessionComplete({
             <Link
               href={`/topic/${topicId}`}
               className="flex items-center justify-between"
-              style={{ background: "linear-gradient(135deg,#a389d4 0%,#c9a8e0 100%)", borderRadius: 14, padding: "16px 18px" }}
+              style={{ background: "linear-gradient(135deg,#a389d4 0%,#c9a8e0 100%)", borderRadius: 14, padding: "16px 18px", marginBottom: 14 }}
             >
               <div>
                 <p style={{ fontSize: 9, color: "rgba(255,255,255,0.6)", letterSpacing: "0.06em", marginBottom: 4 }}>UP NEXT</p>
@@ -210,6 +211,56 @@ function SessionComplete({
                 <ArrowRight style={{ width: 14, height: 14, color: "#fff" }} />
               </div>
             </Link>
+          )}
+
+          {/* Revisit steps */}
+          <button
+            onClick={() => setShowSteps((v) => !v)}
+            className="w-full flex items-center justify-between"
+            style={{ border: "1.5px solid #ede8f7", borderRadius: 12, padding: "11px 16px" }}
+          >
+            <span style={{ fontSize: 12, fontWeight: 500, color: "#7c5cbf" }}>
+              {showSteps ? "Hide steps" : "Revisit this session"}
+            </span>
+            <ArrowRight
+              style={{ width: 13, height: 13, color: "#a389d4", transform: showSteps ? "rotate(90deg)" : "none", transition: "transform 0.2s" }}
+            />
+          </button>
+
+          {showSteps && (
+            <div className="space-y-2 mt-3">
+              {steps.map((step) => {
+                const Icon = step.icon;
+                const STEP_COLORS: Record<string, { icon: string; bg: string }> = {
+                  sutra:      { icon: "#7c5cbf", bg: "#f0ebff" },
+                  reflection: { icon: "#c4707a", bg: "#fce8ea" },
+                  practice:   { icon: "#5a9e78", bg: "#e8f5ee" },
+                  gita:       { icon: "#c48450", bg: "#fef0e0" },
+                  journal:    { icon: "#5a7aa0", bg: "#e6eef8" },
+                };
+                const sc = STEP_COLORS[step.key] ?? STEP_COLORS.sutra;
+                return (
+                  <Link
+                    key={step.key}
+                    href={`/topic/${topicId}/section/${section.section}/${step.href}`}
+                    className="flex items-center gap-3 p-3 rounded-2xl"
+                    style={{ background: "#faf8ff", border: "1px solid #ede8f7" }}
+                  >
+                    <div
+                      className="flex items-center justify-center flex-shrink-0"
+                      style={{ width: 36, height: 36, borderRadius: 10, background: sc.bg }}
+                    >
+                      <Icon style={{ width: 15, height: 15, color: sc.icon }} />
+                    </div>
+                    <div className="flex-1">
+                      <p style={{ fontSize: 13, fontWeight: 500, color: "#3d2f5e" }}>{step.label}</p>
+                      <p style={{ fontSize: 10, color: "#b0a0c8" }}>{step.minutes} min · completed</p>
+                    </div>
+                    <Check style={{ width: 12, height: 12, color: "#c9a8e0", flexShrink: 0 }} />
+                  </Link>
+                );
+              })}
+            </div>
           )}
         </div>
       </div>
