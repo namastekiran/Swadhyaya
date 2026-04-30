@@ -287,19 +287,6 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
   // Find current step index (first not completed)
   const currentIdx = steps.findIndex((s) => !completedKeys.includes(s.key));
 
-  if (allDone) {
-    return (
-      <SessionComplete
-        topicId={topicId}
-        topicTitle={topicTitle}
-        section={section}
-        totalSections={totalSections}
-        steps={steps}
-        totalMinutes={totalMinutes}
-      />
-    );
-  }
-
   const basePath = `/topic/${topicId}/section/${section.section}`;
 
   return (
@@ -320,9 +307,16 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
               {topicTitle.toUpperCase()} · SESSION {section.section}
             </p>
           </div>
-          <p style={{ fontSize: 17, fontWeight: 500, color: "#3d2f5e", lineHeight: 1.3, marginBottom: 14, paddingLeft: 38 }}>
-            {section.theme}
-          </p>
+          <div className="flex items-center gap-2 mb-3" style={{ paddingLeft: 38 }}>
+            <p style={{ fontSize: 17, fontWeight: 500, color: "#3d2f5e", lineHeight: 1.3 }}>
+              {section.theme}
+            </p>
+            {allDone && (
+              <span className="flex items-center gap-1 flex-shrink-0" style={{ fontSize: 10, fontWeight: 600, color: "#534AB7", background: "#dbd7f5", padding: "3px 9px", borderRadius: 20 }}>
+                <Check style={{ width: 10, height: 10 }} /> Completed
+              </span>
+            )}
+          </div>
 
           {/* Step dots progress */}
           <div style={{ background: "rgba(255,255,255,0.5)", borderRadius: 10, padding: "10px 14px" }}>
@@ -367,12 +361,15 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
               };
               const sc = STEP_COLORS[step.key] ?? STEP_COLORS.sutra;
 
+              // When the whole session is done, every step is tappable (read-only revisit)
+              const effectiveLocked = allDone ? false : isLocked;
+
               const inner = (
                 <div
                   className="flex items-center gap-4 p-4 rounded-2xl transition-all"
                   style={{
-                    opacity: isLocked ? 0.4 : 1,
-                    border: isCurrent ? `1.5px solid ${sc.border}` : "1.5px solid transparent",
+                    opacity: effectiveLocked ? 0.4 : 1,
+                    border: isCurrent ? `1.5px solid ${sc.border}` : isDone && !allDone ? "1px solid #f0eef8" : "1.5px solid transparent",
                     background: isCurrent ? "#fff" : isDone ? `${sc.bg}55` : "#fff",
                     boxShadow: isCurrent ? `0 2px 12px ${sc.border}88` : undefined,
                   }}
@@ -387,23 +384,23 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
                     }
                   </div>
                   <div className="flex-1 min-w-0">
-                    {isCurrent && (
+                    {isCurrent && !allDone && (
                       <p style={{ fontSize: 9, fontWeight: 600, color: sc.label, letterSpacing: "0.07em", marginBottom: 2 }}>RESUME HERE</p>
                     )}
-                    <p style={{ fontSize: 14, fontWeight: 500, color: isDone ? "#b0a8b8" : "#3d2f5e" }}>
+                    <p style={{ fontSize: 14, fontWeight: 500, color: isDone ? "#3d2f5e" : "#3d2f5e" }}>
                       {step.label}
                     </p>
                     <p style={{ fontSize: 11, color: "#c0b8c8", marginTop: 1 }}>
                       {step.description} · {step.minutes} min
                     </p>
                   </div>
-                  {!isLocked && (
-                    <ArrowRight style={{ width: 14, height: 14, color: isDone ? sc.border : sc.icon, flexShrink: 0 }} />
+                  {!effectiveLocked && (
+                    <ArrowRight style={{ width: 14, height: 14, color: isDone ? sc.icon : sc.icon, flexShrink: 0 }} />
                   )}
                 </div>
               );
 
-              if (isLocked) return <div key={step.key}>{inner}</div>;
+              if (effectiveLocked) return <div key={step.key}>{inner}</div>;
 
               return (
                 <Link key={step.key} href={`${basePath}/${step.href}`}>
