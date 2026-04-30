@@ -271,18 +271,33 @@ function SessionComplete({
 // ── Main Session Detail ────────────────────────────────────────────────────
 export function SectionDetail({ topicId, topicTitle, section, totalSections }: Props) {
   const [mounted, setMounted] = useState(false);
+  const [nextTheme, setNextTheme] = useState("");
+  const [nextSutra, setNextSutra] = useState("");
   const getSectionAnswers = useAppStore((s) => s.getSectionAnswers);
 
   useEffect(() => { setMounted(true); }, []);
-  if (!mounted) return null;
 
   const answers = getSectionAnswers(topicId, section.section);
   const times = calcStepTimes(section);
   const steps = buildSteps(section, times);
-  const totalMinutes = steps.reduce((sum, s) => sum + s.minutes, 0);
 
   const completedKeys = answers.completedSteps as StepKey[];
   const allDone = steps.every((s) => completedKeys.includes(s.key));
+  const isLast = section.section >= totalSections;
+  const nextNum = section.section + 1;
+
+  useEffect(() => {
+    if (!allDone || isLast) return;
+    fetch(`/api/topics/${topicId}`)
+      .then((r) => r.json())
+      .then((data) => {
+        const next = data.sections?.find((s: { section: number }) => s.section === nextNum);
+        if (next) { setNextTheme(next.theme); setNextSutra(next.sutra?.number ?? ""); }
+      })
+      .catch(() => {});
+  }, [allDone, isLast, topicId, nextNum]);
+
+  if (!mounted) return null;
 
   // Find current step index (first not completed)
   const currentIdx = steps.findIndex((s) => !completedKeys.includes(s.key));
@@ -344,6 +359,18 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
 
         {/* Step list */}
         <div style={{ padding: "20px 20px 26px" }}>
+
+          {/* Celebration banner — shown only when all steps done */}
+          {allDone && (
+            <div style={{ background: "linear-gradient(135deg,#f0ebff,#fdeef8)", borderRadius: 16, padding: "16px 18px", textAlign: "center", marginBottom: 16, border: "1px solid #e8dff5" }}>
+              <div style={{ fontSize: 26, marginBottom: 6 }}>🌸</div>
+              <p style={{ fontSize: 15, fontWeight: 500, color: "#3d2f5e", marginBottom: 4 }}>Session complete!</p>
+              <p style={{ fontSize: 11, color: "#b0a0c8", fontStyle: "italic" }}>
+                &ldquo;{section.sutra.meaning.split(/[.।]/)[0].trim()}&rdquo;
+              </p>
+            </div>
+          )}
+
           <div className="space-y-3">
             {steps.map((step, idx) => {
               const isDone = completedKeys.includes(step.key);
@@ -409,6 +436,49 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
               );
             })}
           </div>
+
+          {/* UP NEXT card — shown when session is complete */}
+          {allDone && (
+            <div style={{ marginTop: 20 }}>
+              {isLast ? (
+                <Link
+                  href={`/topic/${topicId}`}
+                  className="flex items-center justify-between"
+                  style={{ background: "linear-gradient(135deg,#a389d4 0%,#c9a8e0 100%)", borderRadius: 14, padding: "16px 18px" }}
+                >
+                  <div>
+                    <p style={{ fontSize: 9, color: "rgba(255,255,255,0.6)", letterSpacing: "0.06em", marginBottom: 4 }}>JOURNEY COMPLETE 🎉</p>
+                    <p style={{ fontSize: 14, fontWeight: 500, color: "#fff" }}>You&apos;ve finished all sessions!</p>
+                    <p style={{ fontSize: 10, color: "rgba(255,255,255,0.65)", marginTop: 2 }}>Tap to view your journey</p>
+                  </div>
+                  <div className="flex items-center justify-center flex-shrink-0"
+                    style={{ width: 34, height: 34, borderRadius: "50%", background: "rgba(255,255,255,0.18)" }}>
+                    <ArrowRight style={{ width: 14, height: 14, color: "#fff" }} />
+                  </div>
+                </Link>
+              ) : (
+                <Link
+                  href={`/topic/${topicId}/section/${nextNum}`}
+                  className="flex items-center justify-between"
+                  style={{ background: "linear-gradient(135deg,#a389d4 0%,#c9a8e0 100%)", borderRadius: 14, padding: "16px 18px" }}
+                >
+                  <div>
+                    <p style={{ fontSize: 9, color: "rgba(255,255,255,0.6)", letterSpacing: "0.06em", marginBottom: 4 }}>UP NEXT</p>
+                    <p style={{ fontSize: 14, fontWeight: 500, color: "#fff", marginBottom: 2 }}>
+                      {nextTheme || `Session ${nextNum}`}
+                    </p>
+                    <p style={{ fontSize: 10, color: "rgba(255,255,255,0.65)" }}>
+                      Session {nextNum}{nextSutra ? ` · Sutra ${nextSutra.split(",")[0].trim()}` : ""}
+                    </p>
+                  </div>
+                  <div className="flex items-center justify-center flex-shrink-0"
+                    style={{ width: 34, height: 34, borderRadius: "50%", background: "rgba(255,255,255,0.18)" }}>
+                    <ArrowRight style={{ width: 14, height: 14, color: "#fff" }} />
+                  </div>
+                </Link>
+              )}
+            </div>
+          )}
         </div>
       </div>
     </div>
