@@ -233,11 +233,11 @@ function SessionComplete({
               {steps.map((step) => {
                 const Icon = step.icon;
                 const STEP_COLORS: Record<string, { icon: string; bg: string }> = {
-                  sutra:      { icon: "#7c5cbf", bg: "#f0ebff" },
-                  reflection: { icon: "#c4707a", bg: "#fce8ea" },
-                  practice:   { icon: "#5a9e78", bg: "#e8f5ee" },
-                  gita:       { icon: "#c48450", bg: "#fef0e0" },
-                  journal:    { icon: "#5a7aa0", bg: "#e6eef8" },
+                  sutra:      { icon: "#7c5cbf", bg: "#d4c8ff" },
+                  reflection: { icon: "#c4707a", bg: "#f5bec5" },
+                  practice:   { icon: "#5a9e78", bg: "#bde8d0" },
+                  gita:       { icon: "#c48450", bg: "#f8d4a8" },
+                  journal:    { icon: "#5a7aa0", bg: "#bcd4f0" },
                 };
                 const sc = STEP_COLORS[step.key] ?? STEP_COLORS.sutra;
                 return (
@@ -397,11 +397,11 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
               const Icon = step.icon;
 
               const STEP_COLORS: Record<string, { icon: string; bg: string; border: string; label: string }> = {
-                sutra:      { icon: "#7c5cbf", bg: "#e8e0ff", border: "#cbb8f0", label: "#a389d4" },
-                reflection: { icon: "#c4707a", bg: "#fad8dc", border: "#e8b8c4", label: "#c4707a" },
-                practice:   { icon: "#5a9e78", bg: "#d8f0e4", border: "#a8d8c0", label: "#5a9e78" },
-                gita:       { icon: "#c48450", bg: "#fde8cc", border: "#e8c898", label: "#c48450" },
-                journal:    { icon: "#5a7aa0", bg: "#d8e8f8", border: "#a8c4e0", label: "#5a7aa0" },
+                sutra:      { icon: "#7c5cbf", bg: "#d4c8ff", border: "#b8a0e8", label: "#a389d4" },
+                reflection: { icon: "#c4707a", bg: "#f5bec5", border: "#d898a8", label: "#c4707a" },
+                practice:   { icon: "#5a9e78", bg: "#bde8d0", border: "#88c8a8", label: "#5a9e78" },
+                gita:       { icon: "#c48450", bg: "#f8d4a8", border: "#d8b478", label: "#c48450" },
+                journal:    { icon: "#5a7aa0", bg: "#bcd4f0", border: "#88acd0", label: "#5a7aa0" },
               };
               const sc = STEP_COLORS[step.key] ?? STEP_COLORS.sutra;
 
