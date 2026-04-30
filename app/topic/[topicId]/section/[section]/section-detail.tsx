@@ -397,11 +397,11 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
               const Icon = step.icon;
 
               const STEP_COLORS: Record<string, { icon: string; bg: string; border: string; label: string }> = {
-                sutra:      { icon: "#7c5cbf", bg: "#f0ebff", border: "#e0d5f5", label: "#a389d4" },
-                reflection: { icon: "#c4707a", bg: "#fce8ea", border: "#f0d0d8", label: "#c4707a" },
-                practice:   { icon: "#5a9e78", bg: "#e8f5ee", border: "#c8e8d8", label: "#5a9e78" },
-                gita:       { icon: "#c48450", bg: "#fef0e0", border: "#f0d8b8", label: "#c48450" },
-                journal:    { icon: "#5a7aa0", bg: "#e6eef8", border: "#c8d8f0", label: "#5a7aa0" },
+                sutra:      { icon: "#7c5cbf", bg: "#e8e0ff", border: "#cbb8f0", label: "#a389d4" },
+                reflection: { icon: "#c4707a", bg: "#fad8dc", border: "#e8b8c4", label: "#c4707a" },
+                practice:   { icon: "#5a9e78", bg: "#d8f0e4", border: "#a8d8c0", label: "#5a9e78" },
+                gita:       { icon: "#c48450", bg: "#fde8cc", border: "#e8c898", label: "#c48450" },
+                journal:    { icon: "#5a7aa0", bg: "#d8e8f8", border: "#a8c4e0", label: "#5a7aa0" },
               };
               const sc = STEP_COLORS[step.key] ?? STEP_COLORS.sutra;
 
@@ -410,9 +410,9 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
                   <div
                     className="flex items-center gap-4 p-4 rounded-2xl transition-all"
                     style={{
-                      border: isCurrent ? `1.5px solid ${sc.border}` : `1px solid ${sc.border}88`,
-                      background: isCurrent ? "#fff" : isDone ? `${sc.bg}55` : `${sc.bg}30`,
-                      boxShadow: isCurrent ? `0 2px 12px ${sc.border}88` : undefined,
+                      border: isCurrent ? `1.5px solid ${sc.border}` : `1px solid ${sc.border}bb`,
+                      background: isCurrent ? "#fff" : isDone ? `${sc.bg}80` : `${sc.bg}55`,
+                      boxShadow: isCurrent ? `0 2px 12px ${sc.border}aa` : undefined,
                     }}
                   >
                     <div
