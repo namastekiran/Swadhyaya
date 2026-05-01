@@ -25,10 +25,10 @@ export function GitaView({ topicId, section }: { topicId: string; section: Secti
 
   return (
     <div className="pb-20 -mx-6">
-      <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#fdfcff" }}>
+      <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
         {/* Lavender header */}
-        <div style={{ background: "linear-gradient(160deg,#fef0e0 0%,#fef8f0 100%)", padding: "20px 20px 22px" }}>
+        <div style={{ background: "linear-gradient(160deg,#fad8b0 0%,#fdefd8 100%)", padding: "20px 20px 22px" }}>
           <div className="flex items-center gap-3">
             <Link
               href={backPath}
@@ -38,7 +38,9 @@ export function GitaView({ topicId, section }: { topicId: string; section: Secti
               <ArrowLeft style={{ width: 11, height: 11, color: "#c48450" }} />
             </Link>
             <div>
-              <p style={{ fontSize: 10, color: "#c8a888" }}>{section.theme}</p>
+              {section.theme && !/^\d+[\.\d\n]*$/.test(section.theme.trim()) && (
+                <p style={{ fontSize: 10, color: "#7a5838" }}>{section.theme}</p>
+              )}
               <p style={{ fontSize: 14, fontWeight: 500, color: "#4a2e18" }}>Wisdom from the Gita</p>
             </div>
           </div>
@@ -50,28 +52,17 @@ export function GitaView({ topicId, section }: { topicId: string; section: Secti
           {/* Verse card */}
           {section.shlokaFrom && (
             <div style={{ background: "linear-gradient(135deg,#fef0e0,#fff5e8)", borderRadius: 16, padding: 18, border: "1px solid #f0d8b8", marginBottom: 16 }}>
-              {shlokaLines.length > 1 ? (
-                shlokaLines.map((line, i) => (
-                  <div key={i}>
-                    {i > 0 && <div style={{ height: 1, background: "#e0d5f5", margin: "14px 0" }} />}
-                    <p className="font-devanagari" style={{ fontSize: 13, color: "#4a2e18", lineHeight: 1.9, whiteSpace: "pre-wrap" }}>
-                      {line}
-                    </p>
-                  </div>
-                ))
-              ) : (
-                <p className="font-devanagari" style={{ fontSize: 13, color: "#4a2e18", lineHeight: 1.9, whiteSpace: "pre-wrap" }}>
-                  {section.shlokaFrom}
-                </p>
-              )}
+              <p className="font-devanagari" style={{ fontSize: 13, color: "#4a2e18", lineHeight: 1.9, whiteSpace: "pre-wrap" }}>
+                {shlokaLines.join("\n")}
+              </p>
             </div>
           )}
 
           {/* Meaning */}
           {section.wisdomFrom && (
             <div style={{ marginBottom: 16 }}>
-              <p style={{ fontSize: 9, fontWeight: 500, color: "#c0b0d8", letterSpacing: "0.08em", marginBottom: 10 }}>MEANING</p>
-              <p style={{ fontSize: 13, color: "#7a4828", lineHeight: 1.7 }}>{section.wisdomFrom}</p>
+              <p style={{ fontSize: 9, fontWeight: 500, color: "#7a5838", letterSpacing: "0.08em", marginBottom: 10 }}>MEANING</p>
+              <p style={{ fontSize: 13, color: "#4a2e18", lineHeight: 1.7 }}>{section.wisdomFrom}</p>
             </div>
           )}
 
@@ -79,7 +70,7 @@ export function GitaView({ topicId, section }: { topicId: string; section: Secti
           {section.insight && (
             <div style={{ background: "#fef5e8", borderRadius: 12, padding: "12px 14px", marginBottom: 20, borderLeft: "3px solid #dda870" }}>
               <p style={{ fontSize: 11, color: "#c48450", fontWeight: 500, marginBottom: 3 }}>How this connects</p>
-              <p style={{ fontSize: 12, color: "#c8a888", lineHeight: 1.5 }}>{section.insight}</p>
+              <p style={{ fontSize: 12, color: "#5a3818", lineHeight: 1.5 }}>{section.insight}</p>
             </div>
           )}
 

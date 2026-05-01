@@ -4,11 +4,11 @@
   "tagline": "Avidya and kleshas",
   "description": "Identify the root causes of mental suffering and learn the tools to overcome ignorance, ego, and attachment for lasting peace.",
   "icon": "cloud-rain",
-  "totalSections": 8,
+  "totalSections": 11,
   "sections": [
     {
       "section": 1,
-      "theme": "Why do we suffer?",
+      "theme": "2.3",
       "sutra": {
         "number": "2.3",
         "sanskrit": "अविद्यास्मितारागद्वेषाभिनिवेशाः क्लेशाः",
@@ -22,11 +22,12 @@
       "journalPrompt": "Identify one pattern",
       "whatOthersSaid": "",
       "shlokaFrom": "अज्ञश्चाश्रद्दधानश्च संशयात्मा विनश्यति।नायं लोकोऽस्ति न परो न सुखं संशयात्मनः॥ 4.40",
-      "wisdomFrom": "The ignorant, the faithless, and the doubting soul are destroyed. There is neither this world nor the next, nor happiness for the doubting soul."
+      "wisdomFrom": "The ignorant, the faithless, and the doubting soul are destroyed. There is neither this world nor the next, nor happiness for the doubting soul.",
+      "gurudevInsight": "You know its benefits, the result of this action is very good, will be beneficial for me so I want to do it, like doing exercises. People go to gymnasium, weight lifting, it’s not a joke, its not giving any big pleasure to do that, lifting the weight, its not a pleasurable job or bicycling but one does it, why? They know that it is good for your system. Swadhyaya, being alert, self-study, observing the breath, observing the emotions, thoughts, what all happens inside you – observing, studying yourself i.e. Ishwarapranidhana: devotion to the Divine, love to the Divine- these three things together makes kirya yoga. They reduce the sufferings, they reduce the misery in life. [PDF p.57]"
     },
     {
       "section": 2,
-      "theme": "Ignorant about the real identity",
+      "theme": "2.4",
       "sutra": {
         "number": "2.4",
         "sanskrit": "अविद्या क्षेत्रमुत्तरेषां प्रसुप्ततनुविच्छिन्नोदाराणाम्",
@@ -40,11 +41,12 @@
       "journalPrompt": "What did I miss?",
       "whatOthersSaid": "",
       "shlokaFrom": "तस्मादज्ञानसम्भूतं हृत्स्थं ज्ञानासिनात्मनः।छित्त्वैनं संशयं योगमातिष्ठोत्तिष्ठ भारत॥ 4.42",
-      "wisdomFrom": "Therefore, with the sword of knowledge, cut asunder this doubt in your heart born of ignorance. Take refuge in yoga and arise, O Bharata!"
+      "wisdomFrom": "Therefore, with the sword of knowledge, cut asunder this doubt in your heart born of ignorance. Take refuge in yoga and arise, O Bharata!",
+      "gurudevInsight": "That’s why a growing child sleeps longer. The youth sleeps more than an aged person because there is lot of activity, metabolic activity going on in a youth. If you deprive somebody of sleep, you will see their growth also gets, shunted. At the same time in every activity there is a corner that is very silent. Krishna tells Arjuna, Arjuna, you know, who is really intelligent & clever? “One who sees silence in activity & activity in silence, he is the intelligent person. [PDF p.56]"
     },
     {
       "section": 3,
-      "theme": "What really is permanent",
+      "theme": "2.5",
       "sutra": {
         "number": "2.5",
         "sanskrit": "अनित्याशुचिदुःखानात्मसु नित्यशुचिसुखात्मख्यातिरविद्या",
@@ -58,11 +60,12 @@
       "journalPrompt": "What is temporary?",
       "whatOthersSaid": "",
       "shlokaFrom": "यो यो यां यां तनुं भक्तः श्रद्धयार्चितुमिच्छति।तस्य तस्याचलां श्रद्धां तामेव विदधाम्यहम्॥ 7.21",
-      "wisdomFrom": "Whatever form any devotee desires to worship with faith, I make that faith of his steady."
+      "wisdomFrom": "Whatever form any devotee desires to worship with faith, I make that faith of his steady.",
+      "gurudevInsight": "Many people get disease or die not out of hunger but out of overeating. Today in the world very few people die out of 59 hunger. But more & more people are out of overeating; because we have not allowed that fire of hunger to come up, we have never kindled that. When you fast also, every cell of your body becomes alive; fasting is a very good therapy. It can cleanse your system, the Jataragni can cleanse you of all toxins. When your head is clogged with worry, tension & unpleasant thoughts, nightmares, fasting would be a very great help. [PDF p.59]"
     },
     {
       "section": 4,
-      "theme": "Is the Ego false",
+      "theme": "2.6",
       "sutra": {
         "number": "2.6",
         "sanskrit": "दृग्दर्शनशक्त्योरेकात्मतेवास्मिता",
@@ -76,11 +79,69 @@
       "journalPrompt": "Where did I identify?",
       "whatOthersSaid": "",
       "shlokaFrom": "",
-      "wisdomFrom": ""
+      "wisdomFrom": "",
+      "gurudevInsight": "But the whole focus is in the event, is on the happening rather than just the time. Suppose someone is waiting for a bus to come or train to come or boat to come he will go on seeing, is the bus coming? The whole focus is on the object rather than just that time. Just a little shift is done, a tilt, whether waiting for a doctor, waiting for or bus, or train, or something just wait for the moment, this moment. Mind is in the moment waiting for nothing but it is waiting. It adds a different quality to the consciousness. [PDF p.56]"
     },
     {
       "section": 5,
-      "theme": "Change is the only constant.",
+      "theme": "2.7",
+      "sutra": {
+        "number": "2.7",
+        "sanskrit": "सुखानुशयी रागः ॥",
+        "transliteration": "Sutra 2.7",
+        "meaning": "\"Attraction to pleasant experience results in craving.\""
+      },
+      "insight": "When we experience pleasure, we develop a longing for it. This creates a craving or desire to repeat the experience, which binds the mind and causes suffering when the pleasure ends.",
+      "reflectionPrompt": "Am I always seeking pleasure.",
+      "practice": "Honestly think about your feelings in this respect.",
+      "meditation": "",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "It can cleanse your system, the Jataragni can cleanse you of all toxins. When your head is clogged with worry, tension & unpleasant thoughts, nightmares, fasting would be a very great help. There is great deal of research on fasting. Allow this fire to come up in you the Jatarajni. It can purity your blood, it can remove toxins from the body. In Christianity & in Jainism, in Islam, almost all religion of the world. [PDF p.60]"
+    },
+    {
+      "section": 6,
+      "theme": "2.8",
+      "sutra": {
+        "number": "2.8",
+        "sanskrit": "दुःखानुशयी द्वेषः ॥",
+        "transliteration": "Sutra 2.8",
+        "meaning": "\"Hatred comes with an unpleasant experience.\""
+      },
+      "insight": "When we experience pain or unpleasantness, we develop a strong dislike or avoidance of it. This emotional reaction (anger, fear, or resentment) causes suffering.",
+      "reflectionPrompt": "Does even a little hardship derail me?",
+      "practice": "Honestly think about your feelings in this respect.",
+      "meditation": "",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "2) And then there is a second type of fire that is called Kamagni: the fire of Desire. When the desire, the fire of desire comes, it gulps you. The fire of desire or lust, passion is kama-agni. It is because of this fire of passion that life continues on this planet. Fire of passion is present in all the species of creation. 3) Third type of fire is called Jataragni - Fire of Hunger & digestion :- This is one of the important principles in ayurveda – Jataragani. [PDF p.58]"
+    },
+    {
+      "section": 7,
+      "theme": "2.9",
+      "sutra": {
+        "number": "2.9",
+        "sanskrit": "स्वरसवाही विदुषोऽपि तथारूढोऽभिनिवेशः ॥",
+        "transliteration": "Sutra 2.9",
+        "meaning": "\"Fear flowing in its own flavour even in the wise is established in them as carefulness.\""
+      },
+      "insight": "The deep-rooted will to survive (or fear of death/clinging to life) persists even among the wiseThis is the subtlest klesha, representing the instinctual fear of death and the desire to stay alive at any cost. Patanjali notes that this urge is so powerful it affects everyone, including those who are knowledgeable..",
+      "reflectionPrompt": "How fearful am I? Am I always fearful of impending doom. Am I ready to handle all situations?",
+      "practice": "sit quietly and imagine yourself dying. What feelings are arising. Observe",
+      "meditation": "",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "See, when some one is anxious, he is very aware of time, every moment passing, isn’t it? But the whole focus is in the event, is on the happening rather than just the time. Suppose someone is waiting for a bus to come or train to come or boat to come he will go on seeing, is the bus coming? The whole focus is on the object rather than just that time. Just a little shift is done, a tilt, whether waiting for a doctor, waiting for or bus, or train, or something just wait for the moment, this moment. [PDF p.56]"
+    },
+    {
+      "section": 8,
+      "theme": "2.15",
       "sutra": {
         "number": "2.15",
         "sanskrit": "परिणामतापसंस्कारदुःखैर्गुणवृत्तिविरोधाच्च दुःखमेव सर्वं विवेकिनः",
@@ -94,11 +155,12 @@
       "journalPrompt": "What changed?",
       "whatOthersSaid": "",
       "shlokaFrom": "",
-      "wisdomFrom": ""
+      "wisdomFrom": "",
+      "gurudevInsight": "Rajasic things more activity, satvic is more light & more freedom, see? Like if you take apple pie, it is good for health & it gives you pleasure but if you go into drugs, it just entraps you & seems to give you pleasure to begin with but gives only pain, only suffering & its hard to get out of it. So satvic, rajssic, tamasic, there are 3 grades & the whole creation is made of these 3 gunas, 3 natures. Certain food you take, makes you more dull, certain food makes you agitated, like this activities, every thing is from this three different Gunas. And there are some specialties about this, all those details are there, the creation is made up of so many details. [PDF p.77]"
     },
     {
-      "section": 6,
-      "theme": "Cause and effect affects all.",
+      "section": 9,
+      "theme": "2.16",
       "sutra": {
         "number": "2.16",
         "sanskrit": "हेयं दुःखमनागतम",
@@ -112,11 +174,12 @@
       "journalPrompt": "What did I avoid?",
       "whatOthersSaid": "",
       "shlokaFrom": "",
-      "wisdomFrom": ""
+      "wisdomFrom": "",
+      "gurudevInsight": "If you don’t cleanse your consciousness of there 5 miseries, impurities, sources of misery, then you will have to suffer in this life & the next. There is no way, you will have to suffer in this life, you have to undergo this suffering, this misery not only in this life but in coming life also because they form as karmashaya a bank of karma, they get into the reserve tank in you as karma tank & through Meditation this Karma can be washed out, eliminated, right now, here. Before the body drops you, you get rid of the karma & lessen the sheets of ignorance over you; otherwise there is no escape for you from this. [PDF p.71]"
     },
     {
-      "section": 7,
-      "theme": "The seer is not the seen.",
+      "section": 10,
+      "theme": "2.17",
       "sutra": {
         "number": "2.17",
         "sanskrit": "द्रष्टृदृश्ययोः संयोगो हेयहेतुः",
@@ -130,11 +193,12 @@
       "journalPrompt": "What caused disturbance?",
       "whatOthersSaid": "",
       "shlokaFrom": "तं विद्याद् दुःखसंयोगवियोगं योगसंज्ञितम्।स निश्चयेन योक्तव्यो योगोऽनिर्विण्णचेतसा॥ 6.23",
-      "wisdomFrom": "Know that severance from union with pain is called yoga. This yoga should be practiced with determination and with an undaunted mind."
+      "wisdomFrom": "Know that severance from union with pain is called yoga. This yoga should be practiced with determination and with an undaunted mind.",
+      "gurudevInsight": "If you don’t cleanse your consciousness of there 5 miseries, impurities, sources of misery, then you will have to suffer in this life & the next. There is no way, you will have to suffer in this life, you have to undergo this suffering, this misery not only in this life but in coming life also because they form as karmashaya a bank of karma, they get into the reserve tank in you as karma tank & through Meditation this Karma can be washed out, eliminated, right now, here. Before the body drops you, you get rid of the karma & lessen the sheets of ignorance over you; otherwise there is no escape for you from this. [PDF p.71]"
     },
     {
-      "section": 8,
-      "theme": "Practice is gold.",
+      "section": 11,
+      "theme": "2.25",
       "sutra": {
         "number": "2.25",
         "sanskrit": "तदभावात् संयोगाभावो हानं तद् दृशेः कैवल्यम्",
@@ -148,7 +212,8 @@
       "journalPrompt": "Did I feel the separation during meditation.",
       "whatOthersSaid": "",
       "shlokaFrom": "",
-      "wisdomFrom": ""
+      "wisdomFrom": "",
+      "gurudevInsight": "Often you don’t go for things that you really want. You go for things because others would want it, or what others would say, think or do about it. Many times what you want, you are not clear because you never looked into your Self. You are swayed away by fleeting thoughts & fleeting emotions, fleeting desires. You went & ate something some where and wrong food & whatever it was, all those foods & all those events, situation company everything brought in a storm inside you & you started believing that storm as your very Self. [PDF p.65]"
     }
   ]
 }

@@ -17,6 +17,7 @@ export interface SectionData {
   whatOthersSaid: string;
   shlokaFrom?: string;
   wisdomFrom?: string;
+  gurudevInsight?: string;
 }
 
 export interface TopicData {

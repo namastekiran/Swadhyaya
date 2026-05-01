@@ -40,10 +40,10 @@ export function JournalView({ topicId, section }: { topicId: string; section: Se
 
   return (
     <div className="pb-20 -mx-6">
-      <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#fdfcff" }}>
+      <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
         {/* Lavender header */}
-        <div style={{ background: "linear-gradient(160deg,#e6eef8 0%,#f0f4fb 100%)", padding: "20px 20px 22px" }}>
+        <div style={{ background: "linear-gradient(160deg,#c8d8f0 0%,#dae8f8 100%)", padding: "20px 20px 22px" }}>
           <div className="flex items-center gap-3">
             <Link
               href={backPath}
@@ -53,7 +53,9 @@ export function JournalView({ topicId, section }: { topicId: string; section: Se
               <ArrowLeft style={{ width: 11, height: 11, color: "#5a7aa0" }} />
             </Link>
             <div>
-              <p style={{ fontSize: 10, color: "#90a8c8" }}>{section.theme}</p>
+              {section.theme && !/^\d+[\.\d\n]*$/.test(section.theme.trim()) && (
+                <p style={{ fontSize: 10, color: "#4a6890" }}>{section.theme}</p>
+              )}
               <p style={{ fontSize: 14, fontWeight: 500, color: "#2a3a5e" }}>Journal</p>
             </div>
           </div>
@@ -64,10 +66,10 @@ export function JournalView({ topicId, section }: { topicId: string; section: Se
 
           {/* Date + privacy */}
           <div className="flex items-center justify-between" style={{ marginBottom: 14 }}>
-            <p style={{ fontSize: 11, color: "#90a8c8" }}>{formatDate(new Date())}</p>
+            <p style={{ fontSize: 11, color: "#4a6890" }}>{formatDate(new Date())}</p>
             <div className="flex items-center gap-1">
-              <Lock style={{ width: 10, height: 10, color: "#90a8c8" }} />
-              <span style={{ fontSize: 10, color: "#90a8c8" }}>Only visible to you</span>
+              <Lock style={{ width: 10, height: 10, color: "#4a6890" }} />
+              <span style={{ fontSize: 10, color: "#4a6890" }}>Only visible to you</span>
             </div>
           </div>
 
@@ -76,7 +78,7 @@ export function JournalView({ topicId, section }: { topicId: string; section: Se
             <p style={{ fontSize: 9, fontWeight: 500, color: "#5a7aa0", letterSpacing: "0.08em", marginBottom: 8 }}>TODAY&apos;S PROMPT</p>
             <p style={{ fontSize: 14, fontWeight: 500, color: "#2a3a5e", lineHeight: 1.6 }}>{mainPrompt}</p>
             {subPrompt && (
-              <p style={{ fontSize: 12, color: "#90a8c8", marginTop: 6, lineHeight: 1.5 }}>{subPrompt}</p>
+              <p style={{ fontSize: 12, color: "#4a6890", marginTop: 6, lineHeight: 1.5 }}>{subPrompt}</p>
             )}
           </div>
 
@@ -96,7 +98,7 @@ export function JournalView({ topicId, section }: { topicId: string; section: Se
           </div>
 
           {/* Encouragement */}
-          <p style={{ fontSize: 11, color: "#90a8c8", textAlign: "center", marginBottom: 18 }}>
+          <p style={{ fontSize: 11, color: "#4a6890", textAlign: "center", marginBottom: 18 }}>
             No right or wrong — just you and the page 🌿
           </p>
 

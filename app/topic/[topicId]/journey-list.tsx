@@ -33,19 +33,19 @@ function SessionCard({
   const isLocked = !forceRevisit && status === "locked";
   const pct = totalSteps > 0 ? Math.round((completedSteps / totalSteps) * 100) : 0;
 
-  const dotBg = isDone ? "#a389d420" : isCurrent ? "#f0a07020" : "#ede8f7";
-  const dotColor = isDone ? "#7c5cbf" : isCurrent ? "#c47820" : "#c0b8d0";
-  const connectorColor = isDone ? "#a389d4" : "#e8e4f4";
+  const dotBg = isDone ? "#c8b8f0" : isCurrent ? "#f5c090" : "#e0d8f0";
+  const dotColor = isDone ? "#5a3aaa" : isCurrent ? "#a05010" : "#8070a8";
+  const connectorColor = isDone ? "#a389d4" : "#d0c8e8";
 
   const content = (
     <div
       className="flex items-center gap-3"
       style={{
-        background: "#fff",
+        background: isDone ? "#f5f0ff" : "#fff",
         borderRadius: 14,
         padding: "13px 14px",
-        border: isDone ? "1px solid #e5e3f0" : isCurrent ? "1.5px solid #f0a070" : "1px solid #ede8f7",
-        opacity: isLocked ? 0.4 : 1,
+        border: isDone ? "1px solid #c8b8e8" : isCurrent ? "1.5px solid #e08848" : "1px solid #d8d0ec",
+        opacity: isLocked ? 0.6 : 1,
         cursor: isLocked ? "not-allowed" : "pointer",
       }}
     >
@@ -55,7 +55,7 @@ function SessionCard({
       </div>
 
       <div style={{ flex: 1, minWidth: 0 }}>
-        <p style={{ fontSize: 10, color: "#9b97b0", marginBottom: 1 }}>
+        <p style={{ fontSize: 10, color: "#5a5070", marginBottom: 1 }}>
           Day {sectionNum} · Sutra {sutraNumber}
         </p>
         <p style={{ fontSize: 14, fontWeight: 600, color: isLocked ? "#b0aec8" : "#1e1a2e", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
@@ -72,7 +72,7 @@ function SessionCard({
         {isDone && (
           <>
             <Check style={{ width: 18, height: 18, color: "#7c5cbf" }} />
-            <span style={{ fontSize: 10, color: "#9b97b0" }}>Revisit</span>
+            <span style={{ fontSize: 10, color: "#5a5070" }}>Revisit</span>
           </>
         )}
         {isCurrent && (
@@ -128,10 +128,10 @@ function JourneyComplete({ topic, answers }: { topic: TopicData; answers: Record
 
   return (
     <div className="pb-20 -mx-6">
-      <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#fdfcff" }}>
+      <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
         {/* Header */}
-        <div style={{ background: "linear-gradient(160deg,#ede8f7 0%,#f7f0f5 100%)", padding: "24px 22px 26px" }}>
+        <div style={{ background: "linear-gradient(160deg,#d8ccf0 0%,#ecdff8 100%)", padding: "24px 22px 26px" }}>
           <div className="flex items-center gap-3 mb-3">
             <Link href="/" className="flex items-center justify-center flex-shrink-0"
               style={{ width: 30, height: 30, borderRadius: "50%", background: "rgba(255,255,255,0.6)" }}>
@@ -139,7 +139,7 @@ function JourneyComplete({ topic, answers }: { topic: TopicData; answers: Record
             </Link>
             <div>
               <p style={{ fontSize: 16, fontWeight: 500, color: "#3d2f5e" }}>{topic.title}</p>
-              <p style={{ fontSize: 11, color: "#b0a0c8" }}>{topic.tagline}</p>
+              <p style={{ fontSize: 11, color: "#6a5888" }}>{topic.tagline}</p>
             </div>
           </div>
           {/* Completed badge */}
@@ -160,31 +160,31 @@ function JourneyComplete({ topic, answers }: { topic: TopicData; answers: Record
             <p style={{ fontSize: 17, fontWeight: 600, color: "#3d2f5e", marginBottom: 6 }}>
               Journey complete!
             </p>
-            <p style={{ fontSize: 12, color: "#b0a0c8", lineHeight: 1.6, marginBottom: 18, fontStyle: "italic" }}>
+            <p style={{ fontSize: 12, color: "#6a5888", lineHeight: 1.6, marginBottom: 18, fontStyle: "italic" }}>
               &ldquo;{topic.description}&rdquo;
             </p>
 
             {/* 3 stats */}
             <div className="flex" style={{ borderTop: "1px solid #e8dff5", paddingTop: 14 }}>
               <div style={{ flex: 1, textAlign: "center", padding: "0 4px" }}>
-                <p style={{ fontSize: 18, fontWeight: 600, color: "#7c5cbf" }}>{totalSessions}</p>
-                <p style={{ fontSize: 9, color: "#b0a0c8", marginTop: 2 }}>sessions</p>
+                <p style={{ fontSize: 18, fontWeight: 700, color: "#6030c0" }}>{totalSessions}</p>
+                <p style={{ fontSize: 9, color: "#6a5888", marginTop: 2 }}>sessions</p>
               </div>
               <div style={{ width: 1, background: "#e8dff5" }} />
               <div style={{ flex: 1, textAlign: "center", padding: "0 4px" }}>
-                <p style={{ fontSize: 18, fontWeight: 600, color: "#7c5cbf" }}>{totalSteps}</p>
-                <p style={{ fontSize: 9, color: "#b0a0c8", marginTop: 2 }}>steps done</p>
+                <p style={{ fontSize: 18, fontWeight: 700, color: "#d4600a" }}>{totalSteps}</p>
+                <p style={{ fontSize: 9, color: "#6a5888", marginTop: 2 }}>steps done</p>
               </div>
               <div style={{ width: 1, background: "#e8dff5" }} />
               <div style={{ flex: 1, textAlign: "center", padding: "0 4px" }}>
-                <p style={{ fontSize: 18, fontWeight: 600, color: "#7c5cbf" }}>{totalMinutes}</p>
-                <p style={{ fontSize: 9, color: "#b0a0c8", marginTop: 2 }}>min practiced</p>
+                <p style={{ fontSize: 18, fontWeight: 700, color: "#1a8a60" }}>{totalMinutes}</p>
+                <p style={{ fontSize: 9, color: "#6a5888", marginTop: 2 }}>min practiced</p>
               </div>
             </div>
           </div>
 
           {/* All sessions revisitable */}
-          <p style={{ fontSize: 9, fontWeight: 600, color: "#c0b0d8", letterSpacing: "0.08em", marginBottom: 10 }}>
+          <p style={{ fontSize: 9, fontWeight: 600, color: "#6a5888", letterSpacing: "0.08em", marginBottom: 10 }}>
             ALL SESSIONS — TAP TO REVISIT
           </p>
           <div style={{ marginBottom: 18 }}>
@@ -211,7 +211,7 @@ function JourneyComplete({ topic, answers }: { topic: TopicData; answers: Record
           </div>
 
           {/* What's next */}
-          <p style={{ fontSize: 9, fontWeight: 600, color: "#c0b0d8", letterSpacing: "0.08em", marginBottom: 10 }}>
+          <p style={{ fontSize: 9, fontWeight: 600, color: "#6a5888", letterSpacing: "0.08em", marginBottom: 10 }}>
             CONTINUE YOUR PRACTICE
           </p>
 
@@ -237,10 +237,10 @@ function JourneyComplete({ topic, answers }: { topic: TopicData; answers: Record
           <Link
             href="/"
             className="w-full flex items-center justify-center gap-2"
-            style={{ border: "1.5px solid #e0d5f5", borderRadius: 12, padding: "11px 16px" }}
+            style={{ background: "linear-gradient(135deg,#a389d4,#c9a8e0)", borderRadius: 12, padding: "11px 16px" }}
           >
-            <span style={{ fontSize: 13, fontWeight: 500, color: "#7c5cbf" }}>Browse all journeys</span>
-            <ArrowRight style={{ width: 13, height: 13, color: "#7c5cbf" }} />
+            <span style={{ fontSize: 13, fontWeight: 500, color: "#fff" }}>Browse all journeys</span>
+            <ArrowRight style={{ width: 13, height: 13, color: "#fff" }} />
           </Link>
         </div>
       </div>
@@ -287,10 +287,10 @@ export function JourneyList({ topic }: { topic: TopicData }) {
 
   return (
     <div className="pb-20 -mx-6">
-      <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#fdfcff" }}>
+      <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
         {/* Header */}
-        <div style={{ background: "linear-gradient(160deg,#ede8f7 0%,#f7f0f5 100%)", padding: "24px 22px 26px" }}>
+        <div style={{ background: "linear-gradient(160deg,#d8ccf0 0%,#ecdff8 100%)", padding: "24px 22px 26px" }}>
           <div className="flex items-center gap-3 mb-5">
             <Link href="/" className="flex items-center justify-center flex-shrink-0"
               style={{ width: 30, height: 30, borderRadius: "50%", background: "rgba(255,255,255,0.6)" }}>
@@ -298,12 +298,12 @@ export function JourneyList({ topic }: { topic: TopicData }) {
             </Link>
             <div>
               <p style={{ fontSize: 16, fontWeight: 500, color: "#3d2f5e" }}>{topic.title}</p>
-              <p style={{ fontSize: 11, color: "#b0a0c8" }}>{topic.tagline} · {topic.totalSections} sessions</p>
+              <p style={{ fontSize: 11, color: "#6a5888" }}>{topic.tagline} · {topic.totalSections} sessions</p>
             </div>
           </div>
 
           <div className="flex items-center justify-between mb-2">
-            <span style={{ fontSize: 11, color: "#b0a0c8" }}>
+            <span style={{ fontSize: 11, color: "#6a5888" }}>
               Session {Math.min(completedCount + 1, topic.totalSections)} of {topic.totalSections}
             </span>
             <span style={{ fontSize: 13, fontWeight: 500, color: "#7c5cbf" }}>
@@ -317,10 +317,10 @@ export function JourneyList({ topic }: { topic: TopicData }) {
 
         {/* Session list */}
         <div style={{ padding: "20px 18px 26px" }}>
-          <p style={{ fontSize: 11, fontWeight: 600, color: "#9b97b0", letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 4 }}>
+          <p style={{ fontSize: 11, fontWeight: 600, color: "#5a5070", letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 4 }}>
             Your journey
           </p>
-          <p style={{ fontSize: 12, color: "#b0a0c8", marginBottom: 16 }}>
+          <p style={{ fontSize: 12, color: "#6a5888", marginBottom: 16 }}>
             Tap any completed session to revisit it.
           </p>
 

@@ -65,10 +65,10 @@ export function PracticeView({ topicId, section }: { topicId: string; section: S
 
   return (
     <div className="pb-20 -mx-6">
-      <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#fdfcff" }}>
+      <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
         {/* Lavender header */}
-        <div style={{ background: "linear-gradient(160deg,#e8f5ee 0%,#f0faf4 100%)", padding: "20px 20px 22px" }}>
+        <div style={{ background: "linear-gradient(160deg,#c8e8d8 0%,#daf5e8 100%)", padding: "20px 20px 22px" }}>
           <div className="flex items-center gap-3">
             <Link
               href={backPath}
@@ -78,7 +78,9 @@ export function PracticeView({ topicId, section }: { topicId: string; section: S
               <ArrowLeft style={{ width: 11, height: 11, color: "#5a9e78" }} />
             </Link>
             <div>
-              <p style={{ fontSize: 10, color: "#90b8a0" }}>{section.theme}</p>
+              {section.theme && !/^\d+[\.\d\n]*$/.test(section.theme.trim()) && (
+                <p style={{ fontSize: 10, color: "#4a7860" }}>{section.theme}</p>
+              )}
               <p style={{ fontSize: 14, fontWeight: 500, color: "#2a4a38" }}>Micro Practice</p>
             </div>
           </div>
@@ -89,11 +91,11 @@ export function PracticeView({ topicId, section }: { topicId: string; section: S
 
           {/* Today's practice */}
           <div style={{ marginBottom: 16 }}>
-            <p style={{ fontSize: 9, fontWeight: 500, color: "#90b8a0", letterSpacing: "0.08em", marginBottom: 10 }}>TODAY&apos;S PRACTICE</p>
+            <p style={{ fontSize: 9, fontWeight: 500, color: "#4a7860", letterSpacing: "0.08em", marginBottom: 10 }}>TODAY&apos;S PRACTICE</p>
             <div style={{ background: "linear-gradient(135deg,#e8f5ee,#f0fff5)", borderRadius: 14, padding: 16, border: "1px solid #c8e8d8" }}>
               <p style={{ fontSize: 15, fontWeight: 500, color: "#2a4a38", lineHeight: 1.5 }}>{mainPractice}</p>
               {subPractice && (
-                <p style={{ fontSize: 12, color: "#90b8a0", marginTop: 6, lineHeight: 1.6 }}>{subPractice}</p>
+                <p style={{ fontSize: 12, color: "#4a7860", marginTop: 6, lineHeight: 1.6 }}>{subPractice}</p>
               )}
             </div>
           </div>
@@ -101,9 +103,9 @@ export function PracticeView({ topicId, section }: { topicId: string; section: S
           {/* Meditation timer */}
           {section.meditation && (
             <div style={{ marginBottom: 18 }}>
-              <p style={{ fontSize: 9, fontWeight: 500, color: "#90b8a0", letterSpacing: "0.08em", marginBottom: 10 }}>MEDITATION</p>
+              <p style={{ fontSize: 9, fontWeight: 500, color: "#4a7860", letterSpacing: "0.08em", marginBottom: 10 }}>MEDITATION</p>
               <div style={{ background: "#fff", borderRadius: 14, border: "1px solid #c8e8d8", padding: 16, textAlign: "center" }}>
-                <p style={{ fontSize: 11, color: "#90b8a0", marginBottom: 12 }}>
+                <p style={{ fontSize: 11, color: "#4a7860", marginBottom: 12 }}>
                   {section.meditation.length < 80 ? section.meditation : "Sit comfortably. Begin when you're ready."}
                 </p>
                 {/* Timer ring */}
@@ -121,7 +123,7 @@ export function PracticeView({ topicId, section }: { topicId: string; section: S
                   </svg>
                   <div style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%,-50%)", textAlign: "center" }}>
                     <p style={{ fontSize: 16, fontWeight: 500, color: "#2a4a38", lineHeight: 1 }}>{timeLabel}</p>
-                    <p style={{ fontSize: 9, color: "#90b8a0", marginTop: 2 }}>min</p>
+                    <p style={{ fontSize: 9, color: "#4a7860", marginTop: 2 }}>min</p>
                   </div>
                 </div>
                 <button
@@ -150,7 +152,7 @@ export function PracticeView({ topicId, section }: { topicId: string; section: S
 
           {/* How did it feel */}
           <div style={{ marginBottom: 10 }}>
-            <p style={{ fontSize: 9, fontWeight: 500, color: "#90b8a0", letterSpacing: "0.08em", marginBottom: 10 }}>HOW DID IT FEEL?</p>
+            <p style={{ fontSize: 9, fontWeight: 500, color: "#4a7860", letterSpacing: "0.08em", marginBottom: 10 }}>HOW DID IT FEEL?</p>
             <div style={{ background: "#fff", borderRadius: 14, border: "1.5px solid #c8e8d8", padding: 14, position: "relative" }}>
               <textarea
                 value={text}
@@ -160,12 +162,12 @@ export function PracticeView({ topicId, section }: { topicId: string; section: S
                 className="w-full resize-none outline-none"
                 style={{ fontSize: 12, color: "#2a4a38", lineHeight: 1.7, background: "transparent", border: "none" }}
               />
-              <p style={{ fontSize: 10, color: "#a8d0b8", textAlign: "right", marginTop: 4 }}>{words} words</p>
+              <p style={{ fontSize: 10, color: "#4a7860", textAlign: "right", marginTop: 4 }}>{words} words</p>
             </div>
           </div>
 
           {/* Encouragement */}
-          <p style={{ fontSize: 11, color: "#90b8a0", textAlign: "center", marginBottom: 18 }}>
+          <p style={{ fontSize: 11, color: "#4a7860", textAlign: "center", marginBottom: 18 }}>
             Optional — but the noticing matters 🌿
           </p>
 

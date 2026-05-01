@@ -99,18 +99,18 @@ export function ReturningHome({ topics, onViewAll }: Props) {
     <div className="pb-20 -mx-6">
       <div
         className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]"
-        style={{ background: "#fff" }}
+        style={{ background: "#f8f4ff" }}
       >
         {/* Lavender gradient header */}
-        <div style={{ background: "linear-gradient(160deg,#ede8f7 0%,#f7f0f5 100%)", padding: "28px 22px 24px" }}>
+        <div style={{ background: "linear-gradient(160deg,#d8ccf0 0%,#ecdff8 100%)", padding: "28px 22px 24px" }}>
           {/* Greeting row */}
           <div className="flex items-center justify-between mb-5">
             <div>
-              <p style={{ fontSize: 12, color: "#b0a0c8", marginBottom: 4 }}>
+              <p style={{ fontSize: 12, color: "#7a6898", marginBottom: 4 }}>
                 {getGreeting()} 🙏
               </p>
               <h1 style={{ fontSize: 22, fontWeight: 500, color: "#3d2f5e", lineHeight: 1.2 }}>
-                Hello, {firstName}
+                Namaste, {firstName}
               </h1>
             </div>
             <div
@@ -124,24 +124,24 @@ export function ReturningHome({ topics, onViewAll }: Props) {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-2">
             {[
-              { value: String(streak), label: "day streak 🔥" },
-              { value: `${progressPct}%`, label: "progress" },
-              { value: `${topicCompleted}/${topicTotal}`, label: "sessions" },
-            ].map(({ value, label }) => (
+              { value: String(streak), label: "day streak 🔥", color: "#d4600a" },
+              { value: `${progressPct}%`, label: "progress", color: "#6030c0" },
+              { value: `${topicCompleted}/${topicTotal}`, label: "sessions", color: "#1a8a60" },
+            ].map(({ value, label, color }) => (
               <div
                 key={label}
                 className="text-center"
                 style={{ background: "rgba(255,255,255,0.7)", borderRadius: 14, padding: "10px 8px" }}
               >
-                <div style={{ fontSize: 18, fontWeight: 500, color: "#7c5cbf" }}>{value}</div>
-                <div style={{ fontSize: 9, color: "#b0a0c8", marginTop: 2 }}>{label}</div>
+                <div style={{ fontSize: 22, fontWeight: 700, color }}>{value}</div>
+                <div style={{ fontSize: 11, color: "#5a4878", marginTop: 3 }}>{label}</div>
               </div>
             ))}
           </div>
         </div>
 
         {/* Body */}
-        <div style={{ padding: "20px 22px 26px", background: "#fdfcff" }}>
+        <div style={{ padding: "20px 22px 26px", background: "#f8f4ff" }}>
 
           {/* Resume journey card */}
           {lastActive && lastActiveTopic ? (
@@ -212,10 +212,10 @@ export function ReturningHome({ topics, onViewAll }: Props) {
           <button
             onClick={onViewAll}
             className="w-full flex items-center justify-center gap-2"
-            style={{ border: "1.5px solid #e0d5f5", borderRadius: 12, padding: "11px 16px" }}
+            style={{ background: "linear-gradient(135deg,#a389d4,#c9a8e0)", borderRadius: 12, padding: "11px 16px" }}
           >
-            <span style={{ fontSize: 13, fontWeight: 500, color: "#7c5cbf" }}>View all journeys</span>
-            <ArrowRight style={{ width: 13, height: 13, color: "#7c5cbf" }} />
+            <span style={{ fontSize: 13, fontWeight: 500, color: "#fff" }}>View all journeys</span>
+            <ArrowRight style={{ width: 13, height: 13, color: "#fff" }} />
           </button>
         </div>
       </div>

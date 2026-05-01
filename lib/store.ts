@@ -35,7 +35,7 @@ interface SectionAnswers {
   reflections: ReflectionEntry[];
   practiceAnswer?: string;
   journalEntry?: string;
-  completedSteps: ("sutra" | "reflection" | "practice" | "journal" | "gita")[];
+  completedSteps: ("sutra" | "reflection" | "practice" | "journal" | "gita" | "gurudev")[];
   savedChats: SavedChat[];
   updatedAt?: string;
 }
@@ -72,7 +72,7 @@ interface AppState {
   completeStep: (
     topicId: string,
     section: number,
-    step: "sutra" | "reflection" | "practice" | "journal" | "gita"
+    step: "sutra" | "reflection" | "practice" | "journal" | "gita" | "gurudev"
   ) => void;
   saveReflection: (topicId: string, section: number, answer: string) => void;
   deleteReflection: (topicId: string, section: number, index: number) => void;

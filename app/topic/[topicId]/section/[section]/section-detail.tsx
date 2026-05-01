@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ArrowLeft, ArrowRight, BookOpen, MessageCircle, Dumbbell, PenLine, Check } from "lucide-react";
+import { ArrowLeft, ArrowRight, BookOpen, MessageCircle, Dumbbell, PenLine, Check, Sparkles } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import type { SectionData } from "@/lib/types";
 
@@ -14,7 +14,7 @@ interface Props {
   totalSections: number;
 }
 
-type StepKey = "sutra" | "reflection" | "practice" | "gita" | "journal";
+type StepKey = "sutra" | "reflection" | "practice" | "gita" | "gurudev" | "journal";
 
 interface StepDef {
   key: StepKey;
@@ -23,6 +23,7 @@ interface StepDef {
   href: string;
   icon: React.ElementType;
   minutes: number;
+  optional?: boolean;
 }
 
 function countWords(text: string): number {
@@ -50,6 +51,9 @@ function buildSteps(section: SectionData, times: ReturnType<typeof calcStepTimes
   ];
   if (section.shlokaFrom || section.wisdomFrom) {
     steps.push({ key: "gita", label: "Wisdom from the Gita", description: "Read related wisdom from the Bhagavad Gita", href: "gita", icon: BookOpen, minutes: times.gita });
+  }
+  if (section.gurudevInsight) {
+    steps.push({ key: "gurudev", label: "Deep Dive with Gurudev", description: "Gurudev's commentary on this sutra", href: "gurudev", icon: Sparkles, minutes: 3, optional: true });
   }
   steps.push({ key: "journal", label: "Journal", description: "Write down your experience and insights", href: "journal", icon: PenLine, minutes: times.journal });
   return steps;
@@ -125,10 +129,10 @@ function SessionComplete({
 
   return (
     <div className="pb-20 -mx-6">
-      <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#fdfcff" }}>
+      <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
         {/* Lavender header */}
-        <div style={{ background: "linear-gradient(160deg,#ede8f7 0%,#f7f0f5 100%)", padding: "22px 20px 24px" }}>
+        <div style={{ background: "linear-gradient(160deg,#d8ccf0 0%,#ecdff8 100%)", padding: "22px 20px 24px" }}>
           <div className="flex items-center gap-3 mb-1">
             <Link
               href={`/topic/${topicId}`}
@@ -137,7 +141,7 @@ function SessionComplete({
             >
               <ArrowLeft style={{ width: 11, height: 11, color: "#7c5cbf" }} />
             </Link>
-            <p style={{ fontSize: 10, color: "#b0a0c8", letterSpacing: "0.06em" }}>
+            <p style={{ fontSize: 10, color: "#7a6898", letterSpacing: "0.06em" }}>
               {topicTitle.toUpperCase()} · SESSION {section.section}
             </p>
           </div>
@@ -152,25 +156,25 @@ function SessionComplete({
           <div style={{ background: "linear-gradient(135deg,#f0ebff,#fdeef8)", borderRadius: 18, padding: "22px 20px", textAlign: "center", marginBottom: 16, border: "1px solid #e8dff5" }}>
             <div style={{ fontSize: 32, marginBottom: 10 }}>🌸</div>
             <p style={{ fontSize: 16, fontWeight: 500, color: "#3d2f5e", marginBottom: 8 }}>Session complete!</p>
-            <p style={{ fontSize: 12, color: "#b0a0c8", lineHeight: 1.6, marginBottom: 18, fontStyle: "italic" }}>
+            <p style={{ fontSize: 12, color: "#7a6898", lineHeight: 1.6, marginBottom: 18, fontStyle: "italic" }}>
               &ldquo;{quote}&rdquo;
             </p>
 
             {/* 3 stats with dividers */}
             <div className="flex" style={{ borderTop: "1px solid #e8dff5", paddingTop: 14 }}>
               <div style={{ flex: 1, textAlign: "center", padding: "0 4px" }}>
-                <p style={{ fontSize: 17, fontWeight: 500, color: "#7c5cbf" }}>{streak}</p>
-                <p style={{ fontSize: 9, color: "#b0a0c8", marginTop: 2 }}>day streak 🔥</p>
+                <p style={{ fontSize: 17, fontWeight: 700, color: "#d4600a" }}>{streak}</p>
+                <p style={{ fontSize: 9, color: "#7a6898", marginTop: 2 }}>day streak 🔥</p>
               </div>
               <div style={{ width: 1, background: "#e8dff5" }} />
               <div style={{ flex: 1, textAlign: "center", padding: "0 4px" }}>
-                <p style={{ fontSize: 17, fontWeight: 500, color: "#7c5cbf" }}>{journeyPct}%</p>
-                <p style={{ fontSize: 9, color: "#b0a0c8", marginTop: 2 }}>journey done</p>
+                <p style={{ fontSize: 17, fontWeight: 700, color: "#6030c0" }}>{journeyPct}%</p>
+                <p style={{ fontSize: 9, color: "#7a6898", marginTop: 2 }}>journey done</p>
               </div>
               <div style={{ width: 1, background: "#e8dff5" }} />
               <div style={{ flex: 1, textAlign: "center", padding: "0 4px" }}>
-                <p style={{ fontSize: 17, fontWeight: 500, color: "#7c5cbf" }}>{totalMinutes} min</p>
-                <p style={{ fontSize: 9, color: "#b0a0c8", marginTop: 2 }}>time spent</p>
+                <p style={{ fontSize: 17, fontWeight: 700, color: "#1a8a60" }}>{totalMinutes} min</p>
+                <p style={{ fontSize: 9, color: "#7a6898", marginTop: 2 }}>time spent</p>
               </div>
             </div>
           </div>
@@ -237,6 +241,7 @@ function SessionComplete({
                   reflection: { icon: "#c4707a", bg: "#f5bec5" },
                   practice:   { icon: "#5a9e78", bg: "#bde8d0" },
                   gita:       { icon: "#c48450", bg: "#f8d4a8" },
+                  gurudev:    { icon: "#b87840", bg: "#fde8c8" },
                   journal:    { icon: "#5a7aa0", bg: "#bcd4f0" },
                 };
                 const sc = STEP_COLORS[step.key] ?? STEP_COLORS.sutra;
@@ -255,7 +260,7 @@ function SessionComplete({
                     </div>
                     <div className="flex-1">
                       <p style={{ fontSize: 13, fontWeight: 500, color: "#3d2f5e" }}>{step.label}</p>
-                      <p style={{ fontSize: 10, color: "#b0a0c8" }}>{step.minutes} min · completed</p>
+                      <p style={{ fontSize: 10, color: "#7a6898" }}>{step.minutes} min · completed</p>
                     </div>
                     <Check style={{ width: 12, height: 12, color: "#c9a8e0", flexShrink: 0 }} />
                   </Link>
@@ -284,7 +289,7 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
   const steps = buildSteps(section, times);
 
   const completedKeys = answers.completedSteps as StepKey[];
-  const allDone = steps.every((s) => completedKeys.includes(s.key));
+  const allDone = steps.filter((s) => !s.optional).every((s) => completedKeys.includes(s.key));
   const isLast = section.section >= totalSections;
   const nextNum = section.section + 1;
 
@@ -324,10 +329,10 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
 
   return (
     <div className="pb-20 -mx-6">
-      <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#fdfcff" }}>
+      <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
         {/* Header */}
-        <div style={{ background: "linear-gradient(160deg,#ede8f7 0%,#f7f0f5 100%)", padding: "22px 20px 24px" }}>
+        <div style={{ background: "linear-gradient(160deg,#d8ccf0 0%,#ecdff8 100%)", padding: "22px 20px 24px" }}>
           <div className="flex items-center gap-3 mb-1">
             <Link
               href={`/topic/${topicId}`}
@@ -336,7 +341,7 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
             >
               <ArrowLeft style={{ width: 11, height: 11, color: "#7c5cbf" }} />
             </Link>
-            <p style={{ fontSize: 10, color: "#b0a0c8", letterSpacing: "0.06em" }}>
+            <p style={{ fontSize: 10, color: "#7a6898", letterSpacing: "0.06em" }}>
               {topicTitle.toUpperCase()} · SESSION {section.section}
             </p>
           </div>
@@ -354,7 +359,7 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
           {/* Step dots progress */}
           <div style={{ background: "rgba(255,255,255,0.5)", borderRadius: 10, padding: "10px 14px" }}>
             <div className="flex items-center justify-between mb-2">
-              <span style={{ fontSize: 10, color: "#b0a0c8" }}>
+              <span style={{ fontSize: 10, color: "#7a6898" }}>
                 {completedKeys.length} of {steps.length} steps complete
               </span>
               <span style={{ fontSize: 10, fontWeight: 500, color: "#7c5cbf" }}>
@@ -383,7 +388,7 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
             <div style={{ background: "linear-gradient(135deg,#f0ebff,#fdeef8)", borderRadius: 16, padding: "16px 18px", textAlign: "center", marginBottom: 16, border: "1px solid #e8dff5" }}>
               <div style={{ fontSize: 26, marginBottom: 6 }}>🌸</div>
               <p style={{ fontSize: 15, fontWeight: 500, color: "#3d2f5e", marginBottom: 4 }}>Session complete!</p>
-              <p style={{ fontSize: 11, color: "#b0a0c8", fontStyle: "italic" }}>
+              <p style={{ fontSize: 11, color: "#7a6898", fontStyle: "italic" }}>
                 &ldquo;{section.sutra.meaning.split(/[.।]/)[0].trim()}&rdquo;
               </p>
             </div>
@@ -394,6 +399,7 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
               const isDone = completedKeys.includes(step.key);
               const isCurrent = !allDone && idx === currentIdx;
               const isJournalNudge = step.key === "journal" && !isDone && !nonJournalDone;
+              const isOptionalNudge = step.optional && !isDone;
               const Icon = step.icon;
 
               const STEP_COLORS: Record<string, { icon: string; bg: string; border: string; label: string }> = {
@@ -401,6 +407,7 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
                 reflection: { icon: "#c4707a", bg: "#f5bec5", border: "#d898a8", label: "#c4707a" },
                 practice:   { icon: "#5a9e78", bg: "#bde8d0", border: "#88c8a8", label: "#5a9e78" },
                 gita:       { icon: "#c48450", bg: "#f8d4a8", border: "#d8b478", label: "#c48450" },
+                gurudev:    { icon: "#b87840", bg: "#fde8c8", border: "#e8b878", label: "#b87840" },
                 journal:    { icon: "#5a7aa0", bg: "#bcd4f0", border: "#88acd0", label: "#5a7aa0" },
               };
               const sc = STEP_COLORS[step.key] ?? STEP_COLORS.sutra;
@@ -428,10 +435,13 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
                       {isJournalNudge && (
                         <p style={{ fontSize: 9, fontWeight: 600, color: "#90a8c8", letterSpacing: "0.07em", marginBottom: 2 }}>BEST DONE LAST</p>
                       )}
+                      {isOptionalNudge && (
+                        <p style={{ fontSize: 9, fontWeight: 600, color: "#b87840", letterSpacing: "0.07em", marginBottom: 2 }}>OPTIONAL</p>
+                      )}
                       <p style={{ fontSize: 14, fontWeight: 500, color: "#3d2f5e" }}>
                         {step.label}
                       </p>
-                      <p style={{ fontSize: 11, color: "#c0b8c8", marginTop: 1 }}>
+                      <p style={{ fontSize: 11, color: "#7a6898", marginTop: 1 }}>
                         {step.description} · {step.minutes} min
                       </p>
                     </div>

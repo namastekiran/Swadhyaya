@@ -19,16 +19,17 @@ export function SutraView({ topicId, section }: { topicId: string; section: Sect
     router.push(backPath);
   }
 
-  const sutraLabel = `SUTRA ${section.sutra.number.replace(/,\s*/g, " · ")}`;
+  const sutraLines = section.sutra.sanskrit.split(/\n+/).filter(Boolean);
+  const sutraNumbers = section.sutra.number.split(/[,،]\s*/).map((s) => s.trim()).filter(Boolean);
 
   return (
     <div className="pb-20 -mx-6">
       <div
         className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]"
-        style={{ background: "#fdfcff" }}
+        style={{ background: "#f8f4ff" }}
       >
         {/* Lavender header */}
-        <div style={{ background: "linear-gradient(160deg,#ede8f7 0%,#f7f0f5 100%)", padding: "20px 20px 22px" }}>
+        <div style={{ background: "linear-gradient(160deg,#d8ccf0 0%,#ecdff8 100%)", padding: "20px 20px 22px" }}>
           <div className="flex items-center gap-3 mb-4">
             <Link
               href={backPath}
@@ -38,24 +39,27 @@ export function SutraView({ topicId, section }: { topicId: string; section: Sect
               <ArrowLeft style={{ width: 11, height: 11, color: "#7c5cbf" }} />
             </Link>
             <div>
-              <p style={{ fontSize: 10, color: "#b0a0c8" }}>{section.theme}</p>
+              {section.theme && !/^\d+[\.\d\n]*$/.test(section.theme.trim()) && (
+                <p style={{ fontSize: 10, color: "#7a6898" }}>{section.theme}</p>
+              )}
               <p style={{ fontSize: 14, fontWeight: 500, color: "#3d2f5e" }}>Sutra & Insight</p>
             </div>
           </div>
 
           {/* Sanskrit box */}
           <div style={{ background: "rgba(255,255,255,0.55)", borderRadius: 14, padding: "14px 16px" }}>
-            <p style={{ fontSize: 9, fontWeight: 500, color: "#a389d4", letterSpacing: "0.08em", marginBottom: 8 }}>
-              {sutraLabel}
-            </p>
-            <p className="font-devanagari" style={{ fontSize: 15, color: "#3d2f5e", lineHeight: 1.7, fontStyle: "italic", marginBottom: 6, whiteSpace: "pre-wrap" }}>
-              {section.sutra.sanskrit}
-            </p>
-            {section.sutra.transliteration && (
-              <p style={{ fontSize: 10, color: "#b0a0c8", lineHeight: 1.6 }}>
-                {section.sutra.transliteration}
-              </p>
-            )}
+            {sutraLines.map((line, i) => (
+              <div key={i} className="flex items-baseline justify-between gap-3" style={{ marginBottom: i < sutraLines.length - 1 ? 6 : 0 }}>
+                <p className="font-devanagari" style={{ fontSize: 15, color: "#3d2f5e", lineHeight: 1.7, fontStyle: "italic" }}>
+                  {line}
+                </p>
+                {sutraNumbers[i] && (
+                  <span style={{ fontSize: 10, fontWeight: 600, color: "#a389d4", whiteSpace: "nowrap", flexShrink: 0 }}>
+                    {sutraNumbers[i]}
+                  </span>
+                )}
+              </div>
+            ))}
           </div>
         </div>
 
@@ -64,8 +68,8 @@ export function SutraView({ topicId, section }: { topicId: string; section: Sect
 
           {/* Meaning */}
           <div style={{ marginBottom: 18 }}>
-            <p style={{ fontSize: 9, fontWeight: 500, color: "#c0b0d8", letterSpacing: "0.08em", marginBottom: 10 }}>MEANING</p>
-            <p style={{ fontSize: 13, color: "#5a4a7a", lineHeight: 1.7 }}>
+            <p style={{ fontSize: 9, fontWeight: 700, color: "#4a3870", letterSpacing: "0.08em", marginBottom: 10 }}>MEANING</p>
+            <p style={{ fontSize: 13, color: "#2e2048", lineHeight: 1.7 }}>
               {section.sutra.meaning}
             </p>
           </div>
@@ -76,9 +80,9 @@ export function SutraView({ topicId, section }: { topicId: string; section: Sect
           {/* Insight */}
           {section.insight && (
             <div style={{ marginBottom: 20 }}>
-              <p style={{ fontSize: 9, fontWeight: 500, color: "#c0b0d8", letterSpacing: "0.08em", marginBottom: 10 }}>INSIGHT</p>
+              <p style={{ fontSize: 9, fontWeight: 700, color: "#4a3870", letterSpacing: "0.08em", marginBottom: 10 }}>INSIGHT</p>
               <div style={{ background: "linear-gradient(135deg,#f0ebff,#fdeef8)", borderRadius: 14, padding: "14px 16px", border: "1px solid #e8dff5" }}>
-                <p style={{ fontSize: 13, color: "#3d2f5e", lineHeight: 1.6 }}>
+                <p style={{ fontSize: 13, color: "#2e2048", lineHeight: 1.6 }}>
                   {section.insight}
                 </p>
               </div>
@@ -88,8 +92,8 @@ export function SutraView({ topicId, section }: { topicId: string; section: Sect
           {/* Reflect prompt */}
           {section.reflectionPrompt && (
             <div style={{ background: "#f7f4ff", borderRadius: 12, padding: "12px 14px", marginBottom: 20, borderLeft: "3px solid #c9a8e0" }}>
-              <p style={{ fontSize: 11, color: "#a389d4", fontWeight: 500, marginBottom: 3 }}>Reflect before you move on</p>
-              <p style={{ fontSize: 12, color: "#b0a0c8", lineHeight: 1.5 }}>{section.reflectionPrompt}</p>
+              <p style={{ fontSize: 11, color: "#6040a0", fontWeight: 600, marginBottom: 3 }}>Reflect before you move on</p>
+              <p style={{ fontSize: 12, color: "#2e2048", lineHeight: 1.5 }}>{section.reflectionPrompt}</p>
             </div>
           )}
 

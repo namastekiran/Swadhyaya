@@ -70,10 +70,10 @@ export function ReflectionView({ topicId, section }: { topicId: string; section:
 
   return (
     <div className="pb-20 -mx-6">
-      <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#fdfcff" }}>
+      <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
         {/* Blush header */}
-        <div style={{ background: "linear-gradient(160deg,#fce8ea 0%,#fdf3f0 100%)", padding: "20px 20px 22px" }}>
+        <div style={{ background: "linear-gradient(160deg,#f8c8cc 0%,#fde0dc 100%)", padding: "20px 20px 22px" }}>
           <div className="flex items-center gap-3">
             <Link
               href={backPath}
@@ -83,7 +83,9 @@ export function ReflectionView({ topicId, section }: { topicId: string; section:
               <ArrowLeft style={{ width: 11, height: 11, color: "#c4707a" }} />
             </Link>
             <div>
-              <p style={{ fontSize: 10, color: "#c8a0a8" }}>{section.theme}</p>
+              {section.theme && !/^\d+[\.\d\n]*$/.test(section.theme.trim()) && (
+                <p style={{ fontSize: 10, color: "#8a5060" }}>{section.theme}</p>
+              )}
               <p style={{ fontSize: 14, fontWeight: 500, color: "#5e2f38" }}>Reflection</p>
             </div>
           </div>
@@ -94,10 +96,10 @@ export function ReflectionView({ topicId, section }: { topicId: string; section:
 
           {/* Sit with this */}
           <div style={{ marginBottom: 18 }}>
-            <p style={{ fontSize: 9, fontWeight: 500, color: "#c8a0a8", letterSpacing: "0.08em", marginBottom: 10 }}>SIT WITH THIS</p>
+            <p style={{ fontSize: 9, fontWeight: 500, color: "#8a5060", letterSpacing: "0.08em", marginBottom: 10 }}>SIT WITH THIS</p>
             <p style={{ fontSize: 15, fontWeight: 500, color: "#5e2f38", lineHeight: 1.6 }}>{mainPrompt}</p>
             {subPrompt && (
-              <p style={{ fontSize: 12, color: "#c8a0a8", marginTop: 6, lineHeight: 1.6 }}>{subPrompt}</p>
+              <p style={{ fontSize: 12, color: "#8a5060", marginTop: 6, lineHeight: 1.6 }}>{subPrompt}</p>
             )}
           </div>
 
@@ -106,7 +108,7 @@ export function ReflectionView({ topicId, section }: { topicId: string; section:
 
           {/* Textarea */}
           <div style={{ marginBottom: 10 }}>
-            <p style={{ fontSize: 9, fontWeight: 500, color: "#c8a0a8", letterSpacing: "0.08em", marginBottom: 10 }}>YOUR REFLECTION</p>
+            <p style={{ fontSize: 9, fontWeight: 500, color: "#8a5060", letterSpacing: "0.08em", marginBottom: 10 }}>YOUR REFLECTION</p>
             <div style={{ background: "#fff", borderRadius: 14, border: "1.5px solid #f0d0d8", padding: 14, position: "relative" }}>
               <textarea
                 value={text}
@@ -121,7 +123,7 @@ export function ReflectionView({ topicId, section }: { topicId: string; section:
           </div>
 
           {/* Encouragement */}
-          <p style={{ fontSize: 11, color: "#c8a0a8", textAlign: "center", marginBottom: 18 }}>
+          <p style={{ fontSize: 11, color: "#8a5060", textAlign: "center", marginBottom: 18 }}>
             Even a few words carry meaning 🌿
           </p>
 
@@ -143,8 +145,8 @@ export function ReflectionView({ topicId, section }: { topicId: string; section:
                   <p style={{ fontSize: 12, color: "#7a3040", lineHeight: 1.6 }}>{entry.text}</p>
                   <div className="flex items-center justify-between mt-2">
                     <div className="flex items-center gap-1">
-                      <Clock style={{ width: 10, height: 10, color: "#c8a0a8" }} />
-                      <span style={{ fontSize: 10, color: "#c8a0a8" }}>{formatDate(entry.savedAt)}</span>
+                      <Clock style={{ width: 10, height: 10, color: "#8a5060" }} />
+                      <span style={{ fontSize: 10, color: "#8a5060" }}>{formatDate(entry.savedAt)}</span>
                     </div>
                     <button onClick={() => deleteReflection(topicId, section.section, i)}>
                       <Trash2 style={{ width: 12, height: 12, color: "#dda0a8" }} />
@@ -168,7 +170,7 @@ export function ReflectionView({ topicId, section }: { topicId: string; section:
             </div>
             <div style={{ flex: 1 }}>
               <p style={{ fontSize: 12, fontWeight: 500, color: "#5e2f38", marginBottom: 2 }}>Explore deeper with AI</p>
-              <p style={{ fontSize: 11, color: "#c8a0a8", lineHeight: 1.4 }}>Ask questions, go further into this sutra</p>
+              <p style={{ fontSize: 11, color: "#8a5060", lineHeight: 1.4 }}>Ask questions, go further into this sutra</p>
             </div>
             <ArrowRight style={{ width: 13, height: 13, color: "#c4707a" }} />
           </div>
