@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter, Noto_Sans_Devanagari } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner";
 import { AuthProvider } from "@/components/AuthProvider";
+import { LoginModal } from "@/components/LoginModal";
+import { GuestBanner } from "@/components/GuestBanner";
 import "./globals.css";
 
 const inter = Inter({
@@ -33,9 +35,11 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-background text-foreground font-sans">
         <AuthProvider>
+          <GuestBanner />
           <main className="flex-1 mx-auto w-full max-w-md px-6 py-8 sm:max-w-lg">
             {children}
           </main>
+          <LoginModal />
         </AuthProvider>
         <Toaster position="bottom-center" />
       </body>
