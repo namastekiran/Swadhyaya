@@ -72,7 +72,7 @@ for (const [sheetName, fileName] of Object.entries(SHEET_TO_FILE)) {
 
   const CI = {
     sutraNo:    colIdx(['sutra no', 'sutra n']),
-    theme:      colIdx(['theme']),
+    theme:      colIdx(['theme', 'section name']),
     sanskrit:   colIdx(['sutra (sanskrit)', 'sanskrit']),
     meaning:    colIdx(['meaning']),
     insight:    colIdx(['insight', 'gurudev insight']) !== colIdx(['deep dive', 'gurudev'])

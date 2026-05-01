@@ -70,7 +70,7 @@ export function GurudevView({ topicId, section }: { topicId: string; section: Se
                 <Sparkles style={{ width: 15, height: 15, color: "#b87840" }} />
               </div>
               <p style={{ fontSize: 11, fontWeight: 600, color: "#b87840", letterSpacing: "0.06em" }}>
-                SRI SRI RAVI SHANKAR
+                Gurudev Sri Sri Ravi Shankar
               </p>
             </div>
             <p style={{ fontSize: 9, fontWeight: 500, color: "#8a6030", letterSpacing: "0.08em", marginBottom: 12 }}>

@@ -8,7 +8,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "1.11",
+      "theme": "Memory carries the past forward.",
       "sutra": {
         "number": "1.11",
         "sanskrit": "अनुभूतविषयासम्प्रमोषः स्मृतिः",
@@ -27,7 +27,7 @@
     },
     {
       "section": 2,
-      "theme": "1.41",
+      "theme": "The fragmented mind seeks wholeness.",
       "sutra": {
         "number": "1.41",
         "sanskrit": "क्षीणवृत्तेरभिजातस्येव मणेर्ग्रहीतृग्रहणग्राह्येषु तत्स्थतदञ्जनता समापत्तिः",
@@ -46,7 +46,7 @@
     },
     {
       "section": 3,
-      "theme": "1.42",
+      "theme": "Perceptions colour what we see.",
       "sutra": {
         "number": "1.42",
         "sanskrit": "तत्र शब्दार्थज्ञानविकल्पैः संकीर्णा सवितर्का समापत्तिः",
@@ -65,7 +65,7 @@
     },
     {
       "section": 4,
-      "theme": "1.43",
+      "theme": "Let go of what the past left behind.",
       "sutra": {
         "number": "1.43",
         "sanskrit": "स्मृतिपरिशुद्धौ स्वरूपशून्येवार्थमात्रनिर्भासा निर्वितर्का",
@@ -84,7 +84,7 @@
     },
     {
       "section": 5,
-      "theme": "1.50",
+      "theme": "New awareness overrides old patterns.",
       "sutra": {
         "number": "1.50",
         "sanskrit": "तज्जः संस्कारोऽन्यसंस्कारप्रतिबन्धी",
@@ -103,7 +103,7 @@
     },
     {
       "section": 6,
-      "theme": "1.51",
+      "theme": "Even wisdom must be released.",
       "sutra": {
         "number": "1.51",
         "sanskrit": "तस्यापि निरोधे सर्वनिरोधान्निर्बीजः समाधिः",
@@ -122,7 +122,7 @@
     },
     {
       "section": 7,
-      "theme": "2.12\n2.13\n2.14",
+      "theme": "Karma and its long shadow.",
       "sutra": {
         "number": "2.12, 2.13, 2.14",
         "sanskrit": "क्लेशमूलः कर्माशयो दृष्टादृष्टजन्मवेदनीयः\nसति मूले तद्विपाको जात्यायुर्भोगाः\nते ह्लादपरितापफलाः पुण्यापुण्यहेतुत्वात्",
@@ -141,7 +141,7 @@
     },
     {
       "section": 8,
-      "theme": "2.15",
+      "theme": "Vigilance keeps the sadhak true.",
       "sutra": {
         "number": "2.15",
         "sanskrit": "परिणामतापसंस्कारदुःखैर्गुणवृत्तिविरोधाच्च दुःखमेव सर्वं विवेकिनः",

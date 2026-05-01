@@ -8,7 +8,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "2.29",
+      "theme": "A complete map for living.",
       "sutra": {
         "number": "2.29",
         "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
@@ -27,7 +27,7 @@
     },
     {
       "section": 2,
-      "theme": "2.30",
+      "theme": "Five vows for a life well-lived.",
       "sutra": {
         "number": "2.30",
         "sanskrit": "अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहा यमाः",
@@ -46,7 +46,7 @@
     },
     {
       "section": 3,
-      "theme": "2.31",
+      "theme": "Universal vows, no exceptions.",
       "sutra": {
         "number": "2.31",
         "sanskrit": "जातिदेशकालसमयानवच्छिन्नाः सार्वभौमा महाव्रतम्",
@@ -65,7 +65,7 @@
     },
     {
       "section": 4,
-      "theme": "2.33",
+      "theme": "When doubt arises, reflect deeper.",
       "sutra": {
         "number": "2.33",
         "sanskrit": "वितर्कबाधने प्रतिपक्षभावनम्",
@@ -84,7 +84,7 @@
     },
     {
       "section": 5,
-      "theme": "2.35",
+      "theme": "Non-violence unites all creation.",
       "sutra": {
         "number": "2.35",
         "sanskrit": "अहिंसाप्रतिष्ठायां तत्सन्निधौ वैरत्यागः",
@@ -103,7 +103,7 @@
     },
     {
       "section": 6,
-      "theme": "2.36",
+      "theme": "The truthful one shapes reality.",
       "sutra": {
         "number": "2.36",
         "sanskrit": "सत्यप्रतिष्ठायां क्रियाफलाश्रयत्वम्",
@@ -122,7 +122,7 @@
     },
     {
       "section": 7,
-      "theme": "2.37",
+      "theme": "We steal in more ways than one.",
       "sutra": {
         "number": "2.37",
         "sanskrit": "अस्तेयप्रतिष्ठायां सर्वरत्नोपस्थानम्",
@@ -141,7 +141,7 @@
     },
     {
       "section": 8,
-      "theme": "2.38",
+      "theme": "Energy preserved is wisdom gained.",
       "sutra": {
         "number": "2.38",
         "sanskrit": "ब्रह्मचर्यप्रतिष्ठायां वीर्यलाभः",
@@ -160,7 +160,7 @@
     },
     {
       "section": 9,
-      "theme": "2.39",
+      "theme": "Letting go brings understanding.",
       "sutra": {
         "number": "2.39",
         "sanskrit": "अपरिग्रहस्थैर्ये जन्मकथंतासंबोधः",

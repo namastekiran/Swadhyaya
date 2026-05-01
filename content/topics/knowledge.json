@@ -8,7 +8,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "1.7",
+      "theme": "Three sources of true knowing.",
       "sutra": {
         "number": "1.7",
         "sanskrit": "प्रत्यक्षानुमानागमाः प्रमाणानि",
@@ -27,7 +27,7 @@
     },
     {
       "section": 2,
-      "theme": "1.8",
+      "theme": "The distortion of wrong knowing.",
       "sutra": {
         "number": "1.8",
         "sanskrit": "विपर्ययो मिथ्याज्ञानमतद्रूपप्रतिष्ठम्",
@@ -46,7 +46,7 @@
     },
     {
       "section": 3,
-      "theme": "1.9",
+      "theme": "The stories the mind invents.",
       "sutra": {
         "number": "1.9",
         "sanskrit": "शब्दज्ञानानुपाती वस्तुशून्यो विकल्पः",
@@ -65,7 +65,7 @@
     },
     {
       "section": 4,
-      "theme": "1.10",
+      "theme": "Sleep too is a movement.",
       "sutra": {
         "number": "1.10",
         "sanskrit": "अभावप्रत्ययालम्बना वृत्तिर्निद्रा",
@@ -84,7 +84,7 @@
     },
     {
       "section": 5,
-      "theme": "1.25\n1.26",
+      "theme": "The eternal source of wisdom.",
       "sutra": {
         "number": "1.25, 1.26",
         "sanskrit": "तत्र निरतिशयं सर्वज्ञबीजम्\nस पूर्वेषामपि गुरुः कालेनानवच्छेदात",
@@ -103,7 +103,7 @@
     },
     {
       "section": 6,
-      "theme": "2.34",
+      "theme": "Even subtle violence harms.",
       "sutra": {
         "number": "2.34",
         "sanskrit": "वितर्का हिंसादयः कृतकारितानुमोदिता लोभक्रोधमोहपूर्वका मृदुमध्याधिमात्रा दुःखाज्ञानानन्तफला इति प्रतिपक्षभावनम्",

@@ -8,7 +8,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "2.3",
+      "theme": "Five roots of all suffering.",
       "sutra": {
         "number": "2.3",
         "sanskrit": "अविद्यास्मितारागद्वेषाभिनिवेशाः क्लेशाः",
@@ -27,7 +27,7 @@
     },
     {
       "section": 2,
-      "theme": "2.4",
+      "theme": "Ignorance obscures our true nature.",
       "sutra": {
         "number": "2.4",
         "sanskrit": "अविद्या क्षेत्रमुत्तरेषां प्रसुप्ततनुविच्छिन्नोदाराणाम्",
@@ -46,7 +46,7 @@
     },
     {
       "section": 3,
-      "theme": "2.5",
+      "theme": "We mistake the temporary for truth.",
       "sutra": {
         "number": "2.5",
         "sanskrit": "अनित्याशुचिदुःखानात्मसु नित्यशुचिसुखात्मख्यातिरविद्या",
@@ -65,7 +65,7 @@
     },
     {
       "section": 4,
-      "theme": "2.6",
+      "theme": "The ego is a case of mistaken identity.",
       "sutra": {
         "number": "2.6",
         "sanskrit": "दृग्दर्शनशक्त्योरेकात्मतेवास्मिता",
@@ -84,7 +84,7 @@
     },
     {
       "section": 5,
-      "theme": "2.7",
+      "theme": "Craving is the trap of pleasure.",
       "sutra": {
         "number": "2.7",
         "sanskrit": "सुखानुशयी रागः ॥",
@@ -103,7 +103,7 @@
     },
     {
       "section": 6,
-      "theme": "2.8",
+      "theme": "Aversion is the shadow of pain.",
       "sutra": {
         "number": "2.8",
         "sanskrit": "दुःखानुशयी द्वेषः ॥",
@@ -122,7 +122,7 @@
     },
     {
       "section": 7,
-      "theme": "2.9",
+      "theme": "Even the wise fear loss.",
       "sutra": {
         "number": "2.9",
         "sanskrit": "स्वरसवाही विदुषोऽपि तथारूढोऽभिनिवेशः ॥",
@@ -141,7 +141,7 @@
     },
     {
       "section": 8,
-      "theme": "2.15",
+      "theme": "The wise see suffering in all change.",
       "sutra": {
         "number": "2.15",
         "sanskrit": "परिणामतापसंस्कारदुःखैर्गुणवृत्तिविरोधाच्च दुःखमेव सर्वं विवेकिनः",
@@ -160,7 +160,7 @@
     },
     {
       "section": 9,
-      "theme": "2.16",
+      "theme": "Future suffering can be avoided.",
       "sutra": {
         "number": "2.16",
         "sanskrit": "हेयं दुःखमनागतम",
@@ -179,7 +179,7 @@
     },
     {
       "section": 10,
-      "theme": "2.17",
+      "theme": "The seer is not the seen.",
       "sutra": {
         "number": "2.17",
         "sanskrit": "द्रष्टृदृश्ययोः संयोगो हेयहेतुः",
@@ -198,7 +198,7 @@
     },
     {
       "section": 11,
-      "theme": "2.25",
+      "theme": "Kriya yoga is the path through.",
       "sutra": {
         "number": "2.25",
         "sanskrit": "तदभावात् संयोगाभावो हानं तद् दृशेः कैवल्यम्",

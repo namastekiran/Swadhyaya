@@ -59,7 +59,7 @@ function SessionCard({
           Day {sectionNum} · Sutra {sutraNumber}
         </p>
         <p style={{ fontSize: 14, fontWeight: 600, color: isLocked ? "#b0aec8" : "#1e1a2e", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
-          {theme}
+          {/^\d+[\.\d\n\s]*$/.test(theme?.trim() ?? "") ? `Sutra ${sutraNumber}` : theme}
         </p>
         {isCurrent && totalSteps > 0 && (
           <div style={{ marginTop: 6, height: 3, borderRadius: 3, background: "#f0e8d8" }}>

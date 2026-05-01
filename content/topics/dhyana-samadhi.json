@@ -8,7 +8,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "3.3",
+      "theme": "Meditation is effortless.",
       "sutra": {
         "number": "3.3",
         "sanskrit": "तदेवार्थमात्रनिर्भासं स्वरूपशून्यमिव समाधिः",
@@ -27,7 +27,7 @@
     },
     {
       "section": 2,
-      "theme": "1.17",
+      "theme": "Experience of samadhi is varied.",
       "sutra": {
         "number": "1.17",
         "sanskrit": "प्रत्यक्षानुमानागमाः प्रमाणानि ॥१.७॥",
@@ -46,7 +46,7 @@
     },
     {
       "section": 3,
-      "theme": "1.18",
+      "theme": "Dissolution of all save the Self",
       "sutra": {
         "number": "1.18",
         "sanskrit": "विरामप्रत्ययाभ्यासपूर्व: संस्कारशेषोSन्यः",
@@ -65,7 +65,7 @@
     },
     {
       "section": 4,
-      "theme": "1.19",
+      "theme": "The consciousness is freed of all disturbance.",
       "sutra": {
         "number": "1.19",
         "sanskrit": "भवप्रत्ययो विदेहप्रकृतिलयानाम्",
@@ -84,7 +84,7 @@
     },
     {
       "section": 5,
-      "theme": "1.20",
+      "theme": "Faith is everything.",
       "sutra": {
         "number": "1.20",
         "sanskrit": "श्रद्धावीर्यस्मृतिसमाधिप्रज्ञापूर्वक इतरेषाम्",
@@ -103,7 +103,7 @@
     },
     {
       "section": 6,
-      "theme": "1.21\n1.22",
+      "theme": "Effort can be varied.",
       "sutra": {
         "number": "1.21, 1.22",
         "sanskrit": "तीव्रसंवेगानामासन्नः\nमृदुमध्याधिमात्रत्वात्ततोऽपि विशेषः",
@@ -122,7 +122,7 @@
     },
     {
       "section": 7,
-      "theme": "1.23\n\n1.24",
+      "theme": "Ultimate goal is the supreme divinity.",
       "sutra": {
         "number": "1.23, 1.24",
         "sanskrit": "ईश्वरप्रणिधानाद्वा\nक्लेशकर्मविपाकाशयैरपरामृष्टः पुरुषविशेष ईश्वरः",
@@ -141,7 +141,7 @@
     },
     {
       "section": 8,
-      "theme": "1.27\n1.28",
+      "theme": "One way is by sound vibrations.",
       "sutra": {
         "number": "1.27, 1.28",
         "sanskrit": "तस्य वाचकः प्रणवः\nतज्जपस्तदर्थभावनम्",
@@ -160,7 +160,7 @@
     },
     {
       "section": 9,
-      "theme": "1.29",
+      "theme": "Om chanting is the way.",
       "sutra": {
         "number": "1.29",
         "sanskrit": "ततः प्रत्यक्चेतनाधिगमोऽप्यन्तरायाभावश्च",
@@ -179,7 +179,7 @@
     },
     {
       "section": 10,
-      "theme": "1.39",
+      "theme": "Another way is through focus on something.",
       "sutra": {
         "number": "1.39",
         "sanskrit": "यथाभिमतध्यानाद्वा",
@@ -198,7 +198,7 @@
     },
     {
       "section": 11,
-      "theme": "1.40",
+      "theme": "The smallest to the largest  are all within the purview.",
       "sutra": {
         "number": "1.40",
         "sanskrit": "परमाणुपरममहत्त्वान्तोऽस्य वशीकारः",
@@ -217,7 +217,7 @@
     },
     {
       "section": 12,
-      "theme": "1.41",
+      "theme": "Purity of mind is the aim.",
       "sutra": {
         "number": "1.41",
         "sanskrit": "क्षीणवृत्तेरभिजातस्येव मणेर्ग्रहीतृग्रहणग्राह्येषु तत्स्थतदञ्जनता समापत्तिः",
@@ -236,7 +236,7 @@
     },
     {
       "section": 13,
-      "theme": "1.42",
+      "theme": "It all becomes the One.",
       "sutra": {
         "number": "1.42",
         "sanskrit": "तत्र शब्दार्थज्ञानविकल्पैः संकीर्णा सवितर्का समापत्तिः",
@@ -255,7 +255,7 @@
     },
     {
       "section": 14,
-      "theme": "1.43",
+      "theme": "Memory is the grime on the mirror.",
       "sutra": {
         "number": "1.43",
         "sanskrit": "स्मृतिपरिशुद्धौ स्वरूपशून्येवार्थमात्रनिर्भासा निर्वितर्का",
@@ -274,7 +274,7 @@
     },
     {
       "section": 15,
-      "theme": "1.44",
+      "theme": "From subtle to subtler",
       "sutra": {
         "number": "1.44",
         "sanskrit": "एतयैव सविचारा निर्विचारा च सूक्ष्मविषया व्याख्याता",
@@ -293,7 +293,7 @@
     },
     {
       "section": 16,
-      "theme": "1.45",
+      "theme": "Nature dissolves into consciousness.",
       "sutra": {
         "number": "1.45",
         "sanskrit": "सूक्ष्मविषयत्वं चालिङ्गपर्यवसानम्",
@@ -312,7 +312,7 @@
     },
     {
       "section": 17,
-      "theme": "1.46",
+      "theme": "The intellect needs to dissolve too.",
       "sutra": {
         "number": "1.46",
         "sanskrit": "ता एव सबीजः समाधिः",
@@ -331,7 +331,7 @@
     },
     {
       "section": 18,
-      "theme": "1.47",
+      "theme": "Bliss is all that remains.",
       "sutra": {
         "number": "1.47",
         "sanskrit": "निर्विचारवैशारद्येऽध्यात्मप्रसादः",
@@ -350,7 +350,7 @@
     },
     {
       "section": 19,
-      "theme": "1.48",
+      "theme": "Wisdom dawns.",
       "sutra": {
         "number": "1.48",
         "sanskrit": "ऋतम्भरा तत्र प्रज्ञा",
@@ -369,7 +369,7 @@
     },
     {
       "section": 20,
-      "theme": "1.49",
+      "theme": "Its a different kind of wisdom.",
       "sutra": {
         "number": "1.49",
         "sanskrit": "श्रुतानुमानप्रज्ञाभ्यामन्यविषया विशेषार्थत्वात्",
@@ -388,7 +388,7 @@
     },
     {
       "section": 21,
-      "theme": "1.50\n1.51",
+      "theme": "Nothing old nor anything new.",
       "sutra": {
         "number": "1.50, 1.51",
         "sanskrit": "तज्जः संस्कारोऽन्यसंस्कारप्रतिबन्धी\nतस्यापि निरोधे सर्वनिरोधान्निर्बीजः समाधिः",
@@ -407,7 +407,7 @@
     },
     {
       "section": 22,
-      "theme": "2.10",
+      "theme": "Going inward dissolves patterns.",
       "sutra": {
         "number": "2.10",
         "sanskrit": "ते प्रतिप्रसवहेयाः सूक्ष्माः\nध्यानहेयास्तद्वृत्तयः",

@@ -8,7 +8,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "1.12\n1.13",
+      "theme": "Practice without expectations.",
       "sutra": {
         "number": "1.12, 1.13",
         "sanskrit": "अभ्यासवैराग्याभ्यां तन्निरोधः\nतत्र स्थितौ यत्नोऽभ्यासः",
@@ -27,7 +27,7 @@
     },
     {
       "section": 2,
-      "theme": "1.14",
+      "theme": "Practice with devotions.",
       "sutra": {
         "number": "1.14",
         "sanskrit": "स तु दीर्घकालनैरन्तर्यसत्कारासेवितो दृढभूमिः",
@@ -46,7 +46,7 @@
     },
     {
       "section": 3,
-      "theme": "1.2",
+      "theme": "Complacency is to be avoided",
       "sutra": {
         "number": "1.2",
         "sanskrit": "श्रद्धावीर्यस्मृतिसमाधिप्रज्ञापूर्वक इतरेषाम्",
@@ -65,7 +65,7 @@
     },
     {
       "section": 4,
-      "theme": "1.21\n1.22",
+      "theme": "Intensity makes the difference",
       "sutra": {
         "number": "1.21, 1.22",
         "sanskrit": "तीव्रसंवेगानामासन्नः\nमृदुमध्याधिमात्रत्वात्ततोऽपि विशेषः",
@@ -84,7 +84,7 @@
     },
     {
       "section": 5,
-      "theme": "1.4",
+      "theme": "The atom makes the universe.",
       "sutra": {
         "number": "1.4",
         "sanskrit": "परमाणुपरममहत्त्वान्तोऽस्य वशीकारः",

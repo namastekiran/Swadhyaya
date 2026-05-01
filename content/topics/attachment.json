@@ -8,7 +8,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "1.37",
+      "theme": "Stillness is found in detachment.",
       "sutra": {
         "number": "1.37",
         "sanskrit": "वीतरागविषयं वा चित्तम्",
@@ -27,7 +27,7 @@
     },
     {
       "section": 2,
-      "theme": "2.3",
+      "theme": "Five roots of suffering.",
       "sutra": {
         "number": "2.3",
         "sanskrit": "अविद्यास्मितारागद्वेषाभिनिवेशाः क्लेशाः",
@@ -46,7 +46,7 @@
     },
     {
       "section": 3,
-      "theme": "2.4",
+      "theme": "Ignorance is the root of all pain.",
       "sutra": {
         "number": "2.4",
         "sanskrit": "अविद्या क्षेत्रमुत्तरेषां प्रसुप्ततनुविच्छिन्नोदाराणाम्",
@@ -65,7 +65,7 @@
     },
     {
       "section": 4,
-      "theme": "2.5",
+      "theme": "We mistake the temporary for truth.",
       "sutra": {
         "number": "2.5",
         "sanskrit": "अनित्याशुचिदुःखानात्मसु नित्यशुचिसुखात्मख्यातिरविद्या",
@@ -84,7 +84,7 @@
     },
     {
       "section": 5,
-      "theme": "2.6",
+      "theme": "Ego is the false self.",
       "sutra": {
         "number": "2.6",
         "sanskrit": "दृग्दर्शनशक्त्योरेकात्मतेवास्मिता",
@@ -103,7 +103,7 @@
     },
     {
       "section": 6,
-      "theme": "2.7",
+      "theme": "Attachment comes from pleasure.",
       "sutra": {
         "number": "2.7",
         "sanskrit": "सुखानुशयी रागः",
@@ -122,7 +122,7 @@
     },
     {
       "section": 7,
-      "theme": "2.8",
+      "theme": "Aversion comes from pain.",
       "sutra": {
         "number": "2.8",
         "sanskrit": "दुःखानुशयी द्वेषः",
@@ -141,7 +141,7 @@
     },
     {
       "section": 8,
-      "theme": "2.9",
+      "theme": "Fear persists even in the wise.",
       "sutra": {
         "number": "2.9",
         "sanskrit": "स्वरसवाही विदुषोऽपि तथारूढोऽभिनिवेशः",
@@ -160,7 +160,7 @@
     },
     {
       "section": 9,
-      "theme": "2.12",
+      "theme": "Karma is rooted in suffering.",
       "sutra": {
         "number": "2.12",
         "sanskrit": "क्लेशमूलः कर्माशयो दृष्टादृष्टजन्मवेदनीयः",
@@ -179,7 +179,7 @@
     },
     {
       "section": 10,
-      "theme": "2.13",
+      "theme": "Karma shapes life experience.",
       "sutra": {
         "number": "2.13",
         "sanskrit": "सति मूले तद्विपाको जात्यायुर्भोगाः",
@@ -198,7 +198,7 @@
     },
     {
       "section": 11,
-      "theme": "2.14",
+      "theme": "Actions bring joy or sorrow.",
       "sutra": {
         "number": "2.14",
         "sanskrit": "ते ह्लादपरितापफलाः पुण्यापुण्यहेतुत्वात्",
@@ -217,7 +217,7 @@
     },
     {
       "section": 12,
-      "theme": "2.15",
+      "theme": "The wise see suffering in change.",
       "sutra": {
         "number": "2.15",
         "sanskrit": "परिणामतापसंस्कारदुःखैर्गुणवृत्तिविरोधाच्च दुःखमेव सर्वं विवेकिनः",
@@ -236,7 +236,7 @@
     },
     {
       "section": 13,
-      "theme": "2.16",
+      "theme": "Future suffering can be avoided.",
       "sutra": {
         "number": "2.16",
         "sanskrit": "हेयं दुःखमनागतम",
@@ -255,7 +255,7 @@
     },
     {
       "section": 14,
-      "theme": "2.17",
+      "theme": "The seer is not the seen.",
       "sutra": {
         "number": "2.17",
         "sanskrit": "द्रष्टृदृश्ययोः संयोगो हेयहेतुः",
@@ -274,7 +274,7 @@
     },
     {
       "section": 15,
-      "theme": "4.1",
+      "theme": "Desires are beginningless.",
       "sutra": {
         "number": "4.1",
         "sanskrit": "तासामनादित्वं चाशिषो नित्यत्वात्",
@@ -293,7 +293,7 @@
     },
     {
       "section": 16,
-      "theme": "4.11",
+      "theme": "Remove the cause, remove the effect.",
       "sutra": {
         "number": "4.11",
         "sanskrit": "हेतुफलाश्रयालम्बनैः संगृहीतत्वादेषामभावे तदभावः",

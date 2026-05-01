@@ -8,7 +8,7 @@
   "sections": [
     {
       "section": 1,
-      "theme": "3.1",
+      "theme": "Fix the mind on one point.",
       "sutra": {
         "number": "3.1",
         "sanskrit": "देशबन्धश्चित्तस्य धारणा",
@@ -27,7 +27,7 @@
     },
     {
       "section": 2,
-      "theme": "3.2",
+      "theme": "A steady, unbroken flow of attention.",
       "sutra": {
         "number": "3.2",
         "sanskrit": "तत्र प्रत्ययैकतानता ध्यानम्",
@@ -46,7 +46,7 @@
     },
     {
       "section": 3,
-      "theme": "3.3",
+      "theme": "The meditator merges with the object.",
       "sutra": {
         "number": "3.3",
         "sanskrit": "तदेवार्थमात्रनिर्भासं स्वरूपशून्यमिव समाधिः",
@@ -65,7 +65,7 @@
     },
     {
       "section": 4,
-      "theme": "3.4",
+      "theme": "The three together become one.",
       "sutra": {
         "number": "3.4",
         "sanskrit": "त्रयमेकत्र संयमः",

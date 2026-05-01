@@ -146,7 +146,7 @@ function SessionComplete({
             </p>
           </div>
           <p style={{ fontSize: 17, fontWeight: 500, color: "#3d2f5e", lineHeight: 1.3, paddingLeft: 38 }}>
-            {section.theme}
+            {/^\d+[\.\d\n\s]*$/.test(section.theme?.trim() ?? "") ? `Sutra ${section.sutra.number.replace(/,\s*/g, " · ")}` : section.theme}
           </p>
         </div>
 
@@ -347,7 +347,7 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
           </div>
           <div className="flex items-center gap-2 mb-3" style={{ paddingLeft: 38 }}>
             <p style={{ fontSize: 17, fontWeight: 500, color: "#3d2f5e", lineHeight: 1.3 }}>
-              {section.theme}
+              {/^\d+[\.\d\n\s]*$/.test(section.theme?.trim() ?? "") ? `Sutra ${section.sutra.number.replace(/,\s*/g, " · ")}` : section.theme}
             </p>
             {allDone && (
               <span className="flex items-center gap-1 flex-shrink-0" style={{ fontSize: 10, fontWeight: 600, color: "#534AB7", background: "#dbd7f5", padding: "3px 9px", borderRadius: 20 }}>
