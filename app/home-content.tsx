@@ -4,26 +4,31 @@ import { useState, useEffect } from "react";
 import { TopicList } from "./topic-list";
 import { ReturningHome } from "./returning-home";
 import { Onboarding } from "@/components/Onboarding";
+import { SplashScreen } from "@/components/SplashScreen";
+import { ImageHeader } from "@/components/ImageHeader";
 import { useAppStore } from "@/lib/store";
 import type { TopicSummary } from "@/lib/types";
+import { IMAGES } from "@/lib/images";
 
 export function HomeContent({ topics }: { topics: TopicSummary[] }) {
   const [mounted, setMounted] = useState(false);
+  const [splashDone, setSplashDone] = useState(false);
   const [showAll, setShowAll] = useState(false);
-  const [category, setCategory] = useState("All paths");
+  const [category, setCategory] = useState("All journeys");
   const profile = useAppStore((s) => s.profile);
   const topicsProgress = useAppStore((s) => s.topics);
   const answers = useAppStore((s) => s.answers);
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  useEffect(() => { setMounted(true); }, []);
 
   const hasJourney = Object.keys(topicsProgress).length > 0 || Object.keys(answers).length > 0;
 
   if (!mounted) return null;
+  if (!splashDone) return <SplashScreen onDone={() => setSplashDone(true)} />;
   if (!profile) return <Onboarding />;
   if (hasJourney && !showAll) return <ReturningHome topics={topics} onViewAll={() => setShowAll(true)} />;
+
+  const firstName = profile.name.split(" ")[0];
 
   const categories = [
     "All journeys",
@@ -34,44 +39,52 @@ export function HomeContent({ topics }: { topics: TopicSummary[] }) {
     "I lose my temper",
     "I can't stay consistent",
     "I lack purpose",
-    "My ego gets in the way"
+    "My ego gets in the way",
   ];
 
   return (
-    <div className="space-y-12 pb-20">
-      {/* Emotional Header - Original Style */}
-      <header className="text-center space-y-4 pt-12">
-        <p className="text-[10px] font-bold text-amber-700/60 uppercase tracking-[0.2em] px-1">
-          SWADHYAYA — SELF STUDY
-        </p>
-        <h1 className="text-5xl font-serif text-gray-900 leading-tight">
-          What&apos;s weighing on you?
-        </h1>
-        <p className="text-sm text-muted-foreground max-w-lg mx-auto leading-relaxed">
-          Filter by what you&apos;re going through — we&apos;ll show the right path
-        </p>
-      </header>
+    <div className="pb-20 -mx-6">
+      <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
-      {/* Emotional Filters - Original Style */}
-      <div className="flex flex-wrap items-center justify-center gap-2 max-w-4xl mx-auto">
-        {categories.map((cat) => (
-          <button
-            key={cat}
-            onClick={() => setCategory(cat)}
-            className={`px-5 py-2 rounded-xl text-[13px] font-bold transition-all duration-300 ${
-              category === cat
-                ? "bg-purple-600 text-white shadow-md shadow-purple-100"
-                : "bg-gray-50 text-gray-400 hover:bg-gray-100 hover:text-gray-600"
-            }`}
-          >
-            {cat}
-          </button>
-        ))}
-      </div>
+        <ImageHeader
+          imageUrl={IMAGES.home[0]}
+          overlay="linear-gradient(160deg,rgba(60,30,110,0.45) 0%,rgba(40,18,80,0.82) 100%)"
+          height={160}
+          padding="24px 22px 20px"
+        >
+          <p style={{ fontSize: 12, color: "rgba(255,255,255,0.70)", marginBottom: 4 }}>Namaste, {firstName} 🙏</p>
+          <h1 style={{ fontSize: 22, fontWeight: 500, color: "#fff", lineHeight: 1.2, marginBottom: 16 }}>
+            Choose your journey
+          </h1>
+          {/* Filter pills */}
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+            {categories.map((cat) => (
+              <button
+                key={cat}
+                onClick={() => setCategory(cat)}
+                style={{
+                  padding: "6px 14px",
+                  borderRadius: 20,
+                  fontSize: 12,
+                  fontWeight: 500,
+                  border: "none",
+                  cursor: "pointer",
+                  background: category === cat ? "rgba(255,255,255,0.95)" : "rgba(255,255,255,0.20)",
+                  color: category === cat ? "#5a3aaa" : "rgba(255,255,255,0.85)",
+                  transition: "all 0.2s",
+                }}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
+        </ImageHeader>
 
-      {/* Topic List */}
-      <div className="px-1">
-        <TopicList topics={topics} activeCategory={category} />
+        {/* Topic grid */}
+        <div style={{ padding: "18px 14px 24px" }}>
+          <TopicList topics={topics} activeCategory={category} />
+        </div>
+
       </div>
     </div>
   );

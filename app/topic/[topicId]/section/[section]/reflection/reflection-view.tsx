@@ -7,6 +7,8 @@ import { ArrowLeft, ArrowRight, Check, Trash2, Clock } from "lucide-react";
 import { AiChat } from "@/components/AiChat";
 import { useAppStore } from "@/lib/store";
 import type { SectionData } from "@/lib/types";
+import { ImageHeader } from "@/components/ImageHeader";
+import { IMAGES, pickForTopic } from "@/lib/images";
 
 function formatDate(iso: string) {
   const d = new Date(iso);
@@ -72,24 +74,20 @@ export function ReflectionView({ topicId, section }: { topicId: string; section:
     <div className="pb-20 -mx-6">
       <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
-        {/* Blush header */}
-        <div style={{ background: "linear-gradient(160deg,#f8c8cc 0%,#fde0dc 100%)", padding: "20px 20px 22px" }}>
+        <ImageHeader imageUrl={pickForTopic(IMAGES.reflection, topicId)} overlay="linear-gradient(160deg,rgba(120,40,55,0.50) 0%,rgba(80,20,35,0.75) 100%)">
           <div className="flex items-center gap-3">
-            <Link
-              href={backPath}
-              className="flex items-center justify-center flex-shrink-0"
-              style={{ width: 28, height: 28, borderRadius: "50%", background: "rgba(255,255,255,0.6)" }}
-            >
-              <ArrowLeft style={{ width: 11, height: 11, color: "#c4707a" }} />
+            <Link href={backPath} className="flex items-center justify-center flex-shrink-0"
+              style={{ width: 28, height: 28, borderRadius: "50%", background: "rgba(255,255,255,0.25)" }}>
+              <ArrowLeft style={{ width: 11, height: 11, color: "#fff" }} />
             </Link>
             <div>
               {section.theme && !/^\d+[\.\d\n]*$/.test(section.theme.trim()) && (
-                <p style={{ fontSize: 10, color: "#8a5060" }}>{section.theme}</p>
+                <p style={{ fontSize: 10, color: "rgba(255,255,255,0.70)" }}>{section.theme}</p>
               )}
-              <p style={{ fontSize: 14, fontWeight: 500, color: "#5e2f38" }}>Reflection</p>
+              <p style={{ fontSize: 14, fontWeight: 500, color: "#fff" }}>Reflection</p>
             </div>
           </div>
-        </div>
+        </ImageHeader>
 
         {/* Body */}
         <div style={{ padding: "20px 20px 24px" }}>

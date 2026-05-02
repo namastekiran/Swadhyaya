@@ -1,81 +1,96 @@
 "use client";
 
 import { useState } from "react";
-import { Flower2, ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 import { useAppStore } from "@/lib/store";
+
+const BG_IMAGE = "/zen-stones.jpg";
+const BLEND_COLOR = "#3d2468";
 
 export function Onboarding() {
   const setProfile = useAppStore((s) => s.setProfile);
   const [name, setName] = useState("");
 
   function handleStart() {
-    setProfile(name, "");
+    if (!name.trim()) return;
+    setProfile(name.trim(), "");
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#FAFAFB] px-6">
-      <div className="w-full max-w-[440px] space-y-10 animate-in fade-in slide-in-from-bottom-8 duration-700">
+    <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column", background: BLEND_COLOR }}>
 
-        {/* Brand/Icon Area */}
-        <div className="flex flex-col items-center text-center space-y-4">
-          <div className="relative">
-            <div className="absolute -inset-4 bg-purple-100/50 rounded-full blur-2xl animate-pulse" />
-            <div className="relative w-20 h-20 rounded-[28px] bg-white shadow-xl shadow-purple-100/20 flex items-center justify-center">
-              <Flower2 className="w-10 h-10 text-purple-500" />
-            </div>
-          </div>
-          <div className="space-y-1">
-            <h1 className="text-3xl font-black text-gray-900 tracking-tight">
-              Swadhyaya
-            </h1>
-            <p className="text-sm font-medium text-purple-600/80 uppercase tracking-widest">
-              The Journey Inward
-            </p>
-          </div>
+      {/* Top — image fading into BLEND_COLOR at the bottom */}
+      <div style={{ height: "52vh", position: "relative", overflow: "hidden", flexShrink: 0 }}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={BG_IMAGE}
+          alt=""
+          style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+        />
+        <div style={{
+          position: "absolute", inset: 0,
+          background: `linear-gradient(to bottom, rgba(61,36,104,0.05) 0%, rgba(61,36,104,0.0) 30%, rgba(61,36,104,0.70) 80%, ${BLEND_COLOR} 100%)`,
+        }} />
+        <div style={{ position: "absolute", bottom: 28, left: 0, right: 0, textAlign: "center" }}>
+          <h1 style={{ fontSize: 46, fontWeight: 700, color: "#fff", fontFamily: "serif", textShadow: "0 2px 16px rgba(0,0,0,0.35)", lineHeight: 1.1, marginBottom: 6 }}>
+            Swadhyaya
+          </h1>
+          <p style={{ fontSize: 14, color: "rgba(255,255,255,0.80)", letterSpacing: "0.12em", fontStyle: "italic", textShadow: "0 1px 8px rgba(0,0,0,0.3)" }}>
+            Journey Within
+          </p>
         </div>
+      </div>
 
-        {/* Interaction Card */}
-        <div className="bg-white rounded-[40px] p-8 shadow-[0_20px_50px_rgba(0,0,0,0.04)] border border-white/50 relative overflow-hidden">
-          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-purple-500 to-pink-500" />
+      {/* Bottom — starts at exactly BLEND_COLOR, same as image fade endpoint */}
+      <div style={{
+        flex: 1, position: "relative", display: "flex", flexDirection: "column",
+        justifyContent: "center", padding: "28px 28px 48px", overflow: "hidden",
+        background: `linear-gradient(170deg, ${BLEND_COLOR} 0%, #4a2d7a 40%, #3a2060 100%)`,
+      }}>
+        {/* Grain */}
+        <div style={{
+          position: "absolute", inset: 0, pointerEvents: "none", opacity: 0.12, mixBlendMode: "overlay",
+          backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")`,
+          backgroundSize: "200px 200px",
+        }} />
 
-          <div className="space-y-8">
-            <div className="space-y-2 text-center">
-              <h2 className="text-lg font-semibold text-gray-900">
-                How should we greet you?
-              </h2>
-              <p className="text-[14px] text-gray-500 leading-relaxed max-w-[280px] mx-auto">
-                Ancient wisdom is best explored as a personal conversation. Tell us your name to begin.
-              </p>
-            </div>
+        <div style={{ position: "relative", zIndex: 1 }}>
+          <p style={{ fontSize: 17, fontWeight: 600, color: "#fff", textAlign: "center", marginBottom: 6 }}>
+            How should we greet you?
+          </p>
+          <p style={{ fontSize: 13, color: "rgba(255,255,255,0.55)", textAlign: "center", lineHeight: 1.6, marginBottom: 24 }}>
+            Ancient wisdom unfolds as a personal conversation. Tell us your name to begin.
+          </p>
 
-            <div className="space-y-4">
-              <input
-                type="text"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                onKeyDown={(e) => e.key === "Enter" && name.trim() && handleStart()}
-                placeholder="Your first name"
-                autoFocus
-                className="w-full bg-gray-50/50 border border-gray-100 rounded-3xl px-6 py-5 text-lg font-medium text-center transition-all focus:bg-white focus:ring-4 focus:ring-purple-50 focus:border-purple-200 outline-none placeholder:text-gray-300"
-              />
+          <input
+            type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            onKeyDown={(e) => e.key === "Enter" && handleStart()}
+            placeholder="Your first name"
+            autoFocus
+            style={{
+              width: "100%", background: "rgba(255,255,255,0.10)", border: "1.5px solid rgba(255,255,255,0.22)",
+              borderRadius: 18, padding: "15px 20px", fontSize: 16, fontWeight: 500, textAlign: "center",
+              color: "#fff", outline: "none", marginBottom: 12, boxSizing: "border-box",
+            }}
+          />
 
-              <Button
-                onClick={handleStart}
-                disabled={!name.trim()}
-                className={`w-full h-16 text-lg font-bold rounded-3xl transition-all duration-300 ${
-                  name.trim()
-                    ? "bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-xl shadow-purple-100/50 hover:scale-[1.02] active:scale-[0.98]"
-                    : "bg-gray-100 text-gray-300 cursor-not-allowed"
-                }`}
-              >
-                <span>Start Your Journey</span>
-                <ArrowRight className="w-5 h-5 ml-2" />
-              </Button>
-            </div>
-          </div>
+          <button
+            onClick={handleStart}
+            disabled={!name.trim()}
+            style={{
+              width: "100%", height: 54, fontSize: 16, fontWeight: 700, borderRadius: 18, border: "none",
+              background: name.trim() ? "linear-gradient(135deg, #a389d4, #7c4fc4)" : "rgba(255,255,255,0.12)",
+              color: name.trim() ? "#fff" : "rgba(255,255,255,0.35)",
+              cursor: name.trim() ? "pointer" : "not-allowed",
+              display: "flex", alignItems: "center", justifyContent: "center", gap: 8, transition: "background 0.2s",
+            }}
+          >
+            <span>Start Your Journey</span>
+            <ArrowRight style={{ width: 18, height: 18 }} />
+          </button>
         </div>
-
       </div>
     </div>
   );

@@ -5,6 +5,8 @@ import Link from "next/link";
 import { ArrowLeft, ArrowRight, Check, Lock } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import type { TopicData, SectionStatus, TopicSummary } from "@/lib/types";
+import { ImageHeader } from "@/components/ImageHeader";
+import { IMAGES, pickRandom } from "@/lib/images";
 
 // ── Session card (used in both normal + completed journey views) ────────────
 function SessionCard({
@@ -130,27 +132,25 @@ function JourneyComplete({ topic, answers }: { topic: TopicData; answers: Record
     <div className="pb-20 -mx-6">
       <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
-        {/* Header */}
-        <div style={{ background: "linear-gradient(160deg,#d8ccf0 0%,#ecdff8 100%)", padding: "24px 22px 26px" }}>
+        <ImageHeader imageUrl={pickRandom(IMAGES.sessionComplete)} overlay="linear-gradient(160deg,rgba(60,30,110,0.45) 0%,rgba(40,18,80,0.78) 100%)" height={150} padding="22px 22px 20px">
           <div className="flex items-center gap-3 mb-3">
             <Link href="/" className="flex items-center justify-center flex-shrink-0"
-              style={{ width: 30, height: 30, borderRadius: "50%", background: "rgba(255,255,255,0.6)" }}>
-              <ArrowLeft style={{ width: 12, height: 12, color: "#7c5cbf" }} />
+              style={{ width: 30, height: 30, borderRadius: "50%", background: "rgba(255,255,255,0.25)" }}>
+              <ArrowLeft style={{ width: 12, height: 12, color: "#fff" }} />
             </Link>
             <div>
-              <p style={{ fontSize: 16, fontWeight: 500, color: "#3d2f5e" }}>{topic.title}</p>
-              <p style={{ fontSize: 11, color: "#6a5888" }}>{topic.tagline}</p>
+              <p style={{ fontSize: 16, fontWeight: 500, color: "#fff" }}>{topic.title}</p>
+              <p style={{ fontSize: 11, color: "rgba(255,255,255,0.70)" }}>{topic.tagline}</p>
             </div>
           </div>
-          {/* Completed badge */}
           <div className="flex items-center gap-2" style={{ paddingLeft: 42 }}>
             <div className="flex items-center justify-center"
-              style={{ width: 22, height: 22, borderRadius: "50%", background: "#a389d4" }}>
+              style={{ width: 22, height: 22, borderRadius: "50%", background: "rgba(255,255,255,0.3)" }}>
               <Check style={{ width: 11, height: 11, color: "#fff" }} />
             </div>
-            <span style={{ fontSize: 12, fontWeight: 600, color: "#534AB7" }}>All {totalSessions} sessions complete</span>
+            <span style={{ fontSize: 12, fontWeight: 600, color: "#fff" }}>All {totalSessions} sessions complete</span>
           </div>
-        </div>
+        </ImageHeader>
 
         <div style={{ padding: "20px 20px 26px" }}>
 
@@ -289,31 +289,29 @@ export function JourneyList({ topic }: { topic: TopicData }) {
     <div className="pb-20 -mx-6">
       <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
-        {/* Header */}
-        <div style={{ background: "linear-gradient(160deg,#d8ccf0 0%,#ecdff8 100%)", padding: "24px 22px 26px" }}>
-          <div className="flex items-center gap-3 mb-5">
+        <ImageHeader imageUrl={pickRandom(IMAGES.journeyList)} overlay="linear-gradient(160deg,rgba(60,30,110,0.50) 0%,rgba(40,18,80,0.80) 100%)" height={150} padding="22px 22px 20px">
+          <div className="flex items-center gap-3 mb-4">
             <Link href="/" className="flex items-center justify-center flex-shrink-0"
-              style={{ width: 30, height: 30, borderRadius: "50%", background: "rgba(255,255,255,0.6)" }}>
-              <ArrowLeft style={{ width: 12, height: 12, color: "#7c5cbf" }} />
+              style={{ width: 30, height: 30, borderRadius: "50%", background: "rgba(255,255,255,0.25)" }}>
+              <ArrowLeft style={{ width: 12, height: 12, color: "#fff" }} />
             </Link>
             <div>
-              <p style={{ fontSize: 16, fontWeight: 500, color: "#3d2f5e" }}>{topic.title}</p>
-              <p style={{ fontSize: 11, color: "#6a5888" }}>{topic.tagline} · {topic.totalSections} sessions</p>
+              <p style={{ fontSize: 16, fontWeight: 500, color: "#fff" }}>{topic.title}</p>
+              <p style={{ fontSize: 11, color: "rgba(255,255,255,0.70)" }}>{topic.tagline} · {topic.totalSections} sessions</p>
             </div>
           </div>
-
           <div className="flex items-center justify-between mb-2">
-            <span style={{ fontSize: 11, color: "#6a5888" }}>
+            <span style={{ fontSize: 11, color: "rgba(255,255,255,0.70)" }}>
               Session {Math.min(completedCount + 1, topic.totalSections)} of {topic.totalSections}
             </span>
-            <span style={{ fontSize: 13, fontWeight: 500, color: "#7c5cbf" }}>
+            <span style={{ fontSize: 13, fontWeight: 500, color: "#fff" }}>
               {Math.round(progressPercent)}%
             </span>
           </div>
-          <div style={{ height: 4, background: "rgba(255,255,255,0.5)", borderRadius: 4 }}>
-            <div style={{ width: `${progressPercent}%`, height: "100%", background: "#a389d4", borderRadius: 4, transition: "width 0.6s ease" }} />
+          <div style={{ height: 4, background: "rgba(255,255,255,0.25)", borderRadius: 4 }}>
+            <div style={{ width: `${progressPercent}%`, height: "100%", background: "rgba(255,255,255,0.85)", borderRadius: 4, transition: "width 0.6s ease" }} />
           </div>
-        </div>
+        </ImageHeader>
 
         {/* Session list */}
         <div style={{ padding: "20px 18px 26px" }}>

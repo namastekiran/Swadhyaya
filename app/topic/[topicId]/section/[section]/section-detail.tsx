@@ -6,6 +6,8 @@ import { useRouter } from "next/navigation";
 import { ArrowLeft, ArrowRight, BookOpen, MessageCircle, Dumbbell, PenLine, Check, Sparkles } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import type { SectionData } from "@/lib/types";
+import { ImageHeader } from "@/components/ImageHeader";
+import { IMAGES, pickForTopic, pickRandom } from "@/lib/images";
 
 interface Props {
   topicId: string;
@@ -131,24 +133,23 @@ function SessionComplete({
     <div className="pb-20 -mx-6">
       <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
-        {/* Lavender header */}
-        <div style={{ background: "linear-gradient(160deg,#d8ccf0 0%,#ecdff8 100%)", padding: "22px 20px 24px" }}>
+        <ImageHeader imageUrl={pickRandom(IMAGES.sessionComplete)} overlay="linear-gradient(160deg,rgba(60,30,110,0.42) 0%,rgba(40,18,80,0.70) 100%)" height={110} padding="22px 20px 24px">
           <div className="flex items-center gap-3 mb-1">
             <Link
               href={`/topic/${topicId}`}
               className="flex items-center justify-center flex-shrink-0"
-              style={{ width: 28, height: 28, borderRadius: "50%", background: "rgba(255,255,255,0.6)" }}
+              style={{ width: 28, height: 28, borderRadius: "50%", background: "rgba(255,255,255,0.25)" }}
             >
-              <ArrowLeft style={{ width: 11, height: 11, color: "#7c5cbf" }} />
+              <ArrowLeft style={{ width: 11, height: 11, color: "#fff" }} />
             </Link>
-            <p style={{ fontSize: 10, color: "#7a6898", letterSpacing: "0.06em" }}>
+            <p style={{ fontSize: 10, color: "rgba(255,255,255,0.70)", letterSpacing: "0.06em" }}>
               {topicTitle.toUpperCase()} · SESSION {section.section}
             </p>
           </div>
-          <p style={{ fontSize: 17, fontWeight: 500, color: "#3d2f5e", lineHeight: 1.3, paddingLeft: 38 }}>
+          <p style={{ fontSize: 17, fontWeight: 500, color: "#fff", lineHeight: 1.3, paddingLeft: 38 }}>
             {/^\d+[\.\d\n\s]*$/.test(section.theme?.trim() ?? "") ? `Sutra ${section.sutra.number.replace(/,\s*/g, " · ")}` : section.theme}
           </p>
-        </div>
+        </ImageHeader>
 
         <div style={{ padding: "20px 20px 26px" }}>
 
@@ -331,38 +332,37 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
     <div className="pb-20 -mx-6">
       <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
-        {/* Header */}
-        <div style={{ background: "linear-gradient(160deg,#d8ccf0 0%,#ecdff8 100%)", padding: "22px 20px 24px" }}>
+        <ImageHeader imageUrl={pickForTopic(IMAGES.journeyList, topicId)} overlay="linear-gradient(160deg,rgba(60,30,110,0.42) 0%,rgba(40,18,80,0.70) 100%)" height={140} padding="22px 20px 20px">
           <div className="flex items-center gap-3 mb-1">
             <Link
               href={`/topic/${topicId}`}
               className="flex items-center justify-center flex-shrink-0"
-              style={{ width: 28, height: 28, borderRadius: "50%", background: "rgba(255,255,255,0.6)" }}
+              style={{ width: 28, height: 28, borderRadius: "50%", background: "rgba(255,255,255,0.25)" }}
             >
-              <ArrowLeft style={{ width: 11, height: 11, color: "#7c5cbf" }} />
+              <ArrowLeft style={{ width: 11, height: 11, color: "#fff" }} />
             </Link>
-            <p style={{ fontSize: 10, color: "#7a6898", letterSpacing: "0.06em" }}>
+            <p style={{ fontSize: 10, color: "rgba(255,255,255,0.70)", letterSpacing: "0.06em" }}>
               {topicTitle.toUpperCase()} · SESSION {section.section}
             </p>
           </div>
           <div className="flex items-center gap-2 mb-3" style={{ paddingLeft: 38 }}>
-            <p style={{ fontSize: 17, fontWeight: 500, color: "#3d2f5e", lineHeight: 1.3 }}>
+            <p style={{ fontSize: 17, fontWeight: 500, color: "#fff", lineHeight: 1.3 }}>
               {/^\d+[\.\d\n\s]*$/.test(section.theme?.trim() ?? "") ? `Sutra ${section.sutra.number.replace(/,\s*/g, " · ")}` : section.theme}
             </p>
             {allDone && (
-              <span className="flex items-center gap-1 flex-shrink-0" style={{ fontSize: 10, fontWeight: 600, color: "#534AB7", background: "#dbd7f5", padding: "3px 9px", borderRadius: 20 }}>
+              <span className="flex items-center gap-1 flex-shrink-0" style={{ fontSize: 10, fontWeight: 600, color: "#fff", background: "rgba(255,255,255,0.25)", padding: "3px 9px", borderRadius: 20 }}>
                 <Check style={{ width: 10, height: 10 }} /> Completed
               </span>
             )}
           </div>
 
           {/* Step dots progress */}
-          <div style={{ background: "rgba(255,255,255,0.5)", borderRadius: 10, padding: "10px 14px" }}>
+          <div style={{ background: "rgba(255,255,255,0.18)", borderRadius: 10, padding: "10px 14px" }}>
             <div className="flex items-center justify-between mb-2">
-              <span style={{ fontSize: 10, color: "#7a6898" }}>
+              <span style={{ fontSize: 10, color: "rgba(255,255,255,0.75)" }}>
                 {completedKeys.length} of {steps.length} steps complete
               </span>
-              <span style={{ fontSize: 10, fontWeight: 500, color: "#7c5cbf" }}>
+              <span style={{ fontSize: 10, fontWeight: 500, color: "#fff" }}>
                 {Math.round((completedKeys.length / steps.length) * 100)}%
               </span>
             </div>
@@ -372,13 +372,13 @@ export function SectionDetail({ topicId, topicTitle, section, totalSections }: P
                   key={s.key}
                   style={{
                     flex: 1, height: 3, borderRadius: 4,
-                    background: completedKeys.includes(s.key) ? "#a389d4" : "rgba(255,255,255,0.5)",
+                    background: completedKeys.includes(s.key) ? "rgba(255,255,255,0.90)" : "rgba(255,255,255,0.30)",
                   }}
                 />
               ))}
             </div>
           </div>
-        </div>
+        </ImageHeader>
 
         {/* Step list */}
         <div style={{ padding: "20px 20px 26px" }}>

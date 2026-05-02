@@ -5,6 +5,8 @@ import Link from "next/link";
 import { ArrowLeft, Check } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import type { SectionData } from "@/lib/types";
+import { ImageHeader } from "@/components/ImageHeader";
+import { IMAGES, pickForTopic } from "@/lib/images";
 
 export function SutraView({ topicId, section }: { topicId: string; section: SectionData }) {
   const router = useRouter();
@@ -28,40 +30,37 @@ export function SutraView({ topicId, section }: { topicId: string; section: Sect
         className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]"
         style={{ background: "#f8f4ff" }}
       >
-        {/* Lavender header */}
-        <div style={{ background: "linear-gradient(160deg,#d8ccf0 0%,#ecdff8 100%)", padding: "20px 20px 22px" }}>
+        <ImageHeader
+          imageUrl={pickForTopic(IMAGES.sutra, topicId)}
+          overlay="linear-gradient(160deg,rgba(40,30,90,0.55) 0%,rgba(30,20,70,0.75) 100%)"
+        >
           <div className="flex items-center gap-3 mb-4">
-            <Link
-              href={backPath}
-              className="flex items-center justify-center flex-shrink-0"
-              style={{ width: 28, height: 28, borderRadius: "50%", background: "rgba(255,255,255,0.6)" }}
-            >
-              <ArrowLeft style={{ width: 11, height: 11, color: "#7c5cbf" }} />
+            <Link href={backPath} className="flex items-center justify-center flex-shrink-0"
+              style={{ width: 28, height: 28, borderRadius: "50%", background: "rgba(255,255,255,0.25)" }}>
+              <ArrowLeft style={{ width: 11, height: 11, color: "#fff" }} />
             </Link>
             <div>
               {section.theme && !/^\d+[\.\d\n]*$/.test(section.theme.trim()) && (
-                <p style={{ fontSize: 10, color: "#7a6898" }}>{section.theme}</p>
+                <p style={{ fontSize: 10, color: "rgba(255,255,255,0.70)" }}>{section.theme}</p>
               )}
-              <p style={{ fontSize: 14, fontWeight: 500, color: "#3d2f5e" }}>Sutra & Insight</p>
+              <p style={{ fontSize: 14, fontWeight: 500, color: "#fff" }}>Sutra & Insight</p>
             </div>
           </div>
-
-          {/* Sanskrit box */}
-          <div style={{ background: "rgba(255,255,255,0.55)", borderRadius: 14, padding: "14px 16px" }}>
+          <div style={{ background: "rgba(255,255,255,0.15)", borderRadius: 14, padding: "14px 16px" }}>
             {sutraLines.map((line, i) => (
               <div key={i} className="flex items-baseline justify-between gap-3" style={{ marginBottom: i < sutraLines.length - 1 ? 6 : 0 }}>
-                <p className="font-devanagari" style={{ fontSize: 15, color: "#3d2f5e", lineHeight: 1.7, fontStyle: "italic" }}>
+                <p className="font-devanagari" style={{ fontSize: 15, color: "#fff", lineHeight: 1.7, fontStyle: "italic" }}>
                   {line}
                 </p>
                 {sutraNumbers[i] && (
-                  <span style={{ fontSize: 10, fontWeight: 600, color: "#a389d4", whiteSpace: "nowrap", flexShrink: 0 }}>
+                  <span style={{ fontSize: 10, fontWeight: 600, color: "rgba(255,255,255,0.65)", whiteSpace: "nowrap", flexShrink: 0 }}>
                     {sutraNumbers[i]}
                   </span>
                 )}
               </div>
             ))}
           </div>
-        </div>
+        </ImageHeader>
 
         {/* Body */}
         <div style={{ padding: "20px 20px 24px" }}>

@@ -5,6 +5,8 @@ import Link from "next/link";
 import { ArrowLeft, Check } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import type { SectionData } from "@/lib/types";
+import { ImageHeader } from "@/components/ImageHeader";
+import { IMAGES, pickForTopic } from "@/lib/images";
 
 export function GitaView({ topicId, section }: { topicId: string; section: SectionData }) {
   const router = useRouter();
@@ -27,24 +29,20 @@ export function GitaView({ topicId, section }: { topicId: string; section: Secti
     <div className="pb-20 -mx-6">
       <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
-        {/* Lavender header */}
-        <div style={{ background: "linear-gradient(160deg,#fad8b0 0%,#fdefd8 100%)", padding: "20px 20px 22px" }}>
+        <ImageHeader imageUrl={pickForTopic(IMAGES.gita, topicId)} overlay="linear-gradient(160deg,rgba(120,70,10,0.25) 0%,rgba(80,40,5,0.50) 100%)">
           <div className="flex items-center gap-3">
-            <Link
-              href={backPath}
-              className="flex items-center justify-center flex-shrink-0"
-              style={{ width: 28, height: 28, borderRadius: "50%", background: "rgba(255,255,255,0.6)" }}
-            >
-              <ArrowLeft style={{ width: 11, height: 11, color: "#c48450" }} />
+            <Link href={backPath} className="flex items-center justify-center flex-shrink-0"
+              style={{ width: 28, height: 28, borderRadius: "50%", background: "rgba(255,255,255,0.25)" }}>
+              <ArrowLeft style={{ width: 11, height: 11, color: "#fff" }} />
             </Link>
             <div>
               {section.theme && !/^\d+[\.\d\n]*$/.test(section.theme.trim()) && (
-                <p style={{ fontSize: 10, color: "#7a5838" }}>{section.theme}</p>
+                <p style={{ fontSize: 10, color: "rgba(255,255,255,0.70)" }}>{section.theme}</p>
               )}
-              <p style={{ fontSize: 14, fontWeight: 500, color: "#4a2e18" }}>Wisdom from the Gita</p>
+              <p style={{ fontSize: 14, fontWeight: 500, color: "#fff" }}>Wisdom from the Gita</p>
             </div>
           </div>
-        </div>
+        </ImageHeader>
 
         {/* Body */}
         <div style={{ padding: "20px 20px 24px" }}>

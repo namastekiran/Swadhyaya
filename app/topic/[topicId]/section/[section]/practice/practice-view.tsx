@@ -6,6 +6,8 @@ import Link from "next/link";
 import { ArrowLeft, Check } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import type { SectionData } from "@/lib/types";
+import { ImageHeader } from "@/components/ImageHeader";
+import { IMAGES, pickForTopic } from "@/lib/images";
 
 function wordCount(text: string) {
   return text.trim() ? text.trim().split(/\s+/).length : 0;
@@ -67,24 +69,20 @@ export function PracticeView({ topicId, section }: { topicId: string; section: S
     <div className="pb-20 -mx-6">
       <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
-        {/* Lavender header */}
-        <div style={{ background: "linear-gradient(160deg,#c8e8d8 0%,#daf5e8 100%)", padding: "20px 20px 22px" }}>
+        <ImageHeader imageUrl={pickForTopic(IMAGES.practice, topicId)} overlay="linear-gradient(160deg,rgba(20,80,50,0.50) 0%,rgba(10,55,35,0.78) 100%)">
           <div className="flex items-center gap-3">
-            <Link
-              href={backPath}
-              className="flex items-center justify-center flex-shrink-0"
-              style={{ width: 28, height: 28, borderRadius: "50%", background: "rgba(255,255,255,0.6)" }}
-            >
-              <ArrowLeft style={{ width: 11, height: 11, color: "#5a9e78" }} />
+            <Link href={backPath} className="flex items-center justify-center flex-shrink-0"
+              style={{ width: 28, height: 28, borderRadius: "50%", background: "rgba(255,255,255,0.25)" }}>
+              <ArrowLeft style={{ width: 11, height: 11, color: "#fff" }} />
             </Link>
             <div>
               {section.theme && !/^\d+[\.\d\n]*$/.test(section.theme.trim()) && (
-                <p style={{ fontSize: 10, color: "#4a7860" }}>{section.theme}</p>
+                <p style={{ fontSize: 10, color: "rgba(255,255,255,0.70)" }}>{section.theme}</p>
               )}
-              <p style={{ fontSize: 14, fontWeight: 500, color: "#2a4a38" }}>Micro Practice</p>
+              <p style={{ fontSize: 14, fontWeight: 500, color: "#fff" }}>Micro Practice</p>
             </div>
           </div>
-        </div>
+        </ImageHeader>
 
         {/* Body */}
         <div style={{ padding: "20px 20px 24px" }}>
