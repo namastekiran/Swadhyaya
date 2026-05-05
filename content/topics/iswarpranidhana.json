@@ -1,0 +1,67 @@
+{
+  "id": "iswarpranidhana",
+  "title": "Ishwara Pranidhana",
+  "tagline": "Surrender to the divine — letting go into trust",
+  "icon": "moon",
+  "description": "Surrender to the divine — letting go into trust",
+  "totalSections": 3,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "2.1\n\n\n2.2",
+      "sutra": {
+        "number": "The three pillars of practice.",
+        "sanskrit": "तपःस्वाध्यायेश्वरप्रणिधानानि क्रियायोगः\nसमाधिभावनार्थः क्लेशतनूकरणार्थश्च",
+        "transliteration": "Sutra The three pillars of practice.",
+        "meaning": "Discipline in practice, self-study, study of the scriptures and surrender to God are the acts of yoga.\nYoga reduces suffering and prepares one for meditation."
+      },
+      "insight": "I need to be committed to make progress",
+      "reflectionPrompt": "Can I make a commitment to myself?\n\n\nEffort + awareness + surrender = growth.\tAm I balanced in effort?",
+      "practice": "Practice discipline consciously.",
+      "meditation": "10 mins meditation with intention to be comitted",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "\"\"\"\"\"\"\"Krishna tells Arjuna, Arjuna, you know, who is really intelligent & clever? Arjuna says no.\n“One who sees silence in activity & activity in silence, he is the intelligent person. How do\nyou see silence in activity & activity in silence? It needs sharpness of awareness, alertness,\nkeenness which come when there is skill in your activity. And the skill in\nactivity is Yoga, Kriya yoga – Yoga of action. What is it? It comprises of 3 parts.\n1.Tapas: Tapas is endurance, acceptance - You decide on your own to do some action which is not usual, that is Tapas. \n2.Swadhyaya, being alert, self-study, observing the breath, observing the emotions, thoughts,\nwhat all happens inside you – observing, studying yourself i.e. swadhaya.\n3.Ishwarapranidhana: devotion to the Divine, love to the Divine- these three things together\nmakes kirya yoga.\""
+    },
+    {
+      "section": 2,
+      "theme": "Five observances refine inner life.",
+      "sutra": {
+        "number": "2.32",
+        "sanskrit": "शौचसंतोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः",
+        "transliteration": "Sutra 2.32",
+        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life."
+      },
+      "insight": "There is always scope for improvement in following all of these Niyamas",
+      "reflectionPrompt": "Which one needs special attention from me?",
+      "practice": "Focus on one at a time. Which one is particularly challenging for me.",
+      "meditation": "5 min stillness with meditation thereafter",
+      "journalPrompt": "What changes was I inspired to make in my life?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "a) Shaucha b) Santosha c) Tapas d) Swadhaya e) Ishwara Pranidhana are niyamas"
+    },
+    {
+      "section": 3,
+      "theme": "Samadhi blooms through surrender.",
+      "sutra": {
+        "number": "2.45",
+        "sanskrit": "स॒मा॒धिसि॒द्धिरीश्वरप्र॑णिधा॒नात्",
+        "transliteration": "Sutra 2.45",
+        "meaning": "From  profound  meditation upon the Divine comes the perfection of continuous effortless linkage of the attention to that Divinity."
+      },
+      "insight": "The power of samadhi comes to him who takes refuge in the Divine.",
+      "reflectionPrompt": "Surrender to God brings perfection in samadhi. Can I surrender to the Divine?",
+      "practice": "sit for meditation with the intention of total surrender",
+      "meditation": "20 min meditation",
+      "journalPrompt": "what did I observe",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "\"Love of the God- surrender\nto the Lord will complete the Process. Without Love, self-study becomes another dry stuff.\nWithout surrender, self-study is not charming. Without devotion, without love, spiritual path\nbecomes very dry like a Styrofoam – its like a cake without sweets, a pudding without sweetness.\""
+    }
+  ]
+}

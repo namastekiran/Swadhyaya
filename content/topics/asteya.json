@@ -1,0 +1,48 @@
+{
+  "id": "asteya",
+  "title": "Asteya",
+  "tagline": "Non-stealing — living with integrity and trust",
+  "icon": "repeat",
+  "description": "Non-stealing — living with integrity and trust",
+  "totalSections": 2,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Five vows for a life well-lived.",
+      "sutra": {
+        "number": "2.30",
+        "sanskrit": "अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहा यमाः",
+        "transliteration": "Sutra 2.30",
+        "meaning": "Ahimsa (non-violence/non-injury), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (right use of energy/continence), and Aparigraha (non-possessiveness/non-greed) are the five Yamas (restraints or social codes)"
+      },
+      "insight": "non-violence,truth, non-stealing,moderation,non-possessiveness are universal values.",
+      "reflectionPrompt": "Did I live these today? Which can I work on? Which is difficult for me?",
+      "practice": "Observe yourself and note how many times you strayed or were tempted to stray from adhering to the Yamas",
+      "meditation": "20 min of meditation",
+      "journalPrompt": "Which of the Yamas did I not follow.",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "Ahimasa, satya, Ashteya, Brahmacharya, Aparigraha. Ahimsa - nonviolence Satya - Truth Astheya - non stealing Brahmacharya - moving in Brahman, moving in the bigness. jaatideshkaalsamayanva chinahsaalbhauka mahavrutta These are the greatest because it is applicable in all time in all places for all people throughout, without an interruption. There are certain laws, which can apply just to certain people, certain places, at certain time, which are not universal, but these are universal"
+    },
+    {
+      "section": 2,
+      "theme": "We steal in more ways than one.",
+      "sutra": {
+        "number": "2.37",
+        "sanskrit": "अस्तेयप्रतिष्ठायां सर्वरत्नोपस्थानम्",
+        "transliteration": "Sutra 2.37",
+        "meaning": "Non-stealing brings abundance"
+      },
+      "insight": "Stealing can be of all kinds of things- material and non material; we normally think only of the material theft.",
+      "reflectionPrompt": "Did I ever steal say ideas, appreciation, attention?",
+      "practice": "observe if you covet anything someone else has.",
+      "meditation": "20 min meditation",
+      "journalPrompt": "Do I feel lack.",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "People steal many things, someone else’s poem, some one else's techniques, things. The effect of non-stealing, if you are committed to be sincere, non-stealing – sarvaratnopalapati - all the wealth comes to you effortlessly, all the wealth comes to you. A little intention to steal can keep you poor. A person wants to be sneaky & try to get, grab as much as he can, that is where his luck goes down the drain."
+    }
+  ]
+}

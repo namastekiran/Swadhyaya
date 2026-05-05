@@ -1,0 +1,67 @@
+{
+  "id": "tapas",
+  "title": "Tapas",
+  "tagline": "Austerity — the transforming fire of discipline",
+  "icon": "flame",
+  "description": "Austerity — the transforming fire of discipline",
+  "totalSections": 3,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "2.1\n\n\n2.2",
+      "sutra": {
+        "number": "The three pillars of practice.",
+        "sanskrit": "तपःस्वाध्यायेश्वरप्रणिधानानि क्रियायोगः\nसमाधिभावनार्थः क्लेशतनूकरणार्थश्च",
+        "transliteration": "Sutra The three pillars of practice.",
+        "meaning": "Discipline in practice, self-study, study of the scriptures and surrender to God are the acts of yoga.\nYoga reduces suffering and prepares one for meditation."
+      },
+      "insight": "I need to be committed to make progress",
+      "reflectionPrompt": "Can I make a commitment to myself?\n\n\nEffort + awareness + surrender = growth.\tAm I balanced in effort?",
+      "practice": "Practice discipline consciously.",
+      "meditation": "10 mins meditation with intention to be comitted",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "\"\"\"\"\"\"\"Krishna tells Arjuna, Arjuna, you know, who is really intelligent & clever? Arjuna says no.\n“One who sees silence in activity & activity in silence, he is the intelligent person. How do\nyou see silence in activity & activity in silence? It needs sharpness of awareness, alertness,\nkeenness which come when there is skill in your activity. And the skill in\nactivity is Yoga, Kriya yoga – Yoga of action. What is it? It comprises of 3 parts.\n1.Tapas: Tapas is endurance, acceptance - You decide on your own to do some action which is not usual, that is Tapas. \n2.Swadhyaya, being alert, self-study, observing the breath, observing the emotions, thoughts,\nwhat all happens inside you – observing, studying yourself i.e. swadhaya.\n3.Ishwarapranidhana: devotion to the Divine, love to the Divine- these three things together\nmakes kirya yoga.\""
+    },
+    {
+      "section": 2,
+      "theme": "Five observances refine inner life.",
+      "sutra": {
+        "number": "2.32",
+        "sanskrit": "शौचसंतोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः",
+        "transliteration": "Sutra 2.32",
+        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life."
+      },
+      "insight": "There is always scope for improvement in following all of these Niyamas",
+      "reflectionPrompt": "Which one needs special attention from me?",
+      "practice": "Focus on one at a time. Which one is particularly challenging for me.",
+      "meditation": "5 min stillness with meditation thereafter",
+      "journalPrompt": "What changes was I inspired to make in my life?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "a) Shaucha b) Santosha c) Tapas d) Swadhaya e) Ishwara Pranidhana are niyamas"
+    },
+    {
+      "section": 3,
+      "theme": "Fire burns what no longer serves.",
+      "sutra": {
+        "number": "2.43",
+        "sanskrit": "का॒येन्द्रियसिद्धिर॒शु॒द्धिक्ष॒यात् तपसः",
+        "transliteration": "Sutra 2.43",
+        "meaning": "Austerity, resulting in the elimination of impurity produces perfection of the body and sensual energy."
+      },
+      "insight": "Self-discipline (tapas) burns away impurities and kindles the sparks of Divinity.",
+      "reflectionPrompt": "Is maintaining discipline a problem for me.",
+      "practice": "Make a note of areas of your life which need you to be disciplined. Can you commit to yourself to make an effort in the area/s.",
+      "meditation": "20 min meditation",
+      "journalPrompt": "Did the commitment seem like a burden or serve as an inspiration.",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "By tapas the body & the senses become strong.\nBy your fasting, you’re not pleasing God or you’re not going to heaven or get enlightenment?\nWhat happens by fasting or by practicing, by doing all this different practices, body becomes\nstrong, you can withstand your heat - cold, your resistance power increases, all this happens.\nThe effect of Tapas is body & senses become strong. ashudhishaya - the impurities are\neliminated. There are 3 types of tapas - \n1) Tapas for the body. Keeping physical hygiene, keeping lethargy out,\nhaving a say over all the five senses? If you don’t want to watch TV don’t watch, if you don’t want to eat, just don’t eat,. Keeping personal hygiene & Remaining in Self, having a\ncontrol over the senses in the body. This is called physical Tapas\n2)Tapas of speech is speaking such words which do not excite people, in a\nwrong sense. Speaking pleasant truth\n3) Tapas in the mind.Maintaining the pleasantness in the\nmind is a big Tapas.\""
+    }
+  ]
+}

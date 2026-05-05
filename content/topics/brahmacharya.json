@@ -1,0 +1,48 @@
+{
+  "id": "brahmacharya",
+  "title": "Brahmacharya",
+  "tagline": "Right use of energy for spiritual growth",
+  "icon": "flame",
+  "description": "Right use of energy for spiritual growth",
+  "totalSections": 2,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Five vows for a life well-lived.",
+      "sutra": {
+        "number": "2.30",
+        "sanskrit": "अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहा यमाः",
+        "transliteration": "Sutra 2.30",
+        "meaning": "Ahimsa (non-violence/non-injury), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (right use of energy/continence), and Aparigraha (non-possessiveness/non-greed) are the five Yamas (restraints or social codes)"
+      },
+      "insight": "non-violence,truth, non-stealing,moderation,non-possessiveness are universal values.",
+      "reflectionPrompt": "Did I live these today? Which can I work on? Which is difficult for me?",
+      "practice": "Observe yourself and note how many times you strayed or were tempted to stray from adhering to the Yamas",
+      "meditation": "20 min of meditation",
+      "journalPrompt": "Which of the Yamas did I not follow.",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "Ahimasa, satya, Ashteya, Brahmacharya, Aparigraha. Ahimsa - nonviolence Satya - Truth Astheya - non stealing Brahmacharya - moving in Brahman, moving in the bigness. jaatideshkaalsamayanva chinahsaalbhauka mahavrutta These are the greatest because it is applicable in all time in all places for all people throughout, without an interruption. There are certain laws, which can apply just to certain people, certain places, at certain time, which are not universal, but these are universal"
+    },
+    {
+      "section": 2,
+      "theme": "Energy preserved is wisdom gained.",
+      "sutra": {
+        "number": "2.38",
+        "sanskrit": "ब्रह्मचर्यप्रतिष्ठायां वीर्यलाभः",
+        "transliteration": "Sutra 2.38",
+        "meaning": "Moderation brings strength"
+      },
+      "insight": "Energy is preserved through balance.",
+      "reflectionPrompt": "Where did I waste energy?Did I have a misconception about Brahmacharya in its sense of celibacy?",
+      "practice": "Conserve energy",
+      "meditation": "20 min Reflection",
+      "journalPrompt": "What drained me?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "Brahmacharayapratisthayam veeryalaabha d) Brahmacharya: - Said as Celibacy. Celibacy brings you strength; a lot of strength but Brahmacharya has a deeper or bigger meaning than just celibacy. Brahma means the infinity & charya means moving in the infinity. Knowing your vast nature, not thinking you are just a body but you walk like you are a glow of light, you move in the world as though you are the space. When you sitting in meditation, you don’t feel you are a body, you are a lump of a heavy weight, 80 pounds or 90 pounds or 100 pounds body, you don’t feel you are 60 kg sitting their solid. You feel so light, you feel, as though like a feather, isn’t it?"
+    }
+  ]
+}

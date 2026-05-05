@@ -5,7 +5,6 @@ import Link from "next/link";
 import { ArrowLeft, Check, Sparkles } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import type { SectionData } from "@/lib/types";
-import { ImageHeader } from "@/components/ImageHeader";
 import { IMAGES, pickForTopic } from "@/lib/images";
 
 export function GurudevView({ topicId, section }: { topicId: string; section: SectionData }) {
@@ -32,20 +31,43 @@ export function GurudevView({ topicId, section }: { topicId: string; section: Se
     <div className="pb-20 -mx-6">
       <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
-        <ImageHeader imageUrl={pickForTopic(IMAGES.gurudev, topicId)} overlay="linear-gradient(160deg,rgba(110,60,10,0.28) 0%,rgba(70,35,5,0.52) 100%)">
-          <div className="flex items-center gap-3">
-            <Link href={backPath} className="flex items-center justify-center flex-shrink-0"
-              style={{ width: 28, height: 28, borderRadius: "50%", background: "rgba(255,255,255,0.25)" }}>
-              <ArrowLeft style={{ width: 11, height: 11, color: "#fff" }} />
-            </Link>
-            <div>
-              {section.theme && !/^\d+[\.\d\n]*$/.test(section.theme.trim()) && (
-                <p style={{ fontSize: 10, color: "rgba(255,255,255,0.70)" }}>{section.theme}</p>
-              )}
-              <p style={{ fontSize: 14, fontWeight: 500, color: "#fff" }}>Deep Dive with Gurudev</p>
+        {/* Full-bleed photo with overlaid nav */}
+        <div style={{ position: "relative", height: 340, overflow: "hidden" }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={pickForTopic(IMAGES.gurudev, topicId)}
+            alt="Gurudev Sri Sri Ravi Shankar"
+            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 20%" }}
+          />
+          {/* Top gradient for back button readability */}
+          <div style={{ position: "absolute", inset: 0,
+            background: "linear-gradient(to bottom, rgba(0,0,0,0.38) 0%, transparent 40%, transparent 55%, rgba(20,10,5,0.55) 100%)" }} />
+          {/* Back button + title overlaid at top */}
+          <div style={{ position: "absolute", top: 20, left: 20, right: 20 }}>
+            <div className="flex items-center gap-3">
+              <Link href={backPath} className="flex items-center justify-center flex-shrink-0"
+                style={{ width: 30, height: 30, borderRadius: "50%", background: "rgba(255,255,255,0.25)", backdropFilter: "blur(4px)" }}>
+                <ArrowLeft style={{ width: 12, height: 12, color: "#fff" }} />
+              </Link>
+              <div>
+                {section.theme && !/^\d+[\.\d\n]*$/.test(section.theme.trim()) && (
+                  <p style={{ fontSize: 10, color: "rgba(255,255,255,0.75)" }}>{section.theme}</p>
+                )}
+                <p style={{ fontSize: 14, fontWeight: 500, color: "#fff" }}>Deep Dive with Gurudev</p>
+              </div>
             </div>
           </div>
-        </ImageHeader>
+          {/* Name at bottom of photo */}
+          <div style={{ position: "absolute", bottom: 18, left: 20, right: 20 }}>
+            <p style={{ fontSize: 15, fontWeight: 600, color: "#fff", textShadow: "0 1px 8px rgba(0,0,0,0.5)" }}>
+              Gurudev Sri Sri Ravi Shankar
+            </p>
+            <p style={{ fontSize: 11, color: "rgba(255,255,255,0.75)" }}>Patanjali Yoga Sutras</p>
+          </div>
+          {/* Fade into card background */}
+          <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: 40,
+            background: "linear-gradient(to bottom, transparent, #f8f4ff)" }} />
+        </div>
 
         {/* Body */}
         <div style={{ padding: "20px 20px 24px" }}>

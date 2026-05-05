@@ -1,0 +1,67 @@
+{
+  "id": "satya",
+  "title": "Satya",
+  "tagline": "Truthfulness — aligning thought, word, and deed",
+  "icon": "zap",
+  "description": "Truthfulness — aligning thought, word, and deed",
+  "totalSections": 3,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Five vows for a life well-lived.",
+      "sutra": {
+        "number": "2.30",
+        "sanskrit": "अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहा यमाः",
+        "transliteration": "Sutra 2.30",
+        "meaning": "Ahimsa (non-violence/non-injury), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (right use of energy/continence), and Aparigraha (non-possessiveness/non-greed) are the five Yamas (restraints or social codes)"
+      },
+      "insight": "non-violence,truth, non-stealing,moderation,non-possessiveness are universal values.",
+      "reflectionPrompt": "Did I live these today? Which can I work on? Which is difficult for me?",
+      "practice": "Observe yourself and note how many times you strayed or were tempted to stray from adhering to the Yamas",
+      "meditation": "20 min of meditation",
+      "journalPrompt": "Can I commit to consciously following Satya in my life.",
+      "whatOthersSaid": "",
+      "shlokaFrom": "सद्भावे साधुभावे च सदित्येतत्प्रयुज्यते |\nप्रशस्ते कर्मणि तथा सच्छब्द: पार्थ युज्यते 17|| 26||",
+      "wisdomFrom": "The word “Sat” means eternal existence and goodness. O Arjun, it is also used to describe an auspicious action.",
+      "gurudevInsight": "Ahimasa, satya, Ashteya, Brahmacharya, Aparigraha. Ahimsa - nonviolence Satya - Truth Astheya - non stealing Brahmacharya - moving in Brahman, moving in the bigness. jaatideshkaalsamayanva chinahsaalbhauka mahavrutta These are the greatest because it is applicable in all time in all places for all people throughout, without an interruption. There are certain laws, which can apply just to certain people, certain places, at certain time, which are not universal, but these are universal"
+    },
+    {
+      "section": 2,
+      "theme": "The truthful one shapes reality.",
+      "sutra": {
+        "number": "2.36",
+        "sanskrit": "सत्यप्रतिष्ठायां क्रियाफलाश्रयत्वम्",
+        "transliteration": "Sutra 2.36",
+        "meaning": "Truthfulness brings alignment"
+      },
+      "insight": "This sutra explains that when a yogi perfectly embodies non-violence, the atmosphere surrounding them becomes so peaceful that even naturally hostile beings lose their enmity.",
+      "reflectionPrompt": "Am I truthful always?",
+      "practice": "Speak consciously",
+      "meditation": "20 min Reflection",
+      "journalPrompt": "What did I observe",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "Satya is to be with what is right now, to be with something that is not changing. To know that something deep in you is not changing. Satya does not mean speaking the truth. Do you see what I am saying? Satya is total commitment for truth. It is not just words. Unfortunately people mistake satya to be just speaking words. Truth is not what we speak, but what we are"
+    },
+    {
+      "section": 3,
+      "theme": "Words become potent through truth.",
+      "sutra": {
+        "number": "2.36",
+        "sanskrit": "सत्यप्रतिष्ठायां क्रियाफलाश्रयत्वम्",
+        "transliteration": "Sutra 2.36",
+        "meaning": "“When you are established in truth then the fruits of action will follow.”"
+      },
+      "insight": "\"When the sadhak is firmly established in the practice of truth, his words become so potent that whatever he says comes to realisation\"",
+      "reflectionPrompt": "Am I truthful in words, actions and thought always?",
+      "practice": "Live consciously.",
+      "meditation": "20 min Reflection",
+      "journalPrompt": "What did I observe",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "See, many people do their actions but their actions does not bring results because there in no truth consciousness inside. When there is truth consciousness inside, established in truth, then the fruit of action will follow the action immediately – kriyaphalashaya - success in action comes."
+    }
+  ]
+}

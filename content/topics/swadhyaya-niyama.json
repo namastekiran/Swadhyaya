@@ -1,0 +1,67 @@
+{
+  "id": "swadhyaya-niyama",
+  "title": "Swadhyaya",
+  "tagline": "Self-study — exploring scripture and your nature",
+  "icon": "book-open",
+  "description": "Self-study — exploring scripture and your nature",
+  "totalSections": 3,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "2.1\n\n\n2.2",
+      "sutra": {
+        "number": "The three pillars of practice.",
+        "sanskrit": "तपःस्वाध्यायेश्वरप्रणिधानानि क्रियायोगः\nसमाधिभावनार्थः क्लेशतनूकरणार्थश्च",
+        "transliteration": "Sutra The three pillars of practice.",
+        "meaning": "Discipline in practice, self-study, study of the scriptures and surrender to God are the acts of yoga.\nYoga reduces suffering and prepares one for meditation."
+      },
+      "insight": "I need to be committed to make progress",
+      "reflectionPrompt": "Can I make a commitment to myself?\n\n\nEffort + awareness + surrender = growth.\tAm I balanced in effort?",
+      "practice": "Practice discipline consciously.",
+      "meditation": "10 mins meditation with intention to be comitted",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "\"\"\"Krishna tells Arjuna, Arjuna, you know, who is really intelligent & clever? Arjuna says no.\n“One who sees silence in activity & activity in silence, he is the intelligent person. How do\nyou see silence in activity & activity in silence? It needs sharpness of awareness, alertness,\nkeenness which come when there is skill in your activity. And the skill in\nactivity is Yoga, Kriya yoga – Yoga of action. What is it? It comprises of 3 parts.\n1.Tapas: Tapas is endurance, acceptance - You decide on your own to do some action which is not usual, that is Tapas. \n2.Swadhyaya, being alert, self-study, observing the breath, observing the emotions, thoughts,\nwhat all happens inside you – observing, studying yourself i.e. swadhaya.\n3.Ishwarapranidhana: devotion to the Divine, love to the Divine- these three things together\nmakes kirya yoga."
+    },
+    {
+      "section": 2,
+      "theme": "Five observances refine inner life.",
+      "sutra": {
+        "number": "2.32",
+        "sanskrit": "शौचसंतोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः",
+        "transliteration": "Sutra 2.32",
+        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life."
+      },
+      "insight": "There is always scope for improvement in following all of these Niyamas",
+      "reflectionPrompt": "Which one needs special attention from me?",
+      "practice": "Focus on one at a time. Which one is particularly challenging for me.",
+      "meditation": "5 min stillness with meditation thereafter",
+      "journalPrompt": "What changes was I inspired to make in my life?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "a) Shaucha b) Santosha c) Tapas d) Swadhaya e) Ishwara Pranidhana are niyamas"
+    },
+    {
+      "section": 3,
+      "theme": "Know yourself, meet the divine.",
+      "sutra": {
+        "number": "2.44",
+        "sanskrit": "स्वा॒ध्या॒याद् इ॒ष्टदे॒व॒तासम्प्रयोगः",
+        "transliteration": "Sutra 2.44",
+        "meaning": "From study of our own psyche, comes intimate contact with the cherished divine being."
+      },
+      "insight": "asana and pranayama are integral to connecting awareness of the body with core and vice versa",
+      "reflectionPrompt": "Can I commit to my daily practice or kriya",
+      "practice": "Practice asana and pranayam with complete focus inward.",
+      "meditation": "20 min meditation",
+      "journalPrompt": "is yoga practice enjoyable or painful for me",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "Swadhayaistdevata samayanta -By self study (Swadhyaya) the deva, the divine presence are felt. By observing, by being hollow & empty you become a channel, you become a part of the Divine, you’ve able to feel the presence of the Divinity, all different angels & the Devas, all these different forms of our consciousness starts blossoming. samadhisiddhiishwarapranidhana - By one pointed devotion to the Divine, Samadhi comes about. \n\"Self study. Look into the motives behind your actions. Often you don’t go\nfor things that you really want. You go for things because others would want it, or what\nothers would say, think or do about it. Many times what you want, you are not clear because\nyou never looked into your Self. You are swayed away by fleeting thoughts & fleeting\nemotions, fleeting desires. Your desire is not even your desire. You went & ate something\nsome where and wrong food & whatever it was, all those foods & all those events, situation\ncompany everything brought in a storm inside you & you started believing that storm as your\nvery Self. That’s why often you are not happy when your desires are fulfilled or the\nfulfillment of your desire does not stay too long, within weeks they break down & you\nwonder why did I & get into this or you start believing, you really wanted it, that’s why it\nhas happened. Self-study –Observing the Self, see what is your Self, who are you? You have\npurified the body, but are you the body?, are you the mind?, are you your thoughts, are you\nthe emotions? Who are you? This self study leads you upwards to the universe that is\nunknown to us. Self-study takes you a step further & self-study eliminates misery &\nsuffering of the mind.\""
+    }
+  ]
+}

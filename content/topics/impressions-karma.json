@@ -4,10 +4,29 @@
   "tagline": "Samskaras and action",
   "description": "Understand the subtle imprints left by your actions and learn how to navigate the law of karma to create a life of purpose and freedom.",
   "icon": "orbit",
-  "totalSections": 8,
+  "totalSections": 9,
   "sections": [
     {
       "section": 1,
+      "theme": "The Timeless Awareness",
+      "sutra": {
+        "number": "1.24",
+        "sanskrit": "क्लेशकर्मविपाकाशयैरपरामृष्टः पुरुषविशेष ईश्वरः ॥",
+        "transliteration": "Sutra 1.24",
+        "meaning": "Ishvara (the Supreme Being) is a special Purusha (Consciousness), untouched by afflictions (kleshas), actions (karma), the results of actions (vipaka), and their latent impressions (ashayaih)."
+      },
+      "insight": "Unlike individual souls, this Divine Consciousness is never subject to pain, ignorance, or the karmic cycle of cause and effect. It is pure, timeless awareness.",
+      "reflectionPrompt": "What is my idea of God?",
+      "practice": "Thiink deeply on your reflections.",
+      "meditation": "",
+      "journalPrompt": "",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "\"\"\"There are four types of Karma:\nFirst is the Karma, which will give you merits, & there is another type of action,\nwhich give you demerits. You do something good to somebody & they feel very good about\nit & they thank you from their heart & that brings you a good meritful karma & you do\nsomething to somebody & they feel suffocated, they suffer, they cry, they yell & they are\nmiserable, that brings you a karma of demerit and there are certain karma which are both\nmerit & demerit combined, it’s a mixture of merit & demerit. Fourth type of Karma is devoid\nof both merit & demerit, like you go for a walk in the evening that has no merit or demerit.\nIt’s an action. . So, meritful action demeritful action, action\nwhich gives mixed results & action which has no results at all or neutral results. This is the very core of your existence,  Whatever action comes forth from the Lord is not attached to any karma, good, bad,\nright, wrong nothing is there.\nVipaka: - It is the fruit of the action, result of the action. Enjoying or suffering, the fruit\nof action is not there. These do not touch that very sensitive, purest core of your Being, of\nyour existence, which is the Lord or creation. \nAsheya means latent desires or impressions or opinions, seeds. So when this\nconsciousness or that Being which is free from Kalesha i.e. sufferings or misery, Karma\naction, vipaka-the fruit of action & Asheya - impressions of actions. \nThat special Being is\nIshwara or Lord. & where is this special Being, Lord? not somewhere hanging in the sky, its\nin your heart. It is in every Beings heart.  Whatever action you do, whatever\nevents happen around you, it does not touch central point of your life. That central core of\nyour life remains a virgin. Jesus is born to a virgin means that Lord is born to this virgin area\ndeep inside you, which is untouched, by any events or happenings in life. Purushavishesha,\nthat special Being is the Lord, & when your external mind is worshipping the core of the\nBeing. It is always, all worship is the mind to its Being. It is like the circumference\ncollapsing into the center. A boundary, a circumference that is outside is collapsing into the\ncenter. When a boundary collapses to the center, what happens? It becomes infinite,\nlimitless. Our little chattering mind, when it prays, it prays to the infinite Being that you are.\nThat is prayer. Do you get it? For that you can say – Ok lord, my lord help. Whomsoever\nyou pray, whatever, wherever you pray and whenever you pray it all reaches me & me alone\nThis is what Krishna says in Gita also, to whomsoever you pray, everything comes to me\nalone because I am the core of the existence. You may worship that, you may worship this,\nyou may worship something else, means what? Wherever you worship, worship is just an\nact of dissolving. A sugar doll, a candy getting into water, which ever point it gets into water,\nit doesn’t matter it is going to mix & become one with the water. Like that the worship is an\nact of dissolving the mind into its Being. & that type of Being when you keep in mind which\nis free from Kalesha, free from Karma, asheya, & Vipaka it’s almost instantaneous,\nimmediately your mind starts dissolving. That’s why there is no difference between God,\nGuru & your Self. It is said, ishwaro guru atma trimurti vibhagini. It is just a matter of words.\nWhatever the master is, it is nothing but the core of your Being. & it is the same as the Divine\nthat rules this entire creation.\"\"\""
+    },
+    {
+      "section": 2,
       "theme": "Memory carries the past forward.",
       "sutra": {
         "number": "1.11",
@@ -22,11 +41,10 @@
       "journalPrompt": "What repeated today?",
       "whatOthersSaid": "",
       "shlokaFrom": "",
-      "wisdomFrom": "",
-      "gurudevInsight": "Anything can change anytime in any manner. The whole world is a field of all probabilities, possibilities, but your mind fixes things & people & ideas & places, everything into definite items, quantities, quantifies them, this is how this is, sets ideas using the proof, or the wrong knowledge or the vikalpa -fantasies or fears or dwelling in the past experiences. [PDF p.12]"
+      "wisdomFrom": ""
     },
     {
-      "section": 2,
+      "section": 3,
       "theme": "The fragmented mind seeks wholeness.",
       "sutra": {
         "number": "1.41",
@@ -42,26 +60,7 @@
       "whatOthersSaid": "",
       "shlokaFrom": "लभन्ते ब्रह्मनिर्वाणमृषयः क्षीणकल्मषाः।छिन्नद्वैधा यतात्मानः सर्वभूतहिते रताः॥",
       "wisdomFrom": "The sages whose sins are destroyed, whose doubts are dispelled, whose minds are disciplined, and who rejoice in the welfare of all beings, attain liberation in Brahman.",
-      "gurudevInsight": "If you do this, you chita, your mind will be pleasant. In that gracious, graceful mind, one pointedness becomes very much easy, very simple, hmm! Practice one thing or devotion to one thing or one aspect. Ok, Even that becomes difficult, he says, there is another sutra. “Prachardanvidharanbhya va pranasya” Breaking the rhythms of the breath, the natural rhythms of the breath & holding the breath, sustaining the breath in different rhythms. If someone asks you, where did Patanjali talked about kriya, Patanjali has not mentioned about Sudarshan kriya directly. [PDF p.40]"
-    },
-    {
-      "section": 3,
-      "theme": "Perceptions colour what we see.",
-      "sutra": {
-        "number": "1.42",
-        "sanskrit": "तत्र शब्दार्थज्ञानविकल्पैः संकीर्णा सवितर्का समापत्तिः",
-        "transliteration": "Sutra 1.42",
-        "meaning": "Mixed perception including words, meaning and content  becomes a special knowledge at this stage called savitarka samadhi. ."
-      },
-      "insight": "This is a very refined state of consciousness.",
-      "reflectionPrompt": "Where do I over-interpret?",
-      "practice": "Notice labeling of situations",
-      "meditation": "10 min stillness",
-      "journalPrompt": "what was my observation",
-      "whatOthersSaid": "",
-      "shlokaFrom": "",
-      "wisdomFrom": "",
-      "gurudevInsight": "Every possible obstacle has been counted, included in these 9 categories. Just few words, very few words, very concisely he has said all that in to be said, that was needed to be said. Along with these nine obstacles, the 5 indications or signs of disturbed mind is mentioned i.e. 1) Dukha: Sadness/Sorrow 2) daurmanasya: Bitterness 3) agmajayatva: Restlessness in the body or lack of coordination in the body and 4) shwasprashwas: Irregular breathing. [PDF p.36]"
+      "gurudevInsight": "\"The consciousness which grabs or which holds and the object which it holds & the senses\nthrough which it holds, all the three are in harmony, that is samadhi. Do you get this point?\nOne who is seeing, the mind, the Self which is seeing, he is in harmony, the senses are in harmony, eyes are the instrument through which you hold the seeing, ears are the instrument\nthrough which you hold the sound. So your ears, sound & from where the sound is coming,\nwhoever is speaking all the three connected, they all become keen & crystal clear. When can\nthat happen? When your mind is not going on your own trip of regret & anger, anticipation,\nsleep, proof, wrong knowledge, fantasy & Memory a five modulations. You know when you\nlook at a mountain, you don’t just look at the mountain oh, this is beautiful mountain.\nImmediately mind says Oh! This is beautiful but then it doesn’t stop there,- this is\nbeautiful. Oh, this is like Canada or like Himalayas,- immediately something is added to it. So\nyou are not seeing things as they are but you are seeing through memory, seeing through\ncomparison. That is no samadhi.\""
     },
     {
       "section": 4,
@@ -79,8 +78,7 @@
       "journalPrompt": "what was my observation",
       "whatOthersSaid": "",
       "shlokaFrom": "",
-      "wisdomFrom": "",
-      "gurudevInsight": "So that person thinks Oh yes, see I am very miserable. You do not help them in any way to wake up to the truth, its nothing; many people are suffering even more. I am not saying you don’t go or you go & tell them that your suffering is nothing, many people are suffering more. But have compassion for people who are suffering & not friendliness. And People who are doing good job, meritorious jobs, who have lots of merits, who are blessed, feel happy with them, become one with them, feel you are doing that job with them. Then the sense of competition disappears, jealousy subsides, finding faults with people who are doing good things will go away. [PDF p.38]"
+      "wisdomFrom": ""
     },
     {
       "section": 5,
@@ -99,7 +97,7 @@
       "whatOthersSaid": "",
       "shlokaFrom": "",
       "wisdomFrom": "",
-      "gurudevInsight": "See, you can see the same Self in everybody but the feelings will not be the same. One does not feel the same with everybody though intellectually you may say its myself only there but you’re feelings, since it is not fully cultured, fully established in the Self, it still has its preferences, its ways. Says - be friendly with those who are happy. If you are friendly with unhappy people what happens? So he says don’t be friendly with unhappy people but be compassionate to them. People who are suffering, have sympathy, compassion for them, but don’t hook on to friendliness because then it drags you down and makes you unhappy. [PDF p.37]"
+      "gurudevInsight": "\"\"\"samadhi where even the feeling of some impression is not there & there is no end to it.\nThere are many different states of awareness, types of samadhi being described. The path is\nlong & every step is complete in itself. It’s not that you are aiming at a goal after some time.\nThe goal is in every moment, yet the path is long. Do you get it? The path is very long yet\nthe goal is at every moment, the goal is at where you are. \nThose who are very enthusiastic, they have no patience. People who have\npatience are very lethargic. They say, ok we will do it, may be next lifetime. Others are\nrestless & they want to do right now. Do you see this? You can see this every step,\neverywhere, you can see every one, either they are on this extreme or that extreme. See, you\ncan have a sleep but you cannot have a quick sleep, hurried sleep in not possible. You cannot say I am in a hurry; I should quickly sleep & go. Ok! Try to quickly sleep. 10 minutes of\nShort rest – quick, hurry. Not possible, do you see that?  same with Meditation. You cannot say, i am going to have quick Meditation, I have\nno time, I want to have quick meditation - not possible.\nSo this path is a middle path, Golden path, where you are enthusiastic, you are in a\nhurry & at the same time you are patient, you are patient & at the same time you are not\nlethargic, you are not postponing things. Often when people have to do something good,\nsomething for their personal development, they say, if God willing I will do it, God willing it\nwill come to me, they leave it to God when it comes to ones practices, development. But if\nyou have to do something in the world, something we have to do, they don’t say God willing\nI will make a house, if God willing I will have a relationship, you don’t do that, you look for\nrelationship, you look for house, you look for job, look for money, for that you put your\n100%. But if you have to do something for your growth, you say, God willing, it will happen.  It should be the other way around. So patience & dynamism, enthusiasm is the golden rule.\"\"\""
     },
     {
       "section": 6,
@@ -122,41 +120,60 @@
     },
     {
       "section": 7,
-      "theme": "Karma and its long shadow.",
+      "theme": "Karma is rooted in suffering.",
       "sutra": {
-        "number": "2.12, 2.13, 2.14",
-        "sanskrit": "क्लेशमूलः कर्माशयो दृष्टादृष्टजन्मवेदनीयः\nसति मूले तद्विपाको जात्यायुर्भोगाः\nते ह्लादपरितापफलाः पुण्यापुण्यहेतुत्वात्",
-        "transliteration": "Sutra 2.12, 2.13, 2.14",
-        "meaning": "Karma is rooted in suffering,it determines life experiences.\nKarma determines if actions bring joy or suffering"
+        "number": "2.12",
+        "sanskrit": "क्लेशमूलः कर्माशयो दृष्टादृष्टजन्मवेदनीयः",
+        "transliteration": "Sutra 2.12",
+        "meaning": "Karma is rooted in suffering"
       },
-      "insight": "Actions leave impressions which accumulate and will be experienced in present and future lives\nPatterns shape life.\nChoices shape experience.",
-      "reflectionPrompt": "What action affected me?\nWhat patterns repeat in my life?",
+      "insight": "Actions leave impressions.",
+      "reflectionPrompt": "What action affected me?",
       "practice": "Observe consequences",
-      "meditation": "meditate 20 min",
+      "meditation": "10 min awareness",
       "journalPrompt": "What did I create?",
       "whatOthersSaid": "",
       "shlokaFrom": "",
       "wisdomFrom": "",
-      "gurudevInsight": "There is a depth in you, a silent corner in you, that is the Seer & that is true – this whole space is so silent, in the silent space the entire activity is happening, every atom is revolving around the nucleus, all the planets are moving around & yet it is all very silent. The purpose of this is kleshatanukarana - to reduce the suffering or misery in life & samadhibhavana - to bring about samadhi, harmony, equanimity in life. What are the root causes of misery in life? “Avidyaasmitaragadweshabhinivesha panchklesha” 1) Ignorance :-Avidya - is root cause of suffering. [PDF p.67]"
+      "gurudevInsight": "He explains about the geneses? How we gain our birth? As long as this root exists, its fruit\ncomes again & again. How they come? jaatiayurbhoga, jaati means, in which body you are\ncoming? Where you are born? You are born as a chicken or a monkey or a human or male a\nfemale? Your birth is determined, length of your life is determined & what you will get in\nlife; your enjoyments or sufferings are also determined. Why someone is born in Ethiopia or\nsomeone else is born is Switzerland? Is there any explanation?\nPatanjali has given sight into this phenomenon. This is usually the question asked. Why so &\nso is born there & so & so is born somewhere else, why so & so is miserable & why so & so\nis innocent & still suffering? It is a big question. No logic can give you any understanding or\nexplanation.\nSays, because of your past Karma jaatiayurbhoga comes to you everyday in different forms.\nHow it comes? See, when a person is dying, his consciousness with the strongest impression at the moment of death,soul gets into that. . So it is said that last days of life aremuch more important then your whole life.  That’s why they name their children in the name of God. There\nis a story about a king,   How do you get rid of this?"
     },
     {
       "section": 8,
-      "theme": "Vigilance keeps the sadhak true.",
+      "theme": "Karma shapes life experience.",
       "sutra": {
-        "number": "2.15",
-        "sanskrit": "परिणामतापसंस्कारदुःखैर्गुणवृत्तिविरोधाच्च दुःखमेव सर्वं विवेकिनः",
-        "transliteration": "Sutra 2.15",
-        "meaning": "An sadhak has the discriminating ability to differentiate between his consciousness and his sensory organs He recognizes the potential for distress which all worldly activities and the resulting impressions pose."
+        "number": "2.13",
+        "sanskrit": "सति मूले तद्विपाको जात्यायुर्भोगाः",
+        "transliteration": "Sutra 2.13",
+        "meaning": "Karma determines life experience"
       },
-      "insight": "A wise person will have to exert to stop impulsive motivations from time to time, It is , ofcourse not possible , at all times, to suppress the urges arising out of his mind and emotions but awareness that they will result in sorrow will serve as a deterence.",
-      "reflectionPrompt": "Am I always aware of the choices I am making. How often do I make impulsive decisions.",
-      "practice": "Stop and weigh every decision as to their long term consequences,",
-      "meditation": "meditate 20 min",
-      "journalPrompt": "Did I make considered decisions today.",
+      "insight": "Patterns shape life.",
+      "reflectionPrompt": "What pattern repeats in my life?",
+      "practice": "Observe patterns and cycles occuring in your life.",
+      "meditation": "10 min stillness",
+      "journalPrompt": "What repeats?",
       "whatOthersSaid": "",
-      "shlokaFrom": "अश्रद्दधानाः पुरुषा धर्मस्यास्य परन्तप।अप्राप्य मां निवर्तन्ते मृत्युसंसारवर्त्मनि॥",
-      "wisdomFrom": "Those who have no faith in this dharma, O Parantapa, without attaining Me, return to the path of this world of death.",
-      "gurudevInsight": "Senseless arguments comes because they are so stuck thinking that is their intellect, their Intellect as themselves, thoughts as themselves, my thought, my position, me, me. Inability to see the Self, & the buddhi or the intellect & the power of the instrument of perception as separate is Asmita. Craving: - Raga, craving: - and craving comes with a pleasant experience. You have a pleasant experience & that creates a craving in you & this craving makes you miserable, this is beautiful. Patanjali has said, there are only 5 sources of misery, there is no 6th source of misery. Ignorance is thinking that which is changing as non-changing. [PDF p.68]"
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "\"\"\"-every event causes some pain. However an event is\npleasant, because an event finishes, ends so the ending of an event however pleasurable,\njoyful has been, comes to you with a little pinch, pain. Greater the joy, greater the pain also,\nisn’t it? Parinaam dukha – Effect of, result of any event leaves you in pain. Paap Dukha –\nLonging for an event, waiting for a pleasurable pleasant event is again pain. Sanskara Dukha\n– The Impressions of it, memories of it memories of pleasure also brings pain. Before you\nwant something, that wanting, that feverishness to achieve what you want is all painful.\nWhen you have it, the fear of losing it is painful, when it is gone; the memory of its joy is\npainful. So the whole thing is all painful. For a viveki, for an intelligent person, for one\nwhose wisdom is awakened, he sees the whole thing, as pain. So there is nothing that is not\npain.\"\"\""
+    },
+    {
+      "section": 9,
+      "theme": "Actions bring joy or sorrow.",
+      "sutra": {
+        "number": "2.14",
+        "sanskrit": "ते ह्लादपरितापफलाः पुण्यापुण्यहेतुत्वात्",
+        "transliteration": "Sutra 2.14",
+        "meaning": "Actions bring joy or suffering"
+      },
+      "insight": "Choices shape experience.",
+      "reflectionPrompt": "What choice affected me?",
+      "practice": "Choose wisely",
+      "meditation": "10 min Reflection",
+      "journalPrompt": "What choices did I make.",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "These impressions when they are good\nimpressions, they bring you more joy, more happiness & if these impressions are not good\nimpressions, they bring you sufferings. It depends on the merit & demerit that you have\ndone. You have done good to people & that good karma accumulates & brings you joy. If\nanybody is happy because they have done something good in the past & if anybody in\nmiserable, they have done something miserable in the past. So here he connects every\nhappiness & every misery to some action of the past, or that is in your karma tank.\nSo Meditation is the way, you are just washing out all that, nothing - you’ll become so light,\nhollow & empty. All the karmas are vanishing & we sing & dance & do all this is to thin\ndown this veil that is on the Self. Hmm. Very precious. Though sometimes you’re sitting\nfeeling bored, never mind, know that you’re just burning some old seeds of boredom. If you\nare averse to boredom, the boredom will never leave you. If you are bored being with\nyourself, how much boring you may be for somebody else. For someone, if it is boring,\nnever mind, it makes him more & more sensitive, know that we are just burning some seeds.\nThis is tapas, penance. Just take a step. Willingly, I am going to do it however boring this\nmay be, I will do it, let me see. \"\"\""
     }
   ]
 }

@@ -1,0 +1,67 @@
+{
+  "id": "shauch",
+  "title": "Shauch",
+  "tagline": "Purity — cleansing body and mind for clarity",
+  "icon": "wind",
+  "description": "Purity — cleansing body and mind for clarity",
+  "totalSections": 3,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Five observances refine inner life.",
+      "sutra": {
+        "number": "2.32",
+        "sanskrit": "शौचसंतोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः",
+        "transliteration": "Sutra 2.32",
+        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life."
+      },
+      "insight": "There is always scope for improvement in following all of these Niyamas",
+      "reflectionPrompt": "Which one needs special attention from me?",
+      "practice": "Focus on one at a time. Which one is particularly challenging for me.",
+      "meditation": "5 min stillness with meditation thereafter",
+      "journalPrompt": "What changes was I inspired to make in my life?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "a) Shaucha b) Santosha c) Tapas d) Swadhaya e) Ishwara Pranidhana are niyamas"
+    },
+    {
+      "section": 2,
+      "theme": "Purity is respect for the body.",
+      "sutra": {
+        "number": "2.40",
+        "sanskrit": "शौचात्स्वाङ्गजुगुप्सा परैरसंसर्गः",
+        "transliteration": "Sutra 2.40",
+        "meaning": "Purity leads to respect for body and mind"
+      },
+      "insight": "Inner cleanliness reflects outward.",
+      "reflectionPrompt": "Negative and unclean thoughts have an impact on how you feel and see yourself.",
+      "practice": "Maintain cleanliness in body and mind.",
+      "meditation": "20 min Reflection",
+      "journalPrompt": "Do I feel clean?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "Personal hygiene, cleanliness, with this your attachment to the physical body is lifted\nup. You become more aware of your inner Self, inner body, light body that you are.\nswagaryajigutsaa craving for physical body, different parts of the body happens in the mind\nbecause one does not totally understand this body. Underneath this skin there is all bones,\nflesh, nerves. Lack of total understanding of the body brings different forms of obsessions &\nmaniacs & those people cannot be satisfied by any thing. Different obsessions take over\nthem & they become violent. That’s why in the world there are many crimes that are related\nto the body happening. People kill each other just for fun. So many crimes of sex happen.\nLack of understanding of ones own body."
+    },
+    {
+      "section": 3,
+      "theme": "A clean mind opens to the infinite.",
+      "sutra": {
+        "number": "2.41",
+        "sanskrit": "स॒त्त्वशु॒द्धिसौ॒मनस्यै॒काग्र्येन्॒द्रियजया॒त्मदर्शनयोग्य॑त्वानि॒ च",
+        "transliteration": "Sutra 2.41",
+        "meaning": "Purification of the psyche results in benevolence, the ability of one pointed attention, control of  sensual energy, awareness of the consciousness and ability of abstract meditation."
+      },
+      "insight": "When the body is cleansed, the mind purified and the senses controlled , joyful awareness required to realize the inner self also comes.",
+      "reflectionPrompt": "Do I maintain hygiene and feel clean?",
+      "practice": "Maintain cleanliness in body and mind.",
+      "meditation": "20 min meditation",
+      "journalPrompt": "Did I make any lifestyle changes.",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "Shaucha-cleanliness establishes what satva should be. The mind becomes satvic, the brain becomes the buddhi, the intellent gets purified, saumnyata - mind becomes even & harmonious, ekagrata - one pointededness, indriyajayatva - say over ones sense organs, atmadarshanyogyavaani - ability to realize one Self comes to you by purity. When you are very unhappy or depressed, for sometime not being in contact with anybody. This is a very natural inbuilt thing in our system, you know. When you feel very unpleasant, depressed, you want to shut away from everybody and just remain with your Self, isn’t it? Non-contact with anyone else can bring certain amount of purity in you. [PDF p.90]"
+    }
+  ]
+}

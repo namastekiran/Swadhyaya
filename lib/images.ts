@@ -59,7 +59,7 @@ export const IMAGES = {
 
   // Gurudev Sri Sri Ravi Shankar
   gurudev: [
-    `${WIKI_T}/8/8d/Sri_Sri_Ravi_Shankar_-_new.jpg/800px-Sri_Sri_Ravi_Shankar_-_new.jpg`,
+    `/gurudev.jpg`,
   ],
 
   // Journal — notebook, writing, morning light

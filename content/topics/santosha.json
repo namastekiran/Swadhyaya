@@ -1,0 +1,67 @@
+{
+  "id": "santosha",
+  "title": "Santosha",
+  "tagline": "Contentment — at peace with what is",
+  "icon": "heart",
+  "description": "Contentment — at peace with what is",
+  "totalSections": 3,
+  "sections": [
+    {
+      "section": 1,
+      "theme": "Five observances refine inner life.",
+      "sutra": {
+        "number": "2.32",
+        "sanskrit": "शौचसंतोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः",
+        "transliteration": "Sutra 2.32",
+        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life."
+      },
+      "insight": "There is always scope for improvement in following all of these Niyamas",
+      "reflectionPrompt": "Which one needs special attention from me?",
+      "practice": "Focus on one at a time. Which one is particularly challenging for me.",
+      "meditation": "5 min stillness with meditation thereafter",
+      "journalPrompt": "What changes was I inspired to make in my life?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "a) Shaucha b) Santosha c) Tapas d) Swadhaya e) Ishwara Pranidhana are niyamas"
+    },
+    {
+      "section": 2,
+      "theme": "Happiness needs no outer cause.",
+      "sutra": {
+        "number": "2.42",
+        "sanskrit": "स॒न्तो॒षादनुत्तमसु॑खला॒भः",
+        "transliteration": "Sutra 2.42",
+        "meaning": "From contentment, the very best in happiness is obtained."
+      },
+      "insight": "Contentment attracts abundance.",
+      "reflectionPrompt": "Did I feel content?",
+      "practice": "Avoid comparison",
+      "meditation": "20 min meditation",
+      "journalPrompt": "What did I have enough of?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "Happiness again is an attitude. If you are used to being unhappy, even in the best of situation you will still grumble and be unhappy. When you are happy, what is happening? When you are smiling, what is happening? There is so much relaxation in the muscles of your face, in the head, and everywhere. There is freedom, there is joy, and there is relaxation.But if you train your muscles and nervous system to being unhappy, then that same thing continues (unhappiness), that is, the knots in your face, the stiffness in your head, and in your body. You remain unhappy irrespective of the situation around you."
+    },
+    {
+      "section": 3,
+      "theme": "A benevolent mind is a content one.",
+      "sutra": {
+        "number": "2.42",
+        "sanskrit": "स॒न्तो॒षादनुत्तमसु॑खला॒भः",
+        "transliteration": "Sutra 2.42",
+        "meaning": "From contentment, and benevolence of consciouness  comes supreme happiness."
+      },
+      "insight": "Contentment attracts abundance.",
+      "reflectionPrompt": "Do I feel content?",
+      "practice": "Smile through the day notwithstanding the events.",
+      "meditation": "20 min meditation",
+      "journalPrompt": "What all could I smile through today?",
+      "whatOthersSaid": "",
+      "shlokaFrom": "",
+      "wisdomFrom": "",
+      "gurudevInsight": "Santosha, happiness, contentment gives great joy. The\ngreatest happiness will come. Just cultivating this attitude of being happy, will in turn not\ngive you misery, its not just a mood making, it isn’t, but brings you greatest, incomparable\nhappiness in life."
+    }
+  ]
+}

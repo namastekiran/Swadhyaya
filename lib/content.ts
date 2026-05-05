@@ -1,6 +1,7 @@
 import { TopicData, TopicSummary } from "./types";
 
 const topicIds = [
+  // Core yoga philosophy
   "self-discipline",
   "intensity",
   "practice",
@@ -9,17 +10,31 @@ const topicIds = [
   "yoga",
   "consciousness",
   "8-limbs",
+  "obstacles-remedy",
+  "who-is-god",
+  // Yama (ethical restraints)
   "yama",
+  "ahimsa",
+  "satya",
+  "asteya",
+  "brahmacharya",
+  "aparigraha",
+  // Niyama (personal observances)
   "niyama",
+  "shauch",
+  "santosha",
+  "tapas",
+  "swadhyaya-niyama",
+  "iswarpranidhana",
+  // Other limbs
   "asana",
   "pranayama",
   "pratyahara",
   "dharana",
-  "dhyana",
+  // Mind & karma
   "attachment",
   "impressions-karma",
   "ignorance-suffering",
-  "samyama",
 ] as const;
 
 let topicCache: Map<string, TopicData> | null = null;
