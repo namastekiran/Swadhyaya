@@ -56,7 +56,7 @@ export function Onboarding() {
 
         <div style={{ position: "relative", zIndex: 1 }}>
           <p style={{ fontSize: 13, color: "rgba(255,255,255,0.65)", textAlign: "center", lineHeight: 1.7, marginBottom: 24 }}>
-            A guided journey through Patanjali&apos;s Yoga Sutras — reflection, practice &amp; deep insights by Gurudev Sri Sri Ravi Shankar, one sutra at a time.
+            Ancient wisdom for the modern seeker — bite-sized sessions through Patanjali&apos;s Yoga Sutras with reflection, micro-practices and journaling to bring timeless teachings into daily life.
           </p>
 
           <p style={{ fontSize: 17, fontWeight: 600, color: "#fff", textAlign: "center", marginBottom: 6 }}>

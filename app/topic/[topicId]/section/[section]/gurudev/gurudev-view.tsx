@@ -1,11 +1,91 @@
 "use client";
 
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
-import { ArrowLeft, Check, Sparkles } from "lucide-react";
+import { ArrowLeft, Check } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import type { SectionData } from "@/lib/types";
 import { IMAGES, pickForTopic } from "@/lib/images";
+
+type Block = { type: "numbered"; num: string; content: string[] } | { type: "para"; content: string[] };
+
+function formatInsight(raw: string) {
+  // Strip wrapping quotes Excel sometimes adds
+  const text = raw.replace(/^["]+|["]+$/g, "").replace(/\r\n/g, "\n").replace(/\r/g, "\n").trim();
+  const lines = text.split("\n").map(l => l.trim()).filter(Boolean);
+
+  // Group lines: numbered items can span multiple lines
+  const blocks: Block[] = [];
+  for (const line of lines) {
+    const numMatch = line.match(/^(\d+)[).]\s+(.*)/);
+    if (numMatch) {
+      blocks.push({ type: "numbered", num: numMatch[1], content: [numMatch[2]] });
+    } else if (blocks.length && blocks[blocks.length - 1].type === "numbered") {
+      blocks[blocks.length - 1].content.push(line);
+    } else if (blocks.length && blocks[blocks.length - 1].type === "para") {
+      blocks[blocks.length - 1].content.push(line);
+    } else {
+      blocks.push({ type: "para", content: [line] });
+    }
+  }
+
+  return blocks.map((block, i) => {
+    if (block.type === "numbered") {
+      const full = block.content.join(" ");
+      const colonIdx = full.indexOf(":");
+      const label = colonIdx > 0 && colonIdx < 50 ? full.slice(0, colonIdx) : null;
+      const rest = label ? full.slice(colonIdx + 1).trim() : full;
+      return (
+        <div key={i} style={{ display: "flex", gap: 10, marginBottom: 14, alignItems: "flex-start" }}>
+          <span style={{ flexShrink: 0, width: 24, height: 24, borderRadius: "50%", background: "#fde8c8", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 11, fontWeight: 700, color: "#b87840", marginTop: 2 }}>
+            {block.num}
+          </span>
+          <p style={{ fontSize: 14, color: "#5a3010", lineHeight: 1.8, flex: 1, margin: 0 }}>
+            {label && <span style={{ fontWeight: 700, color: "#8a4820" }}>{label}: </span>}
+            {rest}
+          </p>
+        </div>
+      );
+    }
+
+    const paraText = block.content.join(" ");
+
+    // Detect inline list: "(1) Word (2) Word ..."
+    const inlineMatches = [...paraText.matchAll(/\((\d+)\)\s+([^(]+)/g)];
+    if (inlineMatches.length >= 3) {
+      const before = paraText.slice(0, inlineMatches[0].index!).trim();
+      return (
+        <div key={i} style={{ marginBottom: 14 }}>
+          {before && <p style={{ fontSize: 14, color: "#5a3010", lineHeight: 1.8, marginBottom: 10 }}>{before}</p>}
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+            {inlineMatches.map(m => (
+              <span key={m[1]} style={{ display: "inline-flex", alignItems: "center", gap: 5, background: "#fdf0e0", border: "1px solid #f0d8b8", borderRadius: 20, padding: "3px 10px 3px 4px", fontSize: 12 }}>
+                <span style={{ width: 18, height: 18, borderRadius: "50%", background: "#fde8c8", display: "inline-flex", alignItems: "center", justifyContent: "center", fontSize: 10, fontWeight: 700, color: "#b87840" }}>{m[1]}</span>
+                <span style={{ color: "#5a3010" }}>{m[2].trim()}</span>
+              </span>
+            ))}
+          </div>
+        </div>
+      );
+    }
+
+    // "Term: explanation" highlight
+    const colonMatch = paraText.match(/^([^:]{2,40}):\s+(.+)/s);
+    if (colonMatch) {
+      return (
+        <p key={i} style={{ fontSize: 14, color: "#5a3010", lineHeight: 1.8, marginBottom: 10 }}>
+          <span style={{ fontWeight: 700, color: "#8a4820" }}>{colonMatch[1]}:</span>{" "}{colonMatch[2]}
+        </p>
+      );
+    }
+
+    return (
+      <p key={i} style={{ fontSize: 14, color: "#5a3010", lineHeight: 1.8, marginBottom: 10 }}>
+        {paraText}
+      </p>
+    );
+  });
+}
 
 export function GurudevView({ topicId, section }: { topicId: string; section: SectionData }) {
   const completeStep = useAppStore((s) => s.completeStep);
@@ -62,7 +142,6 @@ export function GurudevView({ topicId, section }: { topicId: string; section: Se
             <p style={{ fontSize: 15, fontWeight: 600, color: "#fff", textShadow: "0 1px 8px rgba(0,0,0,0.5)" }}>
               Gurudev Sri Sri Ravi Shankar
             </p>
-            <p style={{ fontSize: 11, color: "rgba(255,255,255,0.75)" }}>Patanjali Yoga Sutras</p>
           </div>
           {/* Fade into card background */}
           <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: 40,
@@ -82,23 +161,10 @@ export function GurudevView({ topicId, section }: { topicId: string; section: Se
               marginBottom: 20,
             }}
           >
-            <div className="flex items-center gap-2 mb-3">
-              <div
-                className="flex items-center justify-center flex-shrink-0"
-                style={{ width: 32, height: 32, borderRadius: 10, background: "#fde8c8" }}
-              >
-                <Sparkles style={{ width: 15, height: 15, color: "#b87840" }} />
-              </div>
-              <p style={{ fontSize: 11, fontWeight: 600, color: "#b87840", letterSpacing: "0.06em" }}>
-                Gurudev Sri Sri Ravi Shankar
-              </p>
-            </div>
             <p style={{ fontSize: 9, fontWeight: 500, color: "#8a6030", letterSpacing: "0.08em", marginBottom: 12 }}>
               COMMENTARY ON SUTRA {section.sutra.number}
             </p>
-            <p style={{ fontSize: 14, color: "#5a3010", lineHeight: 1.8 }}>
-              {insight}
-            </p>
+            <div>{formatInsight(insight)}</div>
             {pageNum && (
               <p style={{ fontSize: 10, color: "#8a6030", marginTop: 12, textAlign: "right" }}>
                 — Patanjali Yoga Sutras, p.{pageNum}
