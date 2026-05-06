@@ -160,13 +160,14 @@ export const useAppStore = create<AppState>()(
       },
 
       setProfile: (name, intention) => {
-        set({
+        set((state) => ({
           profile: {
             name: name.trim(),
             intention: intention.trim(),
             createdAt: new Date().toISOString(),
           },
-        });
+          authMode: state.authMode === "unknown" ? "guest" : state.authMode,
+        }));
       },
 
       initDevice: () => {
@@ -390,7 +391,7 @@ export const useAppStore = create<AppState>()(
         profile: state.profile,
         topics: state.topics,
         answers: state.answers,
-        authMode: state.authMode, // Persist auth mode so guest stays guest
+        authMode: state.authMode,
       }),
     }
   )

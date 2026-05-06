@@ -61,7 +61,7 @@ export function TopicCard({ topic, index }: { topic: TopicSummary; index: number
     : 0;
 
   return (
-    <Link href={`/topic/${topic.id}`} className="block h-full">
+    <Link href={`/topic/${topic.id}/preview`} className="block h-full">
       <div style={{
         position: "relative",
         height: "100%",

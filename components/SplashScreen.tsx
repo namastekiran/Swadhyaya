@@ -1,70 +1,37 @@
 "use client";
 
-import { useEffect, useState } from "react";
-
-const BG_IMAGE =
-  "https://images.unsplash.com/photo-1571766700642-7b5e4e007a19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920";
-
-function ImageWithFallback({ src, alt }: { src: string; alt: string }) {
-  const [errored, setErrored] = useState(false);
-  if (errored) return null;
-  return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
-      src={src}
-      alt={alt}
-      onError={() => setErrored(true)}
-      style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
-    />
-  );
-}
+import { useEffect, useRef, useState } from "react";
 
 export function SplashScreen({ onDone }: { onDone: () => void }) {
   const [fading, setFading] = useState(false);
   const [pulse, setPulse] = useState(false);
+  const onDoneRef = useRef(onDone);
 
   useEffect(() => {
-    // Start title pulse after a short delay
     const pulseTimer = setTimeout(() => setPulse(true), 300);
     const fadeTimer = setTimeout(() => setFading(true), 2200);
-    const doneTimer = setTimeout(() => onDone(), 2800);
+    const doneTimer = setTimeout(() => onDoneRef.current(), 2800);
     return () => {
       clearTimeout(pulseTimer);
       clearTimeout(fadeTimer);
       clearTimeout(doneTimer);
     };
-  }, [onDone]);
-
-  function handleTap() {
-    setFading(true);
-    setTimeout(onDone, 500);
-  }
+  }, []);
 
   return (
     <div
-      onClick={handleTap}
       style={{
         position: "fixed",
         inset: 0,
         zIndex: 9999,
-        cursor: "pointer",
         opacity: fading ? 0 : 1,
         transition: "opacity 0.6s ease",
         background: "#1a0a2e",
       }}
     >
-      {/* Background image */}
-      <ImageWithFallback src={BG_IMAGE} alt="Swadhyaya" />
-
-      {/* Purple gradient overlay */}
-      <div
-        style={{
-          position: "absolute",
-          inset: 0,
-          background:
-            "linear-gradient(170deg, rgba(88,28,135,0.40) 0%, rgba(88,28,135,0.30) 50%, rgba(88,28,135,0.50) 100%)",
-        }}
-      />
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src="/splash.jpg" alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }} />
+      <div style={{ position: "absolute", inset: 0, background: "linear-gradient(160deg, rgba(60,30,10,0.30) 0%, rgba(20,10,40,0.55) 100%)" }} />
 
       {/* Text content */}
       <div

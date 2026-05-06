@@ -101,12 +101,14 @@ function SessionComplete({
   const [nextTheme, setNextTheme] = useState("");
   const [nextSutra, setNextSutra] = useState("");
   const [showSteps, setShowSteps] = useState(false);
+  const [headerImg, setHeaderImg] = useState(IMAGES.sessionComplete[0]);
 
   const isLast = section.section >= totalSections;
   const nextNum = section.section + 1;
 
   useEffect(() => {
     completeAndNext(topicId, section.section, totalSections);
+    setHeaderImg(pickRandom(IMAGES.sessionComplete));
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -133,7 +135,7 @@ function SessionComplete({
     <div className="pb-20 -mx-6">
       <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
-        <ImageHeader imageUrl={pickRandom(IMAGES.sessionComplete)} overlay="linear-gradient(160deg,rgba(60,30,110,0.42) 0%,rgba(40,18,80,0.70) 100%)" height={110} padding="22px 20px 24px">
+        <ImageHeader imageUrl={headerImg} overlay="linear-gradient(160deg,rgba(60,30,110,0.42) 0%,rgba(40,18,80,0.70) 100%)" height={110} padding="22px 20px 24px">
           <div className="flex items-center gap-3 mb-1">
             <Link
               href={`/topic/${topicId}`}

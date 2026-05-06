@@ -67,6 +67,7 @@ export function ReturningHome({ topics, onViewAll }: Props) {
 
   const [sectionTheme, setSectionTheme] = useState("");
   const [sutraNumber, setSutraNumber] = useState("");
+  const [greeting, setGreeting] = useState("");
 
   const firstName = profile?.name.split(" ")[0] ?? "";
   const initial = firstName[0]?.toUpperCase() ?? "?";
@@ -80,6 +81,8 @@ export function ReturningHome({ topics, onViewAll }: Props) {
   const lastActiveTopic = lastActive ? topics.find((t) => t.id === lastActive.topicId) : null;
   const topicCompleted = lastActive ? (topicsProgress[lastActive.topicId]?.completedSections.length ?? 0) : 0;
   const topicTotal = lastActiveTopic?.totalSections ?? 0;
+
+  useEffect(() => { setGreeting(getGreeting()); }, []);
 
   useEffect(() => {
     if (!lastActive) return;
@@ -107,7 +110,7 @@ export function ReturningHome({ topics, onViewAll }: Props) {
           <div className="flex items-center justify-between mb-5">
             <div>
               <p style={{ fontSize: 12, color: "#7a6898", marginBottom: 4 }}>
-                {getGreeting()} 🙏
+                {greeting} 🙏
               </p>
               <h1 style={{ fontSize: 22, fontWeight: 500, color: "#3d2f5e", lineHeight: 1.2 }}>
                 Namaste, {firstName}

@@ -105,8 +105,10 @@ function SessionCard({
 // ── Journey Complete screen ────────────────────────────────────────────────
 function JourneyComplete({ topic, answers }: { topic: TopicData; answers: Record<string, { completedSteps?: string[]; updatedAt?: string }> }) {
   const [nextTopics, setNextTopics] = useState<TopicSummary[]>([]);
+  const [headerImg, setHeaderImg] = useState(IMAGES.sessionComplete[0]);
 
   useEffect(() => {
+    setHeaderImg(pickRandom(IMAGES.sessionComplete));
     fetch("/api/topics")
       .then((r) => r.json())
       .then((data: TopicSummary[]) => {
@@ -132,7 +134,7 @@ function JourneyComplete({ topic, answers }: { topic: TopicData; answers: Record
     <div className="pb-20 -mx-6">
       <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
-        <ImageHeader imageUrl={pickRandom(IMAGES.sessionComplete)} overlay="linear-gradient(160deg,rgba(60,30,110,0.45) 0%,rgba(40,18,80,0.78) 100%)" height={150} padding="22px 22px 20px">
+        <ImageHeader imageUrl={headerImg} overlay="linear-gradient(160deg,rgba(60,30,110,0.45) 0%,rgba(40,18,80,0.78) 100%)" height={150} padding="22px 22px 20px">
           <div className="flex items-center gap-3 mb-3">
             <Link href="/" className="flex items-center justify-center flex-shrink-0"
               style={{ width: 30, height: 30, borderRadius: "50%", background: "rgba(255,255,255,0.25)" }}>
@@ -251,12 +253,13 @@ function JourneyComplete({ topic, answers }: { topic: TopicData; answers: Record
 // ── Normal journey list ────────────────────────────────────────────────────
 export function JourneyList({ topic }: { topic: TopicData }) {
   const [mounted, setMounted] = useState(false);
+  const [listHeaderImg, setListHeaderImg] = useState(IMAGES.journeyList[0]);
   const getSectionStatus = useAppStore((s) => s.getSectionStatus);
   const getTopicProgress = useAppStore((s) => s.getTopicProgress);
   const completeAndNext = useAppStore((s) => s.completeAndNext);
   const answers = useAppStore((s) => s.answers);
 
-  useEffect(() => { setMounted(true); }, []);
+  useEffect(() => { setMounted(true); setListHeaderImg(pickRandom(IMAGES.journeyList)); }, []);
 
   // Self-heal: call completeAndNext for any section whose steps are all done
   // but isn't yet in completedSections (handles stale data from old app versions)
@@ -289,7 +292,7 @@ export function JourneyList({ topic }: { topic: TopicData }) {
     <div className="pb-20 -mx-6">
       <div className="mx-4 rounded-[28px] overflow-hidden shadow-[0_4px_24px_rgba(180,160,210,0.13)]" style={{ background: "#f8f4ff" }}>
 
-        <ImageHeader imageUrl={pickRandom(IMAGES.journeyList)} overlay="linear-gradient(160deg,rgba(60,30,110,0.50) 0%,rgba(40,18,80,0.80) 100%)" height={150} padding="22px 22px 20px">
+        <ImageHeader imageUrl={listHeaderImg} overlay="linear-gradient(160deg,rgba(60,30,110,0.50) 0%,rgba(40,18,80,0.80) 100%)" height={150} padding="22px 22px 20px">
           <div className="flex items-center gap-3 mb-4">
             <Link href="/" className="flex items-center justify-center flex-shrink-0"
               style={{ width: 30, height: 30, borderRadius: "50%", background: "rgba(255,255,255,0.25)" }}>

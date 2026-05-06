@@ -10,9 +10,11 @@ import { useAppStore } from "@/lib/store";
 import type { TopicSummary } from "@/lib/types";
 import { IMAGES } from "@/lib/images";
 
+let splashShown = false;
+
 export function HomeContent({ topics }: { topics: TopicSummary[] }) {
   const [mounted, setMounted] = useState(false);
-  const [splashDone, setSplashDone] = useState(false);
+  const [splashDone, setSplashDone] = useState(splashShown);
   const [showAll, setShowAll] = useState(false);
   const [category, setCategory] = useState("All journeys");
   const profile = useAppStore((s) => s.profile);
@@ -24,7 +26,7 @@ export function HomeContent({ topics }: { topics: TopicSummary[] }) {
   const hasJourney = Object.keys(topicsProgress).length > 0 || Object.keys(answers).length > 0;
 
   if (!mounted) return null;
-  if (!splashDone) return <SplashScreen onDone={() => setSplashDone(true)} />;
+  if (!splashDone) return <SplashScreen onDone={() => { splashShown = true; setSplashDone(true); }} />;
   if (!profile) return <Onboarding />;
   if (hasJourney && !showAll) return <ReturningHome topics={topics} onViewAll={() => setShowAll(true)} />;
 
