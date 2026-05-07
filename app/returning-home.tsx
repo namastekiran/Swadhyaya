@@ -19,13 +19,20 @@ function calcStreak(answers: Record<string, { updatedAt?: string }>): number {
     if (val.updatedAt) dates.add(val.updatedAt.slice(0, 10));
   }
   if (dates.size === 0) return 0;
-  let streak = 0;
   const today = new Date();
+  const todayStr = today.toISOString().slice(0, 10);
+  const yesterday = new Date(today);
+  yesterday.setDate(today.getDate() - 1);
+  const yesterdayStr = yesterday.toISOString().slice(0, 10);
+  // Start from today if active today, otherwise give grace and start from yesterday
+  const startFrom = dates.has(todayStr) ? today : dates.has(yesterdayStr) ? yesterday : null;
+  if (!startFrom) return 0;
+  let streak = 0;
   for (let i = 0; i < 365; i++) {
-    const d = new Date(today);
+    const d = new Date(startFrom);
     d.setDate(d.getDate() - i);
     if (dates.has(d.toISOString().slice(0, 10))) streak++;
-    else if (i > 0) break;
+    else break;
   }
   return streak;
 }
@@ -64,7 +71,11 @@ export function ReturningHome({ topics, onViewAll }: Props) {
   const initial = firstName[0]?.toUpperCase() ?? "?";
 
   const streak = calcStreak(answers);
-  const totalSections = topics.reduce((sum, t) => sum + t.totalSections, 0);
+  const startedTopics = topics.filter((t) =>
+    Object.keys(answers).some((k) => k.startsWith(`${t.id}::`)) ||
+    (topicsProgress[t.id] && topicsProgress[t.id].completedSections.length > 0)
+  );
+  const totalSections = startedTopics.reduce((sum, t) => sum + t.totalSections, 0);
   const completedSections = Object.values(topicsProgress).reduce((sum, p) => sum + p.completedSections.length, 0);
   const progressPct = totalSections > 0 ? Math.round((completedSections / totalSections) * 100) : 0;
 
