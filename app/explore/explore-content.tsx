@@ -106,17 +106,16 @@ export function ExploreContent({ topics }: { topics: TopicSummary[] }) {
             )}
           </div>
 
-          {/* Category pills — horizontal scroll */}
+          {/* Category pills — wrapping */}
           {searchResults === null && (
-            <div style={{ display: "flex", gap: 8, overflowX: "auto", paddingBottom: 4 }}
-              className="hide-scrollbar">
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
               {categories.map((cat) => (
                 <button
                   key={cat}
                   onClick={() => setCategory(cat)}
                   style={{
                     padding: "6px 14px", borderRadius: 20, fontSize: 12, fontWeight: 500,
-                    border: "1.5px solid", flexShrink: 0, cursor: "pointer",
+                    border: "1.5px solid", cursor: "pointer",
                     background: category === cat ? "#7c4fc4" : "rgba(255,255,255,0.7)",
                     borderColor: category === cat ? "#7c4fc4" : "#d8ccf0",
                     color: category === cat ? "#fff" : "#6a4a98",
