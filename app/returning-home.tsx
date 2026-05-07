@@ -66,10 +66,9 @@ interface ActiveJourney {
 
 interface Props {
   topics: TopicSummary[];
-  onViewAll: () => void;
 }
 
-export function ReturningHome({ topics, onViewAll }: Props) {
+export function ReturningHome({ topics }: Props) {
   const profile = useAppStore((s) => s.profile);
   const topicsProgress = useAppStore((s) => s.topics);
   const answers = useAppStore((s) => s.answers);
@@ -195,10 +194,10 @@ export function ReturningHome({ topics, onViewAll }: Props) {
               <p style={{ fontSize: 13, color: "rgba(255,255,255,0.8)", marginBottom: 12 }}>
                 {completedJourneys.length > 0 ? "All your journeys are complete 🎉" : "You haven't started a journey yet."}
               </p>
-              <button onClick={onViewAll}
-                style={{ background: "rgba(255,255,255,0.18)", borderRadius: 10, padding: "10px 18px", fontSize: 13, fontWeight: 500, color: "#fff", border: "none", cursor: "pointer" }}>
+              <Link href="/journeys"
+                style={{ display: "inline-block", background: "rgba(255,255,255,0.18)", borderRadius: 10, padding: "10px 18px", fontSize: 13, fontWeight: 500, color: "#fff", textDecoration: "none" }}>
                 Explore journeys →
-              </button>
+              </Link>
             </div>
           )}
 
@@ -219,12 +218,12 @@ export function ReturningHome({ topics, onViewAll }: Props) {
             </div>
           )}
 
-          <button onClick={onViewAll}
+          <Link href="/journeys"
             className="w-full flex items-center justify-center gap-2"
-            style={{ background: "linear-gradient(135deg,#a389d4,#c9a8e0)", borderRadius: 12, padding: "11px 16px", border: "none", cursor: "pointer" }}>
+            style={{ background: "linear-gradient(135deg,#a389d4,#c9a8e0)", borderRadius: 12, padding: "11px 16px", textDecoration: "none" }}>
             <span style={{ fontSize: 13, fontWeight: 500, color: "#fff" }}>Explore all journeys</span>
             <ArrowRight style={{ width: 13, height: 13, color: "#fff" }} />
-          </button>
+          </Link>
         </div>
       </div>
     </div>

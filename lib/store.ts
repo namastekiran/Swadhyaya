@@ -8,6 +8,7 @@ import {
   upsertSectionAnswers,
   fetchAllProgress,
   fetchAllAnswers,
+  logJourneyEvent,
 } from "./supabase/db";
 import { createClient } from "./supabase/client";
 
@@ -260,6 +261,7 @@ export const useAppStore = create<AppState>()(
           set((state) => {
             const key = answersKey(topicId, section);
             const prev = state.answers[key] ?? { ...DEFAULT_ANSWERS };
+            const isFirstStep = prev.completedSteps.length === 0 && !state.topics[topicId];
             const steps = new Set(prev.completedSteps);
             steps.add(step);
             const updated = {
@@ -268,6 +270,7 @@ export const useAppStore = create<AppState>()(
               updatedAt: new Date().toISOString(),
             };
             syncAnswersToDb(state.deviceId, topicId, section, updated);
+            if (isFirstStep) logJourneyEvent("journey_started", topicId, state.deviceId, section);
             return { answers: { ...state.answers, [key]: updated } };
           });
         });
@@ -379,6 +382,7 @@ export const useAppStore = create<AppState>()(
               completedSections: Array.from(completed).sort((a, b) => a - b),
             };
             syncProgressToDb(state.deviceId, topicId, updated);
+            logJourneyEvent("session_completed", topicId, state.deviceId, section);
             return { topics: { ...state.topics, [topicId]: updated } };
           });
         });

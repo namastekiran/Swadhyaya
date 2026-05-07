@@ -67,6 +67,46 @@ export async function fetchAllAnswers(deviceId: string) {
   return answers;
 }
 
+export async function logJourneyEvent(
+  event: "journey_started" | "session_completed",
+  topicId: string,
+  deviceId: string,
+  sectionNum?: number
+) {
+  try {
+    const supabase = createClient();
+    await supabase.from("journey_events").insert({
+      event,
+      topic_id: topicId,
+      device_id: deviceId,
+      section_num: sectionNum ?? null,
+      searched_at: new Date().toISOString(),
+    });
+  } catch {
+    // Fire-and-forget
+  }
+}
+
+export async function logSearch(
+  query: string,
+  matchedIds: string[],
+  source: "local" | "ai" | "none",
+  deviceId?: string
+) {
+  try {
+    const supabase = createClient();
+    await supabase.from("search_logs").insert({
+      query: query.trim().toLowerCase(),
+      matched_ids: matchedIds,
+      source,
+      device_id: deviceId ?? null,
+      searched_at: new Date().toISOString(),
+    });
+  } catch {
+    // Fire-and-forget — never block the user
+  }
+}
+
 export async function upsertProgress(
   deviceId: string,
   topicId: string,
