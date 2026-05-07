@@ -47,6 +47,15 @@ function lastActivityForTopic(topicId: string, answers: Record<string, { updated
   return latest;
 }
 
+const CARD_GRADIENTS = [
+  "linear-gradient(135deg,#6a4aaa 0%,#9a78d0 100%)",  // deep lavender
+  "linear-gradient(135deg,#3a6e78 0%,#5aA0aa 100%)",  // muted teal
+  "linear-gradient(135deg,#7a4a88 0%,#aa78b8 100%)",  // plum
+  "linear-gradient(135deg,#4a5a98 0%,#7888c8 100%)",  // periwinkle
+  "linear-gradient(135deg,#885878 0%,#b888a8 100%)",  // mauve
+  "linear-gradient(135deg,#4a7868 0%,#78a898 100%)",  // sage
+];
+
 interface ActiveJourney {
   topic: TopicSummary;
   currentSection: number;
@@ -126,7 +135,7 @@ export function ReturningHome({ topics, onViewAll }: Props) {
             {[
               { value: String(streak), label: "day streak 🔥", color: "#d4600a" },
               { value: `${progressPct}%`, label: "progress", color: "#6030c0" },
-              { value: String(activeJourneys.length), label: "ongoing", color: "#1a8a60" },
+              { value: String(activeJourneys.length), label: "journeys", color: "#1a8a60" },
             ].map(({ value, label, color }) => (
               <div key={label} className="text-center"
                 style={{ background: "rgba(255,255,255,0.7)", borderRadius: 14, padding: "10px 8px" }}>
@@ -146,9 +155,9 @@ export function ReturningHome({ topics, onViewAll }: Props) {
                 ONGOING JOURNEYS
               </p>
               <div style={{ display: "flex", flexDirection: "column", gap: 10, marginBottom: 16 }}>
-                {activeJourneys.map((j) => (
+                {activeJourneys.map((j, idx) => (
                   <div key={j.topic.id}
-                    style={{ background: "linear-gradient(135deg,#a389d4 0%,#c9a8e0 100%)", borderRadius: 18, padding: "16px 18px" }}>
+                    style={{ background: CARD_GRADIENTS[idx % CARD_GRADIENTS.length], borderRadius: 18, padding: "16px 18px" }}>
                     <div className="flex items-center justify-between" style={{ marginBottom: 10 }}>
                       <div style={{ flex: 1, minWidth: 0 }}>
                         <p style={{ fontSize: 9, color: "rgba(255,255,255,0.65)", letterSpacing: "0.07em", marginBottom: 3 }}>

@@ -47,6 +47,7 @@ const FALLBACK_STYLE = { icon: "#a389d4", bg: "#ede8f8" };
 export function TopicCard({ topic, index }: { topic: TopicSummary; index: number }) {
   const [mounted, setMounted] = useState(false);
   const getTopicProgress = useAppStore((s) => s.getTopicProgress);
+  const answers = useAppStore((s) => s.answers);
 
   useEffect(() => { setMounted(true); }, []);
 
@@ -54,7 +55,8 @@ export function TopicCard({ topic, index }: { topic: TopicSummary; index: number
   const Icon = ICON_MAP[topic.icon] ?? Flame;
   const { icon: iconColor, bg: iconBg } = ICON_STYLES[topic.icon] ?? FALLBACK_STYLE;
 
-  const hasStarted = progress.completedSections.length > 0;
+  const hasAnswers = mounted && Object.keys(answers).some((k) => k.startsWith(`${topic.id}::`));
+  const hasStarted = progress.completedSections.length > 0 || hasAnswers;
   const isComplete = progress.completedSections.length >= topic.totalSections;
   const progressPercent = topic.totalSections > 0
     ? (progress.completedSections.length / topic.totalSections) * 100
