@@ -4,6 +4,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { AuthProvider } from "@/components/AuthProvider";
 import { LoginModal } from "@/components/LoginModal";
 import { GuestBanner } from "@/components/GuestBanner";
+import { BottomNav } from "@/components/BottomNav";
 import "./globals.css";
 
 const inter = Inter({
@@ -34,13 +35,14 @@ export default function RootLayout({
       className={`${inter.variable} ${devanagari.variable} h-full antialiased`}
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col bg-background text-foreground font-sans">
+      <body className="min-h-full flex flex-col bg-background text-foreground font-sans" suppressHydrationWarning>
         <AuthProvider>
           <GuestBanner />
           <main className="flex-1 mx-auto w-full max-w-md px-6 py-8 sm:max-w-lg">
             {children}
           </main>
           <LoginModal />
+          <BottomNav />
         </AuthProvider>
         <Toaster position="bottom-center" />
       </body>

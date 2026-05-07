@@ -201,6 +201,14 @@ export function ReflectionView({ topicId, section }: { topicId: string; section:
               <Check style={{ width: 14, height: 14, color: text.trim() ? "#fff" : "#c8a0a8" }} />
             </button>
           )}
+
+          <Link
+            href={backPath}
+            className="w-full flex items-center justify-center"
+            style={{ marginTop: 10, padding: "13px 20px" }}
+          >
+            <span style={{ fontSize: 13, color: "#a08090" }}>Skip for now</span>
+          </Link>
         </div>
       </div>
     </div>

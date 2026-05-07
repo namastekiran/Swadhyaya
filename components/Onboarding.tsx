@@ -66,34 +66,36 @@ export function Onboarding() {
             Ancient wisdom unfolds as a personal conversation. Tell us your name to begin.
           </p>
 
-          <input
-            type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && handleStart()}
-            placeholder="Your first name"
-            autoFocus
-            style={{
-              width: "100%", background: "rgba(255,255,255,0.10)", border: "1.5px solid rgba(255,255,255,0.22)",
-              borderRadius: 18, padding: "15px 20px", fontSize: 16, fontWeight: 500, textAlign: "center",
-              color: "#fff", outline: "none", marginBottom: 12, boxSizing: "border-box",
-            }}
-          />
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
+            <input
+              type="text"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              onKeyDown={(e) => e.key === "Enter" && handleStart()}
+              placeholder="Your first name"
+              autoFocus
+              style={{
+                width: 220, background: "rgba(255,255,255,0.10)", border: "1.5px solid rgba(255,255,255,0.22)",
+                borderRadius: 12, padding: "10px 16px", fontSize: 14, fontWeight: 400, textAlign: "center",
+                color: "#fff", outline: "none", boxSizing: "border-box",
+              }}
+            />
 
-          <button
-            onClick={handleStart}
-            disabled={!name.trim()}
-            style={{
-              width: "100%", height: 54, fontSize: 16, fontWeight: 700, borderRadius: 18, border: "none",
-              background: name.trim() ? "linear-gradient(135deg, #a389d4, #7c4fc4)" : "rgba(255,255,255,0.12)",
-              color: name.trim() ? "#fff" : "rgba(255,255,255,0.35)",
-              cursor: name.trim() ? "pointer" : "not-allowed",
-              display: "flex", alignItems: "center", justifyContent: "center", gap: 8, transition: "background 0.2s",
-            }}
-          >
-            <span>Start Your Journey</span>
-            <ArrowRight style={{ width: 18, height: 18 }} />
-          </button>
+            <button
+              onClick={handleStart}
+              disabled={!name.trim()}
+              style={{
+                width: 200, height: 42, fontSize: 14, fontWeight: 600, borderRadius: 12, border: "none",
+                background: name.trim() ? "linear-gradient(135deg, #a389d4, #7c4fc4)" : "rgba(255,255,255,0.12)",
+                color: name.trim() ? "#fff" : "rgba(255,255,255,0.35)",
+                cursor: name.trim() ? "pointer" : "not-allowed",
+                display: "flex", alignItems: "center", justifyContent: "center", gap: 7, transition: "background 0.2s",
+              }}
+            >
+              <span>Start Your Journey</span>
+              <ArrowRight style={{ width: 15, height: 15 }} />
+            </button>
+          </div>
         </div>
       </div>
     </div>

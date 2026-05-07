@@ -70,7 +70,7 @@ function formatInsight(raw: string) {
     }
 
     // "Term: explanation" highlight
-    const colonMatch = paraText.match(/^([^:]{2,40}):\s+(.+)/s);
+    const colonMatch = paraText.match(/^([^:]{2,40}):\s+([\s\S]+)/);
     if (colonMatch) {
       return (
         <p key={i} style={{ fontSize: 14, color: "#5a3010", lineHeight: 1.8, marginBottom: 10 }}>
