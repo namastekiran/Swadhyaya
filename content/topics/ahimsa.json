@@ -12,8 +12,10 @@
       "sutra": {
         "number": "2.30",
         "sanskrit": "अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहा यमाः",
-        "transliteration": "Sutra 2.30",
-        "meaning": "Ahimsa (non-violence/non-injury), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (right use of energy/continence), and Aparigraha (non-possessiveness/non-greed) are the five Yamas (restraints or social codes)"
+        "transliteration": "ahiṁsā-satya-asteya-brahmacarya-aparigrahāḥ yamāḥ",
+        "meaning": "Ahimsa (non-violence/non-injury), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (right use of energy/continence), and Aparigraha (non-possessiveness/non-greed) are the five Yamas (restraints or social codes)",
+        "padaVibhaga": "ahiṁsā | satya | asteya | brahmacarya | aparigrahāḥ | yamāḥ",
+        "wordMeanings": "ahiṁsā = non-violence; satya = truthfulness; asteya = non-stealing; brahmacarya = continence; aparigrahāḥ = non-possessiveness; yamāḥ = restraints"
       },
       "insight": "non-violence,truth, non-stealing,moderation,non-possessiveness are universal values.",
       "reflectionPrompt": "Did I live these today? Which can I work on? Which is difficult for me?",
@@ -31,8 +33,10 @@
       "sutra": {
         "number": "2.35",
         "sanskrit": "अहिंसाप्रतिष्ठायां तत्सन्निधौ वैरत्यागः",
-        "transliteration": "Sutra 2.35",
-        "meaning": "The first of the yamas is ahimsa or non-violence which unites you with the whole creation. A practice of yoga, of realising that everything is a part of you is ahimsa."
+        "transliteration": "ahiṁsā-pratiṣṭhāyāṁ tat-sannidhau vaira-tyāgaḥ",
+        "meaning": "The first of the yamas is ahimsa or non-violence which unites you with the whole creation. A practice of yoga, of realising that everything is a part of you is ahimsa.",
+        "padaVibhaga": "ahiṁsā | pratiṣṭhāyām | tat | sannidhau | vaira | tyāgaḥ",
+        "wordMeanings": "ahiṁsā = non-violence; pratiṣṭhāyām = when established; tat = that; sannidhau = in presence; vaira = enmity; tyāgaḥ = abandonment"
       },
       "insight": "Non-violence creates peace around you",
       "reflectionPrompt": "I need to observe my food habits and see if it is causing violence to a fellow creature.",
@@ -50,8 +54,10 @@
       "sutra": {
         "number": "2.35",
         "sanskrit": "अहिंसाप्रतिष्ठायां तत्सन्निधौ वैरत्यागः",
-        "transliteration": "Sutra 2.35",
-        "meaning": "A practice of yoga, of realising that everything is a part of you is ahimsa."
+        "transliteration": "ahiṁsā-pratiṣṭhāyāṁ tat-sannidhau vaira-tyāgaḥ",
+        "meaning": "A practice of yoga, of realising that everything is a part of you is ahimsa.",
+        "padaVibhaga": "ahiṁsā | pratiṣṭhāyām | tat | sannidhau | vaira | tyāgaḥ",
+        "wordMeanings": "ahiṁsā = non-violence; pratiṣṭhāyām = when established; tat = that; sannidhau = in presence; vaira = enmity; tyāgaḥ = abandonment"
       },
       "insight": "Violence is committed not just physically. 'When non-violence in speech, thought and action is established, one's aggressive nature is relinquished and others abandon hostility in one's presence.'",
       "reflectionPrompt": "I need to watch my speech and my thoughts to see if they are violent or cause violence.",
@@ -69,8 +75,10 @@
       "sutra": {
         "number": "2.35",
         "sanskrit": "अहिंसाप्रतिष्ठायां तत्सन्निधौ वैरत्यागः",
-        "transliteration": "Sutra 2.35",
-        "meaning": "The first of the yamas is ahimsa or non-violence which unites you with the whole creation. A practice of yoga, of realising that everything is a part of you is ahimsa."
+        "transliteration": "ahiṁsā-pratiṣṭhāyāṁ tat-sannidhau vaira-tyāgaḥ",
+        "meaning": "The first of the yamas is ahimsa or non-violence which unites you with the whole creation. A practice of yoga, of realising that everything is a part of you is ahimsa.",
+        "padaVibhaga": "ahiṁsā | pratiṣṭhāyām | tat | sannidhau | vaira | tyāgaḥ",
+        "wordMeanings": "ahiṁsā = non-violence; pratiṣṭhāyām = when established; tat = that; sannidhau = in presence; vaira = enmity; tyāgaḥ = abandonment"
       },
       "insight": "Non-violence creates peace around you",
       "reflectionPrompt": "Is my diet vegetarian?",

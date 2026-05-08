@@ -12,8 +12,10 @@
       "sutra": {
         "number": "1.12, 1.13",
         "sanskrit": "अभ्यासवैराग्याभ्यां तन्निरोधः\nतत्र स्थितौ यत्नोऽभ्यासः",
-        "transliteration": "Sutra 1.12, 1.13",
-        "meaning": "Repeated practice without atachment is the way to still the mind"
+        "transliteration": "abhyāsa-vairāgyābhyāṁ tan-nirodhaḥ",
+        "meaning": "Repeated practice without atachment is the way to still the mind",
+        "padaVibhaga": "abhyāsa | vairāgya | ābhyām | tat | nirodhaḥ",
+        "wordMeanings": "abhyāsa = practice; vairāgya = non-attachment; ābhyām = by these two; tat = their; nirodhaḥ = restraint/cessation"
       },
       "insight": "Consistency and letting go brings mastery. I will not be focused on the end result while I practice regularly.",
       "reflectionPrompt": "Can I practice consistently without constantly measuring my progress?",
@@ -31,8 +33,10 @@
       "sutra": {
         "number": "1.14",
         "sanskrit": "स तु दीर्घकालनैरन्तर्यसत्कारासेवितो दृढभूमिः",
-        "transliteration": "Sutra 1.14",
-        "meaning": "Practice becomes firm when done for a long time with sincerity and dedication."
+        "transliteration": "sa tu dīrgha-kāla-nairantarya-satkārāsevito dṛḍhabhūmiḥ",
+        "meaning": "Practice becomes firm when done for a long time with sincerity and dedication.",
+        "padaVibhaga": "saḥ | tu | dīrgha-kāla | nairantarya | satkāra | āsevitaḥ | dṛḍha-bhūmiḥ",
+        "wordMeanings": "saḥ = that; tu = indeed; dīrgha-kāla = long time; nairantarya = uninterrupted; satkāra = with devotion; āsevitaḥ = practiced; dṛḍha-bhūmiḥ = firmly grounded"
       },
       "insight": "\"long,uninterrupted, alert practice is the firm foundation for restraining the fluctuations.\"",
       "reflectionPrompt": "What practice can I sustain daily?",
@@ -50,8 +54,10 @@
       "sutra": {
         "number": "1.15, 1.16",
         "sanskrit": "दृष्टानुश्रविकविषयवितृष्णस्य वशीकारसंज्ञा वैराग्यम्\nतत्परं पुरुषख्यातेर्गुणवैतृष्ण्यम्",
-        "transliteration": "Sutra 1.15, 1.16",
-        "meaning": "Detachment is freedom from craving\nComplete detachment comes from self-realization"
+        "transliteration": "dṛṣṭānuśravika-viṣaya-vitṛṣṇasya vaśīkāra-saṁjñā vairāgyam",
+        "meaning": "Detachment is freedom from craving\nComplete detachment comes from self-realization",
+        "padaVibhaga": "dṛṣṭa | anuśravika | viṣaya | vitṛṣṇasya | vaśīkāra-saṁjñā | vairāgyam",
+        "wordMeanings": "dṛṣṭa = seen; anuśravika = heard/scriptural; viṣaya = objects; vitṛṣṇasya = free from craving; vaśīkāra-saṁjñā = mastery-consciousness; vairāgyam = non-attachment"
       },
       "insight": "Letting go reduces disturbance and restlessness of the mind. Clinging to what has already passed is a habit and can be overcome with meditation.\nDeep freedom arises from knowing the self.",
       "reflectionPrompt": "What am I attached to?\nWhat can I release today?",
@@ -69,8 +75,10 @@
       "sutra": {
         "number": "1.17",
         "sanskrit": "वितर्कविचारानन्दास्मितारूपानुगमात्संप्रज्ञातः समाधिः",
-        "transliteration": "Sutra 1.17",
-        "meaning": "Practice and detachment can make one experience samadhi in four ways- i) self-analysis, wherein one logically understands the 'Self' and experiences a shift within. ii) synthesis of senses and thought which brings about 'an awareness' without any disturbance iii) bliss iv) only the experience of 'I am'"
+        "transliteration": "vitarka-vicārānandāsmitārūpānugamāt saṁprajñātaḥ",
+        "meaning": "Practice and detachment can make one experience samadhi in four ways- i) self-analysis, wherein one logically understands the 'Self' and experiences a shift within. ii) synthesis of senses and thought which brings about 'an awareness' without any disturbance iii) bliss iv) only the experience of 'I am'",
+        "padaVibhaga": "vitarka | vicāra | ānanda | asmitā | rūpa | anugamāt | saṁprajñātaḥ",
+        "wordMeanings": "vitarka = reasoning; vicāra = reflection; ānanda = bliss; asmitā = I-am-ness; rūpa = form; anugamāt = accompanied by; saṁprajñātaḥ = cognitive samadhi"
       },
       "insight": "It can be a gradual movement from one to the other or any one of the ways.",
       "reflectionPrompt": "Do I need to rationally understand the process or am I willing to sit for meditation and let go?",
@@ -87,8 +95,10 @@
       "sutra": {
         "number": "1.21, 1.22",
         "sanskrit": "तीव्रसंवेगानामासन्नः\nमृदुमध्याधिमात्रत्वात्ततोऽपि विशेषः",
-        "transliteration": "Sutra 1.21, 1.22",
-        "meaning": "Intense effort brings quick progress\nEffort varies in intensity -i) feeble ii) moderate iii)steady"
+        "transliteration": "tīvra-saṁvegānām āsannaḥ",
+        "meaning": "Intense effort brings quick progress\nEffort varies in intensity -i) feeble ii) moderate iii)steady",
+        "padaVibhaga": "tīvra | saṁvegānām | āsannaḥ",
+        "wordMeanings": "tīvra = intense; saṁvegānām = of the ardent; āsannaḥ = near/imminent"
       },
       "insight": "Depth of desire determines growth. Focussed effort with absolute faith in yourself, the process and the teacher brings quick results. Ultimately the pace of growth depends on your effort.",
       "reflectionPrompt": "How strong is my intention?\nWhere am I on this scale?",
@@ -106,8 +116,10 @@
       "sutra": {
         "number": "1.20",
         "sanskrit": "श्रद्धावीर्यस्मृतिसमाधिप्रज्ञापूर्वक इतरेषाम्",
-        "transliteration": "Sutra 1.20",
-        "meaning": "Practice must be persued with faith, confidence, energy, keenness of memory and the power to absorb to avoid spiritual complacency."
+        "transliteration": "śraddhā-vīrya-smṛti-samādhi-prajñā-pūrvaka itareṣām",
+        "meaning": "Practice must be persued with faith, confidence, energy, keenness of memory and the power to absorb to avoid spiritual complacency.",
+        "padaVibhaga": "śraddhā | vīrya | smṛti | samādhi | prajñā | pūrvakaḥ | itareṣām",
+        "wordMeanings": "śraddhā = faith; vīrya = energy/vigor; smṛti = memory/mindfulness; samādhi = absorption; prajñā = wisdom; pūrvakaḥ = preceded by; itareṣām = for others"
       },
       "insight": "I need to put in my 100% to make progress",
       "reflectionPrompt": "Inner growth needs sincerity and effort. Am I willing to do it?",
@@ -125,8 +137,10 @@
       "sutra": {
         "number": "1.23, 1.24",
         "sanskrit": "ईश्वरप्रणिधानाद्वा\nक्लेशकर्मविपाकाशयैरपरामृष्टः पुरुषविशेष ईश्वरः",
-        "transliteration": "Sutra 1.23, 1.24",
-        "meaning": "The Chitta ie consciousness should be totaly focused and surrendered to God.\nIshvara is untouched by suffering and karma."
+        "transliteration": "īśvara-praṇidhānād vā",
+        "meaning": "The Chitta ie consciousness should be totaly focused and surrendered to God.\nIshvara is untouched by suffering and karma.",
+        "padaVibhaga": "īśvara | praṇidhānāt | vā",
+        "wordMeanings": "īśvara = the Lord/God; praṇidhānāt = from surrender/devotion; vā = or"
       },
       "insight": "The divine is pure and unaffected. To reach that state commensurate effort is required.",
       "reflectionPrompt": "What is beyond the noise?",
@@ -144,8 +158,10 @@
       "sutra": {
         "number": "1.29",
         "sanskrit": "ततः प्रत्यक्चेतनाधिगमोऽप्यन्तरायाभावश्च",
-        "transliteration": "Sutra 1.29",
-        "meaning": "Complete surrender to the Divine with the repetition of the Aum removes obstacles to the mastery of the inner self"
+        "transliteration": "tataḥ pratyak-cetanādhigamo'py antarāyābhāvaś ca",
+        "meaning": "Complete surrender to the Divine with the repetition of the Aum removes obstacles to the mastery of the inner self",
+        "padaVibhaga": "tataḥ | pratyak | cetanā | adhigamaḥ | api | antarāya | abhāvaḥ | ca",
+        "wordMeanings": "tataḥ = from that; pratyak = inward; cetanā = consciousness; adhigamaḥ = attainment; api = also; antarāya = obstacles; abhāvaḥ = absence; ca = and"
       },
       "insight": "Inner connection ie. when the experiencer, the experience and the experienced become one there is no inner or outer turmoil.",
       "reflectionPrompt": "Am I able to go inwards when I sit in silence with eyes closed?",
@@ -163,8 +179,10 @@
       "sutra": {
         "number": "1.35",
         "sanskrit": "विषयवती वा प्रवृत्तिरुत्पन्ना मनसः स्थितिनिबन्धिनी",
-        "transliteration": "Sutra 1.35",
-        "meaning": "Focused awareness on one object stabilizes the mind."
+        "transliteration": "viṣayavatī vā pravṛttir utpannā manasaḥ sthiti-nibandhanī",
+        "meaning": "Focused awareness on one object stabilizes the mind.",
+        "padaVibhaga": "viṣayavatī | vā | pravṛttiḥ | utpannā | manasaḥ | sthiti-nibandhanī",
+        "wordMeanings": "viṣayavatī = relating to sense objects; vā = or; pravṛttiḥ = activity; utpannā = arisen; manasaḥ = of the mind; sthiti-nibandhanī = binding to steadiness"
       },
       "insight": "Attention brings stability in mind and body.",
       "reflectionPrompt": "Can I keep my complete attention on the job at hand?",
@@ -182,8 +200,10 @@
       "sutra": {
         "number": "1.27, 1.28",
         "sanskrit": "तस्य वाचकः प्रणवः\nतज्जपस्तदर्थभावनम्",
-        "transliteration": "Sutra 1.27, 1.28",
-        "meaning": "Om is the expression of the divine\nRepeat Om with awareness"
+        "transliteration": "tasya vācakaḥ praṇavaḥ",
+        "meaning": "Om is the expression of the divine\nRepeat Om with awareness",
+        "padaVibhaga": "tasya | vācakaḥ | praṇavaḥ",
+        "wordMeanings": "tasya = of Him; vācakaḥ = designator/word; praṇavaḥ = the syllable OM"
       },
       "insight": "Sound connects to consciousness.\nRepetition deepens experience.",
       "reflectionPrompt": "Can I feel the vibrations of the sounds around me?",
@@ -201,8 +221,10 @@
       "sutra": {
         "number": "1.33, 1.34",
         "sanskrit": "मैत्रीकरुणामुदितोपेक्षाणां सुखदुःखपुण्यापुण्यविषयाणां भावनातश्चित्तप्रसादनम्\nप्रच्छर्दनविधारणाभ्यां वा प्राणस्य",
-        "transliteration": "Sutra 1.33, 1.34",
-        "meaning": "The mind becomes clarified and serene by cultivating: \nMaitri (Friendliness) toward those who are happy,\nKaruṇa (Compassion) toward those who are unhappy or suffering ,\nMudita (Joy) toward those who are virtuous or meritorious and\nUpekṣa (Equanimity/Indifference) toward those who are non-virtuous or sinful (apuṇya). \n\n\nOr regulating the breath calms the mind too."
+        "transliteration": "maitrī-karuṇā-muditopekṣāṇāṁ sukha-duḥkha-puṇyāpuṇya-viṣayāṇāṁ bhāvanātaś citta-prasādanam",
+        "meaning": "The mind becomes clarified and serene by cultivating: \nMaitri (Friendliness) toward those who are happy,\nKaruṇa (Compassion) toward those who are unhappy or suffering ,\nMudita (Joy) toward those who are virtuous or meritorious and\nUpekṣa (Equanimity/Indifference) toward those who are non-virtuous or sinful (apuṇya). \n\n\nOr regulating the breath calms the mind too.",
+        "padaVibhaga": "maitrī | karuṇā | muditā | upekṣāṇām | sukha | duḥkha | puṇya | apuṇya | viṣayāṇām | bhāvanātaḥ | citta-prasādanam",
+        "wordMeanings": "maitrī = friendliness; karuṇā = compassion; muditā = joy; upekṣāṇām = equanimity; sukha = pleasure; duḥkha = pain; puṇya = virtue; apuṇya = non-virtue; viṣayāṇām = toward objects; bhāvanātaḥ = from cultivation; citta-prasādanam = clarity of mind"
       },
       "insight": "One should be friendly and compassionate to all but be in close proximity to only those who are in a happy state of mind for sad and grumpy people will make you sad and grumpy which will do no favours to you or the person concerned.\nFeeling happy for the success of good people and indifferent to that of those who you think dont deserve it is a smart thing to do. Such an attitude will help you maintain your own equanimity.\n\n\n\n\n\n\n\n\nBreath is the key to balance.",
       "reflectionPrompt": "I need to watch my emotional entanglement while dealing with other people. Can I take a step back and observe myself?",
@@ -220,8 +242,10 @@
       "sutra": {
         "number": "1.40",
         "sanskrit": "परमाणुपरममहत्त्वान्तोऽस्य वशीकारः",
-        "transliteration": "Sutra 1.40",
-        "meaning": "Mastery of contemplation gives the power to extend from  the smallest to largest and from the subtlest to the grossest."
+        "transliteration": "paramāṇu-paramamahattvānto'sya vaśīkāraḥ",
+        "meaning": "Mastery of contemplation gives the power to extend from  the smallest to largest and from the subtlest to the grossest.",
+        "padaVibhaga": "paramāṇu | parama-mahattva | antaḥ | asya | vaśīkāraḥ",
+        "wordMeanings": "paramāṇu = smallest atom; parama-mahattva = greatest magnitude; antaḥ = to the limit; asya = of this yogi; vaśīkāraḥ = mastery"
       },
       "insight": "Awareness expands limitlessly. Maharishi Patanjali has given various methods of dhyan or meditation  to master ones chitta or cosciousness and stop the desires from overtaking the mind.",
       "reflectionPrompt": "How can I expand my awareness?",

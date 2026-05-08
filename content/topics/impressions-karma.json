@@ -12,8 +12,10 @@
       "sutra": {
         "number": "1.24",
         "sanskrit": "क्लेशकर्मविपाकाशयैरपरामृष्टः पुरुषविशेष ईश्वरः ॥",
-        "transliteration": "Sutra 1.24",
-        "meaning": "Ishvara (the Supreme Being) is a special Purusha (Consciousness), untouched by afflictions (kleshas), actions (karma), the results of actions (vipaka), and their latent impressions (ashayaih)."
+        "transliteration": "kleśa-karma-vipākāśayair aparāmṛṣṭaḥ puruṣa-viśeṣa īśvaraḥ",
+        "meaning": "Ishvara (the Supreme Being) is a special Purusha (Consciousness), untouched by afflictions (kleshas), actions (karma), the results of actions (vipaka), and their latent impressions (ashayaih).",
+        "padaVibhaga": "kleśa | karma | vipāka | āśayaiḥ | aparāmṛṣṭaḥ | puruṣa-viśeṣaḥ | īśvaraḥ",
+        "wordMeanings": "kleśa = afflictions; karma = actions; vipāka = fruition; āśayaiḥ = by deposits; aparāmṛṣṭaḥ = untouched; puruṣa-viśeṣaḥ = special Self; īśvaraḥ = the Lord"
       },
       "insight": "Unlike individual souls, this Divine Consciousness is never subject to pain, ignorance, or the karmic cycle of cause and effect. It is pure, timeless awareness.",
       "reflectionPrompt": "What is my idea of God?",
@@ -31,8 +33,10 @@
       "sutra": {
         "number": "1.11",
         "sanskrit": "अनुभूतविषयासम्प्रमोषः स्मृतिः",
-        "transliteration": "Sutra 1.11",
-        "meaning": "Memory is unmodified, retained experience. It is the collection of the modulations and impressions of correct knowledge, perverse knowledge, illusory knowledge and sleep."
+        "transliteration": "anubhūta-viṣayāsampramoṣaḥ smṛtiḥ",
+        "meaning": "Memory is unmodified, retained experience. It is the collection of the modulations and impressions of correct knowledge, perverse knowledge, illusory knowledge and sleep.",
+        "padaVibhaga": "anubhūta | viṣaya | asampramoṣaḥ | smṛtiḥ",
+        "wordMeanings": "anubhūta = experienced; viṣaya = objects; asampramoṣaḥ = not letting slip; smṛtiḥ = memory"
       },
       "insight": "Past impressions influence present behavior. When awake if the mind is in any of the four modulations  then that is not meditation. It is not Yoga.",
       "reflectionPrompt": "What memory got triggered in me today?",
@@ -49,8 +53,10 @@
       "sutra": {
         "number": "1.41",
         "sanskrit": "क्षीणवृत्तेरभिजातस्येव मणेर्ग्रहीतृग्रहणग्राह्येषु तत्स्थतदञ्जनता समापत्तिः",
-        "transliteration": "Sutra 1.41",
-        "meaning": "When mind becomes clear it reflects reality like a crystal-  As realisation dawns that the knower , the instrument of knowing and the known are but one."
+        "transliteration": "kṣīṇa-vṛtter abhijātasyeva maṇer grahītṛ-grahaṇa-grāhyeṣu tat-stha-tad-añjanatā samāpattiḥ",
+        "meaning": "When mind becomes clear it reflects reality like a crystal-  As realisation dawns that the knower , the instrument of knowing and the known are but one.",
+        "padaVibhaga": "kṣīṇa-vṛtteḥ | abhijātasya | iva | maṇeḥ | grahītṛ | grahaṇa | grāhyeṣu | tat-stha | tad-añjanatā | samāpattiḥ",
+        "wordMeanings": "kṣīṇa-vṛtteḥ = weakened fluctuations; abhijātasya = transparent; iva = like; maṇeḥ = crystal; grahītṛ = knower; grahaṇa = knowing; grāhyeṣu = known; tat-stha = resting in that; tad-añjanatā = taking on color of that; samāpattiḥ = absorption"
       },
       "insight": "When the mind is pure it reflects truth without distortion.",
       "reflectionPrompt": "Is my perception clear or colored?",
@@ -68,8 +74,10 @@
       "sutra": {
         "number": "1.43",
         "sanskrit": "स्मृतिपरिशुद्धौ स्वरूपशून्येवार्थमात्रनिर्भासा निर्वितर्का",
-        "transliteration": "Sutra 1.43",
-        "meaning": "When memory is purified only truth shines Let go of past recordings to see clearly. This is nirvitarka samadhi."
+        "transliteration": "smṛti-pariśuddhau svarūpa-śūnyevārtha-mātra-nirbhāsā nirvitarkā",
+        "meaning": "When memory is purified only truth shines Let go of past recordings to see clearly. This is nirvitarka samadhi.",
+        "padaVibhaga": "smṛti | pariśuddhau | svarūpa | śūnya | iva | artha | mātra | nirbhāsā | nirvitarkā",
+        "wordMeanings": "smṛti = memory; pariśuddhau = on purification; svarūpa = own form; śūnya = empty; iva = as if; artha = object; mātra = only; nirbhāsā = shining; nirvitarkā = without reasoning"
       },
       "insight": "Let go of past filters to see the present clearly as it is. When memory is cleansed the consciousness shines without reflection.",
       "reflectionPrompt": "Do I think too much of what has passed.",
@@ -86,8 +94,10 @@
       "sutra": {
         "number": "1.50",
         "sanskrit": "तज्जः संस्कारोऽन्यसंस्कारप्रतिबन्धी",
-        "transliteration": "Sutra 1.50",
-        "meaning": "New impressions override old patterns..In fact the insight of the cleansed intellect negates all  residue action and prevents new ones taking root."
+        "transliteration": "taj-jaḥ saṁskāro'nya-saṁskāra-pratibandhī",
+        "meaning": "New impressions override old patterns..In fact the insight of the cleansed intellect negates all  residue action and prevents new ones taking root.",
+        "padaVibhaga": "tat-jaḥ | saṁskāraḥ | anya | saṁskāra | pratibandhī",
+        "wordMeanings": "tat-jaḥ = born from that; saṁskāraḥ = impression; anya = other; saṁskāra = impressions; pratibandhī = obstructing/replacing"
       },
       "insight": "Awareness replaces conditioning.",
       "reflectionPrompt": "What pattern shifted?",
@@ -105,8 +115,10 @@
       "sutra": {
         "number": "1.51",
         "sanskrit": "तस्यापि निरोधे सर्वनिरोधान्निर्बीजः समाधिः",
-        "transliteration": "Sutra 1.51",
-        "meaning": "However, when even the new found wisdom is dropped it leads to a seedless state or nirbeej samadhi."
+        "transliteration": "tasyāpi nirodhe sarva-nirodhān nirbījaḥ samādhiḥ",
+        "meaning": "However, when even the new found wisdom is dropped it leads to a seedless state or nirbeej samadhi.",
+        "padaVibhaga": "tasya | api | nirodhe | sarva | nirodhāt | nirbījaḥ | samādhiḥ",
+        "wordMeanings": "tasya = of that; api = even; nirodhe = on restraint; sarva = all; nirodhāt = from restraint; nirbījaḥ = seedless; samādhiḥ = absorption"
       },
       "insight": "Ultimate stillness is beyond all patterns.",
       "reflectionPrompt": "Can I rest without effort?",
@@ -124,8 +136,10 @@
       "sutra": {
         "number": "2.12",
         "sanskrit": "क्लेशमूलः कर्माशयो दृष्टादृष्टजन्मवेदनीयः",
-        "transliteration": "Sutra 2.12",
-        "meaning": "Karma is rooted in suffering"
+        "transliteration": "kleśa-mūlaḥ karmāśayo dṛṣṭādṛṣṭa-janma-vedanīyaḥ",
+        "meaning": "Karma is rooted in suffering",
+        "padaVibhaga": "kleśa-mūlaḥ | karma-āśayaḥ | dṛṣṭa | adṛṣṭa | janma | vedanīyaḥ",
+        "wordMeanings": "kleśa-mūlaḥ = rooted in afflictions; karma-āśayaḥ = karmic deposits; dṛṣṭa = present; adṛṣṭa = future; janma = birth; vedanīyaḥ = to be experienced"
       },
       "insight": "Actions leave impressions.",
       "reflectionPrompt": "What action affected me?",
@@ -143,8 +157,10 @@
       "sutra": {
         "number": "2.13",
         "sanskrit": "सति मूले तद्विपाको जात्यायुर्भोगाः",
-        "transliteration": "Sutra 2.13",
-        "meaning": "Karma determines life experience"
+        "transliteration": "sati mūle tad-vipāko jāty-āyur-bhogāḥ",
+        "meaning": "Karma determines life experience",
+        "padaVibhaga": "sati | mūle | tat | vipākaḥ | jāti | āyuḥ | bhogāḥ",
+        "wordMeanings": "sati = existing; mūle = at the root; tat = its; vipākaḥ = fruition; jāti = type of birth; āyuḥ = lifespan; bhogāḥ = experiences"
       },
       "insight": "Patterns shape life.",
       "reflectionPrompt": "What pattern repeats in my life?",
@@ -162,8 +178,10 @@
       "sutra": {
         "number": "2.14",
         "sanskrit": "ते ह्लादपरितापफलाः पुण्यापुण्यहेतुत्वात्",
-        "transliteration": "Sutra 2.14",
-        "meaning": "Actions bring joy or suffering"
+        "transliteration": "te hlāda-paritāpa-phalāḥ puṇyāpuṇya-hetutvāt",
+        "meaning": "Actions bring joy or suffering",
+        "padaVibhaga": "te | hlāda | paritāpa | phalāḥ | puṇya | apuṇya | hetutvāt",
+        "wordMeanings": "te = these; hlāda = joy; paritāpa = pain; phalāḥ = results; puṇya = virtue; apuṇya = non-virtue; hetutvāt = due to causes"
       },
       "insight": "Choices shape experience.",
       "reflectionPrompt": "What choice affected me?",

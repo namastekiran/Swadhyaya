@@ -31,8 +31,10 @@
       "sutra": {
         "number": "2.32",
         "sanskrit": "शौचसंतोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः",
-        "transliteration": "Sutra 2.32",
-        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life."
+        "transliteration": "śauca-santoṣa-tapaḥ-svādhyāyeśvara-praṇidhānāni niyamāḥ",
+        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life.",
+        "padaVibhaga": "śauca | santoṣa | tapaḥ | svādhyāya | īśvara-praṇidhānāni | niyamāḥ",
+        "wordMeanings": "śauca = purity; santoṣa = contentment; tapaḥ = austerity; svādhyāya = self-study; īśvara-praṇidhānāni = surrender to God; niyamāḥ = observances"
       },
       "insight": "There is always scope for improvement in following all of these Niyamas",
       "reflectionPrompt": "Which one needs special attention from me?",
@@ -50,8 +52,10 @@
       "sutra": {
         "number": "2.43",
         "sanskrit": "का॒येन्द्रियसिद्धिर॒शु॒द्धिक्ष॒यात् तपसः",
-        "transliteration": "Sutra 2.43",
-        "meaning": "Austerity, resulting in the elimination of impurity produces perfection of the body and sensual energy."
+        "transliteration": "kāyendriya-siddhir aśuddhi-kṣayāt tapasaḥ",
+        "meaning": "Austerity, resulting in the elimination of impurity produces perfection of the body and sensual energy.",
+        "padaVibhaga": "kāya | indriya | siddhiḥ | aśuddhi | kṣayāt | tapasaḥ",
+        "wordMeanings": "kāya = body; indriya = senses; siddhiḥ = perfection; aśuddhi = impurity; kṣayāt = from destruction; tapasaḥ = from austerity"
       },
       "insight": "Self-discipline (tapas) burns away impurities and kindles the sparks of Divinity.",
       "reflectionPrompt": "Is maintaining discipline a problem for me.",

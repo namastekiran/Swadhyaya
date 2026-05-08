@@ -12,8 +12,10 @@
       "sutra": {
         "number": "1.7",
         "sanskrit": "प्रत्यक्षानुमानागमाः प्रमाणानि",
-        "transliteration": "Sutra 1.7",
-        "meaning": "Knowledge comes from i) direct perception, ii) inference or deduction,iii) scriptural testimony."
+        "transliteration": "pratyakṣānumānāgamāḥ pramāṇāni",
+        "meaning": "Knowledge comes from i) direct perception, ii) inference or deduction,iii) scriptural testimony.",
+        "padaVibhaga": "pratyakṣa | anumāna | āgamāḥ | pramāṇāni",
+        "wordMeanings": "pratyakṣa = direct perception; anumāna = inference; āgamāḥ = testimony/scripture; pramāṇāni = valid sources of knowledge"
       },
       "insight": "Direct experience is most powerful. To be in meditation one should decide not to dwell on any logic or be interested in any proof.",
       "reflectionPrompt": "Do I feel a need to be correct or logical all the time? Am I judgemental?",
@@ -30,8 +32,10 @@
       "sutra": {
         "number": "1.8",
         "sanskrit": "विपर्ययो मिथ्याज्ञानमतद्रूपप्रतिष्ठम्",
-        "transliteration": "Sutra 1.8",
-        "meaning": "Wrong or perverse knowledge is false understanding based on what is not a fact or real."
+        "transliteration": "viparyayo mithyā-jñānam atadrūpa-pratiṣṭham",
+        "meaning": "Wrong or perverse knowledge is false understanding based on what is not a fact or real.",
+        "padaVibhaga": "viparyayaḥ | mithyā-jñānam | atat | rūpa | pratiṣṭham",
+        "wordMeanings": "viparyayaḥ = wrong knowledge; mithyā-jñānam = false knowledge; atat = not that; rūpa = form; pratiṣṭham = based on"
       },
       "insight": "Many beliefs are based on incomplete perception. For instance a person suffering inferiority complex may find others behavior arrogant.",
       "reflectionPrompt": "Which of my beliefs may be wrong?",
@@ -49,8 +53,10 @@
       "sutra": {
         "number": "1.9",
         "sanskrit": "शब्दज्ञानानुपाती वस्तुशून्यो विकल्पः",
-        "transliteration": "Sutra 1.9",
-        "meaning": "Imagination is based on mere words not based on reality"
+        "transliteration": "śabda-jñānānupātī vastu-śūnyo vikalpaḥ",
+        "meaning": "Imagination is based on mere words not based on reality",
+        "padaVibhaga": "śabda | jñāna | anupātī | vastu | śūnyaḥ | vikalpaḥ",
+        "wordMeanings": "śabda = word/sound; jñāna = knowledge; anupātī = following; vastu = object/reality; śūnyaḥ = empty; vikalpaḥ = imagination/fancy"
       },
       "insight": "The mind creates stories without facts. Sometimes its mere pleasureable fantasy but at other times it could be baseless fears.",
       "reflectionPrompt": "What story did my mind create?",
@@ -67,8 +73,10 @@
       "sutra": {
         "number": "1.10",
         "sanskrit": "अभावप्रत्ययालम्बना वृत्तिर्निद्रा",
-        "transliteration": "Sutra 1.10",
-        "meaning": "Sleep is a mental state based on absence of thought or knowledge."
+        "transliteration": "abhāva-pratyayālambanā vṛttir nidrā",
+        "meaning": "Sleep is a mental state based on absence of thought or knowledge.",
+        "padaVibhaga": "abhāva | pratyaya | ālambanā | vṛttiḥ | nidrā",
+        "wordMeanings": "abhāva = absence; pratyaya = cognition; ālambanā = supported by; vṛttiḥ = modification; nidrā = sleep"
       },
       "insight": "When the mind is not seeking proof or deluding or making up stories, it is asleep.",
       "reflectionPrompt": "How has been my rest ?",
@@ -86,8 +94,10 @@
       "sutra": {
         "number": "1.25, 1.26",
         "sanskrit": "तत्र निरतिशयं सर्वज्ञबीजम्\nस पूर्वेषामपि गुरुः कालेनानवच्छेदात",
-        "transliteration": "Sutra 1.25, 1.26",
-        "meaning": "In Ishvara lies infinite knowledge\nThe divine is the eternal teacher"
+        "transliteration": "tatra niratiśayaṁ sarvajña-bījam",
+        "meaning": "In Ishvara lies infinite knowledge\nThe divine is the eternal teacher",
+        "padaVibhaga": "tatra | niratiśayam | sarvajña | bījam",
+        "wordMeanings": "tatra = in Him; niratiśayam = unsurpassed; sarvajña = omniscient; bījam = seed"
       },
       "insight": "The source of knowledge is within.\nWisdom is timeless.",
       "reflectionPrompt": "Do I trust inner wisdom?",
@@ -105,8 +115,10 @@
       "sutra": {
         "number": "2.34",
         "sanskrit": "वितर्का हिंसादयः कृतकारितानुमोदिता लोभक्रोधमोहपूर्वका मृदुमध्याधिमात्रा दुःखाज्ञानानन्तफला इति प्रतिपक्षभावनम्",
-        "transliteration": "Sutra 2.34",
-        "meaning": "Negative thoughts (like violence) caused by greed, anger or delusion—whether done, caused, or approved of, and whether mild, moderate, or intense—result in endless pain and ignorance. Cultivating the opposite, ie., positive thought is necessary to stop this cycle."
+        "transliteration": "vitarkā hiṁsādayaḥ kṛta-kāritānumoditā lobha-krodha-moha-pūrvakā mṛdu-madhyādhimātrā duḥkhājñānānanta-phalā iti pratipakṣa-bhāvanam",
+        "meaning": "Negative thoughts (like violence) caused by greed, anger or delusion—whether done, caused, or approved of, and whether mild, moderate, or intense—result in endless pain and ignorance. Cultivating the opposite, ie., positive thought is necessary to stop this cycle.",
+        "padaVibhaga": "vitarkāḥ | hiṁsā-ādayaḥ | kṛta | kārita | anumoditāḥ | lobha | krodha | moha | pūrvakāḥ | mṛdu | madhya | adhimātrāḥ | duḥkha | ajñāna | ananta-phalāḥ | iti | pratipakṣa-bhāvanam",
+        "wordMeanings": "vitarkāḥ = negative thoughts; hiṁsā-ādayaḥ = violence etc.; kṛta = done; kārita = caused; anumoditāḥ = approved; lobha = greed; krodha = anger; moha = delusion; pūrvakāḥ = preceded by; mṛdu = mild; madhya = moderate; adhimātrāḥ = intense; duḥkha = suffering; ajñāna = ignorance; ananta-phalāḥ = endless results; iti = thus; pratipakṣa-bhāvanam = cultivate opposite"
       },
       "insight": "One has to develop and exercise the discriminatory faculty to curtail vitarka or dubious, wavering or uncertain knowledge.",
       "reflectionPrompt": "Do I easily believe everything I see or hear or do I take an objective and rational view of things.",

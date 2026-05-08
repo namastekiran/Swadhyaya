@@ -12,8 +12,10 @@
       "sutra": {
         "number": "2.3",
         "sanskrit": "अविद्यास्मितारागद्वेषाभिनिवेशाः क्लेशाः",
-        "transliteration": "Sutra 2.3",
-        "meaning": "Suffering comes from 1. ignorance or lack of wisdom, 2.ego, 3.attachment to pleasure, 4.aversion to pain and 5.fear of death. These are the root causes of disturbance in our equilibrium."
+        "transliteration": "avidyāsmitā-rāga-dveṣābhiniveśāḥ kleśāḥ",
+        "meaning": "Suffering comes from 1. ignorance or lack of wisdom, 2.ego, 3.attachment to pleasure, 4.aversion to pain and 5.fear of death. These are the root causes of disturbance in our equilibrium.",
+        "padaVibhaga": "avidyā | asmitā | rāga | dveṣa | abhiniveśāḥ | kleśāḥ",
+        "wordMeanings": "avidyā = ignorance; asmitā = ego; rāga = attraction; dveṣa = aversion; abhiniveśāḥ = clinging to life; kleśāḥ = afflictions"
       },
       "insight": "All sufferings have one or the other of these at its root.",
       "reflectionPrompt": "Can I see their presence in me",
@@ -30,8 +32,10 @@
       "sutra": {
         "number": "2.4",
         "sanskrit": "अविद्या क्षेत्रमुत्तरेषां प्रसुप्ततनुविच्छिन्नोदाराणाम्",
-        "transliteration": "Sutra 2.4",
-        "meaning": "Spiritual ignorance is the root of all suffering because it may cause arrogance, cravings, aversion, attachment etc which are impediments to growth and cause suffering."
+        "transliteration": "avidyā kṣetram uttareṣāṁ prasupta-tanu-vicchinnodārāṇām",
+        "meaning": "Spiritual ignorance is the root of all suffering because it may cause arrogance, cravings, aversion, attachment etc which are impediments to growth and cause suffering.",
+        "padaVibhaga": "avidyā | kṣetram | uttareṣām | prasupta | tanu | vicchinna | udārāṇām",
+        "wordMeanings": "avidyā = ignorance; kṣetram = field; uttareṣām = of the following; prasupta = dormant; tanu = attenuated; vicchinna = interrupted; udārāṇām = fully active"
       },
       "insight": "Unawareness fuels all reactions which cause karmic residue.",
       "reflectionPrompt": "Do I  function unawares of the cause or consequence?",
@@ -49,8 +53,10 @@
       "sutra": {
         "number": "2.5",
         "sanskrit": "अनित्याशुचिदुःखानात्मसु नित्यशुचिसुखात्मख्यातिरविद्या",
-        "transliteration": "Sutra 2.5",
-        "meaning": "Confusing temporary as permanent is ignorance for example assuming the world to be prmanent."
+        "transliteration": "anityāśuci-duḥkhānātmasu nitya-śuci-sukhātma-khyātir avidyā",
+        "meaning": "Confusing temporary as permanent is ignorance for example assuming the world to be prmanent.",
+        "padaVibhaga": "anitya | aśuci | duḥkha | anātmasu | nitya | śuci | sukha | ātma | khyātiḥ | avidyā",
+        "wordMeanings": "anitya = impermanent; aśuci = impure; duḥkha = painful; anātmasu = non-self; nitya = permanent; śuci = pure; sukha = pleasant; ātma = Self; khyātiḥ = knowing as; avidyā = ignorance"
       },
       "insight": "Misperception of what really matters creates suffering.Misperception creates suffering. Life itself is impermanent so everything else around it too is not permanent.",
       "reflectionPrompt": "What am I holding as permanent which is perishable?",
@@ -68,8 +74,10 @@
       "sutra": {
         "number": "2.6",
         "sanskrit": "दृग्दर्शनशक्त्योरेकात्मतेवास्मिता",
-        "transliteration": "Sutra 2.6",
-        "meaning": "Ego is identification of seer with seeing ie the body, mind and intellect as the eternal, indestructible Self"
+        "transliteration": "dṛg-darśana-śaktyor ekātmatevāsmitā",
+        "meaning": "Ego is identification of seer with seeing ie the body, mind and intellect as the eternal, indestructible Self",
+        "padaVibhaga": "dṛk | darśana | śaktyoḥ | ekātmatā | iva | asmitā",
+        "wordMeanings": "dṛk = the Seer; darśana = seeing; śaktyoḥ = of the powers; ekātmatā = oneness; iva = as if; asmitā = ego/I-am-ness"
       },
       "insight": "We confuse self with the roles we are playing.",
       "reflectionPrompt": "Who am I beyond the roles?",
@@ -87,8 +95,10 @@
       "sutra": {
         "number": "2.7",
         "sanskrit": "सुखानुशयी रागः ॥",
-        "transliteration": "Sutra 2.7",
-        "meaning": "\"Attraction to pleasant experience results in craving.\""
+        "transliteration": "sukha-anuśayī rāgaḥ",
+        "meaning": "\"Attraction to pleasant experience results in craving.\"",
+        "padaVibhaga": "sukha | anuśayī | rāgaḥ",
+        "wordMeanings": "sukha = pleasure; anuśayī = following/dwelling on; rāgaḥ = attachment/desire"
       },
       "insight": "When we experience pleasure, we develop a longing for it. This creates a craving or desire to repeat the experience, which binds the mind and causes suffering when the pleasure ends.",
       "reflectionPrompt": "Am I always seeking pleasure.",
@@ -106,8 +116,10 @@
       "sutra": {
         "number": "2.8",
         "sanskrit": "दुःखानुशयी द्वेषः ॥",
-        "transliteration": "Sutra 2.8",
-        "meaning": "\"Hatred comes with an unpleasant experience.\""
+        "transliteration": "duḥkhānuśayī dveṣaḥ",
+        "meaning": "\"Hatred comes with an unpleasant experience.\"",
+        "padaVibhaga": "duḥkha | anuśayī | dveṣaḥ",
+        "wordMeanings": "duḥkha = pain; anuśayī = following; dveṣaḥ = aversion/hatred"
       },
       "insight": "When we experience pain or unpleasantness, we develop a strong dislike or avoidance of it. This emotional reaction (anger, fear, or resentment) causes suffering.",
       "reflectionPrompt": "Does even a little hardship derail me?",
@@ -125,8 +137,10 @@
       "sutra": {
         "number": "2.9",
         "sanskrit": "स्वरसवाही विदुषोऽपि तथारूढोऽभिनिवेशः ॥",
-        "transliteration": "Sutra 2.9",
-        "meaning": "\"Fear flowing in its own flavour even in the wise is established in them as carefulness.\""
+        "transliteration": "svarasavāhī viduṣo'pi tathārūḍho'bhiniveśaḥ",
+        "meaning": "\"Fear flowing in its own flavour even in the wise is established in them as carefulness.\"",
+        "padaVibhaga": "svarasavāhī | viduṣaḥ | api | tathā | ārūḍhaḥ | abhiniveśaḥ",
+        "wordMeanings": "svarasavāhī = self-sustaining; viduṣaḥ = of the wise; api = even; tathā = so; ārūḍhaḥ = established; abhiniveśaḥ = clinging to life/fear of death"
       },
       "insight": "The deep-rooted will to survive (or fear of death/clinging to life) persists even among the wiseThis is the subtlest klesha, representing the instinctual fear of death and the desire to stay alive at any cost. Patanjali notes that this urge is so powerful it affects everyone, including those who are knowledgeable..",
       "reflectionPrompt": "How fearful am I? Am I always fearful of impending doom. Am I ready to handle all situations?",
@@ -144,8 +158,10 @@
       "sutra": {
         "number": "2.15",
         "sanskrit": "परिणामतापसंस्कारदुःखैर्गुणवृत्तिविरोधाच्च दुःखमेव सर्वं विवेकिनः",
-        "transliteration": "Sutra 2.15",
-        "meaning": "Wise see suffering in all change, even what apparently seems pleasant is tinged with suffering and sorrow."
+        "transliteration": "pariṇāma-tāpa-saṁskāra-duḥkhair guṇa-vṛtti-virodhāc ca duḥkham eva sarvaṁ vivekinaḥ",
+        "meaning": "Wise see suffering in all change, even what apparently seems pleasant is tinged with suffering and sorrow.",
+        "padaVibhaga": "pariṇāma | tāpa | saṁskāra | duḥkhaiḥ | guṇa | vṛtti | virodhāt | ca | duḥkham | eva | sarvam | vivekinaḥ",
+        "wordMeanings": "pariṇāma = change; tāpa = affliction; saṁskāra = impressions; duḥkhaiḥ = by sufferings; guṇa = qualities; vṛtti = fluctuations; virodhāt = due to conflict; ca = and; duḥkham = suffering; eva = indeed; sarvam = all; vivekinaḥ = of the discerning"
       },
       "insight": "Everything changes—awareness frees you.",
       "reflectionPrompt": "Can I accept change without getting derailed?",
@@ -163,8 +179,10 @@
       "sutra": {
         "number": "2.16",
         "sanskrit": "हेयं दुःखमनागतम",
-        "transliteration": "Sutra 2.16",
-        "meaning": "Future suffering can be avoided if we adopt the path of yoga because this alone prevents further impressions ie. karma from taking root."
+        "transliteration": "heyaṁ duḥkham anāgatam",
+        "meaning": "Future suffering can be avoided if we adopt the path of yoga because this alone prevents further impressions ie. karma from taking root.",
+        "padaVibhaga": "heyam | duḥkham | anāgatam",
+        "wordMeanings": "heyam = to be avoided; duḥkham = suffering; anāgatam = yet to come/future"
       },
       "insight": "Awareness of the impermanency of the world prevents future suffering.",
       "reflectionPrompt": "Am I established on the path of yoga?",
@@ -182,8 +200,10 @@
       "sutra": {
         "number": "2.17",
         "sanskrit": "द्रष्टृदृश्ययोः संयोगो हेयहेतुः",
-        "transliteration": "Sutra 2.17",
-        "meaning": "Union of seer and seen causes suffering because the self which is eternal is mistakenly seen as the same as the body with its organs of perception etc"
+        "transliteration": "draṣṭṛ-dṛśyayoḥ saṁyogo heya-hetuḥ",
+        "meaning": "Union of seer and seen causes suffering because the self which is eternal is mistakenly seen as the same as the body with its organs of perception etc",
+        "padaVibhaga": "draṣṭṛ | dṛśyayoḥ | saṁyogaḥ | heya-hetuḥ",
+        "wordMeanings": "draṣṭṛ = Seer; dṛśyayoḥ = seen; saṁyogaḥ = union; heya-hetuḥ = cause of what is to be avoided"
       },
       "insight": "Attachment to the non permanent causes confusion.",
       "reflectionPrompt": "Can I differentiate between my body and the Self yet?",
@@ -201,8 +221,10 @@
       "sutra": {
         "number": "2.25",
         "sanskrit": "तदभावात् संयोगाभावो हानं तद् दृशेः कैवल्यम्",
-        "transliteration": "Sutra 2.25",
-        "meaning": "One must practice the kriya discipline because it affords a sadhak the tools whereby the perceiver is separated from the perceived."
+        "transliteration": "tad-abhāvāt saṁyogābhāvo hānaṁ tad-dṛśeḥ kaivalyam",
+        "meaning": "One must practice the kriya discipline because it affords a sadhak the tools whereby the perceiver is separated from the perceived.",
+        "padaVibhaga": "tat | abhāvāt | saṁyoga | abhāvaḥ | hānam | tat | dṛśeḥ | kaivalyam",
+        "wordMeanings": "tat = that (ignorance); abhāvāt = from absence; saṁyoga = union; abhāvaḥ = absence; hānam = removal; tat = that; dṛśeḥ = of the Seer; kaivalyam = liberation"
       },
       "insight": "Right knowledge is a necessity on the path of yoga if the practitioner has to break the link between the seer and the seen and get self-realisation.",
       "reflectionPrompt": "Do I have confidence in my path and the determination to follow it.",

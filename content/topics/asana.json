@@ -12,8 +12,10 @@
       "sutra": {
         "number": "2.29",
         "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
-        "transliteration": "Sutra 2.29",
-        "meaning": "Yama (moral injunctions), Niyama (observances), Āsana (posture), Prāṇāyāma (regulation of breath), Pratyāhāra (withholding of senses), Dhāraṇā (fixity of attention), Dhyāna (meditation), and Samādhi (absorption of consciousness in the self) are the eight accessories (limbs) of Yoga"
+        "transliteration": "yama-niyamāsana-prāṇāyāma-pratyāhāra-dhāraṇā-dhyāna-samādhayo'ṣṭāv aṅgāni",
+        "meaning": "Yama (moral injunctions), Niyama (observances), Āsana (posture), Prāṇāyāma (regulation of breath), Pratyāhāra (withholding of senses), Dhāraṇā (fixity of attention), Dhyāna (meditation), and Samādhi (absorption of consciousness in the self) are the eight accessories (limbs) of Yoga",
+        "padaVibhaga": "yama | niyama | āsana | prāṇāyāma | pratyāhāra | dhāraṇā | dhyāna | samādhayaḥ | aṣṭau | aṅgāni",
+        "wordMeanings": "yama = restraints; niyama = observances; āsana = posture; prāṇāyāma = breath control; pratyāhāra = withdrawal; dhāraṇā = concentration; dhyāna = meditation; samādhayaḥ = absorption; aṣṭau = eight; aṅgāni = limbs"
       },
       "insight": "Yoga is a complete lifestyle.",
       "reflectionPrompt": "Which limb can I improve?",
@@ -31,8 +33,10 @@
       "sutra": {
         "number": "2.46",
         "sanskrit": "स्थिरसुख॑म् आस॒नम्",
-        "transliteration": "Sutra 2.46",
-        "meaning": "The posture should be steady and comfortable."
+        "transliteration": "sthira-sukham āsanam",
+        "meaning": "The posture should be steady and comfortable.",
+        "padaVibhaga": "sthira | sukham | āsanam",
+        "wordMeanings": "sthira = steady/stable; sukham = comfortable; āsanam = posture"
       },
       "insight": "asanas are required to be performed with easeI need to watch my food and other habits to stay healthy.",
       "reflectionPrompt": "Am I flexible in body and mind?",
@@ -50,8 +54,10 @@
       "sutra": {
         "number": "2.47",
         "sanskrit": "प्र॒य॒त्नशैथिल्यानन्तस॑माप॒त्ति॒भ्याम्",
-        "transliteration": "Sutra 2.47",
-        "meaning": "It results in relaxation of effort and the meeting with the infinite."
+        "transliteration": "prayatna-śaithilyānanta-samāpattibhyām",
+        "meaning": "It results in relaxation of effort and the meeting with the infinite.",
+        "padaVibhaga": "prayatna | śaithilya | ananta | samāpattibhyām",
+        "wordMeanings": "prayatna = effort; śaithilya = relaxation; ananta = infinite; samāpattibhyām = by meditation on"
       },
       "insight": "Yogic practices should feel pleasureable to be sustained.",
       "reflectionPrompt": "Am I making my life more satvic and the body more healthy?",
@@ -69,8 +75,10 @@
       "sutra": {
         "number": "2.48",
         "sanskrit": "ततो द्व॒न्द्वान॑भिघा॒तः",
-        "transliteration": "Sutra 2.48",
-        "meaning": "From then on, there are no botherations from the dualities like happiness and distress, heat and cold."
+        "transliteration": "tato dvandvānabhighātaḥ",
+        "meaning": "From then on, there are no botherations from the dualities like happiness and distress, heat and cold.",
+        "padaVibhaga": "tataḥ | dvandva | anabhighātaḥ",
+        "wordMeanings": "tataḥ = from that; dvandva = pairs of opposites; anabhighātaḥ = freedom from affliction"
       },
       "insight": "yoga is a life long practice which makes one strong physically and mentally.",
       "reflectionPrompt": "Is daily yoga practice for me like brushing my teeth or taking a bath yet?",
@@ -88,8 +96,10 @@
       "sutra": {
         "number": "2.49",
         "sanskrit": "त॒स्मिन्सति श्वा॒सप्र॒श्वा॒स॒योर्ग॒ति॒वि॒च्छेदः प्रा॑णाया॒मः",
-        "transliteration": "Sutra 2.49",
-        "meaning": "Once this is accomplished, regulation of the incoming and the outgoing breath with retention is attained."
+        "transliteration": "tasmin sati śvāsa-praśvāsayor gati-vicchedaḥ prāṇāyāmaḥ",
+        "meaning": "Once this is accomplished, regulation of the incoming and the outgoing breath with retention is attained.",
+        "padaVibhaga": "tasmin | sati | śvāsa | praśvāsayoḥ | gati | vicchedaḥ | prāṇāyāmaḥ",
+        "wordMeanings": "tasmin = in that; sati = being established; śvāsa = inhalation; praśvāsayoḥ = exhalation; gati = movement; vicchedaḥ = regulation; prāṇāyāmaḥ = breath control"
       },
       "insight": "Prana is the all permeating, auto generated  energy which sustains and destroys life. It is also at the heart of the practice of yoga.  Pranayama consists of prana + ayama ie regulation. Prana is vital to maintaining life and the systems of the body. Pranayama helps to keep its free flow.",
       "reflectionPrompt": "Am I practicing pranayam with attention and ease?",

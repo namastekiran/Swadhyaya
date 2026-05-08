@@ -77,7 +77,7 @@ export function PracticeView({ topicId, section }: { topicId: string; section: S
             </Link>
             <div>
               {section.theme && !/^\d+[\.\d\n]*$/.test(section.theme.trim()) && (
-                <p style={{ fontSize: 10, color: "rgba(255,255,255,0.70)" }}>{section.theme}</p>
+                <p style={{ fontSize: 10, color: "rgba(255,255,255,0.70)" }}>{section.theme.replace(/[.!?]+$/, '')}</p>
               )}
               <p style={{ fontSize: 14, fontWeight: 500, color: "#fff" }}>Micro Practice</p>
             </div>

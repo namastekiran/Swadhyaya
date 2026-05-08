@@ -2,6 +2,8 @@ export interface SutraData {
   number: string;
   sanskrit: string;
   transliteration: string;
+  padaVibhaga?: string;
+  wordMeanings?: string;
   meaning: string;
 }
 

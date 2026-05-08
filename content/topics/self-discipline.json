@@ -12,8 +12,10 @@
       "sutra": {
         "number": "1.1",
         "sanskrit": "अ॒थ योगानु॑शास॒नम् ॥",
-        "transliteration": "Sutra 1.1",
-        "meaning": "Now begins the discipline of Yoga. \nShasana or discipline is what someone else imposes on you but anushasana or self-discipline is what you impose on yourself. \nOne needs discipline to do something which is not enjoyable to start with. You will enjoy yoga only after having practiced it for some time and reaped the benefits thereof."
+        "transliteration": "atha yoga-anuśāsanam",
+        "meaning": "Now begins the discipline of Yoga. \nShasana or discipline is what someone else imposes on you but anushasana or self-discipline is what you impose on yourself. \nOne needs discipline to do something which is not enjoyable to start with. You will enjoy yoga only after having practiced it for some time and reaped the benefits thereof.",
+        "padaVibhaga": "atha | yoga | anuśāsanam",
+        "wordMeanings": "atha = now, auspicious beginning; yoga = union/discipline; anuśāsanam = teaching/exposition"
       },
       "insight": "This is a sacred beginning. When there is readiness the journey unfolds naturally. To ready oneself for yoga mental commitment is necessary. Commitment to bring discipline in your life. Self-discipline is needed in areas which are not so pleasant to start with but give joy in the long term ie. Sattvic matters. In comparison Rajasic activities may give great joy in the begining but bring only misery in the end. Tamasic of course is total lack of discipline. Apply this rule to say, the kind of food you eat or the kind of entertainment you enjoy and you will see why Patanjali called yoga a discipline.",
       "reflectionPrompt": "Will I call myself a self-disciplined person or do I need monitoring?",
@@ -31,8 +33,10 @@
       "sutra": {
         "number": "1.2, 1.3",
         "sanskrit": "योगश्चित्तवृत्तिनिरोधः\nतदा द्रष्टुः स्वरूपेऽवस्थानम्",
-        "transliteration": "Sutra 1.2, 1.3",
-        "meaning": "Yoga is the stilling of the fluctuations of the Consciousness ie Chitta. The Chitta comprises of the Manas, Buddhi, Ahamkar. The mind, intellect and ego.\nOnce the chitta is calm then the sadhak abide in their true nature."
+        "transliteration": "yogaś citta-vṛtti-nirodhaḥ",
+        "meaning": "Yoga is the stilling of the fluctuations of the Consciousness ie Chitta. The Chitta comprises of the Manas, Buddhi, Ahamkar. The mind, intellect and ego.\nOnce the chitta is calm then the sadhak abide in their true nature.",
+        "padaVibhaga": "yogaḥ | citta | vṛtti | nirodhaḥ",
+        "wordMeanings": "yogaḥ = yoga; citta = mind-stuff/consciousness; vṛtti = fluctuations/modifications; nirodhaḥ = restraint/cessation"
       },
       "insight": "The mind keeps moving. Awareness—not suppression—brings stillness. Yoga shows us how. \nWhen the mind settles you experience your true self—peaceful and aware.",
       "reflectionPrompt": "When is my mind most restless? Am I aware of the constant internal dialogue. Can I differentiate between my mind, intellect and how my identity is intertwined with them?",
@@ -50,8 +54,10 @@
       "sutra": {
         "number": "1.5, 1.6",
         "sanskrit": "वृत्तयः पञ्चतय्यः क्लिष्टाक्लिष्टाः\nप्रमाणविपर्ययविकल्पनिद्रास्मृतयः",
-        "transliteration": "Sutra 1.5, 1.6",
-        "meaning": "The chitta is disturbed by five-fold movements of our mind, some of these vrittis or modulations can be painful others not so much however all of them bring disturbance. Yoga is when they are dropped.\n\nThey are- 1. It seeks Pramana or validity of knowledge. Is the knowledge experiential, or at least can be guessed at. Perhaps the scriptures say so. 2. However, despite all the proof seeking the mind may still opt for Viparyaya ie. perverse or wrong knowledge, 3. Sometimes there is no truth at all just imagination or delusion ie vikalpa, 4.The 4th vritti is sleep and 5.  the memory of it all. All this keeps our mind busy unless asleep."
+        "transliteration": "vṛttayaḥ pañcatayyaḥ kliṣṭākliṣṭāḥ",
+        "meaning": "The chitta is disturbed by five-fold movements of our mind, some of these vrittis or modulations can be painful others not so much however all of them bring disturbance. Yoga is when they are dropped.\n\nThey are- 1. It seeks Pramana or validity of knowledge. Is the knowledge experiential, or at least can be guessed at. Perhaps the scriptures say so. 2. However, despite all the proof seeking the mind may still opt for Viparyaya ie. perverse or wrong knowledge, 3. Sometimes there is no truth at all just imagination or delusion ie vikalpa, 4.The 4th vritti is sleep and 5.  the memory of it all. All this keeps our mind busy unless asleep.",
+        "padaVibhaga": "vṛttayaḥ | pañcatayyaḥ | kliṣṭa | akliṣṭāḥ",
+        "wordMeanings": "vṛttayaḥ = fluctuations; pañcatayyaḥ = fivefold; kliṣṭa = painful/afflicted; akliṣṭāḥ = non-painful"
       },
       "insight": "Some thoughts bring a lot of misery some less. Awareness quietens most thoughts.\n\nPramana is direct knowledge, from the core of ones being. Viparyaya is wrong perceptions gathered by the senses of perception like taking the coat stand for a ghost in the dark. Vikalpa is just being in la-la land without any  basis in facts. Smriti helps one recollect experiences for right understanding and waking from sleep one experiences the quietude ie. the opposite of the disturbed chitta.",
       "reflectionPrompt": "Which thoughts disturb me most?\nWhich of Patanjali's classifications keeps my mind busy? What happens when observed?",
@@ -69,8 +75,10 @@
       "sutra": {
         "number": "1.12, 1.13",
         "sanskrit": "अभ्यासवैराग्याभ्यां तन्निरोधः\nतत्र स्थितौ यत्नोऽभ्यासः",
-        "transliteration": "Sutra 1.12, 1.13",
-        "meaning": "Repeated practice without atachment is the way to still the mind"
+        "transliteration": "abhyāsa-vairāgyābhyāṁ tan-nirodhaḥ",
+        "meaning": "Repeated practice without atachment is the way to still the mind",
+        "padaVibhaga": "abhyāsa | vairāgya | ābhyām | tat | nirodhaḥ",
+        "wordMeanings": "abhyāsa = practice; vairāgya = non-attachment; ābhyām = by these two; tat = their; nirodhaḥ = restraint/cessation"
       },
       "insight": "Consistency and letting go brings mastery. I will not be focused on the end result while I practice regularly.",
       "reflectionPrompt": "Can I practice consistently without constantly measuring my progress?",
@@ -88,8 +96,10 @@
       "sutra": {
         "number": "1.14",
         "sanskrit": "स तु दीर्घकालनैरन्तर्यसत्कारासेवितो दृढभूमिः",
-        "transliteration": "Sutra 1.14",
-        "meaning": "Practice becomes firm when done for a long time with sincerity and dedication."
+        "transliteration": "sa tu dīrgha-kāla-nairantarya-satkārāsevito dṛḍhabhūmiḥ",
+        "meaning": "Practice becomes firm when done for a long time with sincerity and dedication.",
+        "padaVibhaga": "saḥ | tu | dīrgha-kāla | nairantarya | satkāra | āsevitaḥ | dṛḍha-bhūmiḥ",
+        "wordMeanings": "saḥ = that; tu = indeed; dīrgha-kāla = long time; nairantarya = uninterrupted; satkāra = with devotion; āsevitaḥ = practiced; dṛḍha-bhūmiḥ = firmly grounded"
       },
       "insight": "Consistency builds strength naturally. I need to honour the practice.",
       "reflectionPrompt": "can I sustain my practice daily?",
@@ -107,8 +117,10 @@
       "sutra": {
         "number": "1.20",
         "sanskrit": "श्रद्धावीर्यस्मृतिसमाधिप्रज्ञापूर्वक इतरेषाम्",
-        "transliteration": "Sutra 1.20",
-        "meaning": "Practice must be persued with faith,confidence, energy, keenness of memory and the power to absorb to avoid spiritual complacency."
+        "transliteration": "śraddhā-vīrya-smṛti-samādhi-prajñā-pūrvaka itareṣām",
+        "meaning": "Practice must be persued with faith,confidence, energy, keenness of memory and the power to absorb to avoid spiritual complacency.",
+        "padaVibhaga": "śraddhā | vīrya | smṛti | samādhi | prajñā | pūrvakaḥ | itareṣām",
+        "wordMeanings": "śraddhā = faith; vīrya = energy/vigor; smṛti = memory/mindfulness; samādhi = absorption; prajñā = wisdom; pūrvakaḥ = preceded by; itareṣām = for others"
       },
       "insight": "I need to put in my 100% to make progress",
       "reflectionPrompt": "Inner growth needs sincerity and effort. Am I willing to make the effort?",
@@ -126,8 +138,10 @@
       "sutra": {
         "number": "1.21, 1.22",
         "sanskrit": "तीव्रसंवेगानामासन्नः\nमृदुमध्याधिमात्रत्वात्ततोऽपि विशेषः",
-        "transliteration": "Sutra 1.21, 1.22",
-        "meaning": "Intense effort brings quick progress\nEffort varies in intensity -i) feeble ii) moderate iii)steady"
+        "transliteration": "tīvra-saṁvegānām āsannaḥ",
+        "meaning": "Intense effort brings quick progress\nEffort varies in intensity -i) feeble ii) moderate iii)steady",
+        "padaVibhaga": "tīvra | saṁvegānām | āsannaḥ",
+        "wordMeanings": "tīvra = intense; saṁvegānām = of the ardent; āsannaḥ = near/imminent"
       },
       "insight": "Depth of desire determines growth. How badly do you want it.\n\nThe pace of growth depends on your effort.",
       "reflectionPrompt": "How strong is my intention?\nWhere am I on this scale?",
@@ -144,8 +158,10 @@
       "sutra": {
         "number": "1.30",
         "sanskrit": "व्याधिस्त्यानसंशयप्रमादालस्याविरतिभ्रान्तिदर्शनालब्धभूमिकत्वानवस्थितत्वानि चित्तविक्षेपास्तेऽन्तरायाः",
-        "transliteration": "Sutra 1.30",
-        "meaning": "There are 9 obstacles on the path.\n1.Disease 2. lack of interest. Sluggishness 3.Doubt (in oneself, the process or the teacher) 4.Negligence, knowingly not doing the right thing. 5.Laziness 6. Lack of moderation in sensual gratification 7.Illusion. Having mistaken notions 8.Inability to hold on to what is achieved 9.Oscillating mind causing distraction and losing progress."
+        "transliteration": "vyādhi-styāna-saṁśaya-pramāda-ālasya-avirati-bhrāntidarśana-alabdha-bhūmikatva-anavasthitatvāni citta-vikṣepās te'ntarāyāḥ",
+        "meaning": "There are 9 obstacles on the path.\n1.Disease 2. lack of interest. Sluggishness 3.Doubt (in oneself, the process or the teacher) 4.Negligence, knowingly not doing the right thing. 5.Laziness 6. Lack of moderation in sensual gratification 7.Illusion. Having mistaken notions 8.Inability to hold on to what is achieved 9.Oscillating mind causing distraction and losing progress.",
+        "padaVibhaga": "vyādhi | styāna | saṁśaya | pramāda | ālasya | avirati | bhrānti-darśana | alabdha-bhūmikatva | anavasthitatvāni | citta-vikṣepāḥ | te | antarāyāḥ",
+        "wordMeanings": "vyādhi = disease; styāna = dullness; saṁśaya = doubt; pramāda = carelessness; ālasya = laziness; avirati = sensuality; bhrānti-darśana = false perception; alabdha-bhūmikatva = non-attainment; anavasthitatvāni = instability; citta-vikṣepāḥ = distractions; te = these; antarāyāḥ = obstacles"
       },
       "insight": "Challenges are natural on any path.  These are the nine obstacles physical, mental / intellectual and spiritual impediments in the path of yoga.",
       "reflectionPrompt": "What obstacle/s are hindering me?",
@@ -163,8 +179,10 @@
       "sutra": {
         "number": "1.31, 1.32",
         "sanskrit": "दुःखदौर्मनस्याङ्गमेजयत्वश्वासप्रश्वासा विक्षेपसहभुवः\nतत्प्रतिषेधार्थमेकतत्त्वाभ्यासः",
-        "transliteration": "Sutra 1.31, 1.32",
-        "meaning": "Sorrow, despair, unsteadiness of the body and irregular breathing further distract the chitta.\n\nAdherence to single minded effort prevents these impediments."
+        "transliteration": "duḥkha-daurmanasyāṅgamejayatva-śvāsa-praśvāsā vikṣepa-sahabhuvaḥ",
+        "meaning": "Sorrow, despair, unsteadiness of the body and irregular breathing further distract the chitta.\n\nAdherence to single minded effort prevents these impediments.",
+        "padaVibhaga": "duḥkha | daurmanasya | aṅgamejayatva | śvāsa | praśvāsāḥ | vikṣepa | sahabhuvaḥ",
+        "wordMeanings": "duḥkha = pain/sorrow; daurmanasya = despair; aṅgamejayatva = trembling of limbs; śvāsa = inhalation; praśvāsāḥ = exhalation; vikṣepa = distraction; sahabhuvaḥ = companions of"
       },
       "insight": "During meditation the body and mind feel restless.\n\n\nSingle minded focus reduces distraction.",
       "reflectionPrompt": "How does my body and mind feel?",
@@ -182,8 +200,10 @@
       "sutra": {
         "number": "2.1, 2.2",
         "sanskrit": "तपःस्वाध्यायेश्वरप्रणिधानानि क्रियायोगः\nसमाधिभावनार्थः क्लेशतनूकरणार्थश्च",
-        "transliteration": "Sutra 2.1, 2.2",
-        "meaning": "Discipline in practice, self-study, study of the scriptures and surrender to God are the acts of yoga.\n\nYoga reduces suffering and prepares for meditation."
+        "transliteration": "tapaḥ-svādhyāyeśvara-praṇidhānāni kriyā-yogaḥ",
+        "meaning": "Discipline in practice, self-study, study of the scriptures and surrender to God are the acts of yoga.\n\nYoga reduces suffering and prepares for meditation.",
+        "padaVibhaga": "tapaḥ | svādhyāya | īśvara-praṇidhānāni | kriyā-yogaḥ",
+        "wordMeanings": "tapaḥ = austerity; svādhyāya = self-study; īśvara-praṇidhānāni = surrender to God; kriyā-yogaḥ = yoga of action"
       },
       "insight": "I need to be committed to make progress",
       "reflectionPrompt": "Can I make a commitment to myself?\n\n\nEffort + awareness + surrender = growth.\tAm I balanced in effort?",

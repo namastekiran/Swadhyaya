@@ -142,7 +142,7 @@ function JourneyComplete({ topic, answers }: { topic: TopicData; answers: Record
             </Link>
             <div>
               <p style={{ fontSize: 16, fontWeight: 500, color: "#fff" }}>{topic.title}</p>
-              <p style={{ fontSize: 11, color: "rgba(255,255,255,0.70)" }}>{topic.tagline}</p>
+              <p style={{ fontSize: 11, color: "rgba(255,255,255,0.70)" }}>{topic.tagline.replace(/[.!?]+$/, '')}</p>
             </div>
           </div>
           <div className="flex items-center gap-2" style={{ paddingLeft: 42 }}>
@@ -227,7 +227,7 @@ function JourneyComplete({ topic, answers }: { topic: TopicData; answers: Record
               <div>
                 <p style={{ fontSize: 9, color: "rgba(255,255,255,0.6)", letterSpacing: "0.06em", marginBottom: 3 }}>NEXT JOURNEY</p>
                 <p style={{ fontSize: 14, fontWeight: 500, color: "#fff", marginBottom: 1 }}>{t.title}</p>
-                <p style={{ fontSize: 10, color: "rgba(255,255,255,0.65)" }}>{t.tagline} · {t.totalSections} sessions</p>
+                <p style={{ fontSize: 10, color: "rgba(255,255,255,0.65)" }}>{t.tagline.replace(/[.!?]+$/, '')} · {t.totalSections} sessions</p>
               </div>
               <div className="flex items-center justify-center flex-shrink-0"
                 style={{ width: 34, height: 34, borderRadius: "50%", background: "rgba(255,255,255,0.18)" }}>
@@ -300,7 +300,7 @@ export function JourneyList({ topic }: { topic: TopicData }) {
             </Link>
             <div>
               <p style={{ fontSize: 16, fontWeight: 500, color: "#fff" }}>{topic.title}</p>
-              <p style={{ fontSize: 11, color: "rgba(255,255,255,0.70)" }}>{topic.tagline} · {topic.totalSections} sessions</p>
+              <p style={{ fontSize: 11, color: "rgba(255,255,255,0.70)" }}>{topic.tagline.replace(/[.!?]+$/, '')} · {topic.totalSections} sessions</p>
             </div>
           </div>
           <div className="flex items-center justify-between mb-2">

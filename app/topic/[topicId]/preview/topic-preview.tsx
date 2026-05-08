@@ -92,7 +92,7 @@ export function TopicPreview({ topic }: { topic: TopicData }) {
               {topic.title}
             </h1>
             <p style={{ fontSize: 12, color: "rgba(255,255,255,0.75)", fontStyle: "italic" }}>
-              {topic.tagline}
+              {topic.tagline.replace(/[.!?]+$/, '')}
             </p>
           </div>
         </ImageHeader>

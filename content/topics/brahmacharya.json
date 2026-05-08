@@ -12,8 +12,10 @@
       "sutra": {
         "number": "2.30",
         "sanskrit": "अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहा यमाः",
-        "transliteration": "Sutra 2.30",
-        "meaning": "Ahimsa (non-violence/non-injury), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (right use of energy/continence), and Aparigraha (non-possessiveness/non-greed) are the five Yamas (restraints or social codes)"
+        "transliteration": "ahiṁsā-satya-asteya-brahmacarya-aparigrahāḥ yamāḥ",
+        "meaning": "Ahimsa (non-violence/non-injury), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (right use of energy/continence), and Aparigraha (non-possessiveness/non-greed) are the five Yamas (restraints or social codes)",
+        "padaVibhaga": "ahiṁsā | satya | asteya | brahmacarya | aparigrahāḥ | yamāḥ",
+        "wordMeanings": "ahiṁsā = non-violence; satya = truthfulness; asteya = non-stealing; brahmacarya = continence; aparigrahāḥ = non-possessiveness; yamāḥ = restraints"
       },
       "insight": "non-violence,truth, non-stealing,moderation,non-possessiveness are universal values.",
       "reflectionPrompt": "Did I live these today? Which can I work on? Which is difficult for me?",
@@ -31,8 +33,10 @@
       "sutra": {
         "number": "2.38",
         "sanskrit": "ब्रह्मचर्यप्रतिष्ठायां वीर्यलाभः",
-        "transliteration": "Sutra 2.38",
-        "meaning": "Moderation brings strength"
+        "transliteration": "brahmacarya-pratiṣṭhāyāṁ vīrya-lābhaḥ",
+        "meaning": "Moderation brings strength",
+        "padaVibhaga": "brahmacarya | pratiṣṭhāyām | vīrya | lābhaḥ",
+        "wordMeanings": "brahmacarya = continence; pratiṣṭhāyām = when established; vīrya = vitality; lābhaḥ = gain"
       },
       "insight": "Energy is preserved through balance.",
       "reflectionPrompt": "Where did I waste energy?Did I have a misconception about Brahmacharya in its sense of celibacy?",

@@ -12,8 +12,10 @@
       "sutra": {
         "number": "2.30",
         "sanskrit": "अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहा यमाः",
-        "transliteration": "Sutra 2.30",
-        "meaning": "Ahimsa (non-violence/non-injury), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (right use of energy/continence), and Aparigraha (non-possessiveness/non-greed) are the five Yamas (restraints or social codes)"
+        "transliteration": "ahiṁsā-satya-asteya-brahmacarya-aparigrahāḥ yamāḥ",
+        "meaning": "Ahimsa (non-violence/non-injury), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (right use of energy/continence), and Aparigraha (non-possessiveness/non-greed) are the five Yamas (restraints or social codes)",
+        "padaVibhaga": "ahiṁsā | satya | asteya | brahmacarya | aparigrahāḥ | yamāḥ",
+        "wordMeanings": "ahiṁsā = non-violence; satya = truthfulness; asteya = non-stealing; brahmacarya = continence; aparigrahāḥ = non-possessiveness; yamāḥ = restraints"
       },
       "insight": "non-violence,truth, non-stealing,moderation,non-possessiveness are universal values.",
       "reflectionPrompt": "Did I live these today? Which can I work on? Which is difficult for me?",
@@ -31,8 +33,10 @@
       "sutra": {
         "number": "2.39",
         "sanskrit": "अपरिग्रहस्थैर्ये जन्मकथंतासंबोधः",
-        "transliteration": "Sutra 2.39",
-        "meaning": "Non-possessiveness brings clarity"
+        "transliteration": "aparigraha-sthairye janma-kathaṁtā-saṁbodhaḥ",
+        "meaning": "Non-possessiveness brings clarity",
+        "padaVibhaga": "aparigraha | sthairye | janma | kathaṁtā | saṁbodhaḥ",
+        "wordMeanings": "aparigraha = non-possessiveness; sthairye = in steadiness; janma = birth; kathaṁtā = how-ness; saṁbodhaḥ = illumination"
       },
       "insight": "Letting go brings understanding.",
       "reflectionPrompt": "What did I hold onto?",
@@ -50,8 +54,10 @@
       "sutra": {
         "number": "2.39",
         "sanskrit": "अपरिग्रहस्थैर्ये जन्मकथंतासंबोधः",
-        "transliteration": "Sutra 2.39",
-        "meaning": "\"Being established in non-accumulation gives knowledge of how births happen.\""
+        "transliteration": "aparigraha-sthairye janma-kathaṁtā-saṁbodhaḥ",
+        "meaning": "\"Being established in non-accumulation gives knowledge of how births happen.\"",
+        "padaVibhaga": "aparigraha | sthairye | janma | kathaṁtā | saṁbodhaḥ",
+        "wordMeanings": "aparigraha = non-possessiveness; sthairye = in steadiness; janma = birth; kathaṁtā = how-ness; saṁbodhaḥ = illumination"
       },
       "insight": "",
       "reflectionPrompt": "Do I feel sufficient and content.",
@@ -69,8 +75,10 @@
       "sutra": {
         "number": "2.39",
         "sanskrit": "अपरिग्रहस्थैर्ये जन्मकथंतासंबोधः",
-        "transliteration": "Sutra 2.39",
-        "meaning": "Knowledge of past and future lives unfold when one is free from greed for possessions."
+        "transliteration": "aparigraha-sthairye janma-kathaṁtā-saṁbodhaḥ",
+        "meaning": "Knowledge of past and future lives unfold when one is free from greed for possessions.",
+        "padaVibhaga": "aparigraha | sthairye | janma | kathaṁtā | saṁbodhaḥ",
+        "wordMeanings": "aparigraha = non-possessiveness; sthairye = in steadiness; janma = birth; kathaṁtā = how-ness; saṁbodhaḥ = illumination"
       },
       "insight": "Aparigraha also means freedom from rigidity of thought. Holding on to ones thoughts and perceptions is also a form of possessiveness.",
       "reflectionPrompt": "What all do I  hold onto?",

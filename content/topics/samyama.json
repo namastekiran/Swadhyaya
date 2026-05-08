@@ -12,8 +12,10 @@
       "sutra": {
         "number": "3.1",
         "sanskrit": "देशबन्धश्चित्तस्य धारणा",
-        "transliteration": "Sutra 3.1",
-        "meaning": "Fixing the consciousness on one point or region is Dharana."
+        "transliteration": "deśa-bandhaś cittasya dhāraṇā",
+        "meaning": "Fixing the consciousness on one point or region is Dharana.",
+        "padaVibhaga": "deśa | bandhaḥ | cittasya | dhāraṇā",
+        "wordMeanings": "deśa = place/point; bandhaḥ = binding; cittasya = of the mind; dhāraṇā = concentration"
       },
       "insight": "The yogi must be so familiar with the realm of his mind and emotions, that he should begin to recognize where the thoughts, ideas, images and memories are arising. . Then he can practice the sixth stage of yoga, which is putting his attention to a single object or region.",
       "reflectionPrompt": "Is my mind quiet enough to permit me to focus on a single object for a significant duration of my meditation.",
@@ -31,8 +33,10 @@
       "sutra": {
         "number": "3.2",
         "sanskrit": "तत्र प्रत्ययैकतानता ध्यानम्",
-        "transliteration": "Sutra 3.2",
-        "meaning": "Dhyana or Meditation is a steady, continuous flow of attention towards one point or region"
+        "transliteration": "tatra pratyayaika-tānatā dhyānam",
+        "meaning": "Dhyana or Meditation is a steady, continuous flow of attention towards one point or region",
+        "padaVibhaga": "tatra | pratyaya | eka-tānatā | dhyānam",
+        "wordMeanings": "tatra = there; pratyaya = cognition; eka-tānatā = one continuous flow; dhyānam = meditation"
       },
       "insight": "Sustained focus becomes meditation.",
       "reflectionPrompt": "Did I sustain attention?",
@@ -50,8 +54,10 @@
       "sutra": {
         "number": "3.3",
         "sanskrit": "तदेवार्थमात्रनिर्भासं स्वरूपशून्यमिव समाधिः",
-        "transliteration": "Sutra 3.3",
-        "meaning": "Samadhi is the meditator merging with the object of meditation and losing his self awareness."
+        "transliteration": "tad evārtha-mātra-nirbhāsaṁ svarūpa-śūnyam iva samādhiḥ",
+        "meaning": "Samadhi is the meditator merging with the object of meditation and losing his self awareness.",
+        "padaVibhaga": "tat | eva | artha | mātra | nirbhāsam | svarūpa | śūnyam | iva | samādhiḥ",
+        "wordMeanings": "tat = that; eva = alone; artha = object; mātra = only; nirbhāsam = shining; svarūpa = own form; śūnyam = empty; iva = as if; samādhiḥ = absorption"
       },
       "insight": "When the lines become blurred gradually you become one with awareness.",
       "reflectionPrompt": "Did I feel absorbed?",
@@ -69,8 +75,10 @@
       "sutra": {
         "number": "3.4",
         "sanskrit": "त्रयमेकत्र संयमः",
-        "transliteration": "Sutra 3.4",
-        "meaning": "These three together are called Samyama"
+        "transliteration": "trayam ekatra saṁyamaḥ",
+        "meaning": "These three together are called Samyama",
+        "padaVibhaga": "trayam | ekatra | saṁyamaḥ",
+        "wordMeanings": "trayam = the three; ekatra = together; saṁyamaḥ = perfect discipline/constraint"
       },
       "insight": "Integration leads to mastery. The three flow seamlessly from one to the other.",
       "reflectionPrompt": "Can I integrate focus?",

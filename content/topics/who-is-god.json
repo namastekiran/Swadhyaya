@@ -12,8 +12,10 @@
       "sutra": {
         "number": "1.24",
         "sanskrit": "क्लेशकर्मविपाकाशयैरपरामृष्टः पुरुषविशेष ईश्वरः ॥",
-        "transliteration": "Sutra 1.24",
-        "meaning": "Ishvara (the Supreme Being) is a special Purusha (Consciousness), untouched by afflictions (kleshas), actions (karma), the results of actions (vipaka), and their latent impressions (ashayaih)."
+        "transliteration": "kleśa-karma-vipākāśayair aparāmṛṣṭaḥ puruṣa-viśeṣa īśvaraḥ",
+        "meaning": "Ishvara (the Supreme Being) is a special Purusha (Consciousness), untouched by afflictions (kleshas), actions (karma), the results of actions (vipaka), and their latent impressions (ashayaih).",
+        "padaVibhaga": "kleśa | karma | vipāka | āśayaiḥ | aparāmṛṣṭaḥ | puruṣa-viśeṣaḥ | īśvaraḥ",
+        "wordMeanings": "kleśa = afflictions; karma = actions; vipāka = fruition; āśayaiḥ = by deposits; aparāmṛṣṭaḥ = untouched; puruṣa-viśeṣaḥ = special Self; īśvaraḥ = the Lord"
       },
       "insight": "Unlike individual souls, this Divine Consciousness is never subject to pain, ignorance, or the karmic cycle of cause and effect. It is pure, timeless awareness.",
       "reflectionPrompt": "What is my idea of God?",
@@ -31,8 +33,10 @@
       "sutra": {
         "number": "1.25",
         "sanskrit": "तत्र निरतिशयं सर्वज्ञबीजम् ॥",
-        "transliteration": "Sutra 1.25",
-        "meaning": "In Him (Ishvara), the seed of omniscience is unsurpassed (cannot be exceeded)."
+        "transliteration": "tatra niratiśayaṁ sarvajña-bījam",
+        "meaning": "In Him (Ishvara), the seed of omniscience is unsurpassed (cannot be exceeded).",
+        "padaVibhaga": "tatra | niratiśayam | sarvajña | bījam",
+        "wordMeanings": "tatra = in Him; niratiśayam = unsurpassed; sarvajña = omniscient; bījam = seed"
       },
       "insight": "Meaning: Ishvara is the source of all knowledge. This is the supreme state of knowing, where awareness is absolute, limitless, and beyond any form of intellectual understanding.",
       "reflectionPrompt": "Can I accept my Self as That",
@@ -50,8 +54,10 @@
       "sutra": {
         "number": "1.26",
         "sanskrit": "स पूर्वेषामपि गुरुः कालेनानवच्छेदत्",
-        "transliteration": "Sutra 1.26",
-        "meaning": "He is the teacher of even the ancient teachers (like Brahma), being unbound by time."
+        "transliteration": "sa eṣa pūrveṣām api guruḥ kālenānavacchedāt",
+        "meaning": "He is the teacher of even the ancient teachers (like Brahma), being unbound by time.",
+        "padaVibhaga": "saḥ | eṣaḥ | pūrveṣām | api | guruḥ | kālena | anavacchedāt",
+        "wordMeanings": "saḥ = He; eṣaḥ = this; pūrveṣām = of the ancients; api = also; guruḥ = teacher; kālena = by time; anavacchedāt = not limited by"
       },
       "insight": "Since Ishvara transcends the limitations of time and space, He is the original and supreme guide. The wisdom of the divine is eternal and not limited to any historical era or person.",
       "reflectionPrompt": "Am I able to accept the Guru, the Cosciousness and the Self as the One and Only?",

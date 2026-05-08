@@ -12,8 +12,10 @@
       "sutra": {
         "number": "3.3",
         "sanskrit": "तदेवार्थमात्रनिर्भासं स्वरूपशून्यमिव समाधिः",
-        "transliteration": "Sutra 3.3",
-        "meaning": "When there's a sense of effortless linkage of the attention to a particular region in the mind or to the emotions or to a higher dimension, it is the highest stage of yoga, that of samadhi. This is experienced as illumination of the higher self while the yogi feels as if devoid of his conditioned self."
+        "transliteration": "tad evārtha-mātra-nirbhāsaṁ svarūpa-śūnyam iva samādhiḥ",
+        "meaning": "When there's a sense of effortless linkage of the attention to a particular region in the mind or to the emotions or to a higher dimension, it is the highest stage of yoga, that of samadhi. This is experienced as illumination of the higher self while the yogi feels as if devoid of his conditioned self.",
+        "padaVibhaga": "tat | eva | artha | mātra | nirbhāsam | svarūpa | śūnyam | iva | samādhiḥ",
+        "wordMeanings": "tat = that; eva = alone; artha = object; mātra = only; nirbhāsam = shining; svarūpa = own form; śūnyam = empty; iva = as if; samādhiḥ = absorption"
       },
       "insight": "When the seer and the seen appear to merge it is a state of samadhi.  Artists of all kinds when totally engrossed in their art would likely experience such a state. But an artist puts in a lot of effort in his art to reach such a state and is also not able to sustain it in his day to day life. The yogi on the other hand, who has lost the \"i\" ness seamlessly flows into it.",
       "reflectionPrompt": "Have I experienced moments of samadhi in my practice?",
@@ -30,8 +32,10 @@
       "sutra": {
         "number": "1.17",
         "sanskrit": "प्रत्यक्षानुमानागमाः प्रमाणानि ॥१.७॥",
-        "transliteration": "Sutra 1.17",
-        "meaning": "Practice and detachment can make one experience samadhi in four ways- i) Vitarka ,self-analysis, wherein one logically understands the 'Self' and experiences a shift within. ii) Vichara, synthesis of the senses and thought which brings about 'an awareness' without any disturbance iii) Ananda, bliss iv)  Asmita, only the experience of 'I am'"
+        "transliteration": "vitarka-vicārānandāsmitārūpānugamāt saṁprajñātaḥ",
+        "meaning": "Practice and detachment can make one experience samadhi in four ways- i) Vitarka ,self-analysis, wherein one logically understands the 'Self' and experiences a shift within. ii) Vichara, synthesis of the senses and thought which brings about 'an awareness' without any disturbance iii) Ananda, bliss iv)  Asmita, only the experience of 'I am'",
+        "padaVibhaga": "vitarka | vicāra | ānanda | asmitā | rūpa | anugamāt | saṁprajñātaḥ",
+        "wordMeanings": "vitarka = reasoning; vicāra = reflection; ānanda = bliss; asmitā = I-am-ness; rūpa = form; anugamāt = accompanied by; saṁprajñātaḥ = cognitive samadhi"
       },
       "insight": "It can be a gradual movement from one to the other or any one of the way. \nThis is  Samprajnata Samadhi wherein there is still, distinction between the seer and the seen.",
       "reflectionPrompt": "Do I need to rationally understand the process or am willing to sit for meditation and let go?",
@@ -48,8 +52,10 @@
       "sutra": {
         "number": "1.18",
         "sanskrit": "विरामप्रत्ययाभ्यासपूर्व: संस्कारशेषोSन्यः",
-        "transliteration": "Sutra 1.18",
-        "meaning": "Asamprajnat-Samadhi is the other kind of Samadhi which is attained by the constant practice of cessation of all mental modifications, in which the Chitta retains only the unmanifested impression."
+        "transliteration": "virāma-pratyayābhyāsa-pūrvaḥ saṁskāra-śeṣo'nyaḥ",
+        "meaning": "Asamprajnat-Samadhi is the other kind of Samadhi which is attained by the constant practice of cessation of all mental modifications, in which the Chitta retains only the unmanifested impression.",
+        "padaVibhaga": "virāma | pratyaya | abhyāsa | pūrvaḥ | saṁskāra | śeṣaḥ | anyaḥ",
+        "wordMeanings": "virāma = cessation; pratyaya = cognition; abhyāsa = practice; pūrvaḥ = preceded by; saṁskāra = impressions; śeṣaḥ = remainder; anyaḥ = the other (asamprajnata samadhi)"
       },
       "insight": "This state is akin to the state just before falling asleep. The intelligence dissolves but the sense of self remains.",
       "reflectionPrompt": "Am I close to stopping the modulations of the mind to some extent?",
@@ -66,8 +72,10 @@
       "sutra": {
         "number": "1.19",
         "sanskrit": "भवप्रत्ययो विदेहप्रकृतिलयानाम्",
-        "transliteration": "Sutra 1.19",
-        "meaning": "In Asamprajnat Samadhi the sadhak may experience bodilessness or become merged in nature leading to solitude."
+        "transliteration": "bhava-pratyayo videha-prakṛtilayānām",
+        "meaning": "In Asamprajnat Samadhi the sadhak may experience bodilessness or become merged in nature leading to solitude.",
+        "padaVibhaga": "bhava | pratyayaḥ | videha | prakṛti-layānām",
+        "wordMeanings": "bhava = existence/becoming; pratyayaḥ = cognition/cause; videha = bodiless beings; prakṛti-layānām = those merged in nature"
       },
       "insight": "In this samadhi the sadhak is freed from all modulations but the samskaras spring back to life the moment he comes out of this state.",
       "reflectionPrompt": "Am I open to this kind of experience yet?",
@@ -85,8 +93,10 @@
       "sutra": {
         "number": "1.20",
         "sanskrit": "श्रद्धावीर्यस्मृतिसमाधिप्रज्ञापूर्वक इतरेषाम्",
-        "transliteration": "Sutra 1.20",
-        "meaning": "Practice must be persued with faith,confidence, energy, keenness of memory and the power to absorb to avoid spiritual complacency."
+        "transliteration": "śraddhā-vīrya-smṛti-samādhi-prajñā-pūrvaka itareṣām",
+        "meaning": "Practice must be persued with faith,confidence, energy, keenness of memory and the power to absorb to avoid spiritual complacency.",
+        "padaVibhaga": "śraddhā | vīrya | smṛti | samādhi | prajñā | pūrvakaḥ | itareṣām",
+        "wordMeanings": "śraddhā = faith; vīrya = energy/vigor; smṛti = memory/mindfulness; samādhi = absorption; prajñā = wisdom; pūrvakaḥ = preceded by; itareṣām = for others"
       },
       "insight": "I need to put in my 100% to make progress",
       "reflectionPrompt": "Inner growth needs sincerity and effort. Am I a willing sadhak?",
@@ -104,8 +114,10 @@
       "sutra": {
         "number": "1.21, 1.22",
         "sanskrit": "तीव्रसंवेगानामासन्नः\nमृदुमध्याधिमात्रत्वात्ततोऽपि विशेषः",
-        "transliteration": "Sutra 1.21, 1.22",
-        "meaning": "Intense effort brings quick progress\nEffort varies in intensity -i) feeble ii) moderate iii)steady"
+        "transliteration": "tīvra-saṁvegānām āsannaḥ",
+        "meaning": "Intense effort brings quick progress\nEffort varies in intensity -i) feeble ii) moderate iii)steady",
+        "padaVibhaga": "tīvra | saṁvegānām | āsannaḥ",
+        "wordMeanings": "tīvra = intense; saṁvegānām = of the ardent; āsannaḥ = near/imminent"
       },
       "insight": "Depth of desire determines growth.\nThe pace of growth depends on your effort.",
       "reflectionPrompt": "How strong is my intention?\nWhere am I on this scale?",
@@ -123,8 +135,10 @@
       "sutra": {
         "number": "1.23, 1.24",
         "sanskrit": "ईश्वरप्रणिधानाद्वा\nक्लेशकर्मविपाकाशयैरपरामृष्टः पुरुषविशेष ईश्वरः",
-        "transliteration": "Sutra 1.23, 1.24",
-        "meaning": "The Chitta ie consciousness may be totaly focused and surrendered to God.\nIshvara is untouched by suffering and karma"
+        "transliteration": "īśvara-praṇidhānād vā",
+        "meaning": "The Chitta ie consciousness may be totaly focused and surrendered to God.\nIshvara is untouched by suffering and karma",
+        "padaVibhaga": "īśvara | praṇidhānāt | vā",
+        "wordMeanings": "īśvara = the Lord/God; praṇidhānāt = from surrender/devotion; vā = or"
       },
       "insight": "The divine is pure and unaffected. The purpose of human life is to reach that state.",
       "reflectionPrompt": "What is beyond the noise?",
@@ -142,8 +156,10 @@
       "sutra": {
         "number": "1.27, 1.28",
         "sanskrit": "तस्य वाचकः प्रणवः\nतज्जपस्तदर्थभावनम्",
-        "transliteration": "Sutra 1.27, 1.28",
-        "meaning": "Om is the expression of the divine\nRepeat Om with awareness"
+        "transliteration": "tasya vācakaḥ praṇavaḥ",
+        "meaning": "Om is the expression of the divine\nRepeat Om with awareness",
+        "padaVibhaga": "tasya | vācakaḥ | praṇavaḥ",
+        "wordMeanings": "tasya = of Him; vācakaḥ = designator/word; praṇavaḥ = the syllable OM"
       },
       "insight": "Sound connects to consciousness because it is at the source of all creation. Aum is the symbol of divinity.\nRepetition deepens experience.",
       "reflectionPrompt": "Can I feel the vibrations of the sounds around me?",
@@ -161,8 +177,10 @@
       "sutra": {
         "number": "1.29",
         "sanskrit": "ततः प्रत्यक्चेतनाधिगमोऽप्यन्तरायाभावश्च",
-        "transliteration": "Sutra 1.29",
-        "meaning": "Om chanting leads inward and removes obstacles"
+        "transliteration": "tataḥ pratyak-cetanādhigamo'py antarāyābhāvaś ca",
+        "meaning": "Om chanting leads inward and removes obstacles",
+        "padaVibhaga": "tataḥ | pratyak | cetanā | adhigamaḥ | api | antarāya | abhāvaḥ | ca",
+        "wordMeanings": "tataḥ = from that; pratyak = inward; cetanā = consciousness; adhigamaḥ = attainment; api = also; antarāya = obstacles; abhāvaḥ = absence; ca = and"
       },
       "insight": "Inner connection ie. when the experiencer, the experience and the experienced become one there is no inner or outer turmoil.",
       "reflectionPrompt": "Am I able to go inwards when I sit in silence with eyes closed?",
@@ -180,8 +198,10 @@
       "sutra": {
         "number": "1.39",
         "sanskrit": "यथाभिमतध्यानाद्वा",
-        "transliteration": "Sutra 1.39",
-        "meaning": "Meditate on an object of your choice which is spiritually uplifting to you"
+        "transliteration": "yathābhimata-dhyānād vā",
+        "meaning": "Meditate on an object of your choice which is spiritually uplifting to you",
+        "padaVibhaga": "yathā | abhimata | dhyānāt | vā",
+        "wordMeanings": "yathā = as; abhimata = desired/agreeable; dhyānāt = from meditation; vā = or"
       },
       "insight": "Any sincere focus leads inward. This method of meditation by Patanjali in this group is seemingly the simplest but actually the hardest. Meditating on ones', self which is of course the most pleasant object to everyone, is the simplest and also the most difficult.",
       "reflectionPrompt": "What inspires me?",
@@ -198,8 +218,10 @@
       "sutra": {
         "number": "1.40",
         "sanskrit": "परमाणुपरममहत्त्वान्तोऽस्य वशीकारः",
-        "transliteration": "Sutra 1.40",
-        "meaning": "Mastery extends from smallest to largest"
+        "transliteration": "paramāṇu-paramamahattvānto'sya vaśīkāraḥ",
+        "meaning": "Mastery extends from smallest to largest",
+        "padaVibhaga": "paramāṇu | parama-mahattva | antaḥ | asya | vaśīkāraḥ",
+        "wordMeanings": "paramāṇu = smallest atom; parama-mahattva = greatest magnitude; antaḥ = to the limit; asya = of this yogi; vaśīkāraḥ = mastery"
       },
       "insight": "Awareness expands limitlessly. Maharishi Patanjali has given various methods of dhyan or meditation  to master ones chitta or cosciousness and stop the desires from overtaking the mind.",
       "reflectionPrompt": "Where can I expand awareness?",
@@ -217,8 +239,10 @@
       "sutra": {
         "number": "1.41",
         "sanskrit": "क्षीणवृत्तेरभिजातस्येव मणेर्ग्रहीतृग्रहणग्राह्येषु तत्स्थतदञ्जनता समापत्तिः",
-        "transliteration": "Sutra 1.41",
-        "meaning": "When the seer the seen and the instrument of perception become one, the mind becomes clear and it reflects reality like a crystal"
+        "transliteration": "kṣīṇa-vṛtter abhijātasyeva maṇer grahītṛ-grahaṇa-grāhyeṣu tat-stha-tad-añjanatā samāpattiḥ",
+        "meaning": "When the seer the seen and the instrument of perception become one, the mind becomes clear and it reflects reality like a crystal",
+        "padaVibhaga": "kṣīṇa-vṛtteḥ | abhijātasya | iva | maṇeḥ | grahītṛ | grahaṇa | grāhyeṣu | tat-stha | tad-añjanatā | samāpattiḥ",
+        "wordMeanings": "kṣīṇa-vṛtteḥ = weakened fluctuations; abhijātasya = transparent; iva = like; maṇeḥ = crystal; grahītṛ = knower; grahaṇa = knowing; grāhyeṣu = known; tat-stha = resting in that; tad-añjanatā = taking on color of that; samāpattiḥ = absorption"
       },
       "insight": "When the mind is pure it reflects truth without distortion.This is a very refined state of consciousness called samapatti. \nThus yoga and samadhi are but means to reach the state of samapatti.",
       "reflectionPrompt": "Is my perception clear or colored?",
@@ -236,8 +260,10 @@
       "sutra": {
         "number": "1.42",
         "sanskrit": "तत्र शब्दार्थज्ञानविकल्पैः संकीर्णा सवितर्का समापत्तिः",
-        "transliteration": "Sutra 1.42",
-        "meaning": "Savitarka samapatti wherein perception words, their meaning simultaneously blend with understanding into a special knowledge. ."
+        "transliteration": "tatra śabdārtha-jñāna-vikalpaiḥ saṅkīrṇā savitarkā samāpattiḥ",
+        "meaning": "Savitarka samapatti wherein perception words, their meaning simultaneously blend with understanding into a special knowledge. .",
+        "padaVibhaga": "tatra | śabda | artha | jñāna | vikalpaiḥ | saṅkīrṇā | savitarkā | samāpattiḥ",
+        "wordMeanings": "tatra = there; śabda = word; artha = meaning; jñāna = knowledge; vikalpaiḥ = by imaginations; saṅkīrṇā = mixed; savitarkā = with reasoning; samāpattiḥ = absorption"
       },
       "insight": "The sadhaks chitta has become clear like a mirror and there are no boundaries to understanding.",
       "reflectionPrompt": "Where do I over-interpret?",
@@ -254,8 +280,10 @@
       "sutra": {
         "number": "1.43",
         "sanskrit": "स्मृतिपरिशुद्धौ स्वरूपशून्येवार्थमात्रनिर्भासा निर्वितर्का",
-        "transliteration": "Sutra 1.43",
-        "meaning": "When memory is purified only truth shines Let go of past filters to see clearly."
+        "transliteration": "smṛti-pariśuddhau svarūpa-śūnyevārtha-mātra-nirbhāsā nirvitarkā",
+        "meaning": "When memory is purified only truth shines Let go of past filters to see clearly.",
+        "padaVibhaga": "smṛti | pariśuddhau | svarūpa | śūnya | iva | artha | mātra | nirbhāsā | nirvitarkā",
+        "wordMeanings": "smṛti = memory; pariśuddhau = on purification; svarūpa = own form; śūnya = empty; iva = as if; artha = object; mātra = only; nirbhāsā = shining; nirvitarkā = without reasoning"
       },
       "insight": "Past impressions create biases and prejudices. Unless the slate is continuously cleaned the writing on top will be garbled.",
       "reflectionPrompt": "Do I think too much of what has passed. Is my perception colored by past experiences.",
@@ -273,8 +301,10 @@
       "sutra": {
         "number": "1.44",
         "sanskrit": "एतयैव सविचारा निर्विचारा च सूक्ष्मविषया व्याख्याता",
-        "transliteration": "Sutra 1.44",
-        "meaning": "Awareness refines from subte to the subtlest when the sadhak moves from savichar samapatti to nirvichar samapatti."
+        "transliteration": "etayaiva savicārā nirvicārā ca sūkṣma-viṣayā vyākhyātā",
+        "meaning": "Awareness refines from subte to the subtlest when the sadhak moves from savichar samapatti to nirvichar samapatti.",
+        "padaVibhaga": "etayā | eva | savicārā | nirvicārā | ca | sūkṣma-viṣayā | vyākhyātā",
+        "wordMeanings": "etayā = by this; eva = indeed; savicārā = with reflection; nirvicārā = without reflection; ca = and; sūkṣma-viṣayā = subtle objects; vyākhyātā = explained"
       },
       "insight": "Subtle states of awareness deepen perception when from meditating on  oneself or objects of the senses etc the sadhak withdraws to contemplate beyond space and time or cause and effect.",
       "reflectionPrompt": "Can I notice subtle feelings?",
@@ -291,8 +321,10 @@
       "sutra": {
         "number": "1.45",
         "sanskrit": "सूक्ष्मविषयत्वं चालिङ्गपर्यवसानम्",
-        "transliteration": "Sutra 1.45",
-        "meaning": "Nature at its subtlest is consciousness. When the two dissolve into one it is at its purest."
+        "transliteration": "sūkṣma-viṣayatvaṁ cāliṅga-paryavasānam",
+        "meaning": "Nature at its subtlest is consciousness. When the two dissolve into one it is at its purest.",
+        "padaVibhaga": "sūkṣma | viṣayatvam | ca | aliṅga | paryavasānam",
+        "wordMeanings": "sūkṣma = subtle; viṣayatvam = objectness; ca = and; aliṅga = unmanifest/without mark; paryavasānam = ending/culminating in"
       },
       "insight": "Awareness expands beyond form. There is total cessation of the modulations of the small mind and the appearance of the Cosmic Mind or mahat.",
       "reflectionPrompt": "Can I go beyond labels?",
@@ -309,8 +341,10 @@
       "sutra": {
         "number": "1.46",
         "sanskrit": "ता एव सबीजः समाधिः",
-        "transliteration": "Sutra 1.46",
-        "meaning": "These are seed-based meditations, ie the sadhak's intellect or buddhi is still in play."
+        "transliteration": "tā eva sabījaḥ samādhiḥ",
+        "meaning": "These are seed-based meditations, ie the sadhak's intellect or buddhi is still in play.",
+        "padaVibhaga": "tāḥ | eva | sabījaḥ | samādhiḥ",
+        "wordMeanings": "tāḥ = these; eva = indeed; sabījaḥ = with seed; samādhiḥ = absorption"
       },
       "insight": "The six samapattis mentioned viz. savitarka, nirvitarka, savichara, nirvichara , ananda and asmita are all sabeej (or seeded in nature).",
       "reflectionPrompt": "What patterns remain?",
@@ -328,8 +362,10 @@
       "sutra": {
         "number": "1.47",
         "sanskrit": "निर्विचारवैशारद्येऽध्यात्मप्रसादः",
-        "transliteration": "Sutra 1.47",
-        "meaning": "Nirvichar or non Reflection brings clarity in subtle awareness and inner joy"
+        "transliteration": "nirvicāra-vaiśāradye'dhyātma-prasādaḥ",
+        "meaning": "Nirvichar or non Reflection brings clarity in subtle awareness and inner joy",
+        "padaVibhaga": "nirvicāra | vaiśāradye | adhyātma | prasādaḥ",
+        "wordMeanings": "nirvicāra = without reflection; vaiśāradye = in clarity/mastery; adhyātma = inner Self; prasādaḥ = grace/serenity"
       },
       "insight": "When the chitta (consciousness) and buddhi (intellect) remain non reflective inner clarity blossoms and brings calm and happiness.",
       "reflectionPrompt": "Did I feel inner ease?",
@@ -347,8 +383,10 @@
       "sutra": {
         "number": "1.48",
         "sanskrit": "ऋतम्भरा तत्र प्रज्ञा",
-        "transliteration": "Sutra 1.48",
-        "meaning": "Seasoned wisdom arises in the chitta (consciousness) and provides immense insight."
+        "transliteration": "ṛtambharā tatra prajñā",
+        "meaning": "Seasoned wisdom arises in the chitta (consciousness) and provides immense insight.",
+        "padaVibhaga": "ṛtambharā | tatra | prajñā",
+        "wordMeanings": "ṛtambharā = truth-bearing; tatra = there; prajñā = wisdom"
       },
       "insight": "Inner wisdom is beyond logic and human intellect.",
       "reflectionPrompt": "Did insight arise naturally?",
@@ -366,8 +404,10 @@
       "sutra": {
         "number": "1.49",
         "sanskrit": "श्रुतानुमानप्रज्ञाभ्यामन्यविषया विशेषार्थत्वात्",
-        "transliteration": "Sutra 1.49",
-        "meaning": "This wisdom differs from knowledge gained externally"
+        "transliteration": "śrutānumāna-prajñābhyām anya-viṣayā viśeṣārthatvāt",
+        "meaning": "This wisdom differs from knowledge gained externally",
+        "padaVibhaga": "śruta | anumāna | prajñābhyām | anya-viṣayā | viśeṣa | arthatvāt",
+        "wordMeanings": "śruta = heard/scripture; anumāna = inference; prajñābhyām = from wisdom; anya-viṣayā = different object; viśeṣa = particular/specific; arthatvāt = due to purpose"
       },
       "insight": "Direct experience is different from learned knowledge.",
       "reflectionPrompt": "Did I experience or just think?",
@@ -385,8 +425,10 @@
       "sutra": {
         "number": "1.50, 1.51",
         "sanskrit": "तज्जः संस्कारोऽन्यसंस्कारप्रतिबन्धी\nतस्यापि निरोधे सर्वनिरोधान्निर्बीजः समाधिः",
-        "transliteration": "Sutra 1.50, 1.51",
-        "meaning": "New impressions are prevented whereas old patterns are erased.\nEven this new state of wisdom dissolves leading to a nirbeeja or seedless state"
+        "transliteration": "taj-jaḥ saṁskāro'nya-saṁskāra-pratibandhī",
+        "meaning": "New impressions are prevented whereas old patterns are erased.\nEven this new state of wisdom dissolves leading to a nirbeeja or seedless state",
+        "padaVibhaga": "tat-jaḥ | saṁskāraḥ | anya | saṁskāra | pratibandhī",
+        "wordMeanings": "tat-jaḥ = born from that; saṁskāraḥ = impression; anya = other; saṁskāra = impressions; pratibandhī = obstructing/replacing"
       },
       "insight": "Awareness replaces conditioning.\nUltimate stillness is beyond all patterns.",
       "reflectionPrompt": "What pattern shifted?\nCan I rest without effort?",
@@ -404,8 +446,10 @@
       "sutra": {
         "number": "2.10",
         "sanskrit": "ते प्रतिप्रसवहेयाः सूक्ष्माः\nध्यानहेयास्तद्वृत्तयः",
-        "transliteration": "Sutra 2.10",
-        "meaning": "Subtle impressions dissolve by returning to source.Meditation removes disturbances"
+        "transliteration": "te pratiprasava-heyāḥ sūkṣmāḥ",
+        "meaning": "Subtle impressions dissolve by returning to source.Meditation removes disturbances",
+        "padaVibhaga": "te | pratiprasava | heyāḥ | sūkṣmāḥ",
+        "wordMeanings": "te = these; pratiprasava = by involution/return to source; heyāḥ = to be overcome; sūkṣmāḥ = subtle"
       },
       "insight": "Going inward dissolves patterns.Meditation clears mind patterns.",
       "reflectionPrompt": "Can I go inward?Did meditation help?",

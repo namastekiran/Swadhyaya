@@ -12,8 +12,10 @@
       "sutra": {
         "number": "1.30",
         "sanskrit": "व्याधिस्त्यानसंशयप्रमादालस्याविरतिभ्रान्तिदर्शनालब्धभूमिकत्वानवस्थितत्वानि चित्तविक्षेपास्तेऽन्तरायाः",
-        "transliteration": "Sutra 1.30",
-        "meaning": "There are 9 obstacles on the path.\n1.Disease 2. lack of interest. Sluggishness 3.Doubt (in oneself, the process or the teacher) 4.Negligence, knowingly not doing the right thing. 5.Laziness 6. Lack of moderation in sensual gratification 7.Illusion. Having mistaken notions 8.Inability to hold on to what is achieved 9.Oscillating mind causing distraction and losing progress."
+        "transliteration": "vyādhi-styāna-saṁśaya-pramāda-ālasya-avirati-bhrāntidarśana-alabdha-bhūmikatva-anavasthitatvāni citta-vikṣepās te'ntarāyāḥ",
+        "meaning": "There are 9 obstacles on the path.\n1.Disease 2. lack of interest. Sluggishness 3.Doubt (in oneself, the process or the teacher) 4.Negligence, knowingly not doing the right thing. 5.Laziness 6. Lack of moderation in sensual gratification 7.Illusion. Having mistaken notions 8.Inability to hold on to what is achieved 9.Oscillating mind causing distraction and losing progress.",
+        "padaVibhaga": "vyādhi | styāna | saṁśaya | pramāda | ālasya | avirati | bhrānti-darśana | alabdha-bhūmikatva | anavasthitatvāni | citta-vikṣepāḥ | te | antarāyāḥ",
+        "wordMeanings": "vyādhi = disease; styāna = dullness; saṁśaya = doubt; pramāda = carelessness; ālasya = laziness; avirati = sensuality; bhrānti-darśana = false perception; alabdha-bhūmikatva = non-attainment; anavasthitatvāni = instability; citta-vikṣepāḥ = distractions; te = these; antarāyāḥ = obstacles"
       },
       "insight": "Challenges are natural on any path.  These are the nine obstacles physical, mental / intellectual and spiritual impediments in the path of yoga.",
       "reflectionPrompt": "What obstacle/s are hindering me?",
@@ -31,8 +33,10 @@
       "sutra": {
         "number": "1.31",
         "sanskrit": "दुःखदौर्मनस्याङ्गमेजयत्वश्वासप्रश्वासा विक्षेपसहभुवः",
-        "transliteration": "Sutra 1.31",
-        "meaning": "Sorrow, despair, unsteadiness of the body and irregular breathing further distract the chitta.\n\nAdherence to single minded effort prevents these impediments."
+        "transliteration": "duḥkha-daurmanasyāṅgamejayatva-śvāsa-praśvāsā vikṣepa-sahabhuvaḥ",
+        "meaning": "Sorrow, despair, unsteadiness of the body and irregular breathing further distract the chitta.\n\nAdherence to single minded effort prevents these impediments.",
+        "padaVibhaga": "duḥkha | daurmanasya | aṅgamejayatva | śvāsa | praśvāsāḥ | vikṣepa | sahabhuvaḥ",
+        "wordMeanings": "duḥkha = pain/sorrow; daurmanasya = despair; aṅgamejayatva = trembling of limbs; śvāsa = inhalation; praśvāsāḥ = exhalation; vikṣepa = distraction; sahabhuvaḥ = companions of"
       },
       "insight": "During meditation the body and mind feel restless.\n\n\nSingle minded focus reduces distraction.",
       "reflectionPrompt": "How does my body and mind feel?",
@@ -50,8 +54,10 @@
       "sutra": {
         "number": "1.32",
         "sanskrit": "तत्प्रतिषेधार्थमेकतत्त्वाभ्यासः",
-        "transliteration": "Sutra 1.32",
-        "meaning": "Sorrow, despair, unsteadiness of the body and irregular breathing further distract the chitta.\n\nAdherence to single minded effort prevents these impediments."
+        "transliteration": "tat-pratiṣedhārtham eka-tattvābhyāsaḥ",
+        "meaning": "Sorrow, despair, unsteadiness of the body and irregular breathing further distract the chitta.\n\nAdherence to single minded effort prevents these impediments.",
+        "padaVibhaga": "tat | pratiṣedha | artham | eka | tattva | abhyāsaḥ",
+        "wordMeanings": "tat = their; pratiṣedha = prevention; artham = for the purpose; eka = one; tattva = principle/truth; abhyāsaḥ = practice"
       },
       "insight": "Single minded focus reduces distraction.",
       "reflectionPrompt": "How does my body and mind feel?",

@@ -31,8 +31,10 @@
       "sutra": {
         "number": "2.32",
         "sanskrit": "शौचसंतोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः",
-        "transliteration": "Sutra 2.32",
-        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life."
+        "transliteration": "śauca-santoṣa-tapaḥ-svādhyāyeśvara-praṇidhānāni niyamāḥ",
+        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life.",
+        "padaVibhaga": "śauca | santoṣa | tapaḥ | svādhyāya | īśvara-praṇidhānāni | niyamāḥ",
+        "wordMeanings": "śauca = purity; santoṣa = contentment; tapaḥ = austerity; svādhyāya = self-study; īśvara-praṇidhānāni = surrender to God; niyamāḥ = observances"
       },
       "insight": "There is always scope for improvement in following all of these Niyamas",
       "reflectionPrompt": "Which one needs special attention from me?",
@@ -50,8 +52,10 @@
       "sutra": {
         "number": "2.45",
         "sanskrit": "स॒मा॒धिसि॒द्धिरीश्वरप्र॑णिधा॒नात्",
-        "transliteration": "Sutra 2.45",
-        "meaning": "From  profound  meditation upon the Divine comes the perfection of continuous effortless linkage of the attention to that Divinity."
+        "transliteration": "samādhi-siddhir īśvara-praṇidhānāt",
+        "meaning": "From  profound  meditation upon the Divine comes the perfection of continuous effortless linkage of the attention to that Divinity.",
+        "padaVibhaga": "samādhi | siddhiḥ | īśvara-praṇidhānāt",
+        "wordMeanings": "samādhi = absorption; siddhiḥ = perfection; īśvara-praṇidhānāt = from surrender to God"
       },
       "insight": "The power of samadhi comes to him who takes refuge in the Divine.",
       "reflectionPrompt": "Surrender to God brings perfection in samadhi. Can I surrender to the Divine?",

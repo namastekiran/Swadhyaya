@@ -12,8 +12,10 @@
       "sutra": {
         "number": "2.30",
         "sanskrit": "अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहा यमाः",
-        "transliteration": "Sutra 2.30",
-        "meaning": "Ahimsa (non-violence/non-injury), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (right use of energy/continence), and Aparigraha (non-possessiveness/non-greed) are the five Yamas (restraints or social codes)"
+        "transliteration": "ahiṁsā-satya-asteya-brahmacarya-aparigrahāḥ yamāḥ",
+        "meaning": "Ahimsa (non-violence/non-injury), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (right use of energy/continence), and Aparigraha (non-possessiveness/non-greed) are the five Yamas (restraints or social codes)",
+        "padaVibhaga": "ahiṁsā | satya | asteya | brahmacarya | aparigrahāḥ | yamāḥ",
+        "wordMeanings": "ahiṁsā = non-violence; satya = truthfulness; asteya = non-stealing; brahmacarya = continence; aparigrahāḥ = non-possessiveness; yamāḥ = restraints"
       },
       "insight": "non-violence,truth, non-stealing,moderation,non-possessiveness are universal values.",
       "reflectionPrompt": "Did I live these today? Which can I work on? Which is difficult for me?",
@@ -31,8 +33,10 @@
       "sutra": {
         "number": "2.36",
         "sanskrit": "सत्यप्रतिष्ठायां क्रियाफलाश्रयत्वम्",
-        "transliteration": "Sutra 2.36",
-        "meaning": "Truthfulness brings alignment"
+        "transliteration": "satya-pratiṣṭhāyāṁ kriyā-phalaśrayatvam",
+        "meaning": "Truthfulness brings alignment",
+        "padaVibhaga": "satya | pratiṣṭhāyām | kriyā | phala | āśrayatvam",
+        "wordMeanings": "satya = truth; pratiṣṭhāyām = when established; kriyā = action; phala = fruit; āśrayatvam = dependence on"
       },
       "insight": "This sutra explains that when a yogi perfectly embodies non-violence, the atmosphere surrounding them becomes so peaceful that even naturally hostile beings lose their enmity.",
       "reflectionPrompt": "Am I truthful always?",
@@ -50,8 +54,10 @@
       "sutra": {
         "number": "2.36",
         "sanskrit": "सत्यप्रतिष्ठायां क्रियाफलाश्रयत्वम्",
-        "transliteration": "Sutra 2.36",
-        "meaning": "“When you are established in truth then the fruits of action will follow.”"
+        "transliteration": "satya-pratiṣṭhāyāṁ kriyā-phalaśrayatvam",
+        "meaning": "“When you are established in truth then the fruits of action will follow.”",
+        "padaVibhaga": "satya | pratiṣṭhāyām | kriyā | phala | āśrayatvam",
+        "wordMeanings": "satya = truth; pratiṣṭhāyām = when established; kriyā = action; phala = fruit; āśrayatvam = dependence on"
       },
       "insight": "\"When the sadhak is firmly established in the practice of truth, his words become so potent that whatever he says comes to realisation\"",
       "reflectionPrompt": "Am I truthful in words, actions and thought always?",

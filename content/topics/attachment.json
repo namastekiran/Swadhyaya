@@ -12,8 +12,10 @@
       "sutra": {
         "number": "1.37",
         "sanskrit": "वीतरागविषयं वा चित्तम्",
-        "transliteration": "Sutra 1.37",
-        "meaning": "Mind becomes calm by detachment or contemplation on realised sages"
+        "transliteration": "vīta-rāga-viṣayaṁ vā cittam",
+        "meaning": "Mind becomes calm by detachment or contemplation on realised sages",
+        "padaVibhaga": "vīta | rāga | viṣayam | vā | cittam",
+        "wordMeanings": "vīta = free from; rāga = attachment; viṣayam = object; vā = or; cittam = mind — (mind fixed on one free from attachment)"
       },
       "insight": "Letting go brings peace or complete focus on each posture and each breath.",
       "reflectionPrompt": "Am I able to maintain focus?",
@@ -30,8 +32,10 @@
       "sutra": {
         "number": "2.3",
         "sanskrit": "अविद्यास्मितारागद्वेषाभिनिवेशाः क्लेशाः",
-        "transliteration": "Sutra 2.3",
-        "meaning": "Suffering comes from 1. ignorance or lack of wisdom, 2.ego, 3.attachment to pleasure, 4.aversion to pain and 5.fear of death. These are the root causes of disturbance in our equilibrium."
+        "transliteration": "avidyāsmitā-rāga-dveṣābhiniveśāḥ kleśāḥ",
+        "meaning": "Suffering comes from 1. ignorance or lack of wisdom, 2.ego, 3.attachment to pleasure, 4.aversion to pain and 5.fear of death. These are the root causes of disturbance in our equilibrium.",
+        "padaVibhaga": "avidyā | asmitā | rāga | dveṣa | abhiniveśāḥ | kleśāḥ",
+        "wordMeanings": "avidyā = ignorance; asmitā = ego; rāga = attraction; dveṣa = aversion; abhiniveśāḥ = clinging to life; kleśāḥ = afflictions"
       },
       "insight": "All sufferings have one or the other of these at its root.",
       "reflectionPrompt": "Can I see their presence in me?",
@@ -49,8 +53,10 @@
       "sutra": {
         "number": "2.4",
         "sanskrit": "अविद्या क्षेत्रमुत्तरेषां प्रसुप्ततनुविच्छिन्नोदाराणाम्",
-        "transliteration": "Sutra 2.4",
-        "meaning": "Spiritual ignorance is the root of all suffering because it may cause arrogance, cravings, aversion, attachment etc which are impediments to growth and cause suffering."
+        "transliteration": "avidyā kṣetram uttareṣāṁ prasupta-tanu-vicchinnodārāṇām",
+        "meaning": "Spiritual ignorance is the root of all suffering because it may cause arrogance, cravings, aversion, attachment etc which are impediments to growth and cause suffering.",
+        "padaVibhaga": "avidyā | kṣetram | uttareṣām | prasupta | tanu | vicchinna | udārāṇām",
+        "wordMeanings": "avidyā = ignorance; kṣetram = field; uttareṣām = of the following; prasupta = dormant; tanu = attenuated; vicchinna = interrupted; udārāṇām = fully active"
       },
       "insight": "Unawareness fuels all reactions which cause karmic residue.",
       "reflectionPrompt": "am I unaware of who I really am?",
@@ -68,8 +74,10 @@
       "sutra": {
         "number": "2.5",
         "sanskrit": "अनित्याशुचिदुःखानात्मसु नित्यशुचिसुखात्मख्यातिरविद्या",
-        "transliteration": "Sutra 2.5",
-        "meaning": "Confusing temporary as permanent is ignorance for example assuming the world to be prmanent."
+        "transliteration": "anityāśuci-duḥkhānātmasu nitya-śuci-sukhātma-khyātir avidyā",
+        "meaning": "Confusing temporary as permanent is ignorance for example assuming the world to be prmanent.",
+        "padaVibhaga": "anitya | aśuci | duḥkha | anātmasu | nitya | śuci | sukha | ātma | khyātiḥ | avidyā",
+        "wordMeanings": "anitya = impermanent; aśuci = impure; duḥkha = painful; anātmasu = non-self; nitya = permanent; śuci = pure; sukha = pleasant; ātma = Self; khyātiḥ = knowing as; avidyā = ignorance"
       },
       "insight": "Misperception creates suffering. Life itself is impermanent so everything else around it too is not permanent.",
       "reflectionPrompt": "What am I holding as permanent which is not so?",
@@ -87,8 +95,10 @@
       "sutra": {
         "number": "2.6",
         "sanskrit": "दृग्दर्शनशक्त्योरेकात्मतेवास्मिता",
-        "transliteration": "Sutra 2.6",
-        "meaning": "Ego is identification of seer with seeing ie the body, mind and intellect as the eternal, indestructible Self"
+        "transliteration": "dṛg-darśana-śaktyor ekātmatevāsmitā",
+        "meaning": "Ego is identification of seer with seeing ie the body, mind and intellect as the eternal, indestructible Self",
+        "padaVibhaga": "dṛk | darśana | śaktyoḥ | ekātmatā | iva | asmitā",
+        "wordMeanings": "dṛk = the Seer; darśana = seeing; śaktyoḥ = of the powers; ekātmatā = oneness; iva = as if; asmitā = ego/I-am-ness"
       },
       "insight": "We confuse self with roles.",
       "reflectionPrompt": "Who am I beyond roles?",
@@ -106,8 +116,10 @@
       "sutra": {
         "number": "2.7",
         "sanskrit": "सुखानुशयी रागः",
-        "transliteration": "Sutra 2.7",
-        "meaning": "Attachment comes from pleasure"
+        "transliteration": "sukha-anuśayī rāgaḥ",
+        "meaning": "Attachment comes from pleasure",
+        "padaVibhaga": "sukha | anuśayī | rāgaḥ",
+        "wordMeanings": "sukha = pleasure; anuśayī = following/dwelling on; rāgaḥ = attachment/desire"
       },
       "insight": "We cling to what feels good.",
       "reflectionPrompt": "What am I attached to?",
@@ -125,8 +137,10 @@
       "sutra": {
         "number": "2.8",
         "sanskrit": "दुःखानुशयी द्वेषः",
-        "transliteration": "Sutra 2.8",
-        "meaning": "Aversion comes from pain"
+        "transliteration": "duḥkhānuśayī dveṣaḥ",
+        "meaning": "Aversion comes from pain",
+        "padaVibhaga": "duḥkha | anuśayī | dveṣaḥ",
+        "wordMeanings": "duḥkha = pain; anuśayī = following; dveṣaḥ = aversion/hatred"
       },
       "insight": "We avoid discomfort.",
       "reflectionPrompt": "What do I avoid?",
@@ -144,8 +158,10 @@
       "sutra": {
         "number": "2.9",
         "sanskrit": "स्वरसवाही विदुषोऽपि तथारूढोऽभिनिवेशः",
-        "transliteration": "Sutra 2.9",
-        "meaning": "Fear of loss persists even in the wise"
+        "transliteration": "svarasavāhī viduṣo'pi tathārūḍho'bhiniveśaḥ",
+        "meaning": "Fear of loss persists even in the wise",
+        "padaVibhaga": "svarasavāhī | viduṣaḥ | api | tathā | ārūḍhaḥ | abhiniveśaḥ",
+        "wordMeanings": "svarasavāhī = self-sustaining; viduṣaḥ = of the wise; api = even; tathā = so; ārūḍhaḥ = established; abhiniveśaḥ = clinging to life/fear of death"
       },
       "insight": "Fear is deeply rooted. All fear emanates from the fear of death.",
       "reflectionPrompt": "What fear drives me?",
@@ -163,8 +179,10 @@
       "sutra": {
         "number": "2.12",
         "sanskrit": "क्लेशमूलः कर्माशयो दृष्टादृष्टजन्मवेदनीयः",
-        "transliteration": "Sutra 2.12",
-        "meaning": "Karma is rooted in suffering"
+        "transliteration": "kleśa-mūlaḥ karmāśayo dṛṣṭādṛṣṭa-janma-vedanīyaḥ",
+        "meaning": "Karma is rooted in suffering",
+        "padaVibhaga": "kleśa-mūlaḥ | karma-āśayaḥ | dṛṣṭa | adṛṣṭa | janma | vedanīyaḥ",
+        "wordMeanings": "kleśa-mūlaḥ = rooted in afflictions; karma-āśayaḥ = karmic deposits; dṛṣṭa = present; adṛṣṭa = future; janma = birth; vedanīyaḥ = to be experienced"
       },
       "insight": "Actions leave impressions.",
       "reflectionPrompt": "What action affected me?",
@@ -182,8 +200,10 @@
       "sutra": {
         "number": "2.13",
         "sanskrit": "सति मूले तद्विपाको जात्यायुर्भोगाः",
-        "transliteration": "Sutra 2.13",
-        "meaning": "Karma determines life experience"
+        "transliteration": "sati mūle tad-vipāko jāty-āyur-bhogāḥ",
+        "meaning": "Karma determines life experience",
+        "padaVibhaga": "sati | mūle | tat | vipākaḥ | jāti | āyuḥ | bhogāḥ",
+        "wordMeanings": "sati = existing; mūle = at the root; tat = its; vipākaḥ = fruition; jāti = type of birth; āyuḥ = lifespan; bhogāḥ = experiences"
       },
       "insight": "Patterns shape life.",
       "reflectionPrompt": "What pattern repeats in my life?",
@@ -201,8 +221,10 @@
       "sutra": {
         "number": "2.14",
         "sanskrit": "ते ह्लादपरितापफलाः पुण्यापुण्यहेतुत्वात्",
-        "transliteration": "Sutra 2.14",
-        "meaning": "Actions bring joy or suffering"
+        "transliteration": "te hlāda-paritāpa-phalāḥ puṇyāpuṇya-hetutvāt",
+        "meaning": "Actions bring joy or suffering",
+        "padaVibhaga": "te | hlāda | paritāpa | phalāḥ | puṇya | apuṇya | hetutvāt",
+        "wordMeanings": "te = these; hlāda = joy; paritāpa = pain; phalāḥ = results; puṇya = virtue; apuṇya = non-virtue; hetutvāt = due to causes"
       },
       "insight": "Choices shape experience.",
       "reflectionPrompt": "What choice affected me?",
@@ -220,8 +242,10 @@
       "sutra": {
         "number": "2.15",
         "sanskrit": "परिणामतापसंस्कारदुःखैर्गुणवृत्तिविरोधाच्च दुःखमेव सर्वं विवेकिनः",
-        "transliteration": "Sutra 2.15",
-        "meaning": "Wise see suffering in all change"
+        "transliteration": "pariṇāma-tāpa-saṁskāra-duḥkhair guṇa-vṛtti-virodhāc ca duḥkham eva sarvaṁ vivekinaḥ",
+        "meaning": "Wise see suffering in all change",
+        "padaVibhaga": "pariṇāma | tāpa | saṁskāra | duḥkhaiḥ | guṇa | vṛtti | virodhāt | ca | duḥkham | eva | sarvam | vivekinaḥ",
+        "wordMeanings": "pariṇāma = change; tāpa = affliction; saṁskāra = impressions; duḥkhaiḥ = by sufferings; guṇa = qualities; vṛtti = fluctuations; virodhāt = due to conflict; ca = and; duḥkham = suffering; eva = indeed; sarvam = all; vivekinaḥ = of the discerning"
       },
       "insight": "Everything changes—awareness frees you.",
       "reflectionPrompt": "Can I accept change?",
@@ -239,8 +263,10 @@
       "sutra": {
         "number": "2.16",
         "sanskrit": "हेयं दुःखमनागतम",
-        "transliteration": "Sutra 2.16",
-        "meaning": "Future suffering can be avoided"
+        "transliteration": "heyaṁ duḥkham anāgatam",
+        "meaning": "Future suffering can be avoided",
+        "padaVibhaga": "heyam | duḥkham | anāgatam",
+        "wordMeanings": "heyam = to be avoided; duḥkham = suffering; anāgatam = yet to come/future"
       },
       "insight": "Awareness prevents suffering.",
       "reflectionPrompt": "can I prevent suffering in the future?",
@@ -258,8 +284,10 @@
       "sutra": {
         "number": "2.17",
         "sanskrit": "द्रष्टृदृश्ययोः संयोगो हेयहेतुः",
-        "transliteration": "Sutra 2.17",
-        "meaning": "Union of seer and seen causes suffering"
+        "transliteration": "draṣṭṛ-dṛśyayoḥ saṁyogo heya-hetuḥ",
+        "meaning": "Union of seer and seen causes suffering",
+        "padaVibhaga": "draṣṭṛ | dṛśyayoḥ | saṁyogaḥ | heya-hetuḥ",
+        "wordMeanings": "draṣṭṛ = Seer; dṛśyayoḥ = seen; saṁyogaḥ = union; heya-hetuḥ = cause of what is to be avoided"
       },
       "insight": "Attachment causes confusion.",
       "reflectionPrompt": "Where am I attached?",
@@ -277,8 +305,10 @@
       "sutra": {
         "number": "4.1",
         "sanskrit": "तासामनादित्वं चाशिषो नित्यत्वात्",
-        "transliteration": "Sutra 4.1",
-        "meaning": "Desires are beginningless and have existed eternally as the desire to live is eternal."
+        "transliteration": "janma-oṣadhi-mantra-tapaḥ-samādhi-jāḥ siddhayaḥ",
+        "meaning": "Desires are beginningless and have existed eternally as the desire to live is eternal.",
+        "padaVibhaga": "janma | oṣadhi | mantra | tapaḥ | samādhi | jāḥ | siddhayaḥ",
+        "wordMeanings": "janma = birth; oṣadhi = herbs; mantra = sacred sound; tapaḥ = austerity; samādhi = absorption; jāḥ = born from; siddhayaḥ = powers/attainments"
       },
       "insight": "Craving continues endlessly.",
       "reflectionPrompt": "What do I keep wanting?",

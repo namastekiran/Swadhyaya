@@ -12,8 +12,10 @@
       "sutra": {
         "number": "1.12, 1.13",
         "sanskrit": "अभ्यासवैराग्याभ्यां तन्निरोधः\nतत्र स्थितौ यत्नोऽभ्यासः",
-        "transliteration": "Sutra 1.12, 1.13",
-        "meaning": "Repeated practice without atachment is the way to still the mind."
+        "transliteration": "abhyāsa-vairāgyābhyāṁ tan-nirodhaḥ",
+        "meaning": "Repeated practice without atachment is the way to still the mind.",
+        "padaVibhaga": "abhyāsa | vairāgya | ābhyām | tat | nirodhaḥ",
+        "wordMeanings": "abhyāsa = practice; vairāgya = non-attachment; ābhyām = by these two; tat = their; nirodhaḥ = restraint/cessation"
       },
       "insight": "Consistency and letting go brings mastery. I will not be focused on the end result while I practice regularly.\nMaharishi Patanjali's eightfold principles from yama to dhyana are intended for this purpose.",
       "reflectionPrompt": "Can I practice consistently without constantly measuring my progress?",
@@ -31,8 +33,10 @@
       "sutra": {
         "number": "1.14",
         "sanskrit": "स तु दीर्घकालनैरन्तर्यसत्कारासेवितो दृढभूमिः",
-        "transliteration": "Sutra 1.14",
-        "meaning": "Practice becomes firm when done for a long time with sincerity and dedication."
+        "transliteration": "sa tu dīrgha-kāla-nairantarya-satkārāsevito dṛḍhabhūmiḥ",
+        "meaning": "Practice becomes firm when done for a long time with sincerity and dedication.",
+        "padaVibhaga": "saḥ | tu | dīrgha-kāla | nairantarya | satkāra | āsevitaḥ | dṛḍha-bhūmiḥ",
+        "wordMeanings": "saḥ = that; tu = indeed; dīrgha-kāla = long time; nairantarya = uninterrupted; satkāra = with devotion; āsevitaḥ = practiced; dṛḍha-bhūmiḥ = firmly grounded"
       },
       "insight": "Consistency builds physical and mental strength, naturally. I need to honour the practice and do it regularly giving it my full attention.",
       "reflectionPrompt": "can I sustain my practice daily?",
@@ -50,8 +54,10 @@
       "sutra": {
         "number": "1.2",
         "sanskrit": "श्रद्धावीर्यस्मृतिसमाधिप्रज्ञापूर्वक इतरेषाम्",
-        "transliteration": "Sutra 1.2",
-        "meaning": "Practice must be persued with faith,confidence, energy, keenness of memory and the power to absorb to avoid spiritual complacency."
+        "transliteration": "yogaś citta-vṛtti-nirodhaḥ",
+        "meaning": "Practice must be persued with faith,confidence, energy, keenness of memory and the power to absorb to avoid spiritual complacency.",
+        "padaVibhaga": "yogaḥ | citta | vṛtti | nirodhaḥ",
+        "wordMeanings": "yogaḥ = yoga; citta = mind-stuff/consciousness; vṛtti = fluctuations/modifications; nirodhaḥ = restraint/cessation"
       },
       "insight": "I need to put in my 100% to make progress",
       "reflectionPrompt": "Inner growth needs sincerity and effort. Am I willing to make the effort?",
@@ -69,8 +75,10 @@
       "sutra": {
         "number": "1.21, 1.22",
         "sanskrit": "तीव्रसंवेगानामासन्नः\nमृदुमध्याधिमात्रत्वात्ततोऽपि विशेषः",
-        "transliteration": "Sutra 1.21, 1.22",
-        "meaning": "Intense effort brings quick progress. \nEffort varies in intensity -i) feeble ii) moderate iii)steady"
+        "transliteration": "tīvra-saṁvegānām āsannaḥ",
+        "meaning": "Intense effort brings quick progress. \nEffort varies in intensity -i) feeble ii) moderate iii)steady",
+        "padaVibhaga": "tīvra | saṁvegānām | āsannaḥ",
+        "wordMeanings": "tīvra = intense; saṁvegānām = of the ardent; āsannaḥ = near/imminent"
       },
       "insight": "Depth of desire determines growth. Intensity comes when the sadhak has faith in himself, the process and the teacher.\nThe pace of growth depends on your effort.",
       "reflectionPrompt": "How strong is my intention?\nWhere am I on this scale?",
@@ -87,8 +95,10 @@
       "sutra": {
         "number": "1.40",
         "sanskrit": "परमाणुपरममहत्त्वान्तोऽस्य वशीकारः",
-        "transliteration": "Sutra 1.40",
-        "meaning": "Mastery of contemplation gives the power to extend from  the smallest to largest and from the subtlest to the grossest."
+        "transliteration": "paramāṇu-paramamahattvānto'sya vaśīkāraḥ",
+        "meaning": "Mastery of contemplation gives the power to extend from  the smallest to largest and from the subtlest to the grossest.",
+        "padaVibhaga": "paramāṇu | parama-mahattva | antaḥ | asya | vaśīkāraḥ",
+        "wordMeanings": "paramāṇu = smallest atom; parama-mahattva = greatest magnitude; antaḥ = to the limit; asya = of this yogi; vaśīkāraḥ = mastery"
       },
       "insight": "Awareness expands limitlessly. Maharishi Patanjali has given various methods of dhyan or meditation  to master ones chitta or cosciousness and stop the desires from overtaking the mind.",
       "reflectionPrompt": "How can I expand my awareness?",

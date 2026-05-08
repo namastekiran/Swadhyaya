@@ -131,7 +131,7 @@ export function GurudevView({ topicId, section }: { topicId: string; section: Se
               </Link>
               <div>
                 {section.theme && !/^\d+[\.\d\n]*$/.test(section.theme.trim()) && (
-                  <p style={{ fontSize: 10, color: "rgba(255,255,255,0.75)" }}>{section.theme}</p>
+                  <p style={{ fontSize: 10, color: "rgba(255,255,255,0.75)" }}>{section.theme.replace(/[.!?]+$/, '')}</p>
                 )}
                 <p style={{ fontSize: 14, fontWeight: 500, color: "#fff" }}>Deep Dive with Gurudev</p>
               </div>

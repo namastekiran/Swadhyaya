@@ -12,8 +12,10 @@
       "sutra": {
         "number": "2.30",
         "sanskrit": "अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहा यमाः",
-        "transliteration": "Sutra 2.30",
-        "meaning": "Ahimsa (non-violence/non-injury), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (right use of energy/continence), and Aparigraha (non-possessiveness/non-greed) are the five Yamas (restraints or social codes)"
+        "transliteration": "ahiṁsā-satya-asteya-brahmacarya-aparigrahāḥ yamāḥ",
+        "meaning": "Ahimsa (non-violence/non-injury), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (right use of energy/continence), and Aparigraha (non-possessiveness/non-greed) are the five Yamas (restraints or social codes)",
+        "padaVibhaga": "ahiṁsā | satya | asteya | brahmacarya | aparigrahāḥ | yamāḥ",
+        "wordMeanings": "ahiṁsā = non-violence; satya = truthfulness; asteya = non-stealing; brahmacarya = continence; aparigrahāḥ = non-possessiveness; yamāḥ = restraints"
       },
       "insight": "non-violence,truth, non-stealing,moderation,non-possessiveness are universal values.",
       "reflectionPrompt": "Did I live these today? Which can I work on? Which is difficult for me?",
@@ -31,8 +33,10 @@
       "sutra": {
         "number": "2.37",
         "sanskrit": "अस्तेयप्रतिष्ठायां सर्वरत्नोपस्थानम्",
-        "transliteration": "Sutra 2.37",
-        "meaning": "Non-stealing brings abundance"
+        "transliteration": "asteya-pratiṣṭhāyāṁ sarva-ratnopasthānam",
+        "meaning": "Non-stealing brings abundance",
+        "padaVibhaga": "asteya | pratiṣṭhāyām | sarva | ratna | upasthānam",
+        "wordMeanings": "asteya = non-stealing; pratiṣṭhāyām = when established; sarva = all; ratna = jewels/riches; upasthānam = approach"
       },
       "insight": "Stealing can be of all kinds of things- material and non material; we normally think only of the material theft.",
       "reflectionPrompt": "Did I ever steal say ideas, appreciation, attention?",

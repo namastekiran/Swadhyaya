@@ -12,8 +12,10 @@
       "sutra": {
         "number": "2.32",
         "sanskrit": "शौचसंतोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः",
-        "transliteration": "Sutra 2.32",
-        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life."
+        "transliteration": "śauca-santoṣa-tapaḥ-svādhyāyeśvara-praṇidhānāni niyamāḥ",
+        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life.",
+        "padaVibhaga": "śauca | santoṣa | tapaḥ | svādhyāya | īśvara-praṇidhānāni | niyamāḥ",
+        "wordMeanings": "śauca = purity; santoṣa = contentment; tapaḥ = austerity; svādhyāya = self-study; īśvara-praṇidhānāni = surrender to God; niyamāḥ = observances"
       },
       "insight": "There is always scope for improvement in following all of these Niyamas",
       "reflectionPrompt": "Which one needs special attention from me?",
@@ -31,8 +33,10 @@
       "sutra": {
         "number": "2.42",
         "sanskrit": "स॒न्तो॒षादनुत्तमसु॑खला॒भः",
-        "transliteration": "Sutra 2.42",
-        "meaning": "From contentment, the very best in happiness is obtained."
+        "transliteration": "santoṣāt anuttamaḥ sukha-lābhaḥ",
+        "meaning": "From contentment, the very best in happiness is obtained.",
+        "padaVibhaga": "santoṣāt | anuttamaḥ | sukha-lābhaḥ",
+        "wordMeanings": "santoṣāt = from contentment; anuttamaḥ = unsurpassed; sukha-lābhaḥ = attainment of happiness"
       },
       "insight": "Contentment attracts abundance.",
       "reflectionPrompt": "Did I feel content?",
@@ -50,8 +54,10 @@
       "sutra": {
         "number": "2.42",
         "sanskrit": "स॒न्तो॒षादनुत्तमसु॑खला॒भः",
-        "transliteration": "Sutra 2.42",
-        "meaning": "From contentment, and benevolence of consciouness  comes supreme happiness."
+        "transliteration": "santoṣāt anuttamaḥ sukha-lābhaḥ",
+        "meaning": "From contentment, and benevolence of consciouness  comes supreme happiness.",
+        "padaVibhaga": "santoṣāt | anuttamaḥ | sukha-lābhaḥ",
+        "wordMeanings": "santoṣāt = from contentment; anuttamaḥ = unsurpassed; sukha-lābhaḥ = attainment of happiness"
       },
       "insight": "Contentment attracts abundance.",
       "reflectionPrompt": "Do I feel content?",

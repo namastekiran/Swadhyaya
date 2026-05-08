@@ -12,8 +12,10 @@
       "sutra": {
         "number": "2.28, 2.29",
         "sanskrit": "योगाङ्गानुष्ठानादशुद्धिक्षये ज्ञानदीप्तिराविवेकख्यातेः ॥\nयमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
-        "transliteration": "Sutra 2.28, 2.29",
-        "meaning": "“By the sustained practice of the eight limbs of yoga, the impurities are destroyed and the light of wisdom, discrimination shines forth.”\n\nYama (moral injunctions), Niyama (observances), Āsana (posture), Prāṇāyāma (regulation of breath), Pratyāhāra (withholding of senses), Dhāraṇā (fixity of attention), Dhyāna (meditation), and Samādhi (absorption of consciousness in the self) are the eight accessories (limbs) of Yoga"
+        "transliteration": "yogāṅgānuṣṭhānād aśuddhi-kṣaye jñāna-dīptir āviveka-khyāteḥ",
+        "meaning": "“By the sustained practice of the eight limbs of yoga, the impurities are destroyed and the light of wisdom, discrimination shines forth.”\n\nYama (moral injunctions), Niyama (observances), Āsana (posture), Prāṇāyāma (regulation of breath), Pratyāhāra (withholding of senses), Dhāraṇā (fixity of attention), Dhyāna (meditation), and Samādhi (absorption of consciousness in the self) are the eight accessories (limbs) of Yoga",
+        "padaVibhaga": "yoga | aṅga | anuṣṭhānāt | aśuddhi | kṣaye | jñāna-dīptiḥ | ā | viveka-khyāteḥ",
+        "wordMeanings": "yoga = yoga; aṅga = limbs; anuṣṭhānāt = from practice; aśuddhi = impurity; kṣaye = on destruction; jñāna-dīptiḥ = light of knowledge; ā = up to; viveka-khyāteḥ = discernment"
       },
       "insight": "Yoga is a complete lifestyle.",
       "reflectionPrompt": "Which limb can I improve?",
@@ -31,8 +33,10 @@
       "sutra": {
         "number": "2.3",
         "sanskrit": "अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहा यमाः",
-        "transliteration": "Sutra 2.3",
-        "meaning": "Ahimsa (non-violence/non-injury), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (right use of energy/continence), and Aparigraha (non-possessiveness/non-greed) are the five Yamas (restraints or social codes)"
+        "transliteration": "avidyāsmitā-rāga-dveṣābhiniveśāḥ kleśāḥ",
+        "meaning": "Ahimsa (non-violence/non-injury), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (right use of energy/continence), and Aparigraha (non-possessiveness/non-greed) are the five Yamas (restraints or social codes)",
+        "padaVibhaga": "avidyā | asmitā | rāga | dveṣa | abhiniveśāḥ | kleśāḥ",
+        "wordMeanings": "avidyā = ignorance; asmitā = ego; rāga = attraction; dveṣa = aversion; abhiniveśāḥ = clinging to life; kleśāḥ = afflictions"
       },
       "insight": "non-violence,truth, non-stealing,moderation,non-possessiveness are universal values.",
       "reflectionPrompt": "Did I live these today? Which can I work on? Which is difficult for me?",
@@ -50,8 +54,10 @@
       "sutra": {
         "number": "2.31",
         "sanskrit": "जातिदेशकालसमयानवच्छिन्नाः सार्वभौमा महाव्रतम्",
-        "transliteration": "Sutra 2.31",
-        "meaning": "\"These (Yamas) are the Great Vows, universal, and not limited by life-state (birth), space, time, or circumstance"
+        "transliteration": "jāti-deśa-kāla-samayānavacchinnāḥ sārva-bhaumā mahāvratam",
+        "meaning": "\"These (Yamas) are the Great Vows, universal, and not limited by life-state (birth), space, time, or circumstance",
+        "padaVibhaga": "jāti | deśa | kāla | samaya | anavacchinnāḥ | sārva-bhaumāḥ | mahā-vratam",
+        "wordMeanings": "jāti = class/birth; deśa = place; kāla = time; samaya = circumstance; anavacchinnāḥ = not limited by; sārva-bhaumāḥ = universal; mahā-vratam = great vow"
       },
       "insight": "Truth is beyond conditions.",
       "reflectionPrompt": "Was I consistent?",
@@ -69,8 +75,10 @@
       "sutra": {
         "number": "2.32",
         "sanskrit": "शौचसंतोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः",
-        "transliteration": "Sutra 2.32",
-        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life."
+        "transliteration": "śauca-santoṣa-tapaḥ-svādhyāyeśvara-praṇidhānāni niyamāḥ",
+        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life.",
+        "padaVibhaga": "śauca | santoṣa | tapaḥ | svādhyāya | īśvara-praṇidhānāni | niyamāḥ",
+        "wordMeanings": "śauca = purity; santoṣa = contentment; tapaḥ = austerity; svādhyāya = self-study; īśvara-praṇidhānāni = surrender to God; niyamāḥ = observances"
       },
       "insight": "There is always scope for improvement in following all of these Niyamas",
       "reflectionPrompt": "Which one needs special attention from me?",
@@ -88,8 +96,10 @@
       "sutra": {
         "number": "2.35",
         "sanskrit": "अहिंसाप्रतिष्ठायां तत्सन्निधौ वैरत्यागः",
-        "transliteration": "Sutra 2.35",
-        "meaning": "Non-violence creates peace around"
+        "transliteration": "ahiṁsā-pratiṣṭhāyāṁ tat-sannidhau vaira-tyāgaḥ",
+        "meaning": "Non-violence creates peace around",
+        "padaVibhaga": "ahiṁsā | pratiṣṭhāyām | tat | sannidhau | vaira | tyāgaḥ",
+        "wordMeanings": "ahiṁsā = non-violence; pratiṣṭhāyām = when established; tat = that; sannidhau = in presence; vaira = enmity; tyāgaḥ = abandonment"
       },
       "insight": "Your presence influences others.",
       "reflectionPrompt": "Was I peaceful?",
@@ -107,8 +117,10 @@
       "sutra": {
         "number": "2.36",
         "sanskrit": "सत्यप्रतिष्ठायां क्रियाफलाश्रयत्वम्",
-        "transliteration": "Sutra 2.36",
-        "meaning": "Truthfulness brings alignment"
+        "transliteration": "satya-pratiṣṭhāyāṁ kriyā-phalaśrayatvam",
+        "meaning": "Truthfulness brings alignment",
+        "padaVibhaga": "satya | pratiṣṭhāyām | kriyā | phala | āśrayatvam",
+        "wordMeanings": "satya = truth; pratiṣṭhāyām = when established; kriyā = action; phala = fruit; āśrayatvam = dependence on"
       },
       "insight": "Truth aligns actions and outcomes.",
       "reflectionPrompt": "Am I truthful always?",
@@ -126,8 +138,10 @@
       "sutra": {
         "number": "2.37",
         "sanskrit": "अस्तेयप्रतिष्ठायां सर्वरत्नोपस्थानम्",
-        "transliteration": "Sutra 2.37",
-        "meaning": "Non-stealing brings abundance"
+        "transliteration": "asteya-pratiṣṭhāyāṁ sarva-ratnopasthānam",
+        "meaning": "Non-stealing brings abundance",
+        "padaVibhaga": "asteya | pratiṣṭhāyām | sarva | ratna | upasthānam",
+        "wordMeanings": "asteya = non-stealing; pratiṣṭhāyām = when established; sarva = all; ratna = jewels/riches; upasthānam = approach"
       },
       "insight": "Stealing can be of all kinds of things- material and non material; we normally think only of the material theft.",
       "reflectionPrompt": "Did I ever steal say ideas, appreciation, attention?",
@@ -145,8 +159,10 @@
       "sutra": {
         "number": "2.38",
         "sanskrit": "ब्रह्मचर्यप्रतिष्ठायां वीर्यलाभः",
-        "transliteration": "Sutra 2.38",
-        "meaning": "Moderation brings strength"
+        "transliteration": "brahmacarya-pratiṣṭhāyāṁ vīrya-lābhaḥ",
+        "meaning": "Moderation brings strength",
+        "padaVibhaga": "brahmacarya | pratiṣṭhāyām | vīrya | lābhaḥ",
+        "wordMeanings": "brahmacarya = continence; pratiṣṭhāyām = when established; vīrya = vitality; lābhaḥ = gain"
       },
       "insight": "Energy is preserved through balance.",
       "reflectionPrompt": "Where did I waste energy?",
@@ -164,8 +180,10 @@
       "sutra": {
         "number": "2.39",
         "sanskrit": "अपरिग्रहस्थैर्ये जन्मकथंतासंबोधः",
-        "transliteration": "Sutra 2.39",
-        "meaning": "Non-possessiveness brings clarity"
+        "transliteration": "aparigraha-sthairye janma-kathaṁtā-saṁbodhaḥ",
+        "meaning": "Non-possessiveness brings clarity",
+        "padaVibhaga": "aparigraha | sthairye | janma | kathaṁtā | saṁbodhaḥ",
+        "wordMeanings": "aparigraha = non-possessiveness; sthairye = in steadiness; janma = birth; kathaṁtā = how-ness; saṁbodhaḥ = illumination"
       },
       "insight": "Letting go brings understanding.",
       "reflectionPrompt": "What did I hold onto?",
@@ -183,8 +201,10 @@
       "sutra": {
         "number": "2.4",
         "sanskrit": "शौचात्स्वाङ्गजुगुप्सा परैरसंसर्गः",
-        "transliteration": "Sutra 2.4",
-        "meaning": "Purity leads to respect for body and mind"
+        "transliteration": "avidyā kṣetram uttareṣāṁ prasupta-tanu-vicchinnodārāṇām",
+        "meaning": "Purity leads to respect for body and mind",
+        "padaVibhaga": "avidyā | kṣetram | uttareṣām | prasupta | tanu | vicchinna | udārāṇām",
+        "wordMeanings": "avidyā = ignorance; kṣetram = field; uttareṣām = of the following; prasupta = dormant; tanu = attenuated; vicchinna = interrupted; udārāṇām = fully active"
       },
       "insight": "Inner cleanliness reflects outward.",
       "reflectionPrompt": "Was I pure in thought?",
@@ -202,8 +222,10 @@
       "sutra": {
         "number": "2.42",
         "sanskrit": "स॒न्तो॒षादनुत्तमसु॑खला॒भः",
-        "transliteration": "Sutra 2.42",
-        "meaning": "From contentment, the very best in happiness is obtained."
+        "transliteration": "santoṣāt anuttamaḥ sukha-lābhaḥ",
+        "meaning": "From contentment, the very best in happiness is obtained.",
+        "padaVibhaga": "santoṣāt | anuttamaḥ | sukha-lābhaḥ",
+        "wordMeanings": "santoṣāt = from contentment; anuttamaḥ = unsurpassed; sukha-lābhaḥ = attainment of happiness"
       },
       "insight": "Contentment attracts abundance.",
       "reflectionPrompt": "Did I feel content?See, when you are happy, what is happening?",
@@ -221,8 +243,10 @@
       "sutra": {
         "number": "2.43",
         "sanskrit": "का॒येन्द्रियसिद्धिर॒शु॒द्धिक्ष॒यात् तपसः",
-        "transliteration": "Sutra 2.43",
-        "meaning": "Austerity, resulting in the elimination of impurity produces perfection of the body and sensual energy."
+        "transliteration": "kāyendriya-siddhir aśuddhi-kṣayāt tapasaḥ",
+        "meaning": "Austerity, resulting in the elimination of impurity produces perfection of the body and sensual energy.",
+        "padaVibhaga": "kāya | indriya | siddhiḥ | aśuddhi | kṣayāt | tapasaḥ",
+        "wordMeanings": "kāya = body; indriya = senses; siddhiḥ = perfection; aśuddhi = impurity; kṣayāt = from destruction; tapasaḥ = from austerity"
       },
       "insight": "Self-discipline (tapas) burns away impurities and kindles the sparks of Divinity.",
       "reflectionPrompt": "Is maintaining discipline a problem for me.",
@@ -240,8 +264,10 @@
       "sutra": {
         "number": "2.44",
         "sanskrit": "स्वा॒ध्या॒याद् इ॒ष्टदे॒व॒तासम्प्रयोगः",
-        "transliteration": "Sutra 2.44",
-        "meaning": "From study of our own psyche, comes intimate contact with the cherished divine being."
+        "transliteration": "svādhyāyād iṣṭa-devatā-samprayogaḥ",
+        "meaning": "From study of our own psyche, comes intimate contact with the cherished divine being.",
+        "padaVibhaga": "svādhyāyāt | iṣṭa-devatā | samprayogaḥ",
+        "wordMeanings": "svādhyāyāt = from self-study; iṣṭa-devatā = chosen deity; samprayogaḥ = union/contact"
       },
       "insight": "asana and pranayama are integral to connecting awareness of the body with core and vice versa",
       "reflectionPrompt": "Can I commit to my daily practice or kriya",
@@ -259,8 +285,10 @@
       "sutra": {
         "number": "2.45",
         "sanskrit": "स॒मा॒धिसि॒द्धिरीश्वरप्र॑णिधा॒नात्",
-        "transliteration": "Sutra 2.45",
-        "meaning": "From  profound  meditation upon the Divine comes the perfection of continuous effortless linkage of the attention to that Divinity."
+        "transliteration": "samādhi-siddhir īśvara-praṇidhānāt",
+        "meaning": "From  profound  meditation upon the Divine comes the perfection of continuous effortless linkage of the attention to that Divinity.",
+        "padaVibhaga": "samādhi | siddhiḥ | īśvara-praṇidhānāt",
+        "wordMeanings": "samādhi = absorption; siddhiḥ = perfection; īśvara-praṇidhānāt = from surrender to God"
       },
       "insight": "The power of samadhi comes to him who takes refuge in the Divine.",
       "reflectionPrompt": "surrender to God brings perfection in samadhi. Can I surrender to the Divine?",
@@ -278,8 +306,10 @@
       "sutra": {
         "number": "2.46",
         "sanskrit": "स्थिरसुख॑म् आस॒नम्",
-        "transliteration": "Sutra 2.46",
-        "meaning": "The posture should be steady and comfortable."
+        "transliteration": "sthira-sukham āsanam",
+        "meaning": "The posture should be steady and comfortable.",
+        "padaVibhaga": "sthira | sukham | āsanam",
+        "wordMeanings": "sthira = steady/stable; sukham = comfortable; āsanam = posture"
       },
       "insight": "asanas are required to be performed with easeI need to watch my food and other habits to stay healthy.",
       "reflectionPrompt": "Am I flexible in body and mind?",
@@ -297,8 +327,10 @@
       "sutra": {
         "number": "2.47",
         "sanskrit": "प्र॒य॒त्नशैथिल्यानन्तस॑माप॒त्ति॒भ्याम्",
-        "transliteration": "Sutra 2.47",
-        "meaning": "It results in relaxation of effort and the meeting with the infinite."
+        "transliteration": "prayatna-śaithilyānanta-samāpattibhyām",
+        "meaning": "It results in relaxation of effort and the meeting with the infinite.",
+        "padaVibhaga": "prayatna | śaithilya | ananta | samāpattibhyām",
+        "wordMeanings": "prayatna = effort; śaithilya = relaxation; ananta = infinite; samāpattibhyām = by meditation on"
       },
       "insight": "Yogic practices should feel pleasureable to be sustained.",
       "reflectionPrompt": "Am I making my life more satvic and the body more healthy?",
@@ -316,8 +348,10 @@
       "sutra": {
         "number": "2.48",
         "sanskrit": "ततो द्व॒न्द्वान॑भिघा॒तः",
-        "transliteration": "Sutra 2.48",
-        "meaning": "From then on, there are no botherations from the dualities like happiness and distress, heat and cold."
+        "transliteration": "tato dvandvānabhighātaḥ",
+        "meaning": "From then on, there are no botherations from the dualities like happiness and distress, heat and cold.",
+        "padaVibhaga": "tataḥ | dvandva | anabhighātaḥ",
+        "wordMeanings": "tataḥ = from that; dvandva = pairs of opposites; anabhighātaḥ = freedom from affliction"
       },
       "insight": "yoga is a life long practice which makes one strong physically and mentally.",
       "reflectionPrompt": "Is daily yoga practice for me like brushing my teeth or taking a bath yet?",
@@ -334,8 +368,10 @@
       "sutra": {
         "number": "2.49",
         "sanskrit": "त॒स्मिन्सति श्वा॒सप्र॒श्वा॒स॒योर्ग॒ति॒वि॒च्छेदः प्रा॑णाया॒मः",
-        "transliteration": "Sutra 2.49",
-        "meaning": "Once this is accomplished, regulation of the incoming and the outgoing breath with retention is attained."
+        "transliteration": "tasmin sati śvāsa-praśvāsayor gati-vicchedaḥ prāṇāyāmaḥ",
+        "meaning": "Once this is accomplished, regulation of the incoming and the outgoing breath with retention is attained.",
+        "padaVibhaga": "tasmin | sati | śvāsa | praśvāsayoḥ | gati | vicchedaḥ | prāṇāyāmaḥ",
+        "wordMeanings": "tasmin = in that; sati = being established; śvāsa = inhalation; praśvāsayoḥ = exhalation; gati = movement; vicchedaḥ = regulation; prāṇāyāmaḥ = breath control"
       },
       "insight": "Prana is the all permeating, auto generated  energy which sustains and destroys life. It is also at the heart of the practice of yoga.  Pranayama consists of prana + ayama ie regulation. Prana is vital to maintaining life and the systems of the body. Pranayama helps to keep its free flow.",
       "reflectionPrompt": "Am I practicing pranayam with attention and ease?",
@@ -390,8 +426,10 @@
       "sutra": {
         "number": "2.52, 2.53",
         "sanskrit": "त॒तः॒ क्षी॒य॒ते प्रकाशा॑वर॒णम्\nधा॒र॒णासु च योग्यता॑ मन॒सः",
-        "transliteration": "Sutra 2.52, 2.53",
-        "meaning": "From that is dissipated, the mental darkness which veils the light, ... and from that, is attained the state of the mind for linking the attention to a higher concentration force or person."
+        "transliteration": "tataḥ kṣīyate prakāśāvaraṇam",
+        "meaning": "From that is dissipated, the mental darkness which veils the light, ... and from that, is attained the state of the mind for linking the attention to a higher concentration force or person.",
+        "padaVibhaga": "tataḥ | kṣīyate | prakāśa | āvaraṇam",
+        "wordMeanings": "tataḥ = from that; kṣīyate = is removed; prakāśa = light; āvaraṇam = covering/veil"
       },
       "insight": "Pranayama removes the veil covering the light of knowledge and heralds the dawn of wisdom. The mind becomes fit, thereafter, for Dharana or concentration.. the next limb of yoga.Once the mind is still and free of thought it can focus on a single point. This is when it can manifest what it wants.",
       "reflectionPrompt": "Is my practice intense?",

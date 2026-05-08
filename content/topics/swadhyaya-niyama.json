@@ -31,8 +31,10 @@
       "sutra": {
         "number": "2.32",
         "sanskrit": "शौचसंतोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः",
-        "transliteration": "Sutra 2.32",
-        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life."
+        "transliteration": "śauca-santoṣa-tapaḥ-svādhyāyeśvara-praṇidhānāni niyamāḥ",
+        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life.",
+        "padaVibhaga": "śauca | santoṣa | tapaḥ | svādhyāya | īśvara-praṇidhānāni | niyamāḥ",
+        "wordMeanings": "śauca = purity; santoṣa = contentment; tapaḥ = austerity; svādhyāya = self-study; īśvara-praṇidhānāni = surrender to God; niyamāḥ = observances"
       },
       "insight": "There is always scope for improvement in following all of these Niyamas",
       "reflectionPrompt": "Which one needs special attention from me?",
@@ -50,8 +52,10 @@
       "sutra": {
         "number": "2.44",
         "sanskrit": "स्वा॒ध्या॒याद् इ॒ष्टदे॒व॒तासम्प्रयोगः",
-        "transliteration": "Sutra 2.44",
-        "meaning": "From study of our own psyche, comes intimate contact with the cherished divine being."
+        "transliteration": "svādhyāyād iṣṭa-devatā-samprayogaḥ",
+        "meaning": "From study of our own psyche, comes intimate contact with the cherished divine being.",
+        "padaVibhaga": "svādhyāyāt | iṣṭa-devatā | samprayogaḥ",
+        "wordMeanings": "svādhyāyāt = from self-study; iṣṭa-devatā = chosen deity; samprayogaḥ = union/contact"
       },
       "insight": "asana and pranayama are integral to connecting awareness of the body with core and vice versa",
       "reflectionPrompt": "Can I commit to my daily practice or kriya",

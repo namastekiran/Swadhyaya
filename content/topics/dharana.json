@@ -12,8 +12,10 @@
       "sutra": {
         "number": "2.29",
         "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
-        "transliteration": "Sutra 2.29",
-        "meaning": "Yama (moral injunctions), Niyama (observances), Āsana (posture), Prāṇāyāma (regulation of breath), Pratyāhāra (withholding of senses), Dhāraṇā (fixity of attention), Dhyāna (meditation), and Samādhi (absorption of consciousness in the self) are the eight accessories (limbs) of Yoga"
+        "transliteration": "yama-niyamāsana-prāṇāyāma-pratyāhāra-dhāraṇā-dhyāna-samādhayo'ṣṭāv aṅgāni",
+        "meaning": "Yama (moral injunctions), Niyama (observances), Āsana (posture), Prāṇāyāma (regulation of breath), Pratyāhāra (withholding of senses), Dhāraṇā (fixity of attention), Dhyāna (meditation), and Samādhi (absorption of consciousness in the self) are the eight accessories (limbs) of Yoga",
+        "padaVibhaga": "yama | niyama | āsana | prāṇāyāma | pratyāhāra | dhāraṇā | dhyāna | samādhayaḥ | aṣṭau | aṅgāni",
+        "wordMeanings": "yama = restraints; niyama = observances; āsana = posture; prāṇāyāma = breath control; pratyāhāra = withdrawal; dhāraṇā = concentration; dhyāna = meditation; samādhayaḥ = absorption; aṣṭau = eight; aṅgāni = limbs"
       },
       "insight": "Yoga is a complete lifestyle.",
       "reflectionPrompt": "Which limb can I improve?",
@@ -31,8 +33,10 @@
       "sutra": {
         "number": "2.52, 2.53",
         "sanskrit": "त॒तः॒ क्षी॒य॒ते प्रकाशा॑वर॒णम्\nधा॒र॒णासु च योग्यता॑ मन॒सः",
-        "transliteration": "Sutra 2.52, 2.53",
-        "meaning": "From that is dissipated, the mental darkness which veils the light, ... and from that, is attained the state of the mind for linking the attention to a higher concentration force or person."
+        "transliteration": "tataḥ kṣīyate prakāśāvaraṇam",
+        "meaning": "From that is dissipated, the mental darkness which veils the light, ... and from that, is attained the state of the mind for linking the attention to a higher concentration force or person.",
+        "padaVibhaga": "tataḥ | kṣīyate | prakāśa | āvaraṇam",
+        "wordMeanings": "tataḥ = from that; kṣīyate = is removed; prakāśa = light; āvaraṇam = covering/veil"
       },
       "insight": "Pranayama removes the veil covering the light of knowledge and heralds the dawn of wisdom. The mind becomes fit, thereafter, for Dharana or concentration.. the next limb of yoga.Once the mind is still and free of thought it can focus on a single point. This is when it can manifest what it wants.",
       "reflectionPrompt": "Is my practice intense?",
@@ -50,8 +54,10 @@
       "sutra": {
         "number": "3.1",
         "sanskrit": "देशबन्धश्चित्तस्य धारणा",
-        "transliteration": "Sutra 3.1",
-        "meaning": "Fixing the consciousness on one point or region is Dharana."
+        "transliteration": "deśa-bandhaś cittasya dhāraṇā",
+        "meaning": "Fixing the consciousness on one point or region is Dharana.",
+        "padaVibhaga": "deśa | bandhaḥ | cittasya | dhāraṇā",
+        "wordMeanings": "deśa = place/point; bandhaḥ = binding; cittasya = of the mind; dhāraṇā = concentration"
       },
       "insight": "The yogi must be so familiar with the realm of his mind and emotions, that he should begin to recognize where the thoughts, ideas, images and memories are arising. . Then he can practice the sixth stage of yoga, which is putting his attention to a single object or region.",
       "reflectionPrompt": "Is my mind quiet enough to permit me to focus on a single object for a significant duration of my meditation.",
@@ -69,8 +75,10 @@
       "sutra": {
         "number": "1.35",
         "sanskrit": "विषयवती वा प्रवृत्तिरुत्पन्ना मनसः स्थितिनिबन्धिनी",
-        "transliteration": "Sutra 1.35",
-        "meaning": "Focused awareness on one object stabilizes the mind"
+        "transliteration": "viṣayavatī vā pravṛttir utpannā manasaḥ sthiti-nibandhanī",
+        "meaning": "Focused awareness on one object stabilizes the mind",
+        "padaVibhaga": "viṣayavatī | vā | pravṛttiḥ | utpannā | manasaḥ | sthiti-nibandhanī",
+        "wordMeanings": "viṣayavatī = relating to sense objects; vā = or; pravṛttiḥ = activity; utpannā = arisen; manasaḥ = of the mind; sthiti-nibandhanī = binding to steadiness"
       },
       "insight": "Attention brings stability.",
       "reflectionPrompt": "Bring your attention to your breath",
@@ -88,8 +96,10 @@
       "sutra": {
         "number": "1.38",
         "sanskrit": "स्वप्ननिद्राज्ञानालम्बनं वा ॥",
-        "transliteration": "Sutra 1.38",
-        "meaning": "\"Or [by contemplating] the knowledge derived from dreams and deep sleep\""
+        "transliteration": "svapna-nidrā-jñānālambanam vā",
+        "meaning": "\"Or [by contemplating] the knowledge derived from dreams and deep sleep\"",
+        "padaVibhaga": "svapna | nidrā | jñāna | ālambanam | vā",
+        "wordMeanings": "svapna = dream; nidrā = sleep; jñāna = knowledge; ālambanam = support; vā = or"
       },
       "insight": "This sutra offers a method to calm the mind and achieve stability:Beyond Cravings: By meditating on the states of deep sleep (deep, dreamless sleep) or the insights gained from dreams, the mind can become steady and calm.Nature of Mind: It suggests observing the nature of the mind during these subconscious states to understand its deeper, quieter nature.This is one of the methods mentioned by Patanjali for achieving a steady, focused, and tranquil mind",
       "reflectionPrompt": "I should bring awareness to my sleep too : )",
@@ -107,8 +117,10 @@
       "sutra": {
         "number": "1.39",
         "sanskrit": "यथाभिमतध्यानाद्वा",
-        "transliteration": "Sutra 1.39",
-        "meaning": "Meditate on an object of your choice which is spiritually uplifting to you"
+        "transliteration": "yathābhimata-dhyānād vā",
+        "meaning": "Meditate on an object of your choice which is spiritually uplifting to you",
+        "padaVibhaga": "yathā | abhimata | dhyānāt | vā",
+        "wordMeanings": "yathā = as; abhimata = desired/agreeable; dhyānāt = from meditation; vā = or"
       },
       "insight": "Any sincere focus leads inward.",
       "reflectionPrompt": "What inspires me?",
@@ -125,8 +137,10 @@
       "sutra": {
         "number": "1.40",
         "sanskrit": "परमाणुपरममहत्त्वान्तोऽस्य वशीकारः",
-        "transliteration": "Sutra 1.40",
-        "meaning": "Mastery extends from smallest to largest"
+        "transliteration": "paramāṇu-paramamahattvānto'sya vaśīkāraḥ",
+        "meaning": "Mastery extends from smallest to largest",
+        "padaVibhaga": "paramāṇu | parama-mahattva | antaḥ | asya | vaśīkāraḥ",
+        "wordMeanings": "paramāṇu = smallest atom; parama-mahattva = greatest magnitude; antaḥ = to the limit; asya = of this yogi; vaśīkāraḥ = mastery"
       },
       "insight": "Awareness expands limitlessly.",
       "reflectionPrompt": "Where can I expand awareness?",
@@ -144,8 +158,10 @@
       "sutra": {
         "number": "1.41",
         "sanskrit": "क्षीणवृत्तेरभिजातस्येव मणेर्ग्रहीतृग्रहणग्राह्येषु तत्स्थतदञ्जनता समापत्तिः",
-        "transliteration": "Sutra 1.41",
-        "meaning": "The seer the seen and the instrument of perception become one.When mind becomes clear it reflects reality like a crystal"
+        "transliteration": "kṣīṇa-vṛtter abhijātasyeva maṇer grahītṛ-grahaṇa-grāhyeṣu tat-stha-tad-añjanatā samāpattiḥ",
+        "meaning": "The seer the seen and the instrument of perception become one.When mind becomes clear it reflects reality like a crystal",
+        "padaVibhaga": "kṣīṇa-vṛtteḥ | abhijātasya | iva | maṇeḥ | grahītṛ | grahaṇa | grāhyeṣu | tat-stha | tad-añjanatā | samāpattiḥ",
+        "wordMeanings": "kṣīṇa-vṛtteḥ = weakened fluctuations; abhijātasya = transparent; iva = like; maṇeḥ = crystal; grahītṛ = knower; grahaṇa = knowing; grāhyeṣu = known; tat-stha = resting in that; tad-añjanatā = taking on color of that; samāpattiḥ = absorption"
       },
       "insight": "When the mind is pure it reflects truth without distortion.",
       "reflectionPrompt": "Is my perception clear or colored?",

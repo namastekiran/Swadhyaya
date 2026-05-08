@@ -12,8 +12,10 @@
       "sutra": {
         "number": "2.29",
         "sanskrit": "यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि",
-        "transliteration": "Sutra 2.29",
-        "meaning": "Yama (moral injunctions), Niyama (observances), Āsana (posture), Prāṇāyāma (regulation of breath), Pratyāhāra (withholding of senses), Dhāraṇā (fixity of attention), Dhyāna (meditation), and Samādhi (absorption of consciousness in the self) are the eight accessories (limbs) of Yoga"
+        "transliteration": "yama-niyamāsana-prāṇāyāma-pratyāhāra-dhāraṇā-dhyāna-samādhayo'ṣṭāv aṅgāni",
+        "meaning": "Yama (moral injunctions), Niyama (observances), Āsana (posture), Prāṇāyāma (regulation of breath), Pratyāhāra (withholding of senses), Dhāraṇā (fixity of attention), Dhyāna (meditation), and Samādhi (absorption of consciousness in the self) are the eight accessories (limbs) of Yoga",
+        "padaVibhaga": "yama | niyama | āsana | prāṇāyāma | pratyāhāra | dhāraṇā | dhyāna | samādhayaḥ | aṣṭau | aṅgāni",
+        "wordMeanings": "yama = restraints; niyama = observances; āsana = posture; prāṇāyāma = breath control; pratyāhāra = withdrawal; dhāraṇā = concentration; dhyāna = meditation; samādhayaḥ = absorption; aṣṭau = eight; aṅgāni = limbs"
       },
       "insight": "Yoga is a complete lifestyle.",
       "reflectionPrompt": "Which limb can I improve?",
@@ -31,8 +33,10 @@
       "sutra": {
         "number": "2.52, 2.53",
         "sanskrit": "त॒तः॒ क्षी॒य॒ते प्रकाशा॑वर॒णम्\nधा॒र॒णासु च योग्यता॑ मन॒सः",
-        "transliteration": "Sutra 2.52, 2.53",
-        "meaning": "From that is dissipated, the mental darkness which veils the light, ... and from that, is attained the state of the mind for linking the attention to a higher concentration force or person."
+        "transliteration": "tataḥ kṣīyate prakāśāvaraṇam",
+        "meaning": "From that is dissipated, the mental darkness which veils the light, ... and from that, is attained the state of the mind for linking the attention to a higher concentration force or person.",
+        "padaVibhaga": "tataḥ | kṣīyate | prakāśa | āvaraṇam",
+        "wordMeanings": "tataḥ = from that; kṣīyate = is removed; prakāśa = light; āvaraṇam = covering/veil"
       },
       "insight": "Pranayama removes the veil covering the light of knowledge and heralds the dawn of wisdom. The mind becomes fit, thereafter, for Dharana or concentration.. the next limb of yoga.Once the mind is still and free of thought it can focus on a single point. This is when it can manifest what it wants.",
       "reflectionPrompt": "Is my practice intense?",

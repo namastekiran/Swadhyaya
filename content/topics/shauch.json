@@ -12,8 +12,10 @@
       "sutra": {
         "number": "2.32",
         "sanskrit": "शौचसंतोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः",
-        "transliteration": "Sutra 2.32",
-        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life."
+        "transliteration": "śauca-santoṣa-tapaḥ-svādhyāyeśvara-praṇidhānāni niyamāḥ",
+        "meaning": "Cleanliness, contentment, discipline, self-study, surrender, these fixed observances refine inner life.",
+        "padaVibhaga": "śauca | santoṣa | tapaḥ | svādhyāya | īśvara-praṇidhānāni | niyamāḥ",
+        "wordMeanings": "śauca = purity; santoṣa = contentment; tapaḥ = austerity; svādhyāya = self-study; īśvara-praṇidhānāni = surrender to God; niyamāḥ = observances"
       },
       "insight": "There is always scope for improvement in following all of these Niyamas",
       "reflectionPrompt": "Which one needs special attention from me?",
@@ -31,8 +33,10 @@
       "sutra": {
         "number": "2.40",
         "sanskrit": "शौचात्स्वाङ्गजुगुप्सा परैरसंसर्गः",
-        "transliteration": "Sutra 2.40",
-        "meaning": "Purity leads to respect for body and mind"
+        "transliteration": "śaucāt svāṅga-jugupsā parair asaṁsargaḥ",
+        "meaning": "Purity leads to respect for body and mind",
+        "padaVibhaga": "śaucāt | sva-aṅga | jugupsā | paraiḥ | asaṁsargaḥ",
+        "wordMeanings": "śaucāt = from purity; sva-aṅga = one's own body; jugupsā = dispassion; paraiḥ = with others; asaṁsargaḥ = non-contact"
       },
       "insight": "Inner cleanliness reflects outward.",
       "reflectionPrompt": "Negative and unclean thoughts have an impact on how you feel and see yourself.",
@@ -50,8 +54,10 @@
       "sutra": {
         "number": "2.41",
         "sanskrit": "स॒त्त्वशु॒द्धिसौ॒मनस्यै॒काग्र्येन्॒द्रियजया॒त्मदर्शनयोग्य॑त्वानि॒ च",
-        "transliteration": "Sutra 2.41",
-        "meaning": "Purification of the psyche results in benevolence, the ability of one pointed attention, control of  sensual energy, awareness of the consciousness and ability of abstract meditation."
+        "transliteration": "sattva-śuddhiḥ saumanasyaikāgryendriya-jayātmadarśana-yogyatvāni ca",
+        "meaning": "Purification of the psyche results in benevolence, the ability of one pointed attention, control of  sensual energy, awareness of the consciousness and ability of abstract meditation.",
+        "padaVibhaga": "sattva-śuddhiḥ | saumanasya | ekāgrya | indriya-jaya | ātma-darśana | yogyatvāni | ca",
+        "wordMeanings": "sattva-śuddhiḥ = purity of sattva; saumanasya = cheerfulness; ekāgrya = one-pointedness; indriya-jaya = mastery of senses; ātma-darśana = vision of Self; yogyatvāni = fitness; ca = and"
       },
       "insight": "When the body is cleansed, the mind purified and the senses controlled , joyful awareness required to realize the inner self also comes.",
       "reflectionPrompt": "Do I maintain hygiene and feel clean?",

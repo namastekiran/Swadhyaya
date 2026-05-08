@@ -30,7 +30,8 @@ export const IMAGES = {
 
   // Ancient books / library
   sutra: [
-    `${UNS}/photo-1481627834876-b7833e8f5570?${Q}`,  // ancient books library
+    `${UNS}/photo-1456513080510-7bf3a84b82f8?${Q}`,  // books & study desk
+    `${UNS}/photo-1497633762265-9d179a990aa6?${Q}`,  // open books warm light
   ],
 
   // Still water, calm, looking inward
