@@ -1,8 +1,9 @@
 "use client";
 
+import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, Check } from "lucide-react";
+import { ArrowLeft, Check, ChevronDown, ChevronUp } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import type { SectionData } from "@/lib/types";
 
@@ -13,6 +14,7 @@ export function SutraView({ topicId, section }: { topicId: string; section: Sect
   const answers = getSectionAnswers(topicId, section.section);
   const done = answers.completedSteps.includes("sutra");
   const backPath = `/topic/${topicId}/section/${section.section}`;
+  const [expanded, setExpanded] = useState(false);
 
   function handleDone() {
     completeStep(topicId, section.section, "sutra");
@@ -49,73 +51,32 @@ export function SutraView({ topicId, section }: { topicId: string; section: Sect
               {section.theme && !/^\d+[\.\d\n]*$/.test(section.theme.trim()) && (
                 <p style={{ fontSize: 10, color: "rgba(255,255,255,0.65)" }}>{section.theme.replace(/[.!?]+$/, '')}</p>
               )}
-              <p style={{ fontSize: 13, fontWeight: 500, color: "#fff", letterSpacing: "0.01em" }}>Sutra & Insight</p>
+              <p style={{ fontSize: 13, fontWeight: 500, color: "#fff", letterSpacing: "0.01em" }}>Sutra & Insights</p>
             </div>
           </div>
 
-          {/* Sutra number badge */}
-          <div style={{ marginBottom: 10, position: "relative" }}>
+          {/* Sanskrit text with sutra number on the right */}
+          <div className="flex items-end justify-between gap-3" style={{ position: "relative" }}>
+            <div>
+              {sutraLines.map((line, i) => (
+                <p key={i} className="font-devanagari"
+                  style={{ fontSize: 17, color: "#fff", lineHeight: 1.8, fontStyle: "italic", marginBottom: i < sutraLines.length - 1 ? 2 : 0 }}>
+                  {line}
+                </p>
+              ))}
+            </div>
             <span style={{
               fontSize: 10, fontWeight: 700, color: "rgba(255,255,255,0.7)",
               background: "rgba(255,255,255,0.15)", borderRadius: 20,
-              padding: "3px 10px", letterSpacing: "0.08em",
+              padding: "3px 10px", letterSpacing: "0.08em", flexShrink: 0,
             }}>
-              SUTRA {sutraNumbers[0]}
+              {sutraNumbers[0]}
             </span>
-          </div>
-
-          {/* Sanskrit text */}
-          <div style={{ position: "relative" }}>
-            {sutraLines.map((line, i) => (
-              <p key={i} className="font-devanagari"
-                style={{ fontSize: 17, color: "#fff", lineHeight: 1.8, fontStyle: "italic", marginBottom: i < sutraLines.length - 1 ? 2 : 0 }}>
-                {line}
-              </p>
-            ))}
           </div>
         </div>
 
         {/* Body */}
         <div style={{ padding: "20px 20px 24px" }}>
-
-          {/* Sutra breakdown — simple */}
-          {(section.sutra.transliteration || section.sutra.padaVibhaga || section.sutra.wordMeanings) && (
-            <div style={{ marginBottom: 18 }}>
-
-              {section.sutra.transliteration && (
-                <div style={{ marginBottom: 12 }}>
-                  <p style={{ fontSize: 9, fontWeight: 700, color: "#4a3870", letterSpacing: "0.08em", marginBottom: 6 }}>TRANSLITERATION</p>
-                  <p style={{ fontSize: 13, color: "#3d2f5e", fontStyle: "italic", lineHeight: 1.6 }}>{section.sutra.transliteration}</p>
-                </div>
-              )}
-
-              {section.sutra.padaVibhaga && (
-                <div style={{ marginBottom: 12 }}>
-                  <p style={{ fontSize: 9, fontWeight: 700, color: "#4a3870", letterSpacing: "0.08em", marginBottom: 6 }}>PADA VIBHAGA</p>
-                  <p style={{ fontSize: 13, color: "#3d2f5e", lineHeight: 2, wordBreak: "break-word", whiteSpace: "normal" }}>
-                    {section.sutra.padaVibhaga.split("|").map((w, i, arr) => (
-                      <span key={i} style={{ display: "inline" }}>{w.trim()}{i < arr.length - 1 ? <span style={{ color: "#c9a8e0", margin: "0 6px" }}>·</span> : null}</span>
-                    ))}
-                  </p>
-                </div>
-              )}
-
-              {section.sutra.wordMeanings && (
-                <div style={{ marginBottom: 4 }}>
-                  <p style={{ fontSize: 9, fontWeight: 700, color: "#4a3870", letterSpacing: "0.08em", marginBottom: 6 }}>WORD MEANING</p>
-                  <p style={{ fontSize: 13, color: "#3d2f5e", lineHeight: 2 }}>
-                    {section.sutra.wordMeanings.split(";").filter(e => e.trim()).map((entry, i, arr) => (
-                      <span key={i} style={{ display: "inline-block", whiteSpace: "nowrap", marginRight: i < arr.length - 1 ? 0 : 0 }}>
-                        {entry.trim()}
-                        {i < arr.length - 1 && <span style={{ color: "#c9a8e0", margin: "0 6px" }}>·</span>}
-                      </span>
-                    ))}
-                  </p>
-                </div>
-              )}
-
-            </div>
-          )}
 
           {/* Meaning */}
           <div style={{ marginBottom: 18 }}>
@@ -124,6 +85,59 @@ export function SutraView({ topicId, section }: { topicId: string; section: Sect
               {section.sutra.meaning}
             </p>
           </div>
+
+          {/* Sutra breakdown — collapsible, below Sutra Meaning */}
+          {(section.sutra.transliteration || section.sutra.padaVibhaga || section.sutra.wordMeanings) && (
+            <div style={{ marginBottom: 18 }}>
+              <button
+                onClick={() => setExpanded(!expanded)}
+                className="flex items-center gap-2"
+                style={{ marginBottom: expanded ? 14 : 0, background: "none", border: "none", cursor: "pointer", padding: 0 }}
+              >
+                <span style={{ fontSize: 11, fontWeight: 600, color: "#7c4fc4" }}>
+                  {expanded ? "Hide breakdown" : "View transliteration & word meanings"}
+                </span>
+                {expanded
+                  ? <ChevronUp style={{ width: 13, height: 13, color: "#7c4fc4" }} />
+                  : <ChevronDown style={{ width: 13, height: 13, color: "#7c4fc4" }} />
+                }
+              </button>
+
+              {expanded && (
+                <div>
+                  {section.sutra.transliteration && (
+                    <div style={{ marginBottom: 12 }}>
+                      <p style={{ fontSize: 9, fontWeight: 700, color: "#4a3870", letterSpacing: "0.08em", marginBottom: 6 }}>TRANSLITERATION</p>
+                      <p style={{ fontSize: 13, color: "#3d2f5e", fontStyle: "italic", lineHeight: 1.6 }}>{section.sutra.transliteration}</p>
+                    </div>
+                  )}
+                  {section.sutra.padaVibhaga && (
+                    <div style={{ marginBottom: 12 }}>
+                      <p style={{ fontSize: 9, fontWeight: 700, color: "#4a3870", letterSpacing: "0.08em", marginBottom: 6 }}>PADA VIBHAGA</p>
+                      <p style={{ fontSize: 13, color: "#3d2f5e", lineHeight: 2, wordBreak: "break-word", whiteSpace: "normal" }}>
+                        {section.sutra.padaVibhaga.split("|").map((w, i, arr) => (
+                          <span key={i} style={{ display: "inline" }}>{w.trim()}{i < arr.length - 1 ? <span style={{ color: "#c9a8e0", margin: "0 6px" }}>·</span> : null}</span>
+                        ))}
+                      </p>
+                    </div>
+                  )}
+                  {section.sutra.wordMeanings && (
+                    <div style={{ marginBottom: 4 }}>
+                      <p style={{ fontSize: 9, fontWeight: 700, color: "#4a3870", letterSpacing: "0.08em", marginBottom: 6 }}>WORD MEANING</p>
+                      <p style={{ fontSize: 13, color: "#3d2f5e", lineHeight: 2 }}>
+                        {section.sutra.wordMeanings.split(";").filter(e => e.trim()).map((entry, i, arr) => (
+                          <span key={i} style={{ display: "inline-block", whiteSpace: "nowrap" }}>
+                            {entry.trim()}
+                            {i < arr.length - 1 && <span style={{ color: "#c9a8e0", margin: "0 6px" }}>·</span>}
+                          </span>
+                        ))}
+                      </p>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          )}
 
           {/* Divider */}
           <div style={{ height: 1, background: "#ede8f7", marginBottom: 18 }} />
